@@ -18,6 +18,8 @@ def main() -> None:
     with zipfile.ZipFile(z) as zf:
         zf.extractall(out)
     print("extracted:", [i.filename for i in zipfile.ZipFile(z).infolist()])
+    download("https://nhts.ornl.gov/assets/2022/doc/codebook.xlsx", out / "codebook.xlsx", manifest="nhts2022",
+             note="NHTS 2022 codebook (value labels)")
 
 
 if __name__ == "__main__":
