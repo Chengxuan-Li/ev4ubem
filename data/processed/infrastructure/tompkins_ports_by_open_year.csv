@@ -1,0 +1,13 @@
+open_year,access_code,stations,l2,dcfc,cum_stations,cum_l2,cum_dcfc
+2011,private,1,1,0,1,1,0
+2016,public,2,3,0,2,3,0
+2019,public,4,8,9,6,11,9
+2020,private,3,6,2,4,7,2
+2020,public,11,22,0,17,33,9
+2021,public,4,8,0,21,41,9
+2022,public,10,18,0,31,59,9
+2023,private,1,2,0,5,9,2
+2023,public,11,32,8,42,91,17
+2024,public,20,96,0,62,187,17
+2025,public,19,24,12,81,211,29
+2026,public,18,26,11,99,237,40

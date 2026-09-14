@@ -1,0 +1,93 @@
+make,model,ev_type,rebates,data_through
+Tesla,Model Y,BEV,213,2026-07-31
+Toyota,Prius Prime,PHEV,212,2026-07-31
+Toyota,RAV4 Prime,PHEV,190,2026-07-31
+Chevrolet,Bolt,BEV,184,2026-07-31
+Tesla,Model 3,BEV,138,2026-07-31
+Chevrolet,Volt,PHEV,94,2026-07-31
+Toyota,RAV4,PHEV,81,2026-07-31
+Nissan,LEAF,BEV,74,2026-07-31
+Honda,Clarity,PHEV,46,2026-07-31
+Hyundai,Ioniq 5,BEV,42,2026-07-31
+Kia,Niro,BEV,40,2026-07-31
+Hyundai,Ioniq Plug-In Hybrid,PHEV,38,2026-07-31
+Chrysler,Pacifica,PHEV,36,2026-07-31
+Chevrolet,Equinox EV,BEV,35,2026-07-31
+Subaru,Solterra,BEV,33,2026-07-31
+Volkswagen,ID.4,BEV,33,2026-07-31
+Hyundai,Kona Electric,BEV,31,2026-07-31
+Kia,Kia EV6,BEV,29,2026-07-31
+Ford,Mustang Mach-E,BEV,27,2026-07-31
+Kia,Sportage,PHEV,26,2026-07-31
+Hyundai,Ioniq Electric,BEV,25,2026-07-31
+Volvo,XC60 T8,PHEV,22,2026-07-31
+Subaru,Crosstrek PHEV,PHEV,22,2026-07-31
+Jeep,Wrangler,PHEV,20,2026-07-31
+Ford,F-150 Lightning,BEV,17,2026-07-31
+Tesla,Model X,BEV,17,2026-07-31
+Toyota,Prius,PHEV,16,2026-07-31
+Kia,Niro,PHEV,16,2026-07-31
+Jeep,Grand Cherokee,PHEV,15,2026-07-31
+Toyota,bZ4X,BEV,14,2026-07-31
+Honda,Prologue,BEV,12,2026-07-31
+Mitsubishi,Outlander,PHEV,11,2026-07-31
+Kia,Sorento,PHEV,10,2026-07-31
+Toyota,bZ,BEV,10,2026-07-31
+Hyundai,Santa Fe,PHEV,10,2026-07-31
+Tesla,Model S,BEV,10,2026-07-31
+Volvo,EX30,BEV,9,2026-07-31
+Volvo,XC90 T8,PHEV,9,2026-07-31
+Subaru,Trailseeker,BEV,9,2026-07-31
+Kia,EV9,BEV,9,2026-07-31
+Audi,Q5,PHEV,9,2026-07-31
+Audi,Q4 e-tron,BEV,8,2026-07-31
+Hyundai,Tucson,PHEV,6,2026-07-31
+Subaru,Uncharted,BEV,6,2026-07-31
+BMW,BMW I4,BEV,6,2026-07-31
+Hyundai,Ioniq 6,BEV,5,2026-07-31
+Nissan,Ariya,BEV,5,2026-07-31
+BMW,X5,PHEV,5,2026-07-31
+Volvo,EX40,BEV,5,2026-07-31
+Mazda,CX-90,PHEV,4,2026-07-31
+Volkswagen,e-Golf,BEV,4,2026-07-31
+Volvo,EC40,BEV,4,2026-07-31
+BMW,550e xDrive,PHEV,3,2026-07-31
+Audi,e-tron,BEV,3,2026-07-31
+Ford,Escape,PHEV,3,2026-07-31
+MINI,Countryman,BEV,3,2026-07-31
+Lexus,Lexus NX450h+,PHEV,3,2026-07-31
+Hyundai,Ioniq 9,BEV,3,2026-07-31
+Ford,Fusion Energi,PHEV,2,2026-07-31
+Cadillac,Lyriq,BEV,2,2026-07-31
+Toyota,C-HR,BEV,2,2026-07-31
+Volvo,S60,PHEV,2,2026-07-31
+MINI,Cooper,BEV,2,2026-07-31
+Porsche,Taycan,BEV,2,2026-07-31
+Lexus,RZ,BEV,2,2026-07-31
+Lexus,RX 450h+,PHEV,2,2026-07-31
+Kia,Soul EV,BEV,2,2026-07-31
+Mazda,CX-70,PHEV,2,2026-07-31
+Acura,ZDX,BEV,2,2026-07-31
+Chevrolet,Blazer EV,BEV,2,2026-07-31
+BMW,330e,PHEV,2,2026-07-31
+Audi,A6 Sportback e-tron,BEV,1,2026-07-31
+Audi,SQ6,BEV,1,2026-07-31
+Audi,A3 e-tron,PHEV,1,2026-07-31
+Audi,Q6 e-tron,BEV,1,2026-07-31
+BMW,530e,PHEV,1,2026-07-31
+Dodge,Hornet,PHEV,1,2026-07-31
+Dodge,Charger Daytona,BEV,1,2026-07-31
+BMW,i3,BEV,1,2026-07-31
+Cadillac,Optiq,BEV,1,2026-07-31
+BMW,X3 xDrive30e,PHEV,1,2026-07-31
+Audi,RS e-tron,BEV,1,2026-07-31
+Hyundai,Sonata Plug-in,PHEV,1,2026-07-31
+Jaguar,I-Pace,BEV,1,2026-07-31
+Mercedes-Benz,GLC350e,PHEV,1,2026-07-31
+Lincoln,Lincoln Corsair Grand Touring,PHEV,1,2026-07-31
+Porsche,Cayenne E-Hybrid,PHEV,1,2026-07-31
+Polestar,Polestar 2,BEV,1,2026-07-31
+Volkswagen,ID. Buzz,BEV,1,2026-07-31
+Toyota,bZ Woodland,BEV,1,2026-07-31
+Volvo,EX90,BEV,1,2026-07-31
+Volvo,V60,PHEV,1,2026-07-31
