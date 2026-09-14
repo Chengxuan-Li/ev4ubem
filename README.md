@@ -6,6 +6,8 @@ This phase covers data acquisition, cross-source reconciliation, exploratory ana
 and model-feasibility/validation design. See the original brief:
 [`docs/20260914_ev_data_research_handoff.md`](docs/20260914_ev_data_research_handoff.md).
 
+**Resuming work?** Read [`docs/HANDOFF.md`](docs/HANDOFF.md) first (status, open questions, backlog).
+
 **Start here:** [`docs/findings.md`](docs/findings.md) (what we know, labelled by evidence class) ·
 [`docs/data_sources.md`](docs/data_sources.md) (source inventory and availability) ·
 [`docs/methodology.md`](docs/methodology.md) · [`docs/validation_matrix.md`](docs/validation_matrix.md) ·
@@ -19,6 +21,12 @@ dwelling-unit EV ownership model, growth scenarios to 2050, event-based charging
 parcels, block groups and charging sites, with validation. UBEM output specification:
 [`docs/ubem_interface.md`](docs/ubem_interface.md). Headline: 2026 Tompkins EV charging ≈ 10.9 GWh/yr (4.9 MW peak);
 trend scenario 50 GWh / 23 MW (2035) and 176 GWh / 84 MW (2050).
+
+## Presentation deck
+
+An editable `.pptx` deck is generated from the tracked results (not version-controlled):
+`python -m src.deck.deck_data` then `cd src/deck && npm ci && node build_deck.js` → `results/deck/ev4ubem_model_deck.pptx`.
+Design rules: [`docs/style/pptx_deck_style_prompt.md`](docs/style/pptx_deck_style_prompt.md); build notes: [`docs/deck.md`](docs/deck.md).
 
 ## Key results of the data research phase (details and evidence labels in `docs/findings.md`)
 

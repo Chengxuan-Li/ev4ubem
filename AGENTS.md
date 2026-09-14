@@ -18,6 +18,14 @@ The original brief is `docs/20260914_ev_data_research_handoff.md` (treat as a br
 | Decisions and changes of direction | `docs/decisions/NNNN-*.md` (append-only, numbered) |
 | Acquisition provenance (URL, query, date, sha256, size) | `metadata/manifests/*.json` (written by scripts) |
 | Schemas / data dictionaries | `metadata/schemas/` |
+| Current status, open questions, backlog (start here when resuming) | `docs/HANDOFF.md` |
+| Model report and UBEM interface | `docs/report_20260914_ev_model.md`, `docs/ubem_interface.md` |
+| Presentation decks: design brief (mandatory) and generator | `docs/style/pptx_deck_style_prompt.md`, `docs/deck.md`, `src/deck/` |
+
+## Presentation decks
+Any `.pptx` produced from this repository must follow `docs/style/pptx_deck_style_prompt.md` (design only; claims,
+values, units, equations and sources come from the report and `results/tables/`). Build decks with the generator in
+`src/deck/` (see `docs/deck.md`). Built decks and deck assets (`results/deck/`, `*.pptx`) are not Git-controlled.
 
 When a conclusion changes, update `docs/findings.md` and add a decision record; do not silently rewrite history.
 

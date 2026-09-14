@@ -52,6 +52,12 @@ python -m src.model.load_assembly --realizations 30
 python -m src.analysis.charging_validation && python -m src.analysis.energy_reconciliation
 python -m src.report.figures
 python -m src.model.export_ubem --year 2026 --sample
+# follow-on analyses (docs/HANDOFF.md)
+python -m src.acquisition.lehd_lodes && python -m src.analysis.incommuter_charging
+python -m src.acquisition.afdc_historical && python -m src.analysis.infrastructure_history   # resumable, rate-limited
+python -m src.analysis.uncertainty_decomposition --workers 8                                   # long; then --seed 7, --figure-only
+python -m src.report.render                                                                    # HTML report (pandoc)
+python -m src.deck.deck_data && (cd src/deck && npm ci && node build_deck.js)                  # .pptx deck (not tracked)
 # checks
 python -m pytest -q tests
 ```
