@@ -36,3 +36,8 @@ data/processed/load/site_summary_*_stall_*.csv
 data/processed/load/site_summary_*_policy_*.csv
 data/processed/load/site_summary_*_trend_access+.csv
 data/processed/load/site_summary_*_trend_managed.csv
+
+# Presentation decks: built artifacts are not version-controlled (generator in src/deck/, style in docs/style/)
+results/deck/
+src/deck/node_modules/
+*.pptx
