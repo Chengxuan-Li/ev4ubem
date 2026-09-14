@@ -759,24 +759,43 @@ const def = (symRuns, meaning) => ({ runs: [...symRuns, ...rich('  ' + meaning)]
 }
 
 // 29 — uncertainty decomposition (when available)
-if (D.optional && D.optional.uncertainty_decomposition_county) {
-  const rows = [...(D.optional.uncertainty_decomposition_county || []), ...(D.optional.uncertainty_decomposition_bg || []), ...(D.optional.uncertainty_decomposition_parcel || [])];
-  const s = slide('Where load uncertainty comes from depends on spatial scale',
-    'Variance shares by source of uncertainty; see src/analysis/uncertainty_decomposition.py for the design and estimator.');
-  const groups = {}; const factors = [];
-  rows.forEach((r) => {
-    const key = `${r.scale}${r.entity && r.entity !== 'county' ? ' ' + r.entity : ''} · ${r.metric} · ${r.year}`;
-    groups[key] = groups[key] || {};
-    groups[key][r.factor] = (groups[key][r.factor] || 0) + Number(r.variance_share || 0);
-    if (!factors.includes(r.factor)) factors.push(r.factor);
+if (D.optional && D.optional.uncertainty_decomposition_county && D.optional.uncertainty_decomposition_bg && D.optional.uncertainty_decomposition_parcel) {
+  const all = [...D.optional.uncertainty_decomposition_county, ...D.optional.uncertainty_decomposition_bg, ...D.optional.uncertainty_decomposition_parcel]
+    .filter((r) => r.index === 'first_order');
+  const FACT = [['stock', 'How many EVs (stock)', C.accent], ['placement', 'Where they are (placement)', '8C6D1F'],
+    ['behaviour', 'How they charge (behaviour)', '9AA3A8'], ['interaction', 'Interactions', 'DDE1E4']];
+  const ROWS = [
+    ['County · annual energy', (r) => r.scale === 'county' && r.metric === 'annual_mwh_home'],
+    ['County · peak hour', (r) => r.scale === 'county' && r.metric === 'peak_kw_home'],
+    ['Block group (median) · annual energy', (r) => r.scale === 'block_group' && r.entity === 'median over BGs' && r.metric === 'annual_mwh_home'],
+    ['Block group (median) · peak hour', (r) => r.scale === 'block_group' && r.entity === 'median over BGs' && r.metric === 'peak_kw_home'],
+    ['Parcel, 20+ units · peak hour', (r) => r.scale === 'parcel' && String(r.entity).startsWith('20+')],
+    ['Parcel, 5–19 units · peak hour', (r) => r.scale === 'parcel' && String(r.entity).startsWith('5-19')],
+    ['Parcel, 2–4 units · peak hour', (r) => r.scale === 'parcel' && String(r.entity).startsWith('2-4')],
+    ['Parcel, 1 unit · peak hour', (r) => r.scale === 'parcel' && String(r.entity).startsWith('1 ')],
+  ];
+  const share = (year, pred, f) => { const r = all.find((x) => x.year === year && pred(x) && x.factor === f); return r ? Math.max(0, Number(r.variance_share)) * 100 : 0; };
+  const labels = ROWS.map((r) => r[0]).reverse();
+  const s = slide('County load uncertainty comes from behaviour parameters today and stock growth by 2035; placement dominates parcel peaks',
+    'First-order variance shares (bias-corrected functional ANOVA on a fully crossed Monte Carlo design; ownership trend, charging base; home charging). Stock is observed in 2026, so its share is zero by construction. Placement = weighting choice plus sampling of which dwellings own EVs; behaviour = parameter uncertainty plus stochastic archetype and EV-year choice. Interactions are large for parcel peaks because an EV must be placed on a parcel before its charging behaviour matters. Small negative estimates (Monte Carlo noise) are shown as zero. Bootstrap 95 % intervals and factor ranges: results/tables/uncertainty_decomposition_*.csv, uncertainty_factor_ranges.csv.');
+  // shared legend (one for both panels): colour key squares with labels
+  let lx = ML;
+  FACT.forEach(([, name, col]) => {
+    s.addShape(pres.shapes.RECTANGLE, { x: lx, y: TOP + 0.07, w: 0.18, h: 0.18, fill: { color: col }, line: { color: col, width: 0.5 } });
+    s.addText(name, { x: lx + 0.25, y: TOP, w: 2.75, h: 0.32, fontFace: F, fontSize: SZ.label, color: C.text, margin: 0, valign: 'middle', isTextBox: true });
+    lx += 3.0;
   });
-  const labels = Object.keys(groups);
-  const fcol = { stock: C.accent, placement: C.passerby, behaviour: C.grey, behavior: C.grey, interaction: C.faint, residual: C.faint };
-  s.addChart(pres.charts.BAR, factors.map((f) => ({ name: f, labels, values: labels.map((l) => (groups[l][f] || 0) * 100) })), chartOpts({
-    x: ML, y: TOP, w: CW, h: 5.2, barDir: 'bar', barGrouping: 'percentStacked', chartColors: factors.map((f) => fcol[f] || C.lightGrey), showLegend: true, legendPos: 't',
-    showValAxisTitle: true, valAxisTitle: 'Share of variance (%)',
-  }));
-  cite(s, 'Model inference [inferred]; results/tables/uncertainty_decomposition_*.csv.', 6.95);
+  const chart = (year, x) => {
+    s.addChart(pres.charts.BAR, FACT.map(([f, name]) => ({ name, labels, values: ROWS.map((r) => share(year, r[1], f)).reverse() })), chartOpts({
+      x, y: TOP + 0.8, w: 5.95, h: 4.45, barDir: 'bar', barGrouping: 'stacked', barGapWidthPct: 40, chartColors: FACT.map((f) => f[2]),
+      showLegend: false, valAxisMinVal: 0, valAxisMaxVal: 100, valAxisMajorUnit: 25, showValAxisTitle: true, valAxisTitle: 'Share of variance (%)',
+      catAxisLabelFontSize: 12,
+    }));
+    s.addText(String(year), { x, y: TOP + 0.45, w: 5.95, h: 0.35, fontFace: F, fontSize: 16, bold: true, color: C.text, margin: 0, isTextBox: true });
+  };
+  chart(2026, ML);
+  chart(2035, ML + 6.15);
+  cite(s, 'Model inference [inferred]; src/analysis/uncertainty_decomposition.py; results/tables/uncertainty_decomposition_{county,bg,parcel}.csv (bootstrap 95 % intervals, seed-stability repeat).', 6.95);
 }
 
 // 30 — in-commuter charging (when available)
@@ -845,11 +864,17 @@ if (D.optional && D.optional.incommuter_charging_estimate && D.optional.incommut
     { t: 'Is a 9–31 % placement range acceptable if delivered as many realizations, or should non-public data (utility EV rates, Cornell parking, municipal permits) be pursued?', bullet: true },
     { t: 'Should long-range scenarios be tied to named policies (New York zero-emission vehicle sales rule, state climate plan) rather than fitted trends?', bullet: true },
   ], { x: ML, y: TOP, w: colw, h: 5.2, paraSpaceAfter: 10 });
+  const haveUnc = !!(D.optional && D.optional.uncertainty_decomposition_county);
+  const haveInc = !!(D.optional && D.optional.incommuter_charging_estimate);
   text(s, [
-    { t: 'Work that proceeds regardless', bold: true },
-    { t: 'Variance decomposition of load uncertainty by source (stock, placement, behaviour) and scale', bullet: true },
-    { t: 'In-commuter workplace charging from LEHD commuting flows', bullet: true },
+    { t: 'Completed since the report', bold: true },
+    ...(haveInc ? [{ t: 'In-commuter and out-commuter charging from LEHD flows: net correction −79 MWh/yr (workplace), not applied', bullet: true }] : []),
+    ...(haveUnc ? [{ t: 'Variance decomposition of load uncertainty by source and scale (earlier slide)', bullet: true }] : []),
+    { t: 'Next, regardless of the decisions', bold: true },
+    ...(haveUnc ? [] : [{ t: 'Variance decomposition of load uncertainty by source (stock, placement, behaviour) and scale', bullet: true }]),
+    ...(haveInc ? [] : [{ t: 'In-commuter workplace charging from LEHD commuting flows', bullet: true }]),
     { t: 'AFDC charging history 2021–2025 and siting scenarios for new DC fast sites', bullet: true },
+    { t: 'Sensitivity runs: home Level 2 power and managed-charging stagger width', bullet: true },
     { t: 'End-to-end test of the export format against building footprints and RC zones', bullet: true },
   ], { x: ML + colw + 0.6, y: TOP, w: colw, h: 5.2, paraSpaceAfter: 10 });
   cite(s, 'Repository: README.md, docs/report_20260914_ev_model.md, docs/HANDOFF.md.', 6.95);
