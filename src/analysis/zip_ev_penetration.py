@@ -6,9 +6,10 @@ This is an ecological (area-level) analysis: coefficients describe ZIP-level ass
 behaviour, and must not be read causally.
 
 Data
-- Response (April 2023): EValuateNY v11 Current Registrations, VIN-decoded; EV = BEV + PHEV (all categories);
+- Response (year=2023, April 2023): EValuateNY v11 Current Registrations, VIN-decoded; EV = BEV + PHEV (all categories);
   vehicles = all registered vehicles in the ZIP (all drivetrains incl. UNKNOWN).
-  (A 2026 version using the DMV snapshot is added in zip_ev_penetration_2026 when statewide decoding exists.)
+- Response (year=2026): DMV snapshot 2026-09 VIN-decoded (data/processed/dmv/ny_zip_drivetrain_2026.parquet);
+  run `python -m src.analysis.zip_ev_penetration 2026`.
 - Predictors: ACS 2020-2024 5-year ZCTA features (ZIP treated as ZCTA; PO-box ZIPs without ZCTA dropped).
 - County for grouping: county with the largest population share of the ZCTA.
 Sample filter: households >= 300 and vehicles >= 200 (stability).
@@ -51,6 +52,15 @@ def load_2023() -> pd.DataFrame:
     return z
 
 
+def load_2026() -> pd.DataFrame:
+    """DMV 2026-09 statewide snapshot, VIN-decoded (processing/dmv_statewide_ev.py); all VEH rows as denominator."""
+    f = pd.read_parquet(PROCESSED / "dmv" / "ny_zip_drivetrain_2026.parquet")
+    f = f[f["county"].ne("OUT-OF-STATE") & f["zip"].notna()]
+    g = f.assign(ev=f["drivetrain"].isin(["BEV", "PHEV"]) * f["vehicles"],
+                 bev=(f["drivetrain"] == "BEV") * f["vehicles"], phev=(f["drivetrain"] == "PHEV") * f["vehicles"])
+    return g.groupby("zip")[["vehicles", "ev", "bev", "phev"]].sum().reset_index()
+
+
 def design(z: pd.DataFrame) -> pd.DataFrame:
     a = pd.read_parquet(PROCESSED / "acs" / "acs_features_ny_zcta.parquet")
     a["zip"] = a["geoid"]
@@ -91,22 +101,22 @@ def poisson_dev(y, mu):
     return 2 * np.sum(t - (y - mu))
 
 
-def main() -> None:
+def main(year: int = 2023) -> None:
     ensure(TABLES, FIGURES)
-    d = design(load_2023())
+    d = design(load_2023() if year == 2023 else load_2026())
     d["ev_per_hh"] = d["ev"] / d["households"]
     d["ev_share_veh"] = d["ev"] / d["vehicles"]
     print("sample ZIPs:", len(d), "EVs:", int(d["ev"].sum()))
 
     # descriptive correlations (Spearman) of EV per household with features
     corr = d[FEATURES_FULL + ["ev_per_hh", "ev_share_veh"]].corr(method="spearman")[["ev_per_hh", "ev_share_veh"]].drop(["ev_per_hh", "ev_share_veh"])
-    corr.round(3).to_csv(TABLES / "zip_ev_model_spearman_2023.csv")
+    corr.round(3).to_csv(TABLES / f"zip_ev_model_spearman_{year}.csv")
 
     X = (d[FEATURES_FULL] - d[FEATURES_FULL].mean()) / d[FEATURES_FULL].std()
     vif = pd.DataFrame({"feature": FEATURES_FULL, "vif_full": [variance_inflation_factor(X.values, i) for i in range(len(FEATURES_FULL))]})
     Xs = X[FEATURES_SMALL]
     vif = vif.merge(pd.DataFrame({"feature": FEATURES_SMALL, "vif_small": [variance_inflation_factor(Xs.values, i) for i in range(len(FEATURES_SMALL))]}), how="left")
-    vif.round(2).to_csv(TABLES / "zip_ev_model_vif_2023.csv", index=False)
+    vif.round(2).to_csv(TABLES / f"zip_ev_model_vif_{year}.csv", index=False)
 
     coefs = []
     for name, cols in [("NB_full", FEATURES_FULL), ("NB_small", FEATURES_SMALL)]:
@@ -116,7 +126,7 @@ def main() -> None:
             coefs.append({"model": name, "term": k, "coef": glm.params[k], "irr_per_sd": np.exp(glm.params[k]),
                           "irr_lo": np.exp(ci.loc[k, 0]), "irr_hi": np.exp(ci.loc[k, 1]), "p": glm.pvalues[k], "alpha": alpha,
                           "n": len(d), "deviance_explained": 1 - glm.deviance / glm.null_deviance})
-    pd.DataFrame(coefs).round(4).to_csv(TABLES / "zip_ev_model_nb_coefficients_2023.csv", index=False)
+    pd.DataFrame(coefs).round(4).to_csv(TABLES / f"zip_ev_model_nb_coefficients_{year}.csv", index=False)
 
     # county-grouped CV
     gkf = GroupKFold(n_splits=10)
@@ -137,7 +147,7 @@ def main() -> None:
                    "deviance_explained_vs_M0": 1 - poisson_dev(y, p) / poisson_dev(y, preds["M0_const_rate"]),
                    "mae_ev": np.mean(np.abs(y - p)), "median_ape": np.median(np.abs(y - p) / np.maximum(y, 1)),
                    "spearman_rate": pd.Series(p / d["households"]).corr(d["ev_per_hh"], method="spearman")})
-    pd.DataFrame(cv).round(4).to_csv(TABLES / "zip_ev_model_cv_2023.csv", index=False)
+    pd.DataFrame(cv).round(4).to_csv(TABLES / f"zip_ev_model_cv_{year}.csv", index=False)
 
     # Tompkins holdout
     tr, te = d[d["county"] != TOMPKINS], d[d["county"] == TOMPKINS]
@@ -150,7 +160,7 @@ def main() -> None:
     out["pred_HGB"] = hgb.predict(te[FEATURES_FULL]) * te["households"]
     for k, p in preds.items():
         out[f"cv_{k}"] = p[d["county"] == TOMPKINS]
-    out.round(2).to_csv(TABLES / "zip_ev_model_tompkins_holdout_2023.csv", index=False)
+    out.round(2).to_csv(TABLES / f"zip_ev_model_tompkins_holdout_{year}.csv", index=False)
 
     fig, ax = plt.subplots(1, 2, figsize=(10, 4.5))
     for k, m in [("NB_full", "o"), ("HGB_poisson", "x")]:
@@ -158,7 +168,7 @@ def main() -> None:
     lim = [1, d["ev"].max() * 1.5]
     ax[0].plot(lim, lim, "k--", lw=0.8)
     ax[0].set_xscale("log"); ax[0].set_yscale("log")
-    ax[0].set_xlabel("Observed EVs + 1 (Apr 2023)"); ax[0].set_ylabel("County-held-out prediction + 1")
+    ax[0].set_xlabel(f"Observed EVs + 1 ({year})"); ax[0].set_ylabel("County-held-out prediction + 1")
     ax[0].legend(); ax[0].set_title("NY ZIPs, county-grouped CV")
     ax[1].scatter(out["ev"], out["pred_NB_full"], label="NB_full (fit w/o Tompkins)")
     ax[1].scatter(out["ev"], out["pred_M0"], marker="x", label="constant EV/household")
@@ -169,11 +179,12 @@ def main() -> None:
     ax[1].set_xlabel("Observed EVs"); ax[1].set_ylabel("Predicted EVs"); ax[1].legend(fontsize=8)
     ax[1].set_title("Tompkins ZIPs held out")
     fig.tight_layout()
-    fig.savefig(FIGURES / "zip_ev_model_validation_2023.png", dpi=150)
+    fig.savefig(FIGURES / f"zip_ev_model_validation_{year}.png", dpi=150)
     print(pd.DataFrame(cv).round(3).to_string())
     print(out[["zip", "households", "ev", "pred_M0", "pred_NB_small", "pred_NB_full", "pred_HGB"]].round(1).to_string())
     print(pd.DataFrame(coefs).query("model=='NB_full'")[["term", "irr_per_sd", "irr_lo", "irr_hi", "p"]].round(3).to_string())
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    main(int(sys.argv[1]) if len(sys.argv) > 1 else 2023)
