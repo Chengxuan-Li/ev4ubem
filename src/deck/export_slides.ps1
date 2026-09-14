@@ -3,7 +3,8 @@
 param(
     [string]$Deck = "results/deck/ev4ubem_model_deck.pptx",
     [string]$Out = "results/deck/png",
-    [int]$Width = 1920
+    [int]$Width = 1920,
+    [switch]$EmbedFonts   # also save <deck>_embedded.pptx with TrueType fonts embedded (for recipients without Roboto)
 )
 $root = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 $deckPath = (Resolve-Path (Join-Path $root $Deck)).Path
@@ -20,6 +21,12 @@ try {
         $s.Export($file, "PNG", $Width, $h)
     }
     "exported $($pres.Slides.Count) slides to $outPath"
+    if ($EmbedFonts) {
+        $embedded = [System.IO.Path]::ChangeExtension($deckPath, $null).TrimEnd('.') + "_embedded.pptx"
+        # SaveCopyAs(FileName, FileFormat = ppSaveAsOpenXMLPresentation (24), EmbedTrueTypeFonts = msoTrue (-1))
+        $pres.SaveCopyAs($embedded, 24, -1)
+        "saved $embedded"
+    }
     $pres.Close()
 }
 finally {

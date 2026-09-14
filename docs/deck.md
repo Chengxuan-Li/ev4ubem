@@ -44,13 +44,16 @@ Optional follow-on results are picked up automatically when their tables exist:
 On Windows with PowerPoint installed, `powershell -File src/deck/export_slides.ps1` exports every slide to
 `results/deck/png/`. Inspect every slide for overflow, overlaps, legibility (labels ≥ 11–12 pt at slide size) and
 consistency with the style brief. Elsewhere, LibreOffice (`soffice --headless --convert-to pdf`) plus `pdftoppm` gives
-an approximate render (Calibri is substituted by Carlito). Structural validation of the package can be done with any
+an approximate render (install Roboto first, or line breaks will differ). Structural validation of the package can be done with any
 OOXML validator; the build used the validator shipped with the `pptx` agent skill.
 
 ## Design decisions (implementation of the brief)
 
-- 13.33 × 7.5 in (16:9), white background, Calibri; deck title 40 pt, slide titles 28 pt, body 18–20 pt, chart
-  labels and citations 12–14 pt. No slide numbers, footers or logos.
+- 13.33 × 7.5 in (16:9), white background, **Roboto** family throughout (slides, native charts, map labels via
+  matplotlib, and equations via LaTeX `roboto` + `newtxsf` sans-serif math); deck title 40 pt, slide titles 28 pt,
+  body 18–20 pt, chart labels and citations 12–14 pt. No slide numbers, footers or logos. Roboto (Google Fonts, SIL
+  Open Font License) must be installed where the deck is built and viewed; otherwise PowerPoint substitutes a font and
+  line breaks change. `src/deck/export_slides.ps1 -EmbedFonts` saves a copy with embedded fonts for sharing.
 - One principal accent (dark teal `1A5E63`) marks model output; observations are near-black `222222`; alternatives and
   context are greys. Charging locations use Okabe–Ito colours throughout: home `0072B2`, workplace `009E73`,
   public L2 `56B4E9`, DC fast `D55E00`, fleet `CC79A7`, passers-by `E69F00`.

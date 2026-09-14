@@ -21,7 +21,7 @@ const C = {
 };
 const LOCS = ['home', 'work', 'public_l2', 'dcfc', 'fleet', 'passerby'];
 const LOC_LABEL = { home: 'Home', work: 'Workplace', public_l2: 'Public Level 2', dcfc: 'DC fast (residents)', fleet: 'Fleet depots', passerby: 'Passers-by (DC fast)' };
-const F = 'Calibri';
+const F = 'Roboto';
 const W = 13.333, ML = 0.6, CW = W - 2 * ML, TOP = 1.5;
 const SZ = { deckTitle: 40, title: 28, body: 18, small: 16, label: 13, cite: 12, table: 14 };
 
@@ -244,7 +244,7 @@ const def = (symRuns, meaning) => ({ runs: [...symRuns, ...rich('  ' + meaning)]
     showValAxisTitle: true, valAxisTitle: 'Synthetic dwelling units per cell', showCatAxisTitle: true, catAxisTitle: 'ACS 2020–2024 households per cell',
     valAxisLabelFormatCode: '#,##0', catAxisLabelFormatCode: '#,##0', showLegend: true, legendPos: 't',
   }));
-  caption(s, `Tenure × structure cells, ${v.n} block-group cells (65 block groups × 12 classes)`, ML, TOP + 5.15, 5.6);
+  caption(s, `Tenure × structure: ${v.n} cells (65 block groups × 12 classes)`, ML, TOP + 5.1, 6.0, 0.3);
   // source: report §4.2
   table(s, ['Block-group margin', 'Cells', 'R²', 'SRMSE'], [
     ['Tenure × structure', String(D.synthetic.tenure_structure.n), '0.999', '0.063'],
@@ -436,7 +436,7 @@ const def = (symRuns, meaning) => ({ runs: [...symRuns, ...rich('  ' + meaning)]
     { name: 'stall', labels, values: P.stall.p50 },
     { name: 'slow', labels, values: P.slow.p50 },
   ], chartOpts({
-    x: ML, y: TOP, w: 6.6, h: 5.15, lineSize: 2, lineDataSymbol: 'none', chartColors: [C.accent, C.accentLight, C.accentLight, C.obs, C.grey, C.lightGrey],
+    x: ML, y: TOP, w: 6.1, h: 5.15, lineSize: 2, lineDataSymbol: 'none', chartColors: [C.accent, C.accentLight, C.accentLight, C.obs, C.grey, C.lightGrey],
     showLegend: true, legendPos: 'r', valAxisLabelFormatCode: '#,##0', showValAxisTitle: true, valAxisTitle: 'Tompkins plug-in EVs (year end)', catAxisLabelFrequency: 4,
   }));
   // source: report §4.6 scenario table
@@ -445,11 +445,11 @@ const def = (symRuns, meaning) => ({ runs: [...symRuns, ...rich('  ' + meaning)]
     ['slow: s_max 0.6, half steepness', '5,249', '8,388', '12,397', '22,161', '37 %'],
     ['stall: flat to 2030, +4 years', '4,752', '8,020', '15,975', '40,681', '68 %'],
     ['policy: 100 % of additions by 2035', '8,686', '23,409', '39,955', '57,825', '97 %'],
-  ], { x: 7.45, y: TOP + 0.1, w: 5.28, colW: [1.78, 0.62, 0.68, 0.68, 0.72, 0.8], fontSize: 12.5 });
+  ], { x: 6.85, y: TOP + 0.1, w: 5.88, colW: [1.88, 0.78, 0.8, 0.8, 0.82, 0.8], fontSize: 12.5 });
   text(s, [
     'Trend 2030: 90 % band 4,683–8,223; 2040: 14,155–43,521.',
     { t: 'Post-2030 adoption is scenario-conditional and cannot be validated.', color: C.muted },
-  ], { x: 7.45, y: 4.35, w: 5.28, h: 2.0, fontSize: SZ.small });
+  ], { x: 6.85, y: 4.45, w: 5.88, h: 1.9, fontSize: SZ.small });
   cite(s, 'Cohort stock–flow model [inferred / E]; initial stock by model year from DMV 2026 [A]. results/tables/growth_projection_tompkins.csv.', 6.95);
 }
 
@@ -472,9 +472,9 @@ const def = (symRuns, meaning) => ({ runs: [...symRuns, ...rich('  ' + meaning)]
     ['Managed share of home L2 sessions', '0 (managed 0.05)', '0 (managed 0.35)', '0 (managed 0.60)', 'scenario'],
     ['Passer-by share of DC fast energy', '0.25', '0.25', '0.25', 'assumption'],
     ['Fleet miles per year; kWh/mi', '14,000; 0.40', '', '', 'assumption'],
-  ], { x: ML, y: TOP, w: CW, colW: [4.1, 1.75, 2.85, 1.55, 1.88], align: ['left', 'right', 'right', 'right', 'left'], fontSize: 13 });
-  text(s, [{ runs: [{ t: 'Temperature multiplier on energy per mile:  ' }, { t: 'm(T) = 1 + 0.011 max(0, 20 − T) + 0.006 max(0, T − 25)', italic: true }, { t: '  (≈ +30 % at −7 °C; assumption, TMYx 2011–2025 Ithaca weather)' }], size: SZ.small }],
-    { x: ML, y: 5.75, w: CW, h: 0.7 });
+  ], { x: ML, y: TOP - 0.05, w: CW, colW: [3.75, 1.65, 3.05, 1.6, 2.05], align: ['left', 'right', 'right', 'right', 'left'], fontSize: 12 });
+  text(s, [{ runs: [{ t: 'Temperature multiplier on energy per mile:  ' }, { t: 'm(T) = 1 + 0.011 max(0, 20 − T) + 0.006 max(0, T − 25)', italic: true }, { t: '  (≈ +30 % at −7 °C; assumption; TMYx 2011–2025 Ithaca weather)' }], size: 14 }],
+    { x: ML, y: 6.35, w: CW, h: 0.55 });
   cite(s, 'NYSERDA Drive Clean Ownership and Adoption Surveys 2023–2025 [B]; NYSERDA Statewide Multifamily Building Study 2022 [B]; OneBuilding TMYx [A]. Report §5.1.', 6.95);
 }
 
@@ -662,7 +662,7 @@ const def = (symRuns, meaning) => ({ runs: [...symRuns, ...rich('  ' + meaning)]
   text(s, [
     'DC fast: median 143 kWh/port-day; largest site peak 0.69 MW.   Public Level 2: median 9.6 kWh/port-day.',
     { runs: [{ t: 'Workplace: 0.45 GWh over 8 listed sites and 271 large non-residential parcels.   ' }, { t: 'Fleet depots (1.8 GWh) are not mapped: locations unknown.', color: C.muted }] },
-  ], { x: ML, y: ty, w: CW, h: 6.9 - ty, fontSize: 15, paraSpaceAfter: 3 });
+  ], { x: ML, y: ty, w: CW, h: 6.9 - ty, fontSize: 14, paraSpaceAfter: 3 });
   cite(s, 'AFDC station locator, NY ELEC [A]; Charge Ready NY [A/B]; allocation [inferred]. data/processed/load/site_summary_2026_trend_base.csv. EPSG:32618.', 6.95);
 }
 
@@ -716,7 +716,7 @@ const def = (symRuns, meaning) => ({ runs: [...symRuns, ...rich('  ' + meaning)]
     { name: 'All locations, base', labels, values: tot(b) }, { name: 'All locations, managed', labels, values: tot(m) },
     { name: 'Home, base', labels, values: b.home }, { name: 'Home, managed', labels, values: m.home },
   ], chartOpts({
-    x: ML, y: TOP, w: 7.3, h: 5.15, lineSize: 2.5, lineDataSymbol: 'none', chartColors: [C.obs, C.grey, C.home, C.public_l2],
+    x: ML, y: TOP, w: 6.9, h: 5.15, lineSize: 2.5, lineDataSymbol: 'none', chartColors: [C.obs, C.grey, C.home, C.public_l2],
     showLegend: true, legendPos: 't', valAxisMinVal: 0, showValAxisTitle: true, valAxisTitle: 'Mean winter weekday load, 2050 (MW)',
     catAxisLabelFrequency: 3, showCatAxisTitle: true, catAxisTitle: 'Hour (local standard time)',
   }));
@@ -725,11 +725,11 @@ const def = (symRuns, meaning) => ({ runs: [...symRuns, ...rich('  ' + meaning)]
     ['base', '22.9 / 9.5', '84.4 / 35.5', '26.3'],
     ['access+ (home and workplace access)', '23.1 / 9.4', '82.8 / 37.2', '20.4'],
     [{ text: 'managed (35 % by 2035, 60 % by 2050)', bold: true }, { text: '20.0 / 10.0', bold: true }, { text: '68.1 / 44.7', bold: true, color: C.accent }, '26.0'],
-  ], { x: 8.2, y: TOP + 0.1, w: 4.53, colW: [1.75, 0.95, 0.95, 0.88], fontSize: 12.5 });
+  ], { x: 7.75, y: TOP + 0.1, w: 4.98, colW: [1.72, 1.12, 1.12, 1.02], fontSize: 12 });
   text(s, [
     'Values in the table are annual peak hours; the chart shows seasonal means.',
     'Access+ shifts ≈ 6 GWh/yr (2050) from DC fast sites to homes and workplaces with little change in the county peak.',
-  ], { x: 8.2, y: 3.85, w: 4.53, h: 2.5, fontSize: SZ.small });
+  ], { x: 7.75, y: 4.0, w: 4.98, h: 2.4, fontSize: SZ.small });
   cite(s, 'Model inference [inferred]; data/processed/load/county_hourly_2050_trend_{base,managed}.parquet; results/tables/load_scenarios_annual.csv.', 6.95);
 }
 

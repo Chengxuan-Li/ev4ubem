@@ -37,8 +37,8 @@ PAL = {
     "text": "#1F2328", "muted": "#5F6B73", "rule": "#BFC5CA", "accent": "#1A5E63", "observed": "#222222", "grey": "#8C8C8C",
     "home": "#0072B2", "work": "#009E73", "public_l2": "#56B4E9", "dcfc": "#D55E00", "fleet": "#CC79A7", "passerby": "#E69F00",
 }
-FONT = "Calibri"
-plt.rcParams.update({"font.family": ["Calibri", "Carlito", "DejaVu Sans"], "font.size": 13, "axes.edgecolor": PAL["rule"],
+FONT = "Roboto"
+plt.rcParams.update({"font.family": ["Roboto", "DejaVu Sans"], "font.size": 13, "axes.edgecolor": PAL["rule"],
                      "text.color": PAL["text"], "axes.labelcolor": PAL["text"], "xtick.color": PAL["muted"], "ytick.color": PAL["muted"]})
 LOCS = ["home", "work", "public_l2", "dcfc", "fleet", "passerby"]
 
@@ -392,7 +392,9 @@ def render_equations() -> dict:
     for name, body in EQUATIONS.items():
         out = EQ_OUT / f"eq_{name}.png"
         if have_tex:
-            doc = (r"\documentclass[border=2pt,varwidth=40cm]{standalone}\usepackage{amsmath,amssymb}"
+            # Roboto text with matching sans-serif math (newtxsf) so equations share the deck typeface
+            doc = (r"\documentclass[border=2pt,varwidth=40cm]{standalone}\usepackage[T1]{fontenc}\usepackage[sfdefault]{roboto}"
+                   r"\usepackage{amsmath}\usepackage{newtxsf}"
                    r"\begin{document}\Large $\displaystyle " + body.replace(r"\mathbb{1}", r"\mathbf{1}") + r"$\end{document}")
             with tempfile.TemporaryDirectory() as td:
                 (Path(td) / "eq.tex").write_text(doc, encoding="utf-8")
