@@ -83,7 +83,7 @@ def fetch_to_parquet(dataset_id: str, soql: dict, dest: Path, manifest: str, not
         "source_rows_updated_utc": _dt.datetime.fromtimestamp(meta.get("rowsUpdatedAt", 0), _dt.timezone.utc).isoformat(),
         "params": soql,
         "retrieved_utc": _dt.datetime.fromtimestamp(dest.stat().st_mtime, _dt.timezone.utc).isoformat(timespec="seconds"),
-        "rows": int(pd.read_parquet(dest, columns=[]).shape[0]) if dest.exists() else None,
+        "rows": int(__import__("pyarrow.parquet", fromlist=["ParquetFile"]).ParquetFile(dest).metadata.num_rows) if dest.exists() else None,
         "bytes": dest.stat().st_size,
         "sha256_parquet": sha256(dest),
         "note": note,
