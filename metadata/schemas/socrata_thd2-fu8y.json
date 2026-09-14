@@ -1,0 +1,75 @@
+{
+  "id": "thd2-fu8y",
+  "name": "NYSERDA Electric Vehicle Drive Clean Rebate Data: Beginning 2017",
+  "description": "New York State\u2019s Charge NY initiative offers electric car buyers the Drive Clean Rebate of up to $2,000 for new car purchases or leases. The rebate amount depends on the battery-only range of each vehicle. Dealers enrolled in the program deduct the eligible amount from the vehicle price at the point of sale and then submit a rebate application with NYSERDA. This dataset includes all completed rebate applications as of the data through date. \n\nThe New York State Energy Research and Development Authority (NYSERDA) offers objective information and analysis, innovative programs, technical expertise, and support to help New Yorkers increase energy efficiency, save money, use renewable energy, and accelerate economic growth. reduce reliance on fossil fuels. To learn more about NYSERDA\u2019s programs, visit nyserda.ny.gov or follow us on X, Facebook, YouTube, or Instagram.",
+  "attribution": "New York State Energy Research and Development Authority (NYSERDA)",
+  "rowsUpdatedAt_utc": "2026-09-01T14:32:32+00:00",
+  "columns": [
+    {
+      "fieldName": "data_through_date",
+      "name": "Data through Date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the dataset was refreshed"
+    },
+    {
+      "fieldName": "submitted_date",
+      "name": "Submitted Date",
+      "dataTypeName": "calendar_date",
+      "description": "The date the rebate application was submitted by the dealer"
+    },
+    {
+      "fieldName": "make",
+      "name": "Make",
+      "dataTypeName": "text",
+      "description": "The manufacturer of the rebated electric vehicle (EV)"
+    },
+    {
+      "fieldName": "model",
+      "name": "Model",
+      "dataTypeName": "text",
+      "description": "The specific model of the rebated electric vehicle (EV)"
+    },
+    {
+      "fieldName": "county",
+      "name": "County",
+      "dataTypeName": "text",
+      "description": "Name of county for vehicle buyer. Blank cells represent data that were not required or are not currently available "
+    },
+    {
+      "fieldName": "zip",
+      "name": "ZIP",
+      "dataTypeName": "text",
+      "description": "ZIP code for vehicle buyer"
+    },
+    {
+      "fieldName": "ev_type",
+      "name": "EV Type",
+      "dataTypeName": "text",
+      "description": "Type of EV powertrain; either Battery Electric Vehicle (BEV) or Plug-in Hybrid Electric Vehicle (PHEV)"
+    },
+    {
+      "fieldName": "transaction_type",
+      "name": "Transaction Type",
+      "dataTypeName": "text",
+      "description": "Vehicle transaction type; either Purchase or Lease"
+    },
+    {
+      "fieldName": "annual_ghg_emissions",
+      "name": "Annual GHG Emissions Reductions (MT CO2e)",
+      "dataTypeName": "number",
+      "description": "Total estimated greenhouse gas (GHG) emissions in metric tons carbon-dioxide equivalent avoided annually as a result of replacing an average internal combustion engine vehicle (ICE) with the rebated EV. Negative GHG Emissions Reduction values occur for Plug-in Hybrid vehicles, which have lower fuel efficiency than an average vehicle"
+    },
+    {
+      "fieldName": "annual_petroleum_reductions",
+      "name": "Annual Petroleum Reductions (gallons)",
+      "dataTypeName": "number",
+      "description": "Total estimated petroleum avoided in gallons annually as a result of replacing an average internal combustion engine vehicle (ICE) with the rebated EV. Negative Petroleum Reduction values occur for Plug-in Hybrid vehicles, which have lower fuel efficiency than an average vehicle  "
+    },
+    {
+      "fieldName": "rebate_amount_usd",
+      "name": "Rebate Amount (USD)",
+      "dataTypeName": "number",
+      "description": "Amount of rebate paid by NYSERDA in US dollars"
+    }
+  ]
+}

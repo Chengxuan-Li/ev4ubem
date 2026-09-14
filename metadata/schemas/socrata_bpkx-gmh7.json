@@ -1,0 +1,483 @@
+{
+  "id": "bpkx-gmh7",
+  "name": "Alternative Fuel Stations in New York",
+  "description": "Go to https://afdc.energy.gov/stations/#/find/nearest to access the full database of alternative fuel station locations nationwide, collected and maintained by the U.S. Department of Energy National Renewable Energy Laboratory.  A station appears as one point in the data and on the map, regardless of the number of fuel dispensers or charging outlets at that location.  For EV charging stations for example, the data includes the number of number of charging ports available at the specific station.\n\nThe New York State Energy Research and Development Authority (NYSERDA) offers objective information and analysis, innovative programs, technical expertise, and support to help New Yorkers increase energy efficiency, save money, use renewable energy, and reduce reliance on fossil fuels. To learn more about NYSERDA\u2019s programs, visit https://nyserda.ny.gov or follow us on X, Facebook, YouTube, or Instagram.",
+  "attribution": "U.S. Department of Energy",
+  "rowsUpdatedAt_utc": "2026-09-13T19:01:14+00:00",
+  "columns": [
+    {
+      "fieldName": "fuel_type_code",
+      "name": "Fuel Type Code",
+      "dataTypeName": "text",
+      "description": "BD = Biodiesel (B20 and above); CNG = Compressed Natural Gas; E85 = Ethanol (E85); ELEC = Electric; HY = Hydrogen; LNG = \nLiquefied Natural Gas; LPG = Liquefied Petroleum Gas (Propane)\n"
+    },
+    {
+      "fieldName": "station_name",
+      "name": "Station Name",
+      "dataTypeName": "text",
+      "description": "The name of the station"
+    },
+    {
+      "fieldName": "street_address",
+      "name": "Street Address",
+      "dataTypeName": "text",
+      "description": "The street address of the station's location"
+    },
+    {
+      "fieldName": "intersection_directions",
+      "name": "Intersection Directions",
+      "dataTypeName": "text",
+      "description": "Brief additional information about how to locate the station"
+    },
+    {
+      "fieldName": "city",
+      "name": "City",
+      "dataTypeName": "text",
+      "description": "The city of the station's location"
+    },
+    {
+      "fieldName": "state",
+      "name": "State",
+      "dataTypeName": "text",
+      "description": "The two character U.S. state code of the station's location"
+    },
+    {
+      "fieldName": "zip",
+      "name": "ZIP",
+      "dataTypeName": "text",
+      "description": "The ZIP code (postal code) of the station's location"
+    },
+    {
+      "fieldName": "plus4",
+      "name": "Plus4",
+      "dataTypeName": "text",
+      "description": "The plus-4 portion of the station's ZIP code (U.S. ZIP codes only)"
+    },
+    {
+      "fieldName": "station_phone",
+      "name": "Station Phone",
+      "dataTypeName": "text",
+      "description": "The phone number of the station"
+    },
+    {
+      "fieldName": "status_code",
+      "name": "Status Code",
+      "dataTypeName": "text",
+      "description": "The current status of the station - E = Open"
+    },
+    {
+      "fieldName": "expected_date",
+      "name": "Expected Date",
+      "dataTypeName": "calendar_date",
+      "description": "For planned stations, the date the station is expected to open or start carrying alternative fuel. For temporarily unavailable stations, the expected date is the date the station is expected to reopen. This date is estimated but not guaranteed"
+    },
+    {
+      "fieldName": "groups_with_access_code",
+      "name": "Groups With Access Code",
+      "dataTypeName": "text",
+      "description": "A description of who is allowed to access the station and other station access information.\nPublic = Publicly available to all customers; Public \u2013 call ahead = Publicly available, but customers should call before visiting the station. See \u201cStation Phone\u201d for more details; Public \u2013 credit card at all times = Publicly available, but only accepts credit cards as payment. The station may also accept fleet cards or station-specific fueling cards. See \u201cCards Accepted\u201d field for more details; Public \u2013 card key at all times = Publicly available, but only accepts fleet cards or station-specific fueling cards as payment. See \u201cCards Accepted\u201d field for more details; Public \u2013 credit card after hours = Publicly available, and accepts credit cards 24 hours a day. See \u201cAccess Days Time\u201d and \u201cCards Accepted\u201d fields for more details; Public \u2013 card key after hours = Publicly available, and accepts fleet cards or station-specific fueling cards 24 hours a day. See \u201cAccess Days Time\u201d and \u201cCards Accepted\u201d fields for more details"
+    },
+    {
+      "fieldName": "access_days_time",
+      "name": "Access Days Time",
+      "dataTypeName": "text",
+      "description": "Hours of operation for the station"
+    },
+    {
+      "fieldName": "cards_accepted",
+      "name": "Cards Accepted",
+      "dataTypeName": "text",
+      "description": "A space-separated list of payment methods accepted - for explanation see http://developer.nrel.gov/docs/transportation/alt-fuel-stations-v1/all/#fuel-station-record-fields.\n"
+    },
+    {
+      "fieldName": "bd_blends",
+      "name": "BD Blends",
+      "dataTypeName": "text",
+      "description": "For biodiesel stations, the level of biodiesel blends the station provides"
+    },
+    {
+      "fieldName": "ng_fill_type_code",
+      "name": "NG Fill Type Code",
+      "dataTypeName": "text",
+      "description": "For CNG stations, the type of dispensing capability available.\nQ = Quick fill; T = \nTimed fill; B = Both: quick fill and timed fill\n"
+    },
+    {
+      "fieldName": "ng_psi",
+      "name": "NG PSI",
+      "dataTypeName": "text",
+      "description": "For CNG stations, a space separated list of PSI pressures available"
+    },
+    {
+      "fieldName": "ev_level1_evse_num",
+      "name": "EV Level1 EVSE Num",
+      "dataTypeName": "number",
+      "description": "For electric stations, the number of Level 1 EVSE (standard 110V outlet)"
+    },
+    {
+      "fieldName": "ev_level2_evse_num",
+      "name": "EV Level2 EVSE Num",
+      "dataTypeName": "number",
+      "description": "For electric stations, the number of Level 2 EVSE (J1772 connector)"
+    },
+    {
+      "fieldName": "ev_dc_fast_count",
+      "name": "EV DC Fast Count",
+      "dataTypeName": "number",
+      "description": "For electric stations, the number of DC Fast Chargers"
+    },
+    {
+      "fieldName": "ev_other_info",
+      "name": "EV Other Info",
+      "dataTypeName": "text",
+      "description": "For electric stations, the number and type of additional EVSE, such as: SP Inductive = Small paddle inductive; LP Inductive = Large paddle inductive; Avcon = Conductive\n"
+    },
+    {
+      "fieldName": "ev_network",
+      "name": "EV Network",
+      "dataTypeName": "text",
+      "description": "For electric stations, the name of the EVSE network, if applicable"
+    },
+    {
+      "fieldName": "ev_network_web",
+      "name": "EV Network Web",
+      "dataTypeName": "url",
+      "description": "For electric stations, the EVSE network Web site, if applicable"
+    },
+    {
+      "fieldName": "geocode_status",
+      "name": "Geocode Status",
+      "dataTypeName": "text",
+      "description": "A rating indicating the approximate accuracy of the latitude and longitude for the station's address.\nGPS = The location is from a real GPS readout at the station; 200-9 = Premise (building name, property name, shopping center, etc.) level accuracy; 200-8 = Address level accuracy; 200-7 = Intersection level accuracy; 200-6 = Street level accuracy; 200-5 = ZIP code (postal code) level accuracy; 200-4 = Town (city, village) level accuracy; 200-3 = Sub-region (county, municipality, etc.) level accuracy; 200-2\nRegion (state, province, prefecture, etc.) level accuracy; 200-1 = Country level accuracy; 200-0 = Unknown accuracy\n"
+    },
+    {
+      "fieldName": "latitude",
+      "name": "Latitude",
+      "dataTypeName": "number",
+      "description": "The latitude of the station's address (see the \"Geocode Status\" field for details on the latitude's accuracy)"
+    },
+    {
+      "fieldName": "longitude",
+      "name": "Longitude",
+      "dataTypeName": "number",
+      "description": "The longitude of the station's address (see the \"Geocode Status\" field for details on the longitude's accuracy)"
+    },
+    {
+      "fieldName": "date_last_confirmed",
+      "name": "Date Last Confirmed",
+      "dataTypeName": "calendar_date",
+      "description": "The date the station's details were last confirmed"
+    },
+    {
+      "fieldName": "id",
+      "name": "ID",
+      "dataTypeName": "text",
+      "description": "A unique identifier for this specific station"
+    },
+    {
+      "fieldName": "updated_at",
+      "name": "Updated At",
+      "dataTypeName": "text",
+      "description": "The time the station's details were last updated  (ISO 8601 format)"
+    },
+    {
+      "fieldName": "owner_type_code",
+      "name": "Owner Type Code",
+      "dataTypeName": "text",
+      "description": "The type of organization that owns the fueling infrastructure\nP = Privately owned; T = Utility owned; FG = Federal government owned; LG = Local government owned; SG\nState government owned; J = Jointly owned (combination of owner types)\n"
+    },
+    {
+      "fieldName": "federal_agency_id",
+      "name": "Federal Agency ID",
+      "dataTypeName": "text",
+      "description": "If owned by a federal agency, a unique identifier for the federal agency"
+    },
+    {
+      "fieldName": "federal_agency_name",
+      "name": "Federal Agency Name",
+      "dataTypeName": "text",
+      "description": "If owned by a federal agency, the name of the federal agency"
+    },
+    {
+      "fieldName": "open_date",
+      "name": "Open Date",
+      "dataTypeName": "calendar_date",
+      "description": "The date that the station began offering the fuel. Please note that LPG (propane) stations do not have open dates. Some open dates are approximate"
+    },
+    {
+      "fieldName": "hydrogen_status_link",
+      "name": "Hydrogen Status Link",
+      "dataTypeName": "url",
+      "description": "For hydrogen stations, a link to a website that provides up-to-date information about the current status of this hydrogen station"
+    },
+    {
+      "fieldName": "ng_vehicle_class",
+      "name": "NG Vehicle Class",
+      "dataTypeName": "text",
+      "description": "For CNG and LNG stations, the maximum vehicle size that can physically access the fueling infrastructure.\nLD = Station can only accommodate light-duty vehicles (Classes 1-2); MD = Station can accommodate light- and medium-duty vehicles (Classes 1-5); HD = Station can accommodate light-, medium-, and heavy-duty vehicles (Classes 1-8)\n"
+    },
+    {
+      "fieldName": "lpg_primary",
+      "name": "LPG Primary",
+      "dataTypeName": "text",
+      "description": "For propane stations, the type of station.\ntrue = Primary: A propane station is considered primary because it meets the following criteria, developed based on feedback from the propane industry: 1.The price of a gallon of propane autogas, including all taxes, at the station is less expensive than other propane sold (e.g., gas grill bottles);\n2.The station is able to fuel vehicles during normal business hours (e.g., 8am-5pm M-F); and\n3.The station accepts credit cards. false = Secondary: The station does not meet the criteria to be considered primary\n"
+    },
+    {
+      "fieldName": "e85_blender_pump",
+      "name": "E85 Blender Pump",
+      "dataTypeName": "text",
+      "description": "For E85 stations, an indication of whether the station has a blender pump on site.\ntrue = In addition to E85, the station has a blender pump capable of providing mid-level ethanol blends. false = The station does not have a blender pump\n"
+    },
+    {
+      "fieldName": "ev_connector_types",
+      "name": "EV Connector Types",
+      "dataTypeName": "text",
+      "description": "For electric stations, an array of strings identifying the connector types available at this station.\nNEMA515 = NEMA 5-15 (Level 1); NEMA520 = NEMA 5-20 (Level 1); NEMA1450 = NEMA 14-50 (Level 1); J1772 = J1772 (Level 2); CHADEMO = HAdeMO (DC fast charging); J1772COMBO = SAE J1772 Combo (DC fast charging); TESLA = Tesla (DC fast charging)\n"
+    },
+    {
+      "fieldName": "country",
+      "name": "Country",
+      "dataTypeName": "text",
+      "description": "The country of the station\u2019s location"
+    },
+    {
+      "fieldName": "intersection_directions_french",
+      "name": "Intersection Directions (French)",
+      "dataTypeName": "text",
+      "description": "Brief additional information about how to locate the station, in French, if available."
+    },
+    {
+      "fieldName": "access_days_time_french",
+      "name": "Access Days Time (French)",
+      "dataTypeName": "text",
+      "description": "Hours of operation for the station, in French, if available."
+    },
+    {
+      "fieldName": "bd_blends_french",
+      "name": "BD Blends (French)",
+      "dataTypeName": "text",
+      "description": "For biodiesel stations, the level of biodiesel blends the station provides, in French, if available."
+    },
+    {
+      "fieldName": "groups_with_access_code_french",
+      "name": "Groups With Access Code (French)",
+      "dataTypeName": "text",
+      "description": "A description of who is allowed to access the station and other station access information, in French, if available: Priv\u00e9: Private station; Priv\u00e9 - r\u00e9serv\u00e9 aux clients de parcs: Private station that may allow other entities to fuel through a business-to-business arrangement. For more information, fleet customers should refer to the \u201cAccess Days Time\u201d field for contact information or contact the station directly; Priv\u00e9 \u2013 r\u00e9serv\u00e9 au gouvernement: Private station available only to government vehicles, or some subset of government vehicles; Public: Publicly available to all customers; Public \u2013 appeler \u00e0 l'avance: Publicly available, but customers should call before visiting the station. See \u201cStation Phone\u201d for more details; Public \u2013 carte de cr\u00e9dit en tout temps: Publicly available, but only accepts credit cards as payment. The station may also accept fleet cards or station-specific fueling cards. See \u201cCards Accepted\u201d field for more details; Public \u2013 carte-cl\u00e9 en tout temps: Publicly available, but only accepts fleet cards or station-specific fueling cards as payment. See \u201cCards Accepted\u201d field for more details; Public \u2013 carte de cr\u00e9dit apr\u00e8s les heures d'ouverture; Publicly available, and accepts credit cards 24 hours a day. See \u201cAccess Days Time\u201d and \u201cCards Accepted\u201d fields for more details; Public \u2013 carte-cl\u00e9 apr\u00e8s les heures d'ouverture: Publicly available, and accepts fleet cards or station-specific fueling cards 24 hours a day. See \u201cAccess Days Time\u201d and \u201cCards Accepted\u201d fields for more details; PR\u00c9VU - pas encore accessible: Not yet open, but plans to carry alternative fuel in the future. See the \"Expected Date\" field for an anticipated open date; TEMPORAIREMENT SUSPENDU: Temporarily unavailable. See the \u201cExpected Date\u201d field for an anticipated open date. "
+    },
+    {
+      "fieldName": "hydrogen_is_retail",
+      "name": "Hydrogen is Retail",
+      "dataTypeName": "text",
+      "description": "For hydrogen stations, whether a station offers the retail sale of hydrogen by accepting payment at the point of sale, given as code values as described below: true: Station meets the criteria to be considered retail; false: Station does not meet the criteria to be considered retail. "
+    },
+    {
+      "fieldName": "access_code",
+      "name": "Access Code",
+      "dataTypeName": "text",
+      "description": "A description of who is allowed to access the station, given as code values as described below: public: Publicly available to all customers; private: Private station. "
+    },
+    {
+      "fieldName": "access_detail_code",
+      "name": "Access Detail Code",
+      "dataTypeName": "text",
+      "description": "A description of other station access information, given as code values as described below: KEY_ALWAYS: Card key at all times; CREDIT_CARD_ALWAYS: Credit card at all times; CREDIT_CARD_AFTER_HOURS: Credit card after hours; FLEET: Fleet customers only; GOVERNMENT: Government only; KEY_AFTER_HOURS: Card key after hours; CALL: Call ahead. "
+    },
+    {
+      "fieldName": "federal_agency_code",
+      "name": "Federal Agency Code",
+      "dataTypeName": "text",
+      "description": "If the station is owned by a federal agency, a record for the federal agency that owns this station. See federal agency record fields for response details. "
+    },
+    {
+      "fieldName": "facility_type",
+      "name": "Facility Type",
+      "dataTypeName": "text",
+      "description": "The type of facility at which the station is located, given as code values as described below: AIRPORT: Airport; ARENA: Arena; AUTO_REPAIR: Auto repair shop; BANK: Bank; BREWERY_DISTILLERY_WINERY: Brewery/distillery/winery; B_AND_B: B&B; CAMPGROUND: Campground; CARWASH: Carwash; CAR_DEALER: Car dealer; COLLEGE_CAMPUS: College campus; CONVENIENCE_STORE: Convenience store; CONVENTION_CENTER: Convention center; COOP: Co-op; FACTORY: Factory; FED_GOV: Federal government; FIRE_STATION: Fire station; FLEET_GARAGE: Fleet garage; FUEL_RESELLER: Fuel reseller; GAS_STATION: Service/gas station; GROCERY: Grocery store; HARDWARE_STORE: Hardware store; HOSPITAL: Hospital; HOTEL: Hotel; INN: Inn; LIBRARY: Library; MIL_BASE: Military base; MOTOR_POOL: Motor pool; MULTI_UNIT_DWELLING: Multi-Unit dwelling; MUNI_GOV: Municipal Government; MUSEUM: Museum; NATL_PARK: National park; OFFICE_BLDG: Office building; OTHER: Other; OTHER_ENTERTAINMENT: Other entertainment; PARK: Park; PARKING_GARAGE: Parking garage; PARKING_LOT: Parking lot; PAY_GARAGE: Pay-parking garage; PAY_LOT: Pay-parking lot; PHARMACY: Pharmacy; PLACE_OF_WORSHIP: Place of worship; PRISON: Prison; REC_SPORTS_FACILITY: Recreational sports facility; REFINERY: Refinery; RENTAL_CAR_RETURN: Rental car return; RESEARCH_FACILITY: Research facility/laboratory; RESTAURANT: Restaurant; REST_STOP: Rest stop; RV_PARK: RV Park; SCHOOL: School; SHOPPING_CENTER: Shopping center; SHOPPING_MALL: Shopping mall; STADIUM: Stadium; STANDALONE_STATION: Stand-alone station; STATE_GOV: State/provincial government; STORAGE: Storage facility; TRAVEL_CENTER: Travel center; TRUCK_STOP: Truck stop; UTILITY: Utility."
+    },
+    {
+      "fieldName": "cng_dispenser_num",
+      "name": "CNG Dispenser Num",
+      "dataTypeName": "number",
+      "description": "For CNG stations, the number of CNG dispensers installed."
+    },
+    {
+      "fieldName": "cng_on_site_renewable_source",
+      "name": "CNG On-Site Renewable Source",
+      "dataTypeName": "text",
+      "description": "For CNG stations, the type of renewable energy used to generate CNG on-site, given as code values as described below: GEOTHERMAL: Geothermal; HYDRO: Hydropower; LANDFILL: Landfill; LIVESTOCK: Livestock Operations; SOLAR: Solar; WASTEWATER: Wastewater Treatment; WIND: Wind."
+    },
+    {
+      "fieldName": "cng_total_compression_capacity",
+      "name": "CNG Total Compression Capacity",
+      "dataTypeName": "number",
+      "description": "For CNG stations, the total compressor capacity per compressor, measured in standard cubic feet per minute (scfm)."
+    },
+    {
+      "fieldName": "cng_storage_capacity",
+      "name": "CNG Storage Capacity",
+      "dataTypeName": "number",
+      "description": "For CNG stations, the total storage capacity, measured in standard cubic feet (scf)."
+    },
+    {
+      "fieldName": "lng_on_site_renewable_source",
+      "name": "LNG On-Site Renewable Source",
+      "dataTypeName": "text",
+      "description": "For LNG stations, the type of renewable energy used to generate CNG on-site, given as code values as described below: GEOTHERMAL: Geothermal; HYDRO: Hydropower; LANDFILL: Landfill; LIVESTOCK: Livestock Operations; SOLAR: Solar; WASTEWATER: Wastewater Treatment; WIND: Wind."
+    },
+    {
+      "fieldName": "e85_other_ethanol_blends",
+      "name": "E85 Other Ethanol Blends",
+      "dataTypeName": "text",
+      "description": "For E85 stations, an array of strings identifying the range(s) of blends other than E85 available at the station, given as code values described below: E15: Station also offers E15; E20-E25: Station also offers blends of E20-E25; E30-E35: Station also offers blends of E30-E35; E40-Plus: Station also offers blends of E40 and above."
+    },
+    {
+      "fieldName": "ev_pricing",
+      "name": "EV Pricing",
+      "dataTypeName": "text",
+      "description": "For EVSE stations, information about whether and how much users must pay to use the EVSE."
+    },
+    {
+      "fieldName": "ev_pricing_french_",
+      "name": "EV Pricing (French)",
+      "dataTypeName": "text",
+      "description": "French language description: For EVSE stations, information about whether and how much users must pay to use the EVSE."
+    },
+    {
+      "fieldName": "lpg_nozzle_types",
+      "name": "LPG Nozzle Types",
+      "dataTypeName": "text",
+      "description": "For LPG stations, an array of strings, identifying the type of nozzles available at the station, given as code values described below: ACME: ACME; QUICK_CONNECT: Quick-connect"
+    },
+    {
+      "fieldName": "hydrogen_pressures",
+      "name": "Hydrogen Pressures",
+      "dataTypeName": "text",
+      "description": "For hydrogen stations, any array of strings identifying the pressures of the hydrogen available (in bar), given as code values as described below: 350: 350 bar (35 megapascal, or MPa); 700: 700 bar (70 MPa). "
+    },
+    {
+      "fieldName": "hydrogen_standards",
+      "name": "Hydrogen Standards",
+      "dataTypeName": "text",
+      "description": "For hydrogen stations, any array of strings identifying which SAE International fueling protocol standard(s) the infrastructure meets, given as code values as described below: J2601: SAE J2601; J2601-2: SAE J2601-2."
+    },
+    {
+      "fieldName": "cng_fill_type_code",
+      "name": "CNG Fill Type Code",
+      "dataTypeName": "text",
+      "description": "For CNG stations, the type of dispensing capability available, given as code values as described below: Q: Quick fill; T: Timed fill; B: Both: quick fill and timed fill."
+    },
+    {
+      "fieldName": "cng_psi",
+      "name": "CNG PSI",
+      "dataTypeName": "text",
+      "description": "For CNG stations, a space separated list of PSI pressures available."
+    },
+    {
+      "fieldName": "cng_vehicle_class",
+      "name": "CNG Vehicle Class",
+      "dataTypeName": "text",
+      "description": "For CNG stations, the maximum vehicle size that can physically access the fueling infrastructure, given as code values as described below: LD: Station can only accommodate light-duty vehicles (Classes 1-2); MD: Station can accommodate light- and medium-duty vehicles (Classes 1-5); HD: Station can accommodate light-, medium-, and heavy-duty vehicles (Classes 1-8). Note: This field does not take into account station capacity or other considerations. "
+    },
+    {
+      "fieldName": "lng_vehicle_class",
+      "name": "LNG Vehicle Class",
+      "dataTypeName": "text",
+      "description": "For LNG stations, the maximum vehicle size that can physically access the fueling infrastructure, given as code values as described below: LD: Station can only accommodate light-duty vehicles (Classes 1-2); MD: Station can accommodate light- and medium-duty vehicles (Classes 1-5); HD: Station can accommodate light-, medium-, and heavy-duty vehicles (Classes 1-8). Note: This field does not take into account station capacity or other considerations. "
+    },
+    {
+      "fieldName": "ev_on_site_renewable_source",
+      "name": "EV On-Site Renewable Source",
+      "dataTypeName": "text",
+      "description": "For EVSE stations, the type of renewable energy used to generate electricity on-site, given as code values: GEOTHERMAL: Geothermal; HYDRO: Hydropower; LANDFILL: Landfill; LIVESTOCK: Livestock Operations; SOLAR: Solar; WASTEWATER: Wastewater Treatment; WIND: Wind."
+    },
+    {
+      "fieldName": "georeference",
+      "name": "Georeference",
+      "dataTypeName": "point",
+      "description": "Open Data/Socrata-generated geocoding information from supplied address components."
+    },
+    {
+      "fieldName": "restricted_access",
+      "name": "Restricted Access",
+      "dataTypeName": "text",
+      "description": "For public stations, an indication of whether the station has restricted access, given as a boolean:"
+    },
+    {
+      "fieldName": "rd_blends",
+      "name": "RD Blends",
+      "dataTypeName": "text",
+      "description": "For renewable diesel stations, the level of renewable diesel blends the station provides."
+    },
+    {
+      "fieldName": "rd_blends_french",
+      "name": "RD Blends (French)",
+      "dataTypeName": "text",
+      "description": "For renewable diesel stations, the level of renewable diesel blends the station provides, in French, if available."
+    },
+    {
+      "fieldName": "rd_blended_with_biodiesel",
+      "name": "RD Blended with Biodiesel",
+      "dataTypeName": "text",
+      "description": "For renewable diesel stations, whether the station provides renewable diesel blended with biodiesel, given as code values as described below: Y - Yes; N - No."
+    },
+    {
+      "fieldName": "rd_maximum_biodiesel_level",
+      "name": "RD Maximum Biodiesel Level",
+      "dataTypeName": "text",
+      "description": "For renewable diesel stations, the maximum biodiesel level if blended with biodiesel."
+    },
+    {
+      "fieldName": "nps_unit_name",
+      "name": "NPS Unit Name",
+      "dataTypeName": "text",
+      "description": "Which national park the unit is in"
+    },
+    {
+      "fieldName": "cng_station_sells_renewable_natural_gas",
+      "name": "CNG Station Sells Renewable Natural Gas",
+      "dataTypeName": "text",
+      "description": "Whether the station sells renewable natural gas (RNG)"
+    },
+    {
+      "fieldName": "lng_station_sells_renewable_natural_gas",
+      "name": "LNG Station Sells Renewable Natural Gas",
+      "dataTypeName": "text",
+      "description": "Whether the station sells renewable natural gas (RNG)"
+    },
+    {
+      "fieldName": "maximum_vehicle_class",
+      "name": "Maximum Vehicle Class",
+      "dataTypeName": "text",
+      "description": "The maximum vehicle size that can physically access the fueling infrastructure"
+    },
+    {
+      "fieldName": "ev_workplace_charging",
+      "name": "EV Workplace Charging",
+      "dataTypeName": "text",
+      "description": "Whether the station is available for employees at a workplace"
+    },
+    {
+      "fieldName": "funding_sources",
+      "name": "Funding Sources",
+      "dataTypeName": "text",
+      "description": "List of funding sources used to build the EV charging unit"
+    },
+    {
+      "fieldName": ":@computed_region_yamh_8v7k",
+      "name": "NYS Municipal Boundaries 2",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'NYS Municipal Boundaries' (yamh-8v7k) the point in column 'georeference' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens."
+    },
+    {
+      "fieldName": ":@computed_region_wbg7_3whc",
+      "name": "New York Zip Codes 2",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'New York Zip Codes' (wbg7-3whc) the point in column 'georeference' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens."
+    },
+    {
+      "fieldName": ":@computed_region_kjdx_g34t",
+      "name": "Counties 2",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Counties' (kjdx-g34t) the point in column 'georeference' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens."
+    }
+  ]
+}

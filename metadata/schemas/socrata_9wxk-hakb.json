@@ -1,0 +1,153 @@
+{
+  "id": "9wxk-hakb",
+  "name": "Charge Ready NY Programs: Beginning 2018",
+  "description": "The Charge Ready NY Program (Program) is an incentive program designed to accelerate the deployment of Level 2 electric vehicle charging equipment at public, workplaces, and multi-unit dwellings (MUDs) in New York State. Accelerated deployment of charging equipment will increase the adoption of electric vehicles by making charging more convenient. Increased use of electric vehicles and electric vehicle charging stations benefits New York State by reducing harmful emissions and the transportation sector\u2019s dependence on petroleum. The New York State Energy Research and Development Authority (NYSERDA) developed the Program to provide incentives that reduce the cost of purchasing and installing eligible Level 2 charging equipment for use in New York State.\n\nThis dataset contains information on installed projects from both the current program, Charge Ready NY 2.0, and a former program, Charge Ready NY. \n\nThe New York State Energy Research and Development Authority (NYSERDA) offers objective information and analysis, innovative programs, technical expertise, and support to help New Yorkers increase energy efficiency, save money, use renewable energy, and reduce reliance on fossil fuels. To learn more about NYSERDA\u2019s programs, visit nyserda.ny.gov or follow us on X, Facebook, YouTube, or Instagram.",
+  "attribution": "New York State Energy Research and Development Authority (NYSERDA)",
+  "rowsUpdatedAt_utc": "2026-09-05T14:31:13+00:00",
+  "columns": [
+    {
+      "fieldName": "anonymized_project_id",
+      "name": "Anonymized Project ID",
+      "dataTypeName": "text",
+      "description": "Unique, anonymized identifier for project"
+    },
+    {
+      "fieldName": "data_through_date",
+      "name": "Data Through Date",
+      "dataTypeName": "calendar_date",
+      "description": "Date the dataset was last refreshed"
+    },
+    {
+      "fieldName": "charge_ready_ny_funding",
+      "name": "Charge Ready NY Funding",
+      "dataTypeName": "number",
+      "description": "Amount of funding provided for project"
+    },
+    {
+      "fieldName": "of_l2_ports",
+      "name": "# of L2 Ports",
+      "dataTypeName": "number",
+      "description": "The total number of Level 2 (L2) EV ports installed as part of the project"
+    },
+    {
+      "fieldName": "contractor_applicant",
+      "name": "Contractor/Applicant",
+      "dataTypeName": "text",
+      "description": "Contractor/Applicant for the Charge NY program"
+    },
+    {
+      "fieldName": "equipment_owner",
+      "name": "Equipment Owner",
+      "dataTypeName": "text",
+      "description": "Owner of the charger"
+    },
+    {
+      "fieldName": "site_name",
+      "name": "Site Name",
+      "dataTypeName": "text",
+      "description": "Name of location"
+    },
+    {
+      "fieldName": "address",
+      "name": "Address",
+      "dataTypeName": "text",
+      "description": "Address of equipment location"
+    },
+    {
+      "fieldName": "city",
+      "name": "City",
+      "dataTypeName": "text",
+      "description": "City where equipment is located"
+    },
+    {
+      "fieldName": "state",
+      "name": "State",
+      "dataTypeName": "text",
+      "description": "State where equipment is located"
+    },
+    {
+      "fieldName": "zip",
+      "name": "Zip",
+      "dataTypeName": "text",
+      "description": "Zip code where equipment is located"
+    },
+    {
+      "fieldName": "disadvantaged_community",
+      "name": "Disadvantaged Community Indicator",
+      "dataTypeName": "text",
+      "description": "Indicates whether it is within or not within a DAC"
+    },
+    {
+      "fieldName": "county",
+      "name": "County",
+      "dataTypeName": "text",
+      "description": "County where equipment is located"
+    },
+    {
+      "fieldName": "location_type",
+      "name": "Location Type",
+      "dataTypeName": "text",
+      "description": "Location type (i.e public, workplace, or MUD)"
+    },
+    {
+      "fieldName": "installation_activation_date",
+      "name": "Installation Activation Date",
+      "dataTypeName": "calendar_date",
+      "description": "Date when charger was activated for use, including connected to a network."
+    },
+    {
+      "fieldName": "evse_manufacturer",
+      "name": "EVSE Manufacturer",
+      "dataTypeName": "text",
+      "description": "Charger manufacturer"
+    },
+    {
+      "fieldName": "evse_model",
+      "name": "EVSE Model",
+      "dataTypeName": "text",
+      "description": "Charger model"
+    },
+    {
+      "fieldName": "network_service_provider",
+      "name": "Network Service Provider",
+      "dataTypeName": "text",
+      "description": "EV charging station company that provides the required charging session data and station status reports."
+    },
+    {
+      "fieldName": "local_utility",
+      "name": "Local Utility",
+      "dataTypeName": "text",
+      "description": "The utility the charger is under jurisdiction by"
+    },
+    {
+      "fieldName": "solicitation",
+      "name": "Solicitation",
+      "dataTypeName": "text",
+      "description": "Incentive program name"
+    },
+    {
+      "fieldName": "georeference",
+      "name": "Georeference",
+      "dataTypeName": "point",
+      "description": "\t Open Data platform-generated geocoding information from supplied address components. Point-type location is the centroid of the address components provided and does not reflect a specific address if the street address component is not provided. Point-type location is supplied in \"POINT (longitude latitude)\" format."
+    },
+    {
+      "fieldName": ":@computed_region_yamh_8v7k",
+      "name": "NYS Municipal Boundaries",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'NYS Municipal Boundaries' (yamh-8v7k) the point in column 'georeference' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens."
+    },
+    {
+      "fieldName": ":@computed_region_wbg7_3whc",
+      "name": "New York Zip Codes",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'New York Zip Codes' (wbg7-3whc) the point in column 'georeference' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens."
+    },
+    {
+      "fieldName": ":@computed_region_kjdx_g34t",
+      "name": "Counties",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Counties' (kjdx-g34t) the point in column 'georeference' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens."
+    }
+  ]
+}
