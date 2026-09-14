@@ -12,7 +12,15 @@ and model-feasibility/validation design. See the original brief:
 [`docs/decisions/`](docs/decisions/) ·
 [`AGENTS.md`](AGENTS.md) (working rules).
 
-## Key results so far (2026-09-14; details and evidence labels in `docs/findings.md`)
+## Model report (2026-09-14)
+
+**[`docs/report_20260914_ev_model.md`](docs/report_20260914_ev_model.md)** (HTML: `docs/report_20260914_ev_model.html`) —
+dwelling-unit EV ownership model, growth scenarios to 2050, event-based charging model, hourly load for dwellings,
+parcels, block groups and charging sites, with validation. UBEM output specification:
+[`docs/ubem_interface.md`](docs/ubem_interface.md). Headline: 2026 Tompkins EV charging ≈ 10.9 GWh/yr (4.9 MW peak);
+trend scenario 50 GWh / 23 MW (2035) and 176 GWh / 84 MW (2050).
+
+## Key results of the data research phase (details and evidence labels in `docs/findings.md`)
 
 - **Tompkins EV stock is directly observed:** 3,233 plug-in EVs (1,833 BEV, 1,400 PHEV) in the NYS DMV snapshot of
   2026-09-02, ~5.4 % of light-duty vehicles (2nd of 62 NY counties; state 3.1 %), roughly doubled since April 2023.

@@ -7,6 +7,12 @@ Every quantitative statement carries an evidence label:
 and a status: *observed*, *inferred* (derived with stated assumptions), or *simulated*.
 Tables/figures cited are in `results/` and reproducible via `docs/methodology.md`.
 
+> **Update 2026-09-14 (modelling phase):** the ownership, growth and charging models built on these findings, their
+> validation and 2026–2050 load results are in [`report_20260914_ev_model.md`](report_20260914_ev_model.md). Several
+> preliminary numbers below were superseded: location energy shares are now model outputs (home 67 % / work 5 % /
+> public L2 10 % / DCFC 18 % of resident EV energy), 2026 county energy ≈ 10.9 GWh including fleet and visitors, and the
+> sub-ZIP allocation uses the ensemble of decision 0005 (multifamily share 21 %, bounds 9–31 %).
+
 ---
 
 ## 0. Answer to the phase question (short)

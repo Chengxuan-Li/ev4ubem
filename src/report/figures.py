@@ -79,7 +79,7 @@ def hourly_profiles():
                 else:
                     tot = c.loc[m].sum(axis=1).groupby(hrs[m].hour).mean().values / 1000
                     ax.plot(range(24), tot, "k--", label="summer total" if col == 0 else None)
-            ax.set_title(f"{year}, ownership={own}, charging={chg}: winter weekday (stacked)")
+            ax.set_title(f"{year} · {own} / {chg} · winter weekday", fontsize=10)
             ax.set_xlabel("hour (local standard time)")
         axes[row, 0].set_ylabel("MW (mean weekday)")
     axes[0, 0].legend(fontsize=7, loc="upper left")

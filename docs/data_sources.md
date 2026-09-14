@@ -30,7 +30,9 @@ Acquisition scripts live in `src/acquisition/`; provenance (URL/query, retrieval
 | TIGER/Line 2024 tracts, BGs, county subdivisions, places; CB 2020 ZCTAs; 2020 ZCTA relationship files | www2.census.gov | ACQ | — | Geometries | `census.py`, `processing/geography.py` | ZCTA→county population shares via tract apportionment. |
 | NYS ITS Tax Parcels (2025 roll) | gisservices.its.ny.gov NYS_Tax_Parcels_Public | ACQ | A | 35,369 Tompkins parcels with property class, year built, living area, GFA | `nys_parcels.py` | Owner/mail fields excluded. Unit counts not given for apartments (GFA only). |
 | NHTS 2022 (v2) public use | nhts.ornl.gov | ACQ | C | Household/person/vehicle/trip microdata; census division × MSA size; **no state** | `nhts.py`, `analysis/nhts_*.py` | 7,893 HH, 14,684 vehicles, only 186 BEV + 80 PHEV. Diary miles undercount (non-reporting members). |
-| NYSERDA Statewide Multifamily Building Study 2022 (occupant/general survey) | data.ny.gov `gjv3-iq86`, `gfhm-wz4s` | PUB | B | Survey microdata | — | Lead for MUD parking/charging access; not yet examined. |
+| NYSERDA Statewide Multifamily Building Study 2022 (occupant/general survey) | data.ny.gov `gjv3-iq86`, `gfhm-wz4s` | ACQ | B | Survey microdata, utility region, no weights/county | `nyserda_smbs.py`, `analysis/smbs_mud_parking_ev.py` | Upstate MF parking 84 % of units, EV charging 5.7 % of buildings; EV ownership sample too small. Note: `source_notes/nyserda_smbs_2022.md`. |
+| ACS 2020–2024 PUMS (NY households/persons) | www2.census.gov PUMS | ACQ | A (survey) | PUMA 02300 = Tompkins | `acs_pums.py`, `processing/synthetic_dwellings.py` | Joint household attributes for synthetic dwelling units. |
+| OneBuilding TMYx Ithaca (KITH) | climate.onebuilding.org | ACQ | A (typical year) | hourly | `weather_epw.py`, `processing/weather.py` | Energy-per-mile temperature effect only. |
 
 ## 3. Charging infrastructure
 
@@ -38,7 +40,7 @@ Acquisition scripts live in `src/acquisition/`; provenance (URL/query, retrieval
 |---|---|---|---|---|
 | AFDC station locator API | developer.nlr.gov `alt-fuel-stations/v1` (DEMO_KEY) | ACQ | A | NY ELEC, all statuses (6,061 stations). Station ≠ port. `developer.nrel.gov` no longer resolves. |
 | AFDC NY mirror | data.ny.gov `bpkx-gmh7` / `7rrd-248n` | ACQ | A | Cross-check: Tompkins 99 stations vs 105 in API (6 newer IDs only in API). |
-| AFDC historical station counts | afdc.energy.gov/data_download (historical format) | PUB | A | Not yet acquired; open_date in current data used for growth (survivorship bias). |
+| AFDC historical station records | developer.nlr.gov `alt-fuel-stations/v0/historical-date/{date}` (DEMO_KEY), afdc.energy.gov state counts | ACQ | A | Station records as published on past dates (2014–2020 acquired; later years rate-limited). Note: `source_notes/afdc_historical_stations.md`; replaces the survivorship-biased open-date curve. |
 | Charge Ready NY program sites | data.ny.gov `9wxk-hakb` | ACQ | A/B | Funded L2 ports with location type (Public / Workplace / MUD). 12 Tompkins-labelled projects. |
 | EValuateNY "Charging Locations/Ports" | EValuateNY resources.xlsx | ACQ | D | AFDC-derived snapshot (2023). |
 

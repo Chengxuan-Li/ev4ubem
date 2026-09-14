@@ -20,7 +20,35 @@ re-acquired by `src/acquisition/*`; provenance manifests are in `metadata/manife
 
 ---
 
-<!-- SECTION 1 (executive summary) is inserted after the charging results are final -->
+# 1. Executive summary
+
+**What the model does.** It turns public data into hourly EV charging load for every synthetic dwelling unit, parcel,
+block group and non-residential charging site in Tompkins County, for 2026 and every year to 2050, under 4 ownership ×
+3 charging scenarios, with Monte Carlo uncertainty.
+
+**Status quo (2026).**
+- **3,233 plug-in EVs** are registered in Tompkins (1,833 BEV, 1,400 PHEV), **5.4 %** of light-duty vehicles, the
+  2nd-highest share of New York's 62 counties. Observed directly at county and ZIP level [A].
+- EVs are placed on 43,251 synthetic dwelling units. Central estimate: **21 %** of personal EVs in multifamily housing
+  (36 % of households live there); plausible alternatives span 9–31 % because no public data observe EVs below ZIP.
+- Charging uses about **10.9 GWh/yr** with a **4.9 MW** county peak on winter weekday evenings: home 53 %,
+  fleet depots 16 %, resident DCFC 14 %, public L2 8 %, visitors 5 %, workplace 4 % [inferred].
+- A resident EV draws ≈ **3,000 kWh/yr** from the grid (BEV ≈ 4,000, PHEV ≈ 1,800), consistent with survey mileage
+  (3,165) and far below NREL TEMPO's implied 7,400 [B/C vs E].
+
+**Projections (trend ownership, base charging).** 22 GWh / 11 MW (2030), 50 GWh / 23 MW (2035),
+94 GWh / 51 MW (2040), 176 GWh / 84 MW (2050). Ownership scenarios span 82–213 GWh and 39–102 MW by 2050. Managed
+off-peak charging cuts the 2050 county peak by ≈ 19 % but creates a later residential peak 26 % higher than unmanaged.
+
+**Validation.** Stock is observed; area-level placement predicts held-out NY counties' ZIP distribution (≈ 78 %
+deviance explained); the synthetic population matches ACS (R² ≥ 0.99); charging shapes match New York measurements
+(r = 0.88–0.97); public L2 utilisation (9.6 kWh/port-day) falls within the observed Ithaca range (7.3–16.4). Hourly
+residential magnitudes in upstate homes, building-level placement and post-2030 adoption **cannot be validated** with
+public data and are reported with explicit uncertainty.
+
+**For UBEM users.** Expected hourly load at any entity level is exact via the profile basis (§5.3,
+`docs/ubem_interface.md`); use realizations for building peaks (a single Level 2 EV adds a 7.2 kW hourly peak; a
+50+-unit parcel's p90 peak is ≈ 12 kW in 2026 and ≈ 31 kW in 2035).
 
 # 2. Data added in this phase (research plan step 3)
 
@@ -288,4 +316,173 @@ Non-residential pools (resident EVs' workplace, public L2 and DCFC energy, plus 
 distributed to AFDC public ports, listed and unlisted workplace sites, and fleet parcels (§6.4). Building-peak
 uncertainty uses realizations (Poisson EV counts per dwelling, archetype and library EV-year per EV).
 
-<!-- SECTIONS 5.4-8 (validation, load results, limitations) are inserted after the final runs -->
+## 5.4 Validation of the charging model (2026)
+
+![Charging validation panels](../results/figures/charging_validation.png)
+
+| Check | Result | Reference | Class | Status |
+|---|---|---|---|---|
+| V1 Home charging frequency, BEV (4 categories) | total variation distance 0.18 | Drive Clean 2024 | B | partly calibrated (category mapping); informative |
+| V1 Home charging frequency, PHEV | TVD ≈ 0.00 | Drive Clean 2024 | B | **by construction** (types are inputs) |
+| V2 Home session energy and connection time | quantiles within ~10 % | Norway residential sessions | C | connection partly by construction |
+| V3 Weekday shape: home vs NY multifamily charging | r = 0.97 | NYSERDA 22-03 Fig. 18 | B | independent |
+| V3 Weekday shape: workplace | r = 0.88 | NYSERDA 22-03 | B | shape source is 22-03 (not independent) |
+| V3 Weekday shape: public L2 | r = 0.91 | NYSERDA 22-03 | B | independent |
+| V4 Public L2 utilisation | **9.6 kWh/port-day** (residents only) | ChargePoint ZIP 14850: 7.3 (2019), 16.4 (2022); NY 22-03 mean 3.3 | A/B | independent, within local range |
+| V5 Annual plug energy per resident EV | **2,994 kWh** | Drive Clean miles × efficiency 3,165 | B + assumption | consistent (−5 %) |
+| V5 PHEV electric-mile share | ≈ 0.42 | assumed 0.45 earlier | — | plausible |
+| V6 Monthly energy index | r = 0.82 | Dundee public (detrended) | C | independent (weak: non-NY) |
+| V7 Residential diversity (per-EV annual peak vs N) | between Norway empirical 3.6 kW and 7.2 kW curves | Norway sessions | C | shape consistent |
+| V8 County annual energy vs TEMPO | TEMPO/simulated = 2.2; weekday shape r = 0.41 | NREL TEMPO 2022 | **E** | benchmark only |
+
+Tables: `results/tables/charging_validation_*.csv`. Design choices triggered by failed checks are recorded in
+decision 0006.
+
+## 5.5 Energy per EV and location shares (research plan step 4)
+
+![Energy reconciliation](../results/figures/energy_reconciliation.png)
+
+| Source | kWh per EV-year | Class |
+|---|---|---|
+| Drive Clean miles × efficiency, Tompkins BEV/PHEV mix | 3,165 (BEV 4,116; PHEV 1,920) | B + assumption |
+| NHTS 2022 BEVs (diary miles / self-reported miles) | 4,489 / 4,718 | C (n = 166) |
+| Norway residential median user (home energy only) | 1,829 | C |
+| **Event model 2026, resident EVs** | **2,994** (BEV ≈ 4,000; PHEV ≈ 1,800) | inferred |
+| TEMPO 2022 reference MY2026 per observed EV | 7,421 | E |
+
+Location energy shares of resident EVs are now **model outputs**, not assumptions: home **67 %**, workplace **5 %**,
+public L2 **10 %**, DCFC **18 %** (including en-route sessions and BEVs without home access), replacing the earlier
+80/7/8/5 assumption. DCFC share is the least constrained quantity (no public NY data).
+
+## 5.6 Charging infrastructure history
+
+AFDC station records *as published on past dates* were retrieved through the public NLR historical-date endpoint
+(DEMO_KEY; `src/acquisition/afdc_historical.py`, `docs/source_notes/afdc_historical_stations.md`). Open stations, all
+access types, Tompkins by point-in-polygon:
+
+| Year-end | Stations | Ports (all) | Public L2 ports | DCFC ports | EVs per public port |
+|---|---|---|---|---|---|
+| 2014 | 5 | 8 | 7 | 0 | — |
+| 2017 | 13 | 22 | 19 | 2 | 15.2 |
+| 2018 | 22 | 42 | 39 | 2 | 12.1 |
+| 2019 | 29 | 65 | 53 | 11 | 10.8 |
+| 2020 | 34 | 79 | 61 | 11 | 11.7 |
+| 2026-09 (current API) | 105 | 290 | 246 open (237 public) | 42 | ≈ 11.7 |
+
+Public L2 ports grew 43 %/yr (2014–2020). The "open date of surviving stations" curve used earlier **understates**
+historical infrastructure (2018 public L2: 3 vs 39 ports) because many early station records were retired or re-keyed
+(75–92 % of 2014–2017 public records are absent from the latest snapshot). EVs per public port stayed within ≈ 11–15
+since 2017, supporting the projection rule that ports scale with the EV stock. AFDC changed its counting method
+(OCPI) in 2021, so growth rates spanning 2021 are definitional as well as physical. Snapshots for 2021–2025 are
+being acquired under the demo-key rate limit; tables will extend automatically on re-run.
+
+---
+
+# 6. Load results
+
+## 6.1 Status quo (2026; ownership = trend, charging = base)
+
+| Location | Annual MWh | Share |
+|---|---|---|
+| Home (residential meters) | 5,702 | 52.5 % |
+| Workplace | 447 | 4.1 % |
+| Public L2 | 831 | 7.7 % |
+| DCFC (resident vehicles, incl. en-route) | 1,569 | 14.5 % |
+| Fleet depots (≈ 290 organizational EVs) | 1,780 | 16.4 % |
+| Passers-by / visitors (DCFC) | 523 | 4.8 % |
+| **Total** | **10,851 MWh** | peak **4.9 MW** (weekday evening, late November); residential peak 1.7 MW; load factor 0.25 |
+
+![Hourly profiles](../results/figures/report_hourly_profiles.png)
+
+![Residential charging by block group](../results/maps/report_bg_home_energy.png)
+
+**Buildings / parcels (realizations, 30 draws).** Most parcels host no EV in a given realization; peaks scale
+sub-linearly with the number of EVs:
+
+| Dwelling units on parcel | Parcels | Expected EVs | Mean p50 annual peak (kW) | Mean p90 annual peak (kW) | p90 kW per expected EV |
+|---|---|---|---|---|---|
+| 1 | 16,702 | 0.08 | 0.0 | 0.9 | 10.7 |
+| 2 | 4,715 | 0.16 | 0.0 | 2.3 | 13.9 |
+| 3–4 | 1,261 | 0.19 | 0.0 | 2.3 | 11.8 |
+| 5–19 | 489 | 0.33 | 0.1 | 2.8 | 8.6 |
+| 20–49 | 118 | 1.08 | 1.1 | 7.5 | 6.9 |
+| 50+ | 54 | 2.77 | 4.3 | 12.1 | 4.4 |
+
+(Table: all parcels with expected EVs > 0. The figure below conditions on parcels that host at least one EV in some
+realization, so its means are higher. Stacked hourly profiles above show fleet and DCFC growing strongly by 2050
+because both are scaled with the county EV stock.)
+A single EV on Level 2 adds a 7.2 kW hourly peak to its home; a 12-EV garage peaks near 29 kW (2.4 kW/EV) and a
+48-EV garage near 71 kW (1.5 kW/EV) in the home-charging library. **Use realizations, not expected profiles, for
+building-level peak and capacity questions.**
+
+![Parcel peaks](../results/figures/report_parcel_peaks.png)
+
+**Non-residential sites (2026).** DCFC: 12 sites, 2.1 GWh, median 143 kWh/port-day, largest site peak 0.69 MW.
+Public L2: 90 sites, 0.83 GWh, median 9.6 kWh/port-day. Workplace: 0.45 GWh split between 8 listed sites and 271
+large non-residential parcels. Fleet: 1.8 GWh over non-residential parcels (depot locations unknown).
+
+![Sites](../results/maps/report_sites_2026.png)
+
+## 6.2 Projections 2030–2050
+
+![Scenario trajectories](../results/figures/report_scenario_trajectories.png)
+
+| Ownership scenario (charging = base) | 2030 GWh / MW | 2035 | 2040 | 2050 |
+|---|---|---|---|---|
+| trend | 22.1 / 10.9 | 50.5 / 22.9 | 94.1 / 50.7 | 176.4 / 84.4 |
+| slow | 19.2 / 9.4 | 31.8 / 14.4 | 47.1 / 25.2 | 81.7 / 39.1 |
+| stall | 17.2 / 8.4 | 30.4 / 13.8 | 61.1 / 32.8 | 150.0 / 71.8 |
+| policy | 32.8 / 16.4 | 91.2 / 41.6 | 153.2 / 82.5 | 213.0 / 101.9 |
+
+| Charging scenario (ownership = trend) | 2035 total peak / residential peak (MW) | 2050 total peak / residential peak | 2050 DCFC GWh |
+|---|---|---|---|
+| base | 22.9 / 9.5 | 84.4 / 35.5 | 26.3 |
+| access+ (faster multifamily/renter home access, workplace) | 23.1 / 9.4 | 82.8 / 37.2 | 20.4 |
+| managed (35 % of home L2 sessions off-peak by 2035, 60 % by 2050) | **20.0** / 10.0 | **68.1** / **44.7** | 26.0 |
+
+![Energy by location](../results/figures/report_energy_by_location.png)
+
+**Readings for planners and utilities.**
+- County peaks occur on **winter weekday evenings** (17:00–20:00) in all scenarios; the winter cold penalty (+10–30 %
+  energy) coincides with the residential evening peak.
+- Managed charging lowers the county peak by 13 % (2035) to 19 % (2050) but creates a **later residential peak**
+  (23:00–01:00) that exceeds the unmanaged residential peak by 2040; feeder-level assessments need the staggering
+  window as a design parameter.
+- Better home/workplace access (access+) shifts ≈ 6 GWh/yr (2050) from DCFC sites to homes and workplaces, with little
+  change in the county peak.
+- Site-level DCFC growth is allocated to today's stations (largest site > 9 MW by 2050 in the trend scenario), which is
+  unrealistic; new sites must be sited explicitly in future work.
+
+---
+
+# 7. What is validated, what is not
+
+| Component | Validation evidence | Status |
+|---|---|---|
+| County and ZIP EV stock 2026 | Direct DMV observation, two geographic definitions agree within 3.5 % | **observed** |
+| Synthetic dwelling units | ACS BG marginals R² ≥ 0.99 | validated (composition only) |
+| Area-level placement between ZIPs | NY county-grouped CV (≈ 0.78 deviance explained), cross-year allocation test | validated between areas |
+| Placement below ZIP (building/parcel) | none possible with public data; ensemble spread 9–31 % multifamily share | **unvalidated**, bounded |
+| Stock growth | backcast: NY +3 % (2023), +27 % (2026); Tompkins +21 % / +90 % | weak for extrapolation; projections anchored on observed 2026 |
+| Charging shapes | NY 22-03 weekday shapes (r 0.88–0.97) | validated (shape, public/MUD) |
+| Charging energy magnitude | survey-based kWh/EV (−5 %), local ChargePoint utilisation range | consistent |
+| Home charging timing in upstate single-family homes; Level 1 behaviour; DCFC share | no public local data | **unvalidated** |
+| County hourly magnitude | only TEMPO (model, 2.2× higher) | benchmark only |
+| 2030–2050 load | scenario-conditional | not validatable |
+
+Full matrix: `docs/validation_matrix.md`.
+
+---
+
+# 8. Limitations and next steps
+
+**Most consequential uncertainties for building-level load:** (1) within-ZIP EV placement (multifamily/renter
+share), (2) home charging power and plug-in timing in upstate NY homes, (3) DCFC and workplace energy shares,
+(4) fleet depot locations and duty cycles, (5) adoption trajectory after 2030 (scenario spread 2.2× by 2050),
+(6) managed-charging program design (start-time staggering), (7) students and group-quarters vehicles.
+
+**Recommended next steps (public data):** extend AFDC historical snapshots to 2021–2025 (running); join parcels to
+building footprints and RC zones; site-specific DCFC growth scenarios; temperature-dependent annual energy for
+specific weather years; sensitivity runs for home L2 power (9.6–11.5 kW) and managed-window width.
+**If non-public data become available:** NYSEG/Cornell OptimizEV minute-level home charging, Charge Ready NY site
+usage, and utility AMI feeder data would allow the first empirical validation of hourly residential magnitudes.
