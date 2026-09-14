@@ -1,0 +1,15 @@
+metric,value
+SRMSE income (BG cells),0.0646
+R2 income (BG cells),0.9939
+total ACS income,43263.0
+SRMSE tenure_structure (BG cells),0.0631
+R2 tenure_structure (BG cells),0.999
+total ACS tenure_structure,43263.0
+SRMSE tenure_vehicles (BG cells),0.1172
+R2 tenure_vehicles (BG cells),0.9948
+total ACS tenure_vehicles,43263.0
+synthetic DUs,43251.0
+BGs,65.0
+ACS units placed on other structure class,1723.0
+ACS units not placed (no parcels),0.0
+synthetic household vehicles,66736.0
