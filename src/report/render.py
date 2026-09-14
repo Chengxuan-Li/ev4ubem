@@ -19,8 +19,8 @@ def main() -> None:
     if not pandoc:
         raise SystemExit("pandoc not found on PATH")
     out = REPORT.with_suffix(".html")
-    cmd = [pandoc, str(REPORT), "-o", str(out), "--standalone", "--embed-resources", "--mathml", "--toc", "--toc-depth=2",
-           "--number-sections", f"--resource-path={REPORT.parent}", f"--css={CSS}", "--metadata", "lang=en"]
+    cmd = [pandoc, str(REPORT), "-f", "markdown+tex_math_single_backslash", "-o", str(out), "--standalone", "--embed-resources", "--mathml", "--toc", "--toc-depth=2",
+           f"--resource-path={REPORT.parent}", f"--css={CSS}", "--metadata", "lang=en"]
     subprocess.run(cmd, check=True, cwd=REPORT.parent)
     print("wrote", out, round(out.stat().st_size / 1e6, 1), "MB")
 

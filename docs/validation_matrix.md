@@ -21,3 +21,18 @@ Last updated: 2026-09-14. What each model component can be checked against, with
 | Seasonality | monthly index | Boulder L2, Norway (C); NYSERDA 22-03 (B, qualitative) | C/B | winter energy index > summer | Upstate cold-weather efficiency penalty magnitude |
 | Aggregation / diversity | peak kW per EV vs N | Norway residential (C) | C | 4.7 kW (N=1) → 1.2 kW (N≈60) at 3.6 kW | Depends on imputed charging power; L1-heavy PHEV fleets |
 | County hourly load | 8,760 h kWh | TEMPO 2022 (E); no observed county EV load | E | TEMPO energy ≈ 2.5× bottom-up per observed EV | Everything at hourly magnitude is unvalidated empirically |
+
+## Modelling phase additions (2026-09-14; details in `docs/report_20260914_ev_model.md` §4–§7)
+
+| Model component | Check | Class | Result | Remains unvalidated |
+|---|---|---|---|---|
+| Synthetic dwelling units | ACS BG marginals (tenure×structure, tenure×vehicles, income) | A | R² 0.994–0.999 | joint distributions within BG |
+| Household propensity (ecological) | 10-fold county-grouped CV on 1,361 NY ZIPs; cross-year allocation 2023→2026 | B | vehicles+area models ≈ 0.78–0.80 deviance explained; priors weight ω ≈ 0 | within-ZIP composition effects |
+| Dwelling-unit allocation | ZIP totals reproduced (by construction); structural ensemble spread | — | MF share 21 % (9–31 %) | building placement |
+| Growth model | backcast fit ≤2021 | A/D | NY +3 % (2023), +27 % (2026); Tompkins +21 % / +90 % | post-2026 adoption path |
+| Charging frequency | Drive Clean 2024 categories | B | BEV TVD 0.18 (PHEV by construction) | L1 users |
+| Charging shapes | NYSERDA 22-03 weekday shapes | B | r 0.97 (home vs MUD), 0.91 (public), 0.88 (workplace, source) | upstate single-family timing |
+| Public L2 utilisation | ChargePoint ZIP 14850 | A/B | 9.6 vs 7.3–16.4 kWh/port-day | non-ChargePoint sites, post-2022 |
+| Energy per EV | survey mileage × efficiency | B | 2,994 vs 3,165 kWh | metered per-vehicle energy |
+| Seasonality / diversity | Dundee index; Norway diversity | C | r 0.82; within empirical range | NY cold-climate efficiency |
+| County load magnitude | TEMPO | E | 2.2× higher (benchmark) | all hourly magnitudes |
