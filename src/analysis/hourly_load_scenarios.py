@@ -10,10 +10,14 @@ Inputs
     PHEV = 10,082 x eUF x 0.35 / 0.90 with electric-utility factor eUF = 0.45 (assumption; range 0.3-0.6)
   Low/high: miles x 0.8 / x 1.2 (NHTS diary vs self-report spread) and eUF 0.3 / 0.6.
 - Hour-of-day energy shapes (results/tables/sessions_hourly_energy_share.csv, class C, immediate charging):
-    home = norway_residential L2_home; work = workplace_midwest L2 (weekday); public L2 = boulder_public L2; DCFC = dundee_public DCFC
+    home = norway_residential L2_home; public L2 = boulder_public L2; DCFC = dundee_public DCFC (class C)
+    work = NYSERDA 22-03 Fig. 18 weekday workplace charging utilisation (2018-19 mean, anchor hours linearly interpolated;
+           class B). The open Midwest workplace dataset was rejected for timing: its weekday peak is at 12:00 vs 9-10 in NY
+           (r = 0.47, results/tables/ny_vs_open_weekday_shape_metrics.csv), suggesting a timestamp offset or atypical site.
   Location energy mixture (assumption informed by Drive Clean survey frequencies and national studies):
     base home 0.80 / work 0.07 / public L2 0.08 / DCFC 0.05 ; home-heavy 0.90/0.04/0.03/0.03 ; public-heavy 0.65/0.10/0.13/0.12
-- Seasonality: monthly daily-energy index from boulder_public L2 + norway (mean of available indices).
+- Seasonality: detrended monthly daily-energy index (ratio to 2x12 centred MA) from dundee_public L2 + DCFC (cool climate,
+  3-4 years per month; class C). Boulder/Palo Alto show ~no seasonality and Norway has only one year -> not used.
 - TEMPO 2022 Tompkins hourly (reference 2026; efs_high_ldv 2026) converted from EST to America/New_York local time.
 Outputs
   results/tables/hourly_shape_comparison.csv       hour-of-day energy shares (weekday/weekend) by source
@@ -49,10 +53,20 @@ def annual_kwh(bev: float, phev: float, case: str) -> float:
     return bev * 10670 * mf * 0.32 / 0.90 + phev * 10082 * mf * euf * 0.35 / 0.90
 
 
+def ny_workplace_shape() -> np.ndarray:
+    f = pd.read_csv(PROCESSED / "nyserda_2203" / "fig18_weekday_charging_utilization_anchor_hours.csv", comment="#")
+    a = f[f["land_use"] == "workplace"].groupby("hour")["pct_charging"].mean()
+    x = np.array(list(a.index) + [24]); y = np.array(list(a.values) + [a.values[0]])
+    prof = np.interp(np.arange(24), x, y)
+    return prof / prof.sum()
+
+
 def shapes() -> dict:
     t = pd.read_csv(TABLES / "sessions_hourly_energy_share.csv")
-    out = {}
+    out = {("work", "weekday"): ny_workplace_shape(), ("work", "weekend"): ny_workplace_shape()}
     for loc, (ds, pt) in SRC_SHAPE.items():
+        if loc == "work":
+            continue
         for dt in ["weekday", "weekend"]:
             x = t[(t["dataset"] == ds) & (t["port_type"] == pt) & (t["day_type"] == dt)].sort_values("hour")["energy_share"].values
             if len(x) != 24:  # e.g. workplace has almost no weekend sessions -> use weekday shape
@@ -72,12 +86,13 @@ def weekend_energy_ratio() -> dict:
             r[loc] = we / wd
         else:
             r[loc] = 0.2
+    r["work"] = 0.25  # NYSERDA 22-03: weekend peak ~1/4 of weekday
     return r
 
 
 def month_index() -> pd.Series:
     m = pd.read_csv(TABLES / "sessions_monthly_index.csv")
-    m = m[m["dataset"].isin(["boulder_public", "norway_residential"]) & m["port_type"].isin(["L2", "L2_home"])]
+    m = m[(m["dataset"] == "dundee_public") & m["port_type"].isin(["L2", "DCFC"])]
     idx = m.groupby("month")["daily_kwh_index"].mean()
     return idx / idx.mean()
 
