@@ -1,6 +1,6 @@
 # Data source inventory
 
-Last updated: 2026-09-14. Availability classes follow the brief:
+Last updated: 2026-09-14 (statuses revised after first analyses). Availability classes follow the brief:
 **ACQ** = publicly available and acquired · **PUB** = public but not (yet) acquired/processed ·
 **SUM** = public summary only / raw data unavailable · **NP** = nonpublic or restricted.
 Evidence classes: A local observation · B New York observation · C national/nonlocal observation ·
@@ -46,14 +46,14 @@ Acquisition scripts live in `src/acquisition/`; provenance (URL/query, retrieval
 
 | Source | Avail. | Evid. | Role | Notes |
 |---|---|---|---|---|
-| NYSERDA 22-03 Cost & Usage Trends (1,288 stations, 434,578 sessions, 2012–2020) | SUM | B | NY public/workplace/MUD L2 utilisation, duration, hourly occupancy shapes | No session data public. Note: `source_notes/nyserda_22-03_charging_usage.md`. |
+| NYSERDA 22-03 Cost & Usage Trends (1,288 stations, 434,578 sessions, 2012–2020) | SUM | B | NY public/workplace/MUD L2 utilisation, duration, hourly occupancy shapes | No session data public. Fig. 18 weekday anchors transcribed to `data/processed/nyserda_2203/` (figure-read ±1–2 pp) and used as the NY shape check and workplace shape. Note: `source_notes/nyserda_22-03_charging_usage.md`. |
 | NYSERDA EVSE Use Reports 2013–2017 | SUM | B | Older NY L2 utilisation | PDFs only. |
-| EValuateNY ChargePoint "Charging Use" by ZIP-month (2010-12 → 2022-12) | ACQ | B/A | Monthly kWh, sessions, active ports by ZIP (incl. 14850, 13053, 13045) | Aggregated; ChargePoint network only. |
+| EValuateNY ChargePoint "Charging Use" by ZIP-month (2010-12 → 2022-12) | ACQ, analysed | B/A | Monthly kWh, sessions, active ports by ZIP (incl. 14850, 13053, 13045) | Aggregated; ChargePoint network only (~6 ports in 14850). `analysis/chargepoint_local_use.py`. |
 | Drive Clean Ownership Survey 2023/2024, Adoption Survey 2024/2025 | SUM | B (self-report, rebate recipients) | Home/work/public charging frequency, L1/L2 at home, annual miles | No microdata; strong selection (new-car buyers, 85% owners). Note: `source_notes/nyserda_drive_clean_surveys.md`. |
 | Con Edison SmartCharge NY evaluation; NYSEG/RG&E managed charging plans; NYSEG–Cornell OptimizEV pilot | SUM / NP | B | Average charging kW (BEV ~4.0, PHEV ~1.3), pilot summaries | OptimizEV minute data is nonpublic. |
 | Norway residential charging (Zenodo 13896176) | ACQ | C | Home charging sessions (apartment garages, cold climate) | CC-BY-4.0. |
 | City of Boulder public charging sessions 2018–2023 | ACQ | C | Public L2 sessions | CC0. |
-| Workplace charging, one US employer 2014–2015 (Harvard Dataverse QF1PMO) | ACQ | C | Workplace sessions | CC0. |
+| Workplace charging, one US employer 2014–2015 (Harvard Dataverse QF1PMO) | ACQ | C | Workplace sessions — **timing rejected** (weekday peak 12:00 vs NY 9–10 am, r = 0.47); energy/duration still usable | CC0. |
 | Dundee public charge points 2021–2025; Palo Alto 2011–2020 | ACQ | C | Public L2/DCFC sessions | OGL / open. |
 | Caltech ACN-Data; EV WATTS (Livewire); Pecan Street Dataport | NP (account/login) | C | — | Not used (no account creation). |
 | ElaadNL | SUM | C | Aggregated distributions only | — |

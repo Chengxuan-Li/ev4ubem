@@ -1,0 +1,5 @@
+model,cv,poisson_deviance,deviance_explained_vs_M0,mae_ev,median_ape,spearman_rate
+M0_const_rate,10-fold county-grouped,263028.0232,0.0,169.4574,0.6219,-0.2813
+NB_small,10-fold county-grouped,142260.1291,0.4591,104.885,0.2681,0.7525
+NB_full,10-fold county-grouped,87079.287,0.6689,79.1491,0.2502,0.8363
+HGB_poisson,10-fold county-grouped,82735.8416,0.6854,70.9642,0.2442,0.8423

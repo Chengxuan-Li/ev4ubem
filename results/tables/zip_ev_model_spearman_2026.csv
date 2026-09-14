@@ -1,0 +1,16 @@
+,ev_per_hh,ev_share_veh
+log_income,0.683,0.633
+ba_plus_share,0.67,0.821
+owner_sfd_share,0.294,-0.135
+renter_mf5_share,-0.034,0.372
+log_density,0.256,0.672
+veh_per_hh,0.335,-0.121
+zero_veh_share,-0.322,0.104
+commute30plus_share,0.084,0.264
+wfh_share,0.464,0.624
+transit_share,0.253,0.652
+college_share,0.213,0.446
+med_age,0.172,-0.052
+built2000plus_share,0.015,-0.087
+log_home_value,0.589,0.829
+inc150k_share,0.706,0.731

@@ -1,0 +1,16 @@
+feature,vif_full,vif_small
+log_income,9.29,5.2
+ba_plus_share,6.85,3.88
+owner_sfd_share,6.41,5.69
+renter_mf5_share,7.07,
+log_density,5.63,3.43
+veh_per_hh,15.25,6.34
+zero_veh_share,13.23,
+commute30plus_share,2.54,1.36
+wfh_share,2.29,
+transit_share,9.34,
+college_share,1.57,1.23
+med_age,1.79,
+built2000plus_share,1.31,
+log_home_value,6.59,
+inc150k_share,10.81,

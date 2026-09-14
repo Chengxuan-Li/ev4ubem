@@ -1,0 +1,13 @@
+[
+  {
+    "local_path": "data/raw/vpic/vpic_decoded.parquet",
+    "url": "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVINValuesBatch/",
+    "params": {
+      "method": "DecodeVINValuesBatch",
+      "key": "VIN[:8]+VIN[9:11]"
+    },
+    "bytes": 756363,
+    "sha256": "e0d5847be59bce220455b270258371fbc32b2b4bb2880d6e454d5e406d90ff1c",
+    "note": "one representative VIN per pattern key; representative VIN serials masked in cache"
+  }
+]
