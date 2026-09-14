@@ -776,7 +776,7 @@ if (D.optional && D.optional.uncertainty_decomposition_county && D.optional.unce
   ];
   const share = (year, pred, f) => { const r = all.find((x) => x.year === year && pred(x) && x.factor === f); return r ? Math.max(0, Number(r.variance_share)) * 100 : 0; };
   const labels = ROWS.map((r) => r[0]).reverse();
-  const s = slide('County load uncertainty comes from behaviour parameters today and stock growth by 2035; placement and its interactions dominate parcel peaks',
+  const s = slide('County load uncertainty comes from behaviour parameters today and stock growth by 2035; placement drives parcel peaks',
     'First-order variance shares (bias-corrected functional ANOVA on a fully crossed Monte Carlo design; ownership trend, charging base; home charging). Stock is observed in 2026, so its share is zero by construction. Placement = weighting choice plus sampling of which dwellings own EVs; behaviour = parameter uncertainty plus stochastic archetype and EV-year choice. Interactions are large for parcel peaks because an EV must be placed on a parcel before its charging behaviour matters. Small negative estimates (Monte Carlo noise) are shown as zero. Bootstrap 95 % intervals and factor ranges: results/tables/uncertainty_decomposition_*.csv, uncertainty_factor_ranges.csv.');
   // shared legend (one for both panels): colour key squares with labels
   let lx = ML;
