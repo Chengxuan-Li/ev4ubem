@@ -465,6 +465,56 @@ central campus block group receives 14 % of in-commuter workplace charging. Deta
 - Site-level DCFC growth is allocated to today's stations (largest site > 9 MW by 2050 in the trend scenario), which is
   unrealistic; new sites must be sited explicitly in future work.
 
+## 6.3 Where the uncertainty comes from
+
+A fully crossed Monte Carlo design (8,192 model evaluations for 2026, 20,000 for 2035; ownership trend, charging base,
+home charging) varies five independent factors: county stock (observed in 2026; ten equal-probability strata of the
+growth Monte Carlo in 2035), placement weighting (ecological vs NHTS individual), placement sampling (which dwellings own
+EVs), behaviour parameters (home L2 power ×0.85–1.35, energy per mile ×0.85–1.15, annual miles ×0.85–1.25, multifamily
+home access ±0.20, Dirichlet frequency mix; `results/tables/uncertainty_factor_ranges.csv`) and stochastic behaviour
+(archetype and EV-year per EV). The variance of each load metric \(Y\) is split into Sobol–Hoeffding components on the
+design grid, bias-corrected for the finite number of levels \(K_f\):
+
+\[
+\hat D_A=\sum_{B\subseteq A}(-1)^{|A|-|B|}\tilde V_B,\qquad
+\mathbb{E}[\hat D_A]=\sum_{B\supseteq A} D_B\prod_{f\in A}a_f\prod_{f\in B\setminus A}b_f,\qquad
+S_G=\frac{\sum_{\emptyset\neq A\subseteq G}D_A}{\sum_A D_A}
+\]
+
+with \(a_f=(K_f-1)/K_f,\ b_f=1/K_f\) for randomly drawn factors and \(a_f=1,\ b_f=0\) for enumerated or stratified ones;
+groups \(G\) are stock, placement and behaviour, and the remainder is interaction. Intervals: 200 bootstrap resamples
+of the random factors' levels (100 for parcels); a repeat with another seed changes group shares by a median of 0.8
+percentage points (largest 14 points, 2026 county peak).
+
+| Year | Scale · metric | Stock | Placement | Behaviour | Interaction |
+|---|---|---|---|---|---|
+| 2026 | County home energy | 0 | 21 % [14, 34] | **77 %** [63, 84] | 2 % |
+| 2026 | County home peak hour | 0 | 6 % [1, 22] | **88 %** [61, 97] | 6 % |
+| 2026 | Block group energy (mean of 65) | 0 | **64 %** [61, 67] | 14 % | 22 % |
+| 2026 | Block group peak (mean of 65) | 0 | **43 %** [38, 48] | 22 % | 36 % |
+| 2026 | Parcel peak: 1 / 2–4 / 5–19 / 20+ units | 0 | **75 / 71 / 48 / 39 %** | 1 / 1 / 2 / 7 % | 24 / 28 / 50 / 54 % |
+| 2035 | County home energy | **87 %** [81, 92] | 1 % | 12 % | 1 % |
+| 2035 | County home peak hour | **82 %** [74, 90] | 0 % | 16 % | 2 % |
+| 2035 | Block group energy / peak (mean of 65) | **69 / 60 %** | 15 / 13 % | 11 / 16 % | 5 / 11 % |
+| 2035 | Parcel peak: 1 / 2–4 / 5–19 / 20+ units | 3 / 5 / 6 / 14 % | **62 / 55 / 38 / 28 %** | 4 / 6 / 11 / 20 % | 31 / 34 / 45 / 37 % |
+
+![Variance decomposition](../results/figures/uncertainty_decomposition.png)
+
+**Readings [inferred].**
+- *UBEM validation:* at parcel level most uncertainty is whether a dwelling hosts an EV (55–75 % for 1–4-unit parcels),
+  so hourly measurements at a few buildings cannot test the charging model unless EV presence is known. Validate
+  behaviour at county or feeder level and placement at block-group level.
+- *Utility planning:* for 2035, adoption pace explains 82–87 % of county variance; stock scenarios or bands matter more
+  than charging-model refinement. For 20+-unit parcels no single source dominates.
+- *Data priorities:* today, home L2 power, mileage and multifamily access (county); sub-ZIP EV location (block groups);
+  for 2035, adoption forecasting. Stochastic behaviour alone is < 1 % at county and block-group scale.
+- Placement weighting explains 20 % of 2026 county *home* energy but ≈ 0 % of total resident-EV energy: placing EVs in
+  multifamily housing moves charging from homes to public chargers rather than changing the total.
+
+Caveats: base charging only; two central weightings (the five-weighting sensitivity is implemented, not run); weather
+year, plug-in timing distributions, new construction and dormitory vehicles not varied; φ held at its central value;
+2026 county shares rest on 16 parameter draws (wide intervals). Code: `src/analysis/uncertainty_decomposition.py`.
+
 ---
 
 # 7. What is validated, what is not

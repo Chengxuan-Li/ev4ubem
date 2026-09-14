@@ -36,3 +36,4 @@ Last updated: 2026-09-14. What each model component can be checked against, with
 | Energy per EV | survey mileage × efficiency | B | 2,994 vs 3,165 kWh | metered per-vehicle energy |
 | Seasonality / diversity | Dundee index; Norway diversity | C | r 0.82; within empirical range | NY cold-climate efficiency |
 | County load magnitude | TEMPO | E | 2.2× higher (benchmark) | all hourly magnitudes |
+| Uncertainty attribution (not validation) | Sobol–Hoeffding decomposition, crossed Monte Carlo (report §6.3) | inferred | 2026: behaviour 77–88 % (county), placement 43–64 % (BG), 71–75 % (1–4-unit parcel peaks); 2035: stock 82–87 % (county) | which checks can discriminate: parcel-level data test placement, county/feeder data test behaviour |

@@ -47,7 +47,7 @@ Project lead requirements that shaped the design (recorded here because they are
 | Charging model (parameters, event library, load assembly, UBEM export) | done | report §5–§6; `src/model/{charging_params,charging_library,load_assembly,export_ubem}.py` |
 | Report + HTML | done | `docs/report_20260914_ev_model.{md,html}` |
 | In-commuter charging gap (LEHD LODES 2023) | done, **not applied** to load tables | `src/analysis/incommuter_charging.py`, `docs/source_notes/lehd_lodes_incommuting.md`, `results/tables/incommuter_*.csv`. Net correction small and negative (central −146 MWh/yr in 2026). Proposed integration in §5 below. |
-| Variance decomposition of load uncertainty (stock / placement / behaviour × scale) | **in progress** on 2026-09-14 | `src/analysis/uncertainty_decomposition.py` (docstring has design). If `results/tables/uncertainty_decomposition_*.csv` are missing, run `python -m src.analysis.uncertainty_decomposition --workers 8` (long; scratch in `data/interim/uncertainty/`), repeat with `--seed 7` for a stability check, then `--figure-only`. Add report subsection "6.3 Where the uncertainty comes from". |
+| Variance decomposition of load uncertainty (stock / placement / behaviour × scale) | done (report §6.3) | `src/analysis/uncertainty_decomposition.py` (docstring has design); tables `results/tables/uncertainty_decomposition_*.csv`. Rerun: `--workers 8` (~12 min + ~7 min analysis on 10 cores; needs `data/interim/charging_library/`), stability repeat `--seed 7`, `--figure-only`. Not yet run: `--weightings all` (five weightings) and managed charging. |
 | Presentation deck (`.pptx`, not version-controlled) | generator done | `docs/deck.md`. Rebuild after any table change. Uncertainty slide appears automatically when its tables exist (review its layout when first produced). |
 
 ## 4. Open questions for the project lead (asked 2026-09-14, unanswered)
@@ -62,7 +62,8 @@ Do not assume answers; the backlog below is ordered so that items 1–4 do not d
 
 ## 5. Backlog (ordered)
 
-1. **Finish the uncertainty decomposition** (see §3) and write report §6.3; update `docs/findings.md` and the deck.
+1. **Uncertainty decomposition extensions** (optional): five-weighting sensitivity (`--weightings all`), managed
+   charging, plug-in timing and weather-year factors.
 2. **AFDC 2021–2025 snapshots** (see §3); then site-specific **DC fast growth scenarios**: new DC fast sites instead of
    scaling existing stations (the current rule gives a > 9 MW single site by 2050 in the trend scenario; report §6.2).
 3. **Commuter adjustment** (optional, small): add to `src/model/load_assembly.py` a function

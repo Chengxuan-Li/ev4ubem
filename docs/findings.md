@@ -277,5 +277,9 @@ location energy shares, session-level distributions, charging power distribution
   uncertainty). Source note: `docs/source_notes/lehd_lodes_incommuting.md`.
 - **Student and visitor vehicles:** no login-free source counts out-of-county student EVs; the existing passer-by term
   (523 MWh/yr) is taken to cover visitors (a visitor-profile calculation gives 60–430 MWh/yr).
-- **Variance decomposition** of load uncertainty by source and scale is in progress (`src/analysis/uncertainty_decomposition.py`);
-  see `docs/HANDOFF.md`.
+- **Where load uncertainty comes from depends on scale and horizon** [inferred; report §6.3,
+  `src/analysis/uncertainty_decomposition.py`]. With the 2026 stock observed, behaviour parameters explain 77 % of
+  county home-energy variance and 88 % of peak variance; placement explains 64 % (energy) and 43 % (peak) at
+  block-group level and 71–75 % of peak variance for 1–4-unit parcels. By 2035 adoption (stock) uncertainty explains
+  82–87 % at county and 60–69 % at block-group level, while parcel peaks remain governed by placement and its
+  interaction with behaviour. Consequence: building-level uncertainty cannot be reduced by better charging data alone.

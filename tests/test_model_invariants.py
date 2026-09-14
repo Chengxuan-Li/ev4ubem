@@ -80,3 +80,11 @@ def test_county_load_has_all_locations():
     assert len(c) == 8760
     assert set(["home", "work", "public_l2", "dcfc", "fleet", "passerby"]) <= set(c.columns)
     assert (c.values >= -1e-6).all()
+
+
+def test_uncertainty_decomposition_shares_sum_to_one():
+    t = pd.read_csv(_need(TABLES / "uncertainty_decomposition_county.csv"))
+    fo = t[(t["index"] == "first_order") & t["factor"].isin(["stock", "placement", "behaviour", "interaction"])]
+    s = fo.groupby(["year", "metric"])["variance_share"].sum()
+    assert np.allclose(s, 1.0, atol=1e-3)
+    assert (t.loc[(t["year"] == 2026) & (t["factor"] == "stock"), "variance_share"] == 0).all()  # stock observed in 2026
