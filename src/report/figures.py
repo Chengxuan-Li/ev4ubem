@@ -120,7 +120,7 @@ def parcel_peaks():
         if not p.exists():
             continue
         s = pd.read_csv(p).join(struct, on="parcel").join(units, on="parcel")
-        s = s[s["prob_any_ev_charging"] > 0]
+        s = s[(s["prob_any_ev_charging"] > 0) & (s["E_ev"] > 0) & (s["peak_kw_p90"] > 0)]
         for st, mk in [("SFD", "o"), ("MF20P", "s")]:
             q = s[s["structure"] == st]
             ax[0].scatter(q["E_ev"], q["peak_kw_p90"], s=6, alpha=0.4, marker=mk, color=col, label=f"{year} {st}")

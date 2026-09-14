@@ -38,6 +38,20 @@ python -m src.analysis.chargepoint_local_use
 python -m src.analysis.diversity
 python -m src.analysis.hourly_load_scenarios
 python -m src.analysis.home_event_library
+# ownership, growth and charging models (stages 1-2 and 4; see docs/report_20260914_ev_model.md)
+python -m src.acquisition.acs_pums && python -m src.acquisition.weather_epw
+python -m src.processing.weather && python -m src.processing.synthetic_dwellings && python -m src.processing.acs_composition
+python -m src.processing.vehicle_flows_history
+python -m src.model.growth
+python -m src.analysis.adoption_concentration
+python -m src.model.ownership_propensity
+python -m src.model.ownership_allocation
+python -m src.model.charging_params
+python -m src.model.charging_library --years 2026 2030 2035 2040 2050 --n 60
+python -m src.model.load_assembly --realizations 30
+python -m src.analysis.charging_validation && python -m src.analysis.energy_reconciliation
+python -m src.report.figures
+python -m src.model.export_ubem --year 2026 --sample
 # checks
 python -m pytest -q tests
 ```
