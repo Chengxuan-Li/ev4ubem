@@ -1,0 +1,9 @@
+drivetrain,category,simulated_share,drive_clean_share
+BEV,daily,0.3837,0.382
+BEV,few_week,0.5045,0.3146
+BEV,weekly,0.1016,0.2247
+BEV,rare,0.0102,0.0787
+PHEV,daily,0.6343,0.6343
+PHEV,few_week,0.1866,0.1866
+PHEV,weekly,0.0557,0.0547
+PHEV,rare,0.1234,0.1244

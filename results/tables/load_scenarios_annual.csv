@@ -1,0 +1,2 @@
+year,ownership_scenario,charging_scenario,annual_mwh_total,annual_mwh_home,annual_mwh_work,annual_mwh_public_l2,annual_mwh_dcfc,annual_mwh_fleet,annual_mwh_passerby,peak_mw_total,peak_hour_of_year,home_peak_mw,load_factor
+2026,trend,base,11152.7769,5790.6737,437.5028,857.6443,1715.5085,1779.6116,571.8362,5.0426,7770,1.7673,0.2525
