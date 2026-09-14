@@ -233,4 +233,59 @@ Parameter uncertainty (400 draws of \(t_0, k, m\); \(N_{\text{new}}\) ±15 %; \(
 
 ![Evolution](../results/figures/allocation_evolution.png)
 
-<!-- SECTIONS 5-8 (charging, load results, validation summary, limitations) are inserted after the final runs -->
+# 5. Charging model
+
+## 5.1 Parameters by year (`data/processed/charging/parameters_by_year.csv`)
+
+| Parameter | 2026 | 2035 (base / access+ / managed) | 2050 (base) | Evidence |
+|---|---|---|---|---|
+| Annual miles BEV / PHEV | 10,670 / 10,082 | held | held | B (Drive Clean 2024, self-report) |
+| Energy at wheel BEV / PHEV (kWh/mi at 20 °C) | 0.31 / 0.34 | 0.29 / 0.32 | 0.27 / 0.30 | assumption |
+| Temperature multiplier \(m(T)\) | \(1 + 0.011\max(0,20-T) + 0.006\max(0,T-25)\) | | | assumption (≈ +30 % at −7 °C) |
+| PHEV electric range (mi) | 35 | 45 | 50 | fleet mix, assumption |
+| Home access: SF owner / SF renter | 0.95 / 0.75 | 0.96 / 0.80 (access+: 0.88) | 0.97 / 0.85 | B (Drive Clean 89 % BEV) + assumption |
+| Home access: 2–4 units / 5+ units | 0.55 / 0.35 | 0.62 / 0.45 (access+: 0.75 / 0.65) | 0.70 / 0.60 | B (SMBS upstate parking 84 %, chargers 5.7 %) + assumption |
+| Home L2 share BEV / PHEV (5+ units: 0.8) | 0.80 / 0.28 | 0.88 / 0.40 | 0.92 / 0.50 | B (Drive Clean 58 %+27 % / 24 %) |
+| L1 / L2 BEV / L2 PHEV power (kW) | 1.4 / 7.2 / 3.6 | 1.4 / 8.0 / 5.0 | 1.4 / 8.5 / 6.0 | assumption |
+| Frequency type BEV daily/few-wk/weekly/rare | 34/28/20/7 (renormalized) | | 30/30/22/8 | B |
+| Frequency type PHEV | 51/15/4.4/10 | | same | B |
+| Workplace access per worker × use | 0.23 × 0.65 | 0.32 (access+: 0.45) × 0.65 | 0.40 × 0.65 | B |
+| Public top-up share (home-access EVs) | 0.08 | 0.07 | 0.06 | assumption |
+| Managed share of home L2 sessions | 0 (managed: 0.05) | 0 (managed: 0.35) | 0 (managed: 0.60) | scenario |
+| Passer-by share of DCFC energy | 0.25 | 0.25 | 0.25 | assumption |
+| Fleet miles/yr; kWh/mi | 14,000; 0.40 | | | assumption |
+
+## 5.2 Event model (one simulated EV-year)
+
+Energy ledger with battery deficit \(D_t\) (kWh at the wheel, \(0 \le D_t \le C\)):
+
+\[
+E_t = d_t\, e_{\text{wheel}}(y)\, m(T_t),\qquad
+d_t = A\,\frac{g_t\,\mathbb{1}[\text{drive}_t]}{\sum_{t'} g_{t'}\,\mathbb{1}[\text{drive}_{t'}]},\quad g_t \sim \Gamma(1.3,1),\quad A \sim \text{LogN}
+\]
+
+Each day: morning driving → workplace opportunity (arrival and dwell sampled from NHTS 2022 work trips, 6.6 kW) →
+afternoon driving → public top-up (Boulder L2 / Dundee DCFC session distributions) → home plug-in decision
+(probability by frequency type; BEVs forced when \(D > 0.6C\); plug-in time and connection duration sampled jointly
+from Norway residential sessions of the same day type). Delivered energy at the plug
+\(q = \min(D/\eta_\ell,\; P_\ell \cdot \text{conn})\), charging at constant power from start (managed sessions start at
+\(\max(\text{plug-in},\ 23{:}00 + U[0,2]\,\text{h})\) when the window allows). BEVs exceeding \(0.95C\) take an
+en-route DCFC session; PHEVs never DC fast charge and switch to gasoline when empty. Hourly energy is the overlap of
+each session with each clock hour. 52 archetypes × 60 EV-years per anchor year (2026, 2030, 2035, 2040, 2050).
+
+## 5.3 Assembly into dwelling, parcel, BG and site loads
+
+\[
+L_d(t) = E^{\text{BEV}}_d(y)\,\Pi_{k(d),\text{BEV}}(t) + E^{\text{PHEV}}_d(y)\,\Pi_{k(d),\text{PHEV}}(t),\qquad
+\Pi_{k,v}(t) = \sum_a P(a\mid k,v,y,c)\,\bar h_a(t)
+\]
+
+\[
+P(\text{workplace user}\mid k) = 1 - \big(1 - p_{\text{access}}(y)\,p_{\text{use}}\big)^{\text{workers}(k)}
+\]
+
+Non-residential pools (resident EVs' workplace, public L2 and DCFC energy, plus fleet and passer-by terms) are
+distributed to AFDC public ports, listed and unlisted workplace sites, and fleet parcels (§6.4). Building-peak
+uncertainty uses realizations (Poisson EV counts per dwelling, archetype and library EV-year per EV).
+
+<!-- SECTIONS 5.4-8 (validation, load results, limitations) are inserted after the final runs -->
