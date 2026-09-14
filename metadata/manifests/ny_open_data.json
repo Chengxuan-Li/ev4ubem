@@ -1,0 +1,85 @@
+[
+  {
+    "local_path": "data/raw/ny_open_data/dmv_reg_ny_agg_county_class_fuel_body.parquet",
+    "url": "https://data.ny.gov/resource/w4pv-hbkt.csv",
+    "dataset_id": "w4pv-hbkt",
+    "dataset_name": "Vehicle, Snowmobile, and Boat Registrations",
+    "source_rows_updated_utc": "2026-09-02T21:34:45+00:00",
+    "params": {
+      "$select": "record_type, county, registration_class, fuel_type, body_type, count(*) as n",
+      "$where": "record_type='VEH'",
+      "$group": "record_type, county, registration_class, fuel_type, body_type",
+      "$order": "record_type, county, registration_class, fuel_type, body_type"
+    },
+    "retrieved_utc": "2026-09-14T07:38:18+00:00",
+    "rows": 0,
+    "bytes": 70321,
+    "sha256_parquet": "4c9a5e08f4907ed1defe3bca2b2f55a5830f3bc9855a34a1e02d5c75f5573fd2",
+    "note": "dmv_reg_ny_agg_county_class_fuel_body"
+  },
+  {
+    "local_path": "data/raw/ny_open_data/dmv_reg_ny_agg_zip_class_fuel.parquet",
+    "url": "https://data.ny.gov/resource/w4pv-hbkt.csv",
+    "dataset_id": "w4pv-hbkt",
+    "dataset_name": "Vehicle, Snowmobile, and Boat Registrations",
+    "source_rows_updated_utc": "2026-09-02T21:34:45+00:00",
+    "params": {
+      "$select": "record_type, zip, county, state, registration_class, fuel_type, count(*) as n",
+      "$group": "record_type, zip, county, state, registration_class, fuel_type",
+      "$order": "record_type, zip, county, state, registration_class, fuel_type"
+    },
+    "retrieved_utc": "2026-09-14T07:37:50+00:00",
+    "rows": 0,
+    "bytes": 494475,
+    "sha256_parquet": "8b3f60418827cbe55b90f7fe3cf0cf47756e5f8970157220820eee010f07c69f",
+    "note": "dmv_reg_ny_agg_zip_class_fuel"
+  },
+  {
+    "local_path": "data/raw/ny_open_data/dmv_reg_ny_electric.parquet",
+    "url": "https://data.ny.gov/resource/w4pv-hbkt.csv",
+    "dataset_id": "w4pv-hbkt",
+    "dataset_name": "Vehicle, Snowmobile, and Boat Registrations",
+    "source_rows_updated_utc": "2026-09-02T21:34:45+00:00",
+    "params": {
+      "$where": "fuel_type='ELECTRIC'",
+      "$order": ":id"
+    },
+    "retrieved_utc": "2026-09-14T07:34:27+00:00",
+    "rows": 0,
+    "bytes": 3721060,
+    "sha256_parquet": "dec976c31bc4c456e05525fcd66afe753fe457ffcf843b7cc9ee3e68a98fc690",
+    "note": "dmv_reg_ny_electric"
+  },
+  {
+    "local_path": "data/raw/ny_open_data/dmv_reg_tompkins_area_veh.parquet",
+    "url": "https://data.ny.gov/resource/w4pv-hbkt.csv",
+    "dataset_id": "w4pv-hbkt",
+    "dataset_name": "Vehicle, Snowmobile, and Boat Registrations",
+    "source_rows_updated_utc": "2026-09-02T21:34:45+00:00",
+    "params": {
+      "$where": "record_type='VEH' AND (county='TOMPKINS' OR zip in ('13045','13053','13062','13068','13073','13092','13102','13736','13864','14817','14850','14851','14852','14853','14854','14867','14881','14882','14883','14886'))",
+      "$order": ":id"
+    },
+    "retrieved_utc": "2026-09-14T07:34:06+00:00",
+    "rows": 0,
+    "bytes": 1929154,
+    "sha256_parquet": "6b4536a1e6a2253549251bc01d7616368eaaa95cf209ef79dc7117ea0a447021",
+    "note": "dmv_reg_tompkins_area_veh"
+  },
+  {
+    "local_path": "data/raw/ny_open_data/dmv_transactions_tompkins.parquet",
+    "url": "https://data.ny.gov/resource/s2dd-yksa.csv",
+    "dataset_id": "s2dd-yksa",
+    "dataset_name": "Department of Motor Vehicles Registration Transactions: Two Year Window",
+    "source_rows_updated_utc": "2026-09-13T22:42:06+00:00",
+    "params": {
+      "$where": "residence_county='TOMPKINS'",
+      "$order": ":id"
+    },
+    "retrieved_utc": "2026-09-14T07:38:35+00:00",
+    "rows": 0,
+    "bytes": 2877953,
+    "sha256_parquet": "e310facab2b7ca74edd4d063224d0cabb8a7fbdebb811343b1f75c501a4a5caa",
+    "note": "dmv_transactions_tompkins"
+  }
+]

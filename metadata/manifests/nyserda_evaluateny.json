@@ -1,0 +1,38 @@
+[
+  {
+    "local_path": "data/raw/nyserda/EValuateNY-User-Guide.pdf",
+    "url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/Research/Transportation/EValuateNY-User-Guide.pdf",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:31:21+00:00",
+    "bytes": 1936507,
+    "sha256": "3f69621a780951d9575774326d88c1a38ba3ec0e9d2668b32669e8493bc6bed3",
+    "note": "NYSERDA EV registration data / EValuateNY archive"
+  },
+  {
+    "local_path": "data/raw/nyserda/EValuateNY_v11_pt1.zip",
+    "url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/Research/Transportation/EValuateNY_v11_pt1.zip",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:31:31+00:00",
+    "bytes": 333326270,
+    "sha256": "fb887b568a08e733c07e5347859a87fbf9fb64376691585513069eda7c87dc84",
+    "note": "NYSERDA EV registration data / EValuateNY archive"
+  },
+  {
+    "local_path": "data/raw/nyserda/EValuateNY_v11_pt2.zip",
+    "url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/Research/Transportation/EValuateNY_v11_pt2.zip",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:31:41+00:00",
+    "bytes": 367799457,
+    "sha256": "15d87420ccd040df0e682cfc9919c1a61ddd20f84c11a9aaeec93538f946bba0",
+    "note": "NYSERDA EV registration data / EValuateNY archive"
+  },
+  {
+    "local_path": "data/raw/nyserda/ny_ev_registrations.csv",
+    "url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Programs/ChargeNY/ny_ev_registrations.csv",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:31:20+00:00",
+    "bytes": 138217959,
+    "sha256": "8abfeefbcb40c75657ae1a33e946996329a967b305b548887339b29794c31263",
+    "note": "NYSERDA EV registration data / EValuateNY archive"
+  }
+]

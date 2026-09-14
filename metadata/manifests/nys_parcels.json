@@ -1,0 +1,47 @@
+[
+  {
+    "local_path": "data/raw/parcels/tompkins_parcels_2025.gpkg",
+    "url": "https://gisservices.its.ny.gov/arcgis/rest/services/NYS_Tax_Parcels_Public/MapServer/1/query",
+    "params": {
+      "where": "COUNTY_NAME='Tompkins'",
+      "outFields": [
+        "COUNTY_NAME",
+        "MUNI_NAME",
+        "SWIS",
+        "PARCEL_ADDR",
+        "PRINT_KEY",
+        "SBL",
+        "CITYTOWN_NAME",
+        "CITYTOWN_SWIS",
+        "LOC_ZIP",
+        "PROP_CLASS",
+        "ROLL_SECTION",
+        "LAND_AV",
+        "TOTAL_AV",
+        "FULL_MARKET_VAL",
+        "YR_BLT",
+        "SQ_FT",
+        "ACRES",
+        "BLDG_STYLE",
+        "BLDG_STYLE_DESC",
+        "HEAT_TYPE_DESC",
+        "FUEL_TYPE_DESC",
+        "SQFT_LIVING",
+        "GFA",
+        "NBR_KITCHENS",
+        "NBR_BEDROOMS",
+        "USED_AS_CODE",
+        "USED_AS_DESC",
+        "OWNER_TYPE",
+        "ROLL_YR",
+        "SPATIAL_YR",
+        "SWIS_SBL_ID",
+        "CALC_ACRES"
+      ]
+    },
+    "retrieved_utc": "2026-09-14T07:38:40+00:00",
+    "bytes": 21852160,
+    "sha256": "a26196c14f342f32d2312fdb15051edae3d79d4fbdb5e696ad02355a2fcc65e3",
+    "note": "NYS ITS public tax parcels, 2025 assessment roll; owner/mailing fields excluded"
+  }
+]

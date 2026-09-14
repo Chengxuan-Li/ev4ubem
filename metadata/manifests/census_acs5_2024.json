@@ -1,0 +1,260 @@
+[
+  {
+    "local_path": "data/raw/census/acs5_2024/ACS20245YR_Table_Shells.txt",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/documentation/ACS20245YR_Table_Shells.txt",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:35:41+00:00",
+    "bytes": 5622840,
+    "sha256": "5b46f4af873744a415c4974204010db976e2a61ff916674732f81c496a6b517d",
+    "note": "table shells (variable labels)"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/Geos20245YR.txt",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/documentation/Geos20245YR.txt",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:35:38+00:00",
+    "bytes": 90707242,
+    "sha256": "b87a1d1a4db9f826d0d133d20cbf7d011932f9ec2cfa74eacf8c9cf387aea344",
+    "note": "ACS geography file (national)"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b01002_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01002.dat",
+    "table": "b01002",
+    "title": "Median age by sex",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 384760,
+    "sha256_parquet": "9267c86f467644c038e9edb856fe50e1b5a4ab62c29493c21c0fec7cfe170e78",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b01003_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01003.dat",
+    "table": "b01003",
+    "title": "Total population",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 288441,
+    "sha256_parquet": "f9cfe8c5b53657f67c36d89ec3f41e774af19dd5dcf2295baa3022b1970e56f5",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b08006_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08006.dat",
+    "table": "b08006",
+    "title": "Sex of workers by means of transportation (incl. worked from home)",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 1393610,
+    "sha256_parquet": "785dba9deae69ae7357f39620620439abd9cf710720b960768f98ed09732cdb7",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b08201_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08201.dat",
+    "table": "b08201",
+    "title": "Household size by vehicles available",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 964036,
+    "sha256_parquet": "84da2c1fafa235f89ab5ff49028c21fd3335418379360fc105f61a7f005b5fe3",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b08301_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08301.dat",
+    "table": "b08301",
+    "title": "Means of transportation to work",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 1205492,
+    "sha256_parquet": "e4fa1aa9cfd35d6a3f28ad2e87cedacbfd0a9c81d81a8b6d6e1ecc9593f0704d",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b08302_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08302.dat",
+    "table": "b08302",
+    "title": "Time leaving home to go to work",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 1200881,
+    "sha256_parquet": "e71cabe2a979c684afe579376cedb3e57529b85a0d7a7087f6c87d3b5e4877dd",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b08303_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b08303.dat",
+    "table": "b08303",
+    "title": "Travel time to work",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 1081990,
+    "sha256_parquet": "fb11b54b2f5bb83e5bb0c7e57e210aefd9518189334ec7e2dcd07f17f70ada83",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b11001_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b11001.dat",
+    "table": "b11001",
+    "title": "Household type",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 878666,
+    "sha256_parquet": "5e5ead65b0638d5b8ce8778647d41eed9f32564de816101781f607a6a8cedbe6",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b11016_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b11016.dat",
+    "table": "b11016",
+    "title": "Household type by household size",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 1060426,
+    "sha256_parquet": "9d8c9b0240b87488dcf3b5cc05b5d81c1c70bb9c0babb4da67896045e238daca",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b14007_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b14007.dat",
+    "table": "b14007",
+    "title": "School enrollment by level (college students)",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 1482843,
+    "sha256_parquet": "bfb19c79386a417f82460e89c55938b055989aabc5461893a17dbedaf5a32179",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b15003_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b15003.dat",
+    "table": "b15003",
+    "title": "Educational attainment 25+",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 1489405,
+    "sha256_parquet": "987bac7389da088d7bfb0d0c003be0f2ad07d56f2d1ac44b68ed9e95971992a9",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b19001_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19001.dat",
+    "table": "b19001",
+    "title": "Household income in past 12 months (bins)",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 1323480,
+    "sha256_parquet": "23496f3dcae436b73ec8573e21d5ef2ebbd91e27f8eefc60471987cc8ef473df",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b19013_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+    "table": "b19013",
+    "title": "Median household income",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 426257,
+    "sha256_parquet": "71365ef88112cfe58c89eaa904f5da47c186fcc706ddeafb92f760bd171bbf2c",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b23025_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b23025.dat",
+    "table": "b23025",
+    "title": "Employment status",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 751016,
+    "sha256_parquet": "2110a85dbdf9057b18b0defe37f7842a357fab87f0cb749056c0341cc2787816",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b25003_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25003.dat",
+    "table": "b25003",
+    "title": "Tenure",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 436950,
+    "sha256_parquet": "dc99b427a0ceece5f1438779131ae4353444cf403c7aaa6e24b81f77d258ec49",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b25024_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25024.dat",
+    "table": "b25024",
+    "title": "Units in structure",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 837736,
+    "sha256_parquet": "921bf2c2abb930b3e43f71b030a0f46735ab5d46d325bccefc656ecafe17375f",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b25032_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25032.dat",
+    "table": "b25032",
+    "title": "Tenure by units in structure",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 1299263,
+    "sha256_parquet": "8d2790067e043a2fc2eaa37530b4eda372862843b48d0f8ba644e101f96e5f19",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b25034_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25034.dat",
+    "table": "b25034",
+    "title": "Year structure built",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 934017,
+    "sha256_parquet": "478c47a226c27438f880581b09953a77b4f7092b12b2fa60f46378aebed82b75",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b25040_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25040.dat",
+    "table": "b25040",
+    "title": "House heating fuel",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 719294,
+    "sha256_parquet": "c8b951d8ccd4a3ac3752ac842929aa0b6ba88254afe82f1cec065f9a5990adb5",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b25044_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25044.dat",
+    "table": "b25044",
+    "title": "Tenure by vehicles available",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 1086796,
+    "sha256_parquet": "2edc5ba8b8cb46e2ab5462590e046d890134f5bc32b021468b7f898493da2e5f",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b25046_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25046.dat",
+    "table": "b25046",
+    "title": "Aggregate vehicles available by tenure",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 378430,
+    "sha256_parquet": "56d5ec098b538af7b4223e2bdcb4a15e98d017e36fc108da257b9c753df88c82",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b25077_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25077.dat",
+    "table": "b25077",
+    "title": "Median value (owner-occupied)",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 395789,
+    "sha256_parquet": "cd37098b99bc3de175458b7b3a038a4a7abd74e00c57449a1cf76f11a004bfc2",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b25118_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25118.dat",
+    "table": "b25118",
+    "title": "Tenure by household income",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 800184,
+    "sha256_parquet": "24256d05c267301d2254821be18ffedea098105fad1241d29444bfc2f021bf91",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  },
+  {
+    "local_path": "data/raw/census/acs5_2024/b26001_ny.parquet",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b26001.dat",
+    "table": "b26001",
+    "title": "Group quarters population",
+    "filter": "NY state/county/cousub/tract/bg/place + ZCTAs 10001-14999",
+    "bytes": 98435,
+    "sha256_parquet": "340000c696b29a114c1836724ccccf85c81f9ef2ce2ed52b89538df18efdc04d",
+    "note": "negative/sentinel values (e.g. -666666666) denote unavailable estimates"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "local_path": "data/raw/nhts2022/nhts2022_csv.zip",
+    "url": "https://nhts.ornl.gov/assets/2022/download/csv.zip",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:35:23+00:00",
+    "bytes": 3916688,
+    "sha256": "210a4e7092a0135f15c95f001836669949cd6a1f515620bce496c84250527bf2",
+    "note": "NHTS 2022 public-use CSV (hh, per, veh, trip, ldt)"
+  }
+]

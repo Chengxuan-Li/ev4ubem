@@ -1,0 +1,177 @@
+{
+  "id": "s2dd-yksa",
+  "name": "Department of Motor Vehicles Registration Transactions: Two Year Window",
+  "description": "This is a listing of vehicle and vessel registration transactions with\r\ndetails useful to parties that study the transportation industry and\r\nfleet characteristics.",
+  "attribution": "New York State Department of Motor Vehicles",
+  "rowsUpdatedAt_utc": "2026-09-13T22:42:06+00:00",
+  "columns": [
+    {
+      "fieldName": "registration_class",
+      "name": "Registration Class",
+      "dataTypeName": "text",
+      "description": "NYS Vehicle and Traffic Law defines registration classes. The registrant\u2019s organization, the vehicle\u2019s characteristics and the registrant\u2019s use case for the vehicle determine the registration class. This attribute is never null. Details are at https://dmv.ny.gov/registrations-0"
+    },
+    {
+      "fieldName": "vehicle_identification_number",
+      "name": "Vehicle Identification Number",
+      "dataTypeName": "text",
+      "description": "This is a unique identifier for a vehicle, boat, motorcycle, snowmobile or trailer, also known as \u201cVIN\u201d. It is null on DEALER and TRANSPORTER registrations because they are used on the road with a changing assortment of inventory. Caution, a small number of erroneous VINs and nulls have been recorded."
+    },
+    {
+      "fieldName": "model_year",
+      "name": "Model Year",
+      "dataTypeName": "number",
+      "description": "The vehicle manufacturer\u2019s indication of which year the vehicle was manufactured. It is null on DEALER and TRANSPORTER registrations. Caution, a small number of erroneous model years and nulls have been recorded."
+    },
+    {
+      "fieldName": "make_code",
+      "name": "Make Code",
+      "dataTypeName": "text",
+      "description": "NYS DMV\u2019s abbreviation for the vehicle manufacturer. It is null on DEALER and TRANSPORTER registrations. Caution: Make codes are manually entered and subject to error. For example, a VIN series may have a make code = \u201cCHEVR\u201d on most records and \u201cCHEVY\u201d on a handful. \u201cOTHER\u201d and \u201cHOMEM\u201d are sometimes recorded in lieu of available manufacturers\u2019 codes."
+    },
+    {
+      "fieldName": "body_type",
+      "name": "Body Type",
+      "dataTypeName": "text",
+      "description": "NYS DMV\u2019s description of the vehicle\u2019s configuration. It is null on DEALER and TRANSPORTER registrations. Caution: Body types are manually entered and subject to error."
+    },
+    {
+      "fieldName": "maximum_gross_vehicle_weight",
+      "name": "Maximum Gross Vehicle Weight",
+      "dataTypeName": "number",
+      "description": "The vehicle weight plus the carrying capacity determines the maximum gross vehicle weight. DMV records either weight or seats on a registration. It is also null on MOTORBOAT, SNOWMOBILE, DEALER and TRANSPORTER registrations."
+    },
+    {
+      "fieldName": "seats",
+      "name": "Seats",
+      "dataTypeName": "number",
+      "description": "Total adult seating capacity including the driver. DMV records either weight or seats on a registration. It is also null on MOTORBOAT, SNOWMOBILE , DEALER and TRANSPORTER registrations."
+    },
+    {
+      "fieldName": "fuel",
+      "name": "Fuel",
+      "dataTypeName": "text",
+      "description": "The primary fuel type that propels the vehicle. If the vehicle is battery assisted, and can use a nonelectric fuel, the value is the non-electric fuel. It is also null on MOTORBOAT, SNOWMOBILE ,DEALER and TRANSPORTER registrations. Caution: Fuel types are manually entered and subject to error."
+    },
+    {
+      "fieldName": "cylinders",
+      "name": "Cylinders",
+      "dataTypeName": "number",
+      "description": "The number of cylinders in the engine. It is null on MOTORBOAT, SNOWMOBILE, DEALER and TRANSPORTER registrations. Caution: Cylinder counts are manually entered and subject to error."
+    },
+    {
+      "fieldName": "transaction",
+      "name": "Transaction",
+      "dataTypeName": "text",
+      "description": "NYS DMV\u2019s description of the transaction executed for the registrant."
+    },
+    {
+      "fieldName": "registrant",
+      "name": "Registrant",
+      "dataTypeName": "text",
+      "description": "NYS DMV\u2019s categorization of the registrant. It can be null when the value is not readily apparent from the configuration of the Registrant\u2019s name."
+    },
+    {
+      "fieldName": "city",
+      "name": "City",
+      "dataTypeName": "text",
+      "description": "This is from the mailing address of the registration."
+    },
+    {
+      "fieldName": "state",
+      "name": "State",
+      "dataTypeName": "text",
+      "description": "This is from the mailing address of the registration."
+    },
+    {
+      "fieldName": "zip_code",
+      "name": "ZIP Code",
+      "dataTypeName": "text",
+      "description": "This is from the mailing address of the registration."
+    },
+    {
+      "fieldName": "residence_county",
+      "name": "Residence County",
+      "dataTypeName": "text",
+      "description": "This is from the residence address of the registrant."
+    },
+    {
+      "fieldName": "effective_date",
+      "name": "Effective Date",
+      "dataTypeName": "calendar_date",
+      "description": "The date when the registration record became effective. INTERNATIONAL REGISTRATION PLAN registrations are often post-dated."
+    },
+    {
+      "fieldName": "registration_expiration",
+      "name": "Registration Expiration",
+      "dataTypeName": "calendar_date",
+      "description": "The date when the registration will expire. It can be null. Registrations for State and Political Subdivisions do not expire. Some registration classes have fixed, annual expiration dates. They will appear in groups."
+    },
+    {
+      "fieldName": "length",
+      "name": "Length",
+      "dataTypeName": "number",
+      "description": "The distance, in feet, from vessel bow to stern. This is applicable only to records where registration Class = \u201cMOTORBOATS\u201d."
+    },
+    {
+      "fieldName": "hull_material",
+      "name": "Hull Material",
+      "dataTypeName": "text",
+      "description": "Describes the vessel\u2019s hull. This is applicable only to records where registration Class = \u201cMOTORBOATS\u201d."
+    },
+    {
+      "fieldName": "propulsion",
+      "name": "Propulsion",
+      "dataTypeName": "text",
+      "description": "Describes the vessel\u2019s primary propulsive mechanism. This is applicable only to records where registration Class = \u201cMOTORBOATS\u201d."
+    },
+    {
+      "fieldName": "use",
+      "name": "Use",
+      "dataTypeName": "text",
+      "description": "Describes the vessel\u2019s use case. This is applicable only to records where registration Class = \u201cMOTORBOATS\u201d or \u201cSNOWMOBILE\u201d. When Use = \u201cDEALER\u201d consult the notes for other attributes that apply to DEALER and TRANSPORTER registrations."
+    },
+    {
+      "fieldName": "county_of_use",
+      "name": "County of Use",
+      "dataTypeName": "text",
+      "description": "Where the vehicle or vessel is primarily used. This is applicable only to records where registration Class = \u201cMOTORBOATS\u201d or \u201cSNOWMOBILE\u201d."
+    },
+    {
+      "fieldName": "displacement_or_horsepower",
+      "name": "Displacement or Horsepower",
+      "dataTypeName": "number",
+      "description": "Describes a snowmobile\u2019s engine. This is applicable only to records where registration Class = \u201cSNOWMOBILE\u201d. Units are cubic centimeters and horsepower; however, DMV does not distinguish whether the number describes horsepower or displacement. Further, there are numerous definitions for \u201chorsepower\u201d. The reader must infer the most likely meaning of this number, record by record."
+    },
+    {
+      "fieldName": "exported",
+      "name": "Exported",
+      "dataTypeName": "calendar_date",
+      "description": "The date when the record was exported from DMV\u2019s files. Transactions having an Effective Date from more than a week prior to the Exported Date were re-exported because the registration address changed."
+    },
+    {
+      "fieldName": "georeference",
+      "name": "Georeference",
+      "dataTypeName": "point",
+      "description": "Open Data platform-generated geocoding information from supplied address components. Point-type location is the centroid of the address components provided and does not reflect a specific address if the street address component is not provided. Point-type location is supplied in \"POINT (<geocoded longitude> <geocoded latitude>)\" format."
+    },
+    {
+      "fieldName": ":@computed_region_yamh_8v7k",
+      "name": "NYS Municipal Boundaries",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'NYS Municipal Boundaries' (yamh-8v7k) the point in column 'georeference' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens."
+    },
+    {
+      "fieldName": ":@computed_region_wbg7_3whc",
+      "name": "New York Zip Codes",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'New York Zip Codes' (wbg7-3whc) the point in column 'georeference' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens."
+    },
+    {
+      "fieldName": ":@computed_region_kjdx_g34t",
+      "name": "Counties",
+      "dataTypeName": "number",
+      "description": "This column was automatically created in order to record in what polygon from the dataset 'Counties' (kjdx-g34t) the point in column 'georeference' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens."
+    }
+  ]
+}

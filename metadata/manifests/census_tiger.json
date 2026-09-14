@@ -1,0 +1,65 @@
+[
+  {
+    "local_path": "data/raw/census/tiger/cb_2020_us_zcta520_500k.zip",
+    "url": "https://www2.census.gov/geo/tiger/GENZ2020/shp/cb_2020_us_zcta520_500k.zip",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:37:22+00:00",
+    "bytes": 66655314,
+    "sha256": "c69a4ede8aebebfc7ed3a98a9075c6aaa1b75d514a129bc5c662fd806d2f3d17",
+    "note": ""
+  },
+  {
+    "local_path": "data/raw/census/tiger/tab20_zcta520_county20_natl.txt",
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_county20_natl.txt",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:37:22+00:00",
+    "bytes": 6821287,
+    "sha256": "3ed41278d637dc249e0323306f68be8a6c234e3090f4de88ef328dee71aeaaaf",
+    "note": ""
+  },
+  {
+    "local_path": "data/raw/census/tiger/tab20_zcta520_tract20_natl.txt",
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_tract20_natl.txt",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:37:24+00:00",
+    "bytes": 24334353,
+    "sha256": "6a25d8c3fff4cf612c4d2dccc2c0cd6cb5bc99b807ff3d5d107a2e9b9d68dde0",
+    "note": ""
+  },
+  {
+    "local_path": "data/raw/census/tiger/tl_2024_36_bg.zip",
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/BG/tl_2024_36_bg.zip",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:37:18+00:00",
+    "bytes": 17757594,
+    "sha256": "08af4b7453a5ef175b03b0f8fbe6b45d3f12c371e641813f582635cb84ad40c8",
+    "note": ""
+  },
+  {
+    "local_path": "data/raw/census/tiger/tl_2024_36_cousub.zip",
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/COUSUB/tl_2024_36_cousub.zip",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:37:19+00:00",
+    "bytes": 4634696,
+    "sha256": "ed6fe2974cbf644b33c7d485d5f38a61877dbc0057c97ba9561ad49ac3f66139",
+    "note": ""
+  },
+  {
+    "local_path": "data/raw/census/tiger/tl_2024_36_place.zip",
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/PLACE/tl_2024_36_place.zip",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:37:19+00:00",
+    "bytes": 3379741,
+    "sha256": "2dbe5718443425dc454034ada84cec7ef936beed286289a5110c99c31d634424",
+    "note": ""
+  },
+  {
+    "local_path": "data/raw/census/tiger/tl_2024_36_tract.zip",
+    "url": "https://www2.census.gov/geo/tiger/TIGER2024/TRACT/tl_2024_36_tract.zip",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:37:17+00:00",
+    "bytes": 8853911,
+    "sha256": "80010cc0b3e1ef6d8c27072ec7f679f328d0e1d82b3b96cb744e8811df8221c7",
+    "note": ""
+  }
+]
