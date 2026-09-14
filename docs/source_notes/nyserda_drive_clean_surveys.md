@@ -329,3 +329,225 @@ All of these differences are significant per the report (pp. 6–20).
 - #1 gives a response rate of 10.7% for all responses and 10.6% for valid responses; both are stated.
 - #1 p. 20 reads "Seventy percent (62%)" disagree there are enough public chargers.
 - #3 captions for Figs. 3 and 4 appear to have swapped chi-square statistics (759 vs 7). This has no effect on the shares.
+
+---
+
+## Model-ready parameters (extracted 2026-09-14)
+
+**Files.** `data/processed/drive_clean_surveys/survey_parameters.csv` has 645 tidy rows, one number per row. Each row records survey, vehicle-acquisition year, drivetrain, segment, parameter, category, value, unit, base n, page and `value_source`.
+
+`python -m src.analysis.drive_clean_parameters` does three things:
+
+- **Validation.** It checks that values are numeric and percentages fall in [0, 100]. Every complete single-select distribution must sum to 100 ± 3; all 116 groups pass. Multi-select sets must sum to at least 95.
+- **Table.** It writes `results/tables/drive_clean_key_parameters.csv`: BEV / PHEV / All side by side, plus derived rows.
+- **Figure.** It draws `results/figures/drive_clean_charging_frequency.png`.
+
+It covers the four survey reports (#1–#4) and the 2024 CSE decks (#7, #9, #11). Page citations follow §Conventions:
+
+- Ownership 2024 and both adoption reports: printed page = PDF page − 8.
+- Ownership 2023: printed page = PDF page − 9.
+
+`survey_year` is the **vehicle acquisition year**. The two survey types differ:
+
+- **Adoption survey:** answered 1–3 weeks after the rebate, so charging answers are *current or planned*.
+- **Ownership survey:** answered 9.4–14.1 months after acquisition, so answers reflect *actual* behaviour.
+
+The two surveys cover the same 2024 cohort, which makes a planned-vs-actual comparison possible.
+
+**Provenance flags.**
+
+- Almost every distribution was read from chart data labels (`value_source = figure`) and checked against page images rendered at about 160 dpi.
+- Unlabelled thin stacked segments were **pixel-measured** (note: "pixel-measured … ±0.5 pp"). These are:
+  - Ownership 2024 PHEV home "about once/week": 4.4
+  - All BEV/PHEV "off-site at work" small bins
+  - Public-charging small bins: BEV-2024 daily 1.6; PHEV-2024 0.5 / 1.8 / 2.6; PHEV-2023 1.0 / 2.4
+  - "Other location" small bins
+- All values are **B-self-report**, weighted by raking on model, purchase/lease, county and technology only.
+- The respondents are rebate recipients buying **new** vehicles from participating dealers (53% of NY EV sales in 2024).
+- See §4 for the full selection-bias discussion. Nothing here describes renters, multifamily residents, used-EV buyers or Tompkins specifically.
+
+### What is and is not broken down
+
+| Dimension | Published? |
+|---|---|
+| BEV vs PHEV | Yes. Charts are split only where the difference is significant; otherwise only "All" appears. Examples of All-only: ownership 2024 tenure and residence; adoption 2025 home charging, tenure, residence and income. |
+| **Housing type (detached/attached/apartment/mobile)** | **No** for any charging, driving or access parameter. Published only as a respondent *distribution*, overall and inside vs outside DAC. |
+| **Tenure (own/rent)** | **No** for charging. Respondent distribution only. |
+| **Income** | **No** for charging. Respondent distribution only; the adoption reports and deck #5 also give rebate importance by income. |
+| Urban/suburban/rural, region, county | **No** survey results. Deck #7 gives only the admin count: rural share of 2024 rebates = 12%. |
+| DAC vs non-DAC | Residence type, income, replacement status and first-EV status only. **No charging by DAC.** |
+
+The questionnaires collect tenure, residence type, income, household size, licensed drivers (adoption) and household vehicle counts. The cross-tabs therefore exist in CSE microdata, which is not public. A formal data request is the only route to charging access conditional on housing type.
+
+### Home charging access
+
+| Survey (cohort) | Measure | BEV | PHEV | All |
+|---|---|---|---|---|
+| Adoption 2024 (planned) | Charge at home now / plan to / no plans | 80 / 11 / 9 | 76 / 11 / 14 | 78 / 11 / — [T] |
+| Adoption 2025 (planned) | same | — | — | 82 / 9 / 9 (no BEV/PHEV split published) |
+| Ownership 2023 (actual) | Ever charge at home (100 − never) | 86 | 85 | — |
+| Ownership 2024 (actual) | same | **89** | **81** | — |
+
+**Planned vs actual, same 2024 cohort:**
+
+- BEV: 91% charged or planned to charge at home, and 89% ever did about a year later.
+- PHEV: 87% planned, 81% actual.
+- The PHEV gap is larger; some PHEV owners evidently never plug in at home.
+
+The bases differ (different respondents, and adoption "Not applicable" handling), so treat this as indicative only.
+
+### Home charging method (multi-select, % of home chargers)
+
+| Cohort | Level 2 station | 240 V outlet | L1 station | 120 V outlet | Any 240 V [D bounds] |
+|---|---|---|---|---|---|
+| Ownership 2023 BEV / PHEV | 59 / 25 | 26 / 11 | 8 / 8 | 15 / 64 | BEV 59–85; PHEV 25–36 |
+| Ownership 2024 BEV / PHEV | 58 / 24 | 27 / 11 | 8 / 7 | 14 / 68 | BEV 58–85; PHEV 24–35 |
+| Adoption 2024 (current + planned) BEV / PHEV | 61 / 21 | 23 / 8 | 7 / 7 | 20 / 72 | BEV 61–84 |
+| Adoption 2025 (current + planned) BEV / PHEV | 62 / 23 | 21 / 9 | 7 / 8 | 22 / 70 | BEV 62–83 |
+
+**Planned vs actual, 2024 cohort:**
+
+- BEV L2 station: 61 planned → 58 actual.
+- BEV 120 V outlet: 20 → 14. BEV owners who plan L1 partly upgrade or stop.
+- PHEV 120 V outlet: 72 → 68. PHEV L2: 21 → 24.
+
+**Trend (2023 → 2024 cohorts):** L2 shares are flat. There is no evidence of rising L2 penetration among rebate recipients. Charger power (kW) is not asked.
+
+### Charging frequency by location (ownership; daily / few-per-week / weekly / few-per-month-or-less / never, %)
+
+| Location | 2023 BEV | 2023 PHEV | 2024 BEV | 2024 PHEV |
+|---|---|---|---|---|
+| Home | 37/27/16/7/14 | 56/15/6/9/15 | 34/28/20/7/11 | 51/15/4.4*/10/19 |
+| Workplace on-site (base = has access; n 1,212 / 912) | 12/20/14/23/31 | 23/18/10/24/26 | 9/16/16/24/34 | 19/17/8/19/37 |
+| Near work, off-site | 4.4*/3.5*/2.9*/4.8*/84 | 3.4*/1.9*/1.8*/6/87 | 3.5*/2.4*/2.9*/5/86 | 3.1*/2.7*/1.1*/4.7*/88 |
+| Public stations (L2 and DCFC combined) | 6/7/9/55/23 | 1.0*/2.4*/5/31/60 | 1.6*/5/9/57/27 | 0.5*/1.8*/2.6*/28/68 |
+| Other (write-ins include public, friends, businesses) | 4.0*/3.5*/2.7*/15/75 | 0.6*/1.1*/1.1*/9/88 | 0.8*/1.8*/2.4*/14/81 | 0.8*/1.0*/0.6*/8/90 |
+
+\* pixel-measured.
+
+Values quoted for the 2022 cohort in report #2:
+
+- Home daily: BEV 38, PHEV 67.
+- BEV home few-per-week or more: 66.
+- Public ever: BEV 78, PHEV 46.
+
+**Trend:**
+
+- Home-daily is declining (BEV 38 → 37 → 34; PHEV 67 → 56 → 51).
+- Public ever-use is declining (BEV 78 → 77 → 73; PHEV 46 → 40 → 32).
+- BEV "never home" fell 14 → 11 while PHEV "never home" rose 15 → 19.
+- These are cohort-to-cohort changes in a new-vehicle, lease-heavy population. They are not panel changes.
+
+### Workplace charging access
+
+- **Ownership** (workers outside home; free / paid / no / don't know):
+  - 2023 All: 11 / 12 / 72 / 5
+  - 2024 BEV: 11 / 13 / 70 / 6
+  - 2024 PHEV: 10 / 9 / 73 / 8
+- **Any use given access:** BEV 69 → 66; PHEV 74 → 63.
+- **Adoption** (yes / no / don't know; "Not applicable" excluded, so not comparable with ownership):
+
+| | BEV | PHEV |
+|---|---|---|
+| Workplace, 2024 | 34 / 61 / 6 | 24 / 65 / 11 |
+| Workplace, 2025 | 35 / 58 / 6 | 28 / 63 / 9 |
+| Near workplace, 2024 | 59 / 27 / 14 | 30 / 40 / 30 |
+| Near workplace, 2025 | 61 / 24 / 15 | 34 / 37 / 29 |
+
+### Not asked or not published
+
+These must come from other sources (confirmed against the full questionnaires in the 2024 ownership and 2025 adoption reports):
+
+- **Location share of charging energy or sessions:** not asked.
+- **Time of day, TOU or managed-charging enrolment:** not asked. Adoption Q12 asks only the *importance* of special home-charging rates, and the result is not reported.
+- **Public L2 vs DCFC:** not distinguished.
+- **Charger kW, session energy, duration:** not asked.
+- **Electric range, price, lease terms:**
+  - Not in the surveys.
+  - Deck #7 (admin): leased share of rebates 19% (2022) → 39% (2023) → 64% (2024), and 67% of 2024 funding.
+  - Rebates on models with minimum MSRP under $40k: 60% (2021), 29% (2022), 12% (2023), 17% (2024).
+  - 90% of 2024 rebates were $500, meaning under 40 e-miles or MSRP above $42k.
+- **New vs used:** all vehicles are new, by design.
+- **Asked but not reported:**
+  - PHEV electric-miles share (ownership)
+  - Number of household vehicles (ownership A.3; adoption Q5)
+  - Licensed drivers and household size
+  - Workplace ZIP
+- **EV share of household driving:** not asked.
+- **Annual or daily miles distributions:** only weighted means are published.
+  - Miles per day: BEV 41 → 33, PHEV 30 → 30.
+  - Total miles since acquisition: BEV 12,248 → 12,056 → 10,670; PHEV 12,080 → 10,606 → 10,082 (2022 → 2024 cohorts).
+
+### Fleet context
+
+- **EV replaces a household car / adds to fleet / first or only car:**
+  - Adoption 2024: BEV 80 / 15 / 5; PHEV 88 / 9 / 3
+  - Adoption 2025: BEV 79 / 16 / 5; PHEV 90 / 7 / 3
+  - DAC vs non-DAC, 2024: 83 / 9 / 8 vs 83 / 13 / 4
+  - DAC vs non-DAC, 2025: 75 / 14 / 11 vs 83 / 14 / 3
+- **Replacement rate, 2017–2024** (deck #9 [F]): 81, 85, 84, 79, 80, 78, 77, 83.
+- **First EV ever:** 2024 BEV 72, PHEV 81; 2025 BEV 68, PHEV 72.
+- **Replaced-vehicle fuel:** full distributions are in the CSV. BEV buyers replacing a BEV rose from 28% to 34% (2024 → 2025).
+
+### Respondent housing, tenure, income, and representation vs NY households
+
+**Residence type** (detached / apartment-condo / attached / other, %):
+
+| Cohort | Distribution |
+|---|---|
+| Ownership 2023 | BEV 71/16/12/1; PHEV 78/12/10/0.6 (All detached 73 [T]) |
+| Ownership 2024 | All 78/11/10/1 |
+| Adoption 2024 | BEV 76/13/10/0.9; PHEV 79/12/8/2 |
+| Adoption 2025 | All 77/13/10/0.8 |
+
+**Inside vs outside DAC** (same categories): a DAC respondent is about 2–3× as likely to live in an apartment.
+
+| Cohort | Inside DAC | Outside DAC |
+|---|---|---|
+| Ownership 2023 | 47/31/21/1 | 78/11/10/0.8 |
+| Ownership 2024 | 54/28/15/4 | 82/8/9/0.7 |
+| Adoption 2024 | 54/29/14/3 | 81/9/8/0.8 |
+| Adoption 2025 | 59/24/16/1 | 79/11/9/0.8 |
+
+**Tenure** (own / rent / neither): ownership 2023 BEV 82/16/2, PHEV 85/13/2; ownership 2024 85/12/2; adoption 2025 84/13/3.
+
+**Own-home share by purchase year, 2017–2024** (deck #11): 90, 90, 88, 85, 83, 86, 81, 82. Comparison points:
+
+- NY new-vehicle buyers: 77 (NVES 2022)
+- NY households: 54 (ACS PUMS 2019–2023)
+
+**Income:** distributions are in the CSV. Ownership surveys use 11 bins and adoption surveys 9. Share with income of $100k or more: 63 (2017) → 74 (2024), vs 43 for NY households.
+
+**Derived representation ratios [D]:** respondent share divided by the NY household share, using ACS 2020–2024 county features aggregated statewide. Values span the four surveys:
+
+| Group | Ratio |
+|---|---|
+| Detached house | **1.78–1.91** |
+| Apartment/condo (ACS 2+ units) | **0.21–0.29** |
+| Attached (ACS 1-unit attached) | 1.66–2.04 |
+| Own | **1.56–1.61** |
+| Rent | **0.27–0.34** |
+
+How to read these ratios:
+
+- They equal P(rebate | housing) / P(rebate) only if survey response is unbiased with respect to housing.
+- They mix a housing effect with income and other correlated effects.
+- The "attached" ratio is inflated because the survey's "attached (duplex/triplex)" overlaps ACS 2–4-unit housing.
+- NY apartments are dominated by NYC, so the apartment ratio is a statewide figure and does not transfer to Tompkins.
+
+**Trend in housing mix:**
+
+- Adoption detached share: 72 (2023 cohort, quoted in #4) → 77 → 77.
+- Ownership apartment share: 13–16 (2023 BEV/PHEV) → 11 (2024).
+- Rebate data give **no sign of a growing multifamily share**.
+
+### Additional report inconsistencies found
+
+- #2 Table 3 lists "Male 74% / 55%" twice.
+- #2 p. 7 says 9% Hispanic is "one percentage point lower than last year's result of 8%".
+- #4 §1.2 says weighted responses "represent applicants who purchased … between January 1, 2023 and December 31, 2023". This is a typo for 2024; Table 1 is for 2024.
+- #3 Fig. 15 is titled "By Technology Type" but shows only All.
+- #1 ES-1 gives 63% disagreeing that "there are enough public chargers", while p. 20 says 62%.
+- Earlier values in this note are now superseded by pixel measurement:
+  - §3.3 "PHEV home ~5 [F-derived]" → 4.4
+  - "BEV public daily ~2" → 1.6

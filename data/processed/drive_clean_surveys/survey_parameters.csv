@@ -1,0 +1,646 @@
+survey,survey_year,drivetrain,segment_dimension,segment_value,parameter,category,value,unit,base_n,page,value_source,note
+ownership,2024,All,all,all,invited_participants,count,46074,count,,p.1 / PDF 9,text,
+ownership,2024,All,all,all,valid_responses,count,4869,count,,p.2 / PDF 10,text,
+ownership,2024,All,all,all,population_represented,count,45958,count,,p.2 / PDF 10,table,Table 2
+ownership,2024,All,all,all,months_owned_at_survey,min,9.4,months,,EN-1 / PDF 52,text,endnote 1
+ownership,2024,All,all,all,months_owned_at_survey,max,14.1,months,,EN-1 / PDF 52,text,endnote 1
+ownership,2024,All,all,all,technology_share,BEV,66,percent,4869,p.3 / PDF 11,figure,Fig 1
+ownership,2024,All,all,all,technology_share,PHEV,34,percent,4869,p.3 / PDF 11,figure,
+ownership,2024,All,survey_cohort,2017-2018,technology_share_by_ownership_survey_cohort,BEV,28,percent,,p.3 / PDF 11,figure,Fig 2 (cohort label as printed)
+ownership,2024,All,survey_cohort,2017-2018,technology_share_by_ownership_survey_cohort,PHEV,72,percent,,p.3 / PDF 11,figure,
+ownership,2024,All,survey_cohort,2018-2019,technology_share_by_ownership_survey_cohort,BEV,44,percent,,p.3 / PDF 11,figure,Fig 2 (cohort label as printed)
+ownership,2024,All,survey_cohort,2018-2019,technology_share_by_ownership_survey_cohort,PHEV,56,percent,,p.3 / PDF 11,figure,
+ownership,2024,All,survey_cohort,2020,technology_share_by_ownership_survey_cohort,BEV,69,percent,,p.3 / PDF 11,figure,Fig 2 (cohort label as printed)
+ownership,2024,All,survey_cohort,2020,technology_share_by_ownership_survey_cohort,PHEV,31,percent,,p.3 / PDF 11,figure,
+ownership,2024,All,survey_cohort,2021,technology_share_by_ownership_survey_cohort,BEV,58,percent,,p.3 / PDF 11,figure,Fig 2 (cohort label as printed)
+ownership,2024,All,survey_cohort,2021,technology_share_by_ownership_survey_cohort,PHEV,42,percent,,p.3 / PDF 11,figure,
+ownership,2024,All,survey_cohort,2022,technology_share_by_ownership_survey_cohort,BEV,73,percent,,p.3 / PDF 11,figure,Fig 2 (cohort label as printed)
+ownership,2024,All,survey_cohort,2022,technology_share_by_ownership_survey_cohort,PHEV,27,percent,,p.3 / PDF 11,figure,
+ownership,2024,All,survey_cohort,2023,technology_share_by_ownership_survey_cohort,BEV,70,percent,,p.3 / PDF 11,figure,Fig 2 (cohort label as printed)
+ownership,2024,All,survey_cohort,2023,technology_share_by_ownership_survey_cohort,PHEV,30,percent,,p.3 / PDF 11,figure,
+ownership,2024,All,survey_cohort,2024,technology_share_by_ownership_survey_cohort,BEV,66,percent,,p.3 / PDF 11,figure,Fig 2 (cohort label as printed)
+ownership,2024,All,survey_cohort,2024,technology_share_by_ownership_survey_cohort,PHEV,34,percent,,p.3 / PDF 11,figure,
+ownership,2024,All,all,all,tenure,own,85,percent,4712,p.8 / PDF 16,figure,Fig 8; no BEV/PHEV difference; text 85%
+ownership,2024,All,all,all,tenure,rent,12,percent,4712,p.8 / PDF 16,figure,
+ownership,2024,All,all,all,tenure,neither,2,percent,4712,p.8 / PDF 16,figure,
+ownership,2024,All,all,all,residence_type,detached_house,78,percent,4709,p.8 / PDF 16,figure,Fig 9; no BEV/PHEV difference; text 78%
+ownership,2024,All,all,all,residence_type,apartment_condominium,11,percent,4709,p.8 / PDF 16,figure,
+ownership,2024,All,all,all,residence_type,attached_house,10,percent,4709,p.8 / PDF 16,figure,
+ownership,2024,All,all,all,residence_type,other,1,percent,4709,p.8 / PDF 16,figure,
+ownership,2024,All,dac,inside_dac,residence_type,detached_house,54,percent,4378,p.28 / PDF 36,figure,Fig 36 (n for both DAC groups combined)
+ownership,2024,All,dac,inside_dac,residence_type,apartment_condominium,28,percent,4378,p.28 / PDF 36,figure,
+ownership,2024,All,dac,inside_dac,residence_type,attached_house,15,percent,4378,p.28 / PDF 36,figure,
+ownership,2024,All,dac,inside_dac,residence_type,other,4,percent,4378,p.28 / PDF 36,figure,
+ownership,2024,All,dac,outside_dac,residence_type,detached_house,82,percent,4378,p.28 / PDF 36,figure,Fig 36
+ownership,2024,All,dac,outside_dac,residence_type,apartment_condominium,8,percent,4378,p.28 / PDF 36,figure,
+ownership,2024,All,dac,outside_dac,residence_type,attached_house,9,percent,4378,p.28 / PDF 36,figure,
+ownership,2024,All,dac,outside_dac,residence_type,other,0.7,percent,4378,p.28 / PDF 36,figure,
+ownership,2024,All,all,all,household_income,lt25k,1,percent,4008,p.5 / PDF 13,figure,Fig 4; no BEV/PHEV difference
+ownership,2024,All,all,all,household_income,25_50k,4,percent,4008,p.5 / PDF 13,figure,
+ownership,2024,All,all,all,household_income,50_75k,8,percent,4008,p.5 / PDF 13,figure,
+ownership,2024,All,all,all,household_income,75_100k,11,percent,4008,p.5 / PDF 13,figure,
+ownership,2024,All,all,all,household_income,100_150k,21,percent,4008,p.5 / PDF 13,figure,
+ownership,2024,All,all,all,household_income,150_200k,17,percent,4008,p.5 / PDF 13,figure,
+ownership,2024,All,all,all,household_income,200_250k,13,percent,4008,p.5 / PDF 13,figure,
+ownership,2024,All,all,all,household_income,250_300k,8,percent,4008,p.5 / PDF 13,figure,
+ownership,2024,All,all,all,household_income,300_350k,4,percent,4008,p.5 / PDF 13,figure,
+ownership,2024,All,all,all,household_income,350_400k,3,percent,4008,p.5 / PDF 13,figure,
+ownership,2024,All,all,all,household_income,ge400k,11,percent,4008,p.5 / PDF 13,figure,
+ownership,2024,All,all,all,household_income_ge_100k,share,77,percent,,p.5 / PDF 13,text,
+ownership,2024,All,dac,inside_dac,household_income,lt25k,0.8,percent,3728,p.28 / PDF 36,figure,Fig 37
+ownership,2024,All,dac,inside_dac,household_income,25_50k,6,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,inside_dac,household_income,50_75k,13,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,inside_dac,household_income,75_100k,16,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,inside_dac,household_income,100_150k,23,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,inside_dac,household_income,150_200k,18,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,inside_dac,household_income,200_250k,9,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,inside_dac,household_income,250_300k,6,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,inside_dac,household_income,300_350k,2,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,inside_dac,household_income,350_400k,2,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,inside_dac,household_income,ge400k,5,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,outside_dac,household_income,lt25k,1,percent,3728,p.28 / PDF 36,figure,Fig 37
+ownership,2024,All,dac,outside_dac,household_income,25_50k,3,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,outside_dac,household_income,50_75k,7,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,outside_dac,household_income,75_100k,10,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,outside_dac,household_income,100_150k,20,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,outside_dac,household_income,150_200k,17,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,outside_dac,household_income,200_250k,14,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,outside_dac,household_income,250_300k,8,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,outside_dac,household_income,300_350k,5,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,outside_dac,household_income,350_400k,3,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,dac,outside_dac,household_income,ge400k,12,percent,3728,p.28 / PDF 36,figure,
+ownership,2024,All,all,all,dac_share_of_respondents,inside_dac,14,percent,4534,p.24 / PDF 32,text,
+ownership,2024,All,all,all,dac_share_of_participants,inside_dac,16,percent,,p.24 / PDF 32,text,
+ownership,2024,BEV,all,all,solar_at_residence,installed,21,percent,4850,p.9 / PDF 17,figure,Fig 10
+ownership,2024,BEV,all,all,solar_at_residence,considering,29,percent,4850,p.9 / PDF 17,figure,
+ownership,2024,BEV,all,all,solar_at_residence,no_plans,50,percent,4850,p.9 / PDF 17,figure,
+ownership,2024,PHEV,all,all,solar_at_residence,installed,15,percent,4850,p.9 / PDF 17,figure,Fig 10
+ownership,2024,PHEV,all,all,solar_at_residence,considering,24,percent,4850,p.9 / PDF 17,figure,
+ownership,2024,PHEV,all,all,solar_at_residence,no_plans,61,percent,4850,p.9 / PDF 17,figure,
+ownership,2024,BEV,all,all,miles_per_day_mean,mean,33,miles_per_day,4605,p.9 / PDF 17,text,self-reported 'about how many miles per day'; weighted mean
+ownership,2024,PHEV,all,all,miles_per_day_mean,mean,30,miles_per_day,4605,p.9 / PDF 17,text,
+ownership,2024,BEV,all,all,total_miles_since_acquisition_mean,mean,10670,miles,4465,p.10 / PDF 18,figure,"Fig 11; ~annual (9.4-14.1 months owned); ES-1 says 10,674"
+ownership,2024,PHEV,all,all,total_miles_since_acquisition_mean,mean,10082,miles,4465,p.10 / PDF 18,figure,"Fig 11; ES-1 says 10,097"
+ownership,2024,All,all,all,trip_frequency_full_commute,daily_or_almost_daily,57,percent,4112,p.10 / PDF 18,figure,Fig 12
+ownership,2024,All,all,all,trip_frequency_full_commute,few_times_per_week,14,percent,4112,p.10 / PDF 18,figure,
+ownership,2024,All,all,all,trip_frequency_full_commute,about_once_per_week,3,percent,4112,p.10 / PDF 18,figure,
+ownership,2024,All,all,all,trip_frequency_full_commute,few_times_per_month_or_less,8,percent,4112,p.10 / PDF 18,figure,
+ownership,2024,All,all,all,trip_frequency_full_commute,never,18,percent,4112,p.10 / PDF 18,figure,
+ownership,2024,All,all,all,trip_frequency_partial_commute,daily_or_almost_daily,20,percent,3533,p.11 / PDF 19,figure,Fig 13
+ownership,2024,All,all,all,trip_frequency_partial_commute,few_times_per_week,9,percent,3533,p.11 / PDF 19,figure,
+ownership,2024,All,all,all,trip_frequency_partial_commute,about_once_per_week,3,percent,3533,p.11 / PDF 19,figure,
+ownership,2024,All,all,all,trip_frequency_partial_commute,few_times_per_month_or_less,7,percent,3533,p.11 / PDF 19,figure,
+ownership,2024,All,all,all,trip_frequency_partial_commute,never,60,percent,3533,p.11 / PDF 19,figure,
+ownership,2024,All,all,all,trip_frequency_local_errands,daily_or_almost_daily,59,percent,4817,p.11 / PDF 19,figure,Fig 14
+ownership,2024,All,all,all,trip_frequency_local_errands,few_times_per_week,31,percent,4817,p.11 / PDF 19,figure,
+ownership,2024,All,all,all,trip_frequency_local_errands,about_once_per_week,6,percent,4817,p.11 / PDF 19,figure,
+ownership,2024,All,all,all,trip_frequency_local_errands,few_times_per_month_or_less,4,percent,4817,p.11 / PDF 19,figure,
+ownership,2024,All,all,all,trip_frequency_local_errands,never,0.8,percent,4817,p.11 / PDF 19,figure,
+ownership,2024,All,all,all,trip_frequency_long_trips_gt50mi,daily_or_almost_daily,7,percent,4768,p.12 / PDF 20,figure,Fig 15
+ownership,2024,All,all,all,trip_frequency_long_trips_gt50mi,few_times_per_week,6,percent,4768,p.12 / PDF 20,figure,
+ownership,2024,All,all,all,trip_frequency_long_trips_gt50mi,about_once_per_week,13,percent,4768,p.12 / PDF 20,figure,
+ownership,2024,All,all,all,trip_frequency_long_trips_gt50mi,few_times_per_month_or_less,64,percent,4768,p.12 / PDF 20,figure,
+ownership,2024,All,all,all,trip_frequency_long_trips_gt50mi,never,9,percent,4768,p.12 / PDF 20,figure,
+ownership,2024,All,all,all,trip_frequency_ridehail,daily_or_almost_daily,2,percent,3958,p.12 / PDF 20,figure,Fig 16
+ownership,2024,All,all,all,trip_frequency_ridehail,few_times_per_week,1,percent,3958,p.12 / PDF 20,figure,
+ownership,2024,All,all,all,trip_frequency_ridehail,about_once_per_week,0.6,percent,3958,p.12 / PDF 20,figure,
+ownership,2024,All,all,all,trip_frequency_ridehail,few_times_per_month_or_less,3,percent,3958,p.12 / PDF 20,figure,
+ownership,2024,All,all,all,trip_frequency_ridehail,never,94,percent,3958,p.12 / PDF 20,figure,
+ownership,2024,BEV,all,all,workplace_charging_access,yes_free,11,percent,3792,p.18 / PDF 26,figure,Fig 23; asked only of respondents who work outside home
+ownership,2024,BEV,all,all,workplace_charging_access,yes_paid,13,percent,3792,p.18 / PDF 26,figure,
+ownership,2024,BEV,all,all,workplace_charging_access,no,70,percent,3792,p.18 / PDF 26,figure,
+ownership,2024,BEV,all,all,workplace_charging_access,dont_know,6,percent,3792,p.18 / PDF 26,figure,
+ownership,2024,PHEV,all,all,workplace_charging_access,yes_free,10,percent,3792,p.18 / PDF 26,figure,Fig 23
+ownership,2024,PHEV,all,all,workplace_charging_access,yes_paid,9,percent,3792,p.18 / PDF 26,figure,
+ownership,2024,PHEV,all,all,workplace_charging_access,no,73,percent,3792,p.18 / PDF 26,figure,
+ownership,2024,PHEV,all,all,workplace_charging_access,dont_know,8,percent,3792,p.18 / PDF 26,figure,
+ownership,2024,All,all,all,workplace_charging_access_any,yes,23,percent,3792,p.18 / PDF 26,text,
+ownership,2024,BEV,all,all,workplace_charging_use_any_given_access,not_never,66,percent,912,p.18 / PDF 26,text,
+ownership,2024,PHEV,all,all,workplace_charging_use_any_given_access,not_never,63,percent,912,p.18 / PDF 26,text,
+ownership,2024,BEV,all,all,charging_frequency_home,daily_or_almost_daily,34,percent,4849,p.19 / PDF 27,figure,Fig 24
+ownership,2024,BEV,all,all,charging_frequency_home,few_times_per_week,28,percent,4849,p.19 / PDF 27,figure,
+ownership,2024,BEV,all,all,charging_frequency_home,about_once_per_week,20,percent,4849,p.19 / PDF 27,figure,
+ownership,2024,BEV,all,all,charging_frequency_home,few_times_per_month_or_less,7,percent,4849,p.19 / PDF 27,figure,
+ownership,2024,BEV,all,all,charging_frequency_home,never,11,percent,4849,p.19 / PDF 27,figure,
+ownership,2024,PHEV,all,all,charging_frequency_home,daily_or_almost_daily,51,percent,4849,p.19 / PDF 27,figure,Fig 24
+ownership,2024,PHEV,all,all,charging_frequency_home,few_times_per_week,15,percent,4849,p.19 / PDF 27,figure,
+ownership,2024,PHEV,all,all,charging_frequency_home,about_once_per_week,4.4,percent,4849,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp); residual 100-51-15-10-19 = 5
+ownership,2024,PHEV,all,all,charging_frequency_home,few_times_per_month_or_less,10,percent,4849,p.19 / PDF 27,figure,
+ownership,2024,PHEV,all,all,charging_frequency_home,never,19,percent,4849,p.19 / PDF 27,figure,
+ownership,2024,BEV,all,all,charging_frequency_workplace_onsite,daily_or_almost_daily,9,percent,912,p.19 / PDF 27,figure,Fig 24; base = those with workplace access
+ownership,2024,BEV,all,all,charging_frequency_workplace_onsite,few_times_per_week,16,percent,912,p.19 / PDF 27,figure,
+ownership,2024,BEV,all,all,charging_frequency_workplace_onsite,about_once_per_week,16,percent,912,p.19 / PDF 27,figure,
+ownership,2024,BEV,all,all,charging_frequency_workplace_onsite,few_times_per_month_or_less,24,percent,912,p.19 / PDF 27,figure,
+ownership,2024,BEV,all,all,charging_frequency_workplace_onsite,never,34,percent,912,p.19 / PDF 27,figure,
+ownership,2024,PHEV,all,all,charging_frequency_workplace_onsite,daily_or_almost_daily,19,percent,912,p.19 / PDF 27,figure,Fig 24; base = those with workplace access
+ownership,2024,PHEV,all,all,charging_frequency_workplace_onsite,few_times_per_week,17,percent,912,p.19 / PDF 27,figure,
+ownership,2024,PHEV,all,all,charging_frequency_workplace_onsite,about_once_per_week,8,percent,912,p.19 / PDF 27,figure,
+ownership,2024,PHEV,all,all,charging_frequency_workplace_onsite,few_times_per_month_or_less,19,percent,912,p.19 / PDF 27,figure,
+ownership,2024,PHEV,all,all,charging_frequency_workplace_onsite,never,37,percent,912,p.19 / PDF 27,figure,
+ownership,2024,BEV,all,all,charging_frequency_near_work_offsite,daily_or_almost_daily,3.5,percent,3429,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,BEV,all,all,charging_frequency_near_work_offsite,few_times_per_week,2.4,percent,3429,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,BEV,all,all,charging_frequency_near_work_offsite,about_once_per_week,2.9,percent,3429,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,BEV,all,all,charging_frequency_near_work_offsite,few_times_per_month_or_less,5,percent,3429,p.19 / PDF 27,figure,
+ownership,2024,BEV,all,all,charging_frequency_near_work_offsite,never,86,percent,3429,p.19 / PDF 27,figure,no significant BEV/PHEV difference
+ownership,2024,PHEV,all,all,charging_frequency_near_work_offsite,daily_or_almost_daily,3.1,percent,3429,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,PHEV,all,all,charging_frequency_near_work_offsite,few_times_per_week,2.7,percent,3429,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,PHEV,all,all,charging_frequency_near_work_offsite,about_once_per_week,1.1,percent,3429,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,PHEV,all,all,charging_frequency_near_work_offsite,few_times_per_month_or_less,4.7,percent,3429,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,PHEV,all,all,charging_frequency_near_work_offsite,never,88,percent,3429,p.19 / PDF 27,figure,
+ownership,2024,BEV,all,all,charging_frequency_public,daily_or_almost_daily,1.6,percent,4794,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,BEV,all,all,charging_frequency_public,few_times_per_week,5,percent,4794,p.19 / PDF 27,figure,
+ownership,2024,BEV,all,all,charging_frequency_public,about_once_per_week,9,percent,4794,p.19 / PDF 27,figure,
+ownership,2024,BEV,all,all,charging_frequency_public,few_times_per_month_or_less,57,percent,4794,p.19 / PDF 27,figure,
+ownership,2024,BEV,all,all,charging_frequency_public,never,27,percent,4794,p.19 / PDF 27,figure,public L2 vs DCFC not distinguished; public use likely under-counted (write-ins under Other)
+ownership,2024,PHEV,all,all,charging_frequency_public,daily_or_almost_daily,0.5,percent,4794,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,PHEV,all,all,charging_frequency_public,few_times_per_week,1.8,percent,4794,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,PHEV,all,all,charging_frequency_public,about_once_per_week,2.6,percent,4794,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,PHEV,all,all,charging_frequency_public,few_times_per_month_or_less,28,percent,4794,p.19 / PDF 27,figure,
+ownership,2024,PHEV,all,all,charging_frequency_public,never,68,percent,4794,p.19 / PDF 27,figure,ES-1 states 60% never (repeats 2023 value); figure shows 68%
+ownership,2024,BEV,all,all,charging_frequency_other,daily_or_almost_daily,0.8,percent,4234,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,BEV,all,all,charging_frequency_other,few_times_per_week,1.8,percent,4234,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,BEV,all,all,charging_frequency_other,about_once_per_week,2.4,percent,4234,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,BEV,all,all,charging_frequency_other,few_times_per_month_or_less,14,percent,4234,p.19 / PDF 27,figure,"write-ins include public stations, friends/relatives, businesses"
+ownership,2024,BEV,all,all,charging_frequency_other,never,81,percent,4234,p.19 / PDF 27,figure,
+ownership,2024,PHEV,all,all,charging_frequency_other,daily_or_almost_daily,0.8,percent,4234,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,PHEV,all,all,charging_frequency_other,few_times_per_week,1.0,percent,4234,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,PHEV,all,all,charging_frequency_other,about_once_per_week,0.6,percent,4234,p.19 / PDF 27,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2024,PHEV,all,all,charging_frequency_other,few_times_per_month_or_less,8,percent,4234,p.19 / PDF 27,figure,
+ownership,2024,PHEV,all,all,charging_frequency_other,never,90,percent,4234,p.19 / PDF 27,figure,
+ownership,2024,BEV,all,all,public_charging_any_use,not_never,73,percent,4794,p.19 / PDF 27,text,
+ownership,2024,PHEV,all,all,public_charging_any_use,not_never,32,percent,4794,p.19 / PDF 27,text,
+ownership,2024,BEV,all,all,home_charging_few_per_week_or_more,daily_or_few_per_week,62,percent,4849,p.19 / PDF 27,text,
+ownership,2024,BEV,all,all,home_charging_method,level2_240v_station,58,percent_multiselect,4288,p.20 / PDF 28,figure,Fig 25; multi-select; base = charge at home >= few times/month
+ownership,2024,BEV,all,all,home_charging_method,outlet_240v_direct,27,percent_multiselect,4288,p.20 / PDF 28,figure,
+ownership,2024,BEV,all,all,home_charging_method,level1_120v_station,8,percent_multiselect,4288,p.20 / PDF 28,figure,
+ownership,2024,BEV,all,all,home_charging_method,outlet_120v_direct,14,percent_multiselect,4288,p.20 / PDF 28,figure,
+ownership,2024,PHEV,all,all,home_charging_method,level2_240v_station,24,percent_multiselect,4288,p.20 / PDF 28,figure,Fig 25; multi-select
+ownership,2024,PHEV,all,all,home_charging_method,outlet_240v_direct,11,percent_multiselect,4288,p.20 / PDF 28,figure,
+ownership,2024,PHEV,all,all,home_charging_method,level1_120v_station,7,percent_multiselect,4288,p.20 / PDF 28,figure,
+ownership,2024,PHEV,all,all,home_charging_method,outlet_120v_direct,68,percent_multiselect,4288,p.20 / PDF 28,figure,
+ownership,2023,All,all,all,invited_participants,count,46497,count,,p.1 / PDF 10,text,
+ownership,2023,All,all,all,valid_responses,count,6542,count,,p.2 / PDF 11,text,
+ownership,2023,All,all,all,population_represented,count,46446,count,,p.2 / PDF 11,table,Table 2
+ownership,2023,All,all,all,technology_share,BEV,70,percent,6542,p.3 / PDF 12,text,
+ownership,2023,All,all,all,technology_share,PHEV,30,percent,6542,p.3 / PDF 12,text,
+ownership,2023,BEV,all,all,tenure,own,82,percent,6279,p.8 / PDF 17,figure,Fig 7; BEV/PHEV significantly different
+ownership,2023,BEV,all,all,tenure,rent,16,percent,6279,p.8 / PDF 17,figure,
+ownership,2023,BEV,all,all,tenure,neither,2,percent,6279,p.8 / PDF 17,figure,
+ownership,2023,PHEV,all,all,tenure,own,85,percent,6279,p.8 / PDF 17,figure,Fig 7
+ownership,2023,PHEV,all,all,tenure,rent,13,percent,6279,p.8 / PDF 17,figure,
+ownership,2023,PHEV,all,all,tenure,neither,2,percent,6279,p.8 / PDF 17,figure,
+ownership,2023,All,all,all,tenure,own,83,percent,6279,p.8 / PDF 17,text,overall own only
+ownership,2023,BEV,all,all,residence_type,detached_house,71,percent,6309,p.8 / PDF 17,figure,Fig 8
+ownership,2023,BEV,all,all,residence_type,apartment_condominium,16,percent,6309,p.8 / PDF 17,figure,
+ownership,2023,BEV,all,all,residence_type,attached_house,12,percent,6309,p.8 / PDF 17,figure,
+ownership,2023,BEV,all,all,residence_type,other,1,percent,6309,p.8 / PDF 17,figure,
+ownership,2023,PHEV,all,all,residence_type,detached_house,78,percent,6309,p.8 / PDF 17,figure,Fig 8
+ownership,2023,PHEV,all,all,residence_type,apartment_condominium,12,percent,6309,p.8 / PDF 17,figure,
+ownership,2023,PHEV,all,all,residence_type,attached_house,10,percent,6309,p.8 / PDF 17,figure,
+ownership,2023,PHEV,all,all,residence_type,other,0.6,percent,6309,p.8 / PDF 17,figure,
+ownership,2023,All,all,all,residence_type,detached_house,73,percent,6309,p.8 / PDF 17,text,overall detached only
+ownership,2023,All,dac,inside_dac,residence_type,detached_house,47,percent,6059,p.26 / PDF 35,figure,Fig 34
+ownership,2023,All,dac,inside_dac,residence_type,apartment_condominium,31,percent,6059,p.26 / PDF 35,figure,
+ownership,2023,All,dac,inside_dac,residence_type,attached_house,21,percent,6059,p.26 / PDF 35,figure,
+ownership,2023,All,dac,inside_dac,residence_type,other,1,percent,6059,p.26 / PDF 35,figure,
+ownership,2023,All,dac,outside_dac,residence_type,detached_house,78,percent,6059,p.26 / PDF 35,figure,Fig 34
+ownership,2023,All,dac,outside_dac,residence_type,apartment_condominium,11,percent,6059,p.26 / PDF 35,figure,
+ownership,2023,All,dac,outside_dac,residence_type,attached_house,10,percent,6059,p.26 / PDF 35,figure,
+ownership,2023,All,dac,outside_dac,residence_type,other,0.8,percent,6059,p.26 / PDF 35,figure,
+ownership,2023,BEV,all,all,household_income,lt25k,1,percent,5382,p.5 / PDF 14,figure,Fig 3
+ownership,2023,BEV,all,all,household_income,25_50k,5,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,BEV,all,all,household_income,50_75k,9,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,BEV,all,all,household_income,75_100k,11,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,BEV,all,all,household_income,100_150k,20,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,BEV,all,all,household_income,150_200k,17,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,BEV,all,all,household_income,200_250k,12,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,BEV,all,all,household_income,250_300k,8,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,BEV,all,all,household_income,300_350k,5,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,BEV,all,all,household_income,350_400k,3,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,BEV,all,all,household_income,ge400k,10,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,PHEV,all,all,household_income,lt25k,0.8,percent,5382,p.5 / PDF 14,figure,Fig 3
+ownership,2023,PHEV,all,all,household_income,25_50k,5,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,PHEV,all,all,household_income,50_75k,10,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,PHEV,all,all,household_income,75_100k,12,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,PHEV,all,all,household_income,100_150k,22,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,PHEV,all,all,household_income,150_200k,15,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,PHEV,all,all,household_income,200_250k,15,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,PHEV,all,all,household_income,250_300k,5,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,PHEV,all,all,household_income,300_350k,6,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,PHEV,all,all,household_income,350_400k,2,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,PHEV,all,all,household_income,ge400k,7,percent,5382,p.5 / PDF 14,figure,
+ownership,2023,All,all,all,household_income_ge_100k,share,73,percent,5382,p.5 / PDF 14,text,
+ownership,2023,All,all,all,dac_share_of_respondents,inside_dac,16,percent,6280,p.24 / PDF 33,text,
+ownership,2023,All,all,all,dac_share_of_participants,inside_dac,19,percent,,p.24 / PDF 33,text,
+ownership,2023,BEV,all,all,solar_at_residence,installed,20,percent,6511,p.8 / PDF 17,text,
+ownership,2023,PHEV,all,all,solar_at_residence,installed,14,percent,6511,p.8 / PDF 17,text,
+ownership,2023,BEV,all,all,miles_per_day_mean,mean,41,miles_per_day,,p.9 / PDF 18,text,
+ownership,2023,PHEV,all,all,miles_per_day_mean,mean,30,miles_per_day,,p.9 / PDF 18,text,
+ownership,2023,BEV,all,all,total_miles_since_acquisition_mean,mean,12056,miles,6004,p.10 / PDF 19,figure,Fig 10; BEV/PHEV difference not significant
+ownership,2023,PHEV,all,all,total_miles_since_acquisition_mean,mean,10606,miles,6004,p.10 / PDF 19,figure,Fig 10
+ownership,2023,BEV,all,all,trip_frequency_full_commute,daily_or_almost_daily,59,percent,5744,p.10 / PDF 19,figure,Fig 11
+ownership,2023,BEV,all,all,trip_frequency_full_commute,few_times_per_week,15,percent,5744,p.10 / PDF 19,figure,
+ownership,2023,BEV,all,all,trip_frequency_full_commute,about_once_per_week,4,percent,5744,p.10 / PDF 19,figure,
+ownership,2023,BEV,all,all,trip_frequency_full_commute,few_times_per_month_or_less,8,percent,5744,p.10 / PDF 19,figure,
+ownership,2023,BEV,all,all,trip_frequency_full_commute,never,14,percent,5744,p.10 / PDF 19,figure,
+ownership,2023,BEV,all,all,trip_frequency_partial_commute,daily_or_almost_daily,24,percent,4974,p.11 / PDF 20,figure,Fig 12
+ownership,2023,BEV,all,all,trip_frequency_partial_commute,few_times_per_week,10,percent,4974,p.11 / PDF 20,figure,
+ownership,2023,BEV,all,all,trip_frequency_partial_commute,about_once_per_week,4,percent,4974,p.11 / PDF 20,figure,
+ownership,2023,BEV,all,all,trip_frequency_partial_commute,few_times_per_month_or_less,8,percent,4974,p.11 / PDF 20,figure,
+ownership,2023,BEV,all,all,trip_frequency_partial_commute,never,55,percent,4974,p.11 / PDF 20,figure,
+ownership,2023,BEV,all,all,trip_frequency_local_errands,daily_or_almost_daily,59,percent,6441,p.11 / PDF 20,figure,Fig 13
+ownership,2023,BEV,all,all,trip_frequency_local_errands,few_times_per_week,30,percent,6441,p.11 / PDF 20,figure,
+ownership,2023,BEV,all,all,trip_frequency_local_errands,about_once_per_week,6,percent,6441,p.11 / PDF 20,figure,
+ownership,2023,BEV,all,all,trip_frequency_local_errands,few_times_per_month_or_less,4,percent,6441,p.11 / PDF 20,figure,
+ownership,2023,BEV,all,all,trip_frequency_local_errands,never,0.6,percent,6441,p.11 / PDF 20,figure,
+ownership,2023,BEV,all,all,trip_frequency_long_trips_gt50mi,daily_or_almost_daily,11,percent,6374,p.12 / PDF 21,figure,Fig 14
+ownership,2023,BEV,all,all,trip_frequency_long_trips_gt50mi,few_times_per_week,8,percent,6374,p.12 / PDF 21,figure,
+ownership,2023,BEV,all,all,trip_frequency_long_trips_gt50mi,about_once_per_week,13,percent,6374,p.12 / PDF 21,figure,
+ownership,2023,BEV,all,all,trip_frequency_long_trips_gt50mi,few_times_per_month_or_less,59,percent,6374,p.12 / PDF 21,figure,
+ownership,2023,BEV,all,all,trip_frequency_long_trips_gt50mi,never,8,percent,6374,p.12 / PDF 21,figure,
+ownership,2023,BEV,all,all,trip_frequency_ridehail,daily_or_almost_daily,9,percent,5442,p.12 / PDF 21,figure,Fig 15
+ownership,2023,BEV,all,all,trip_frequency_ridehail,few_times_per_week,2,percent,5442,p.12 / PDF 21,figure,
+ownership,2023,BEV,all,all,trip_frequency_ridehail,about_once_per_week,0.7,percent,5442,p.12 / PDF 21,figure,
+ownership,2023,BEV,all,all,trip_frequency_ridehail,few_times_per_month_or_less,3,percent,5442,p.12 / PDF 21,figure,
+ownership,2023,BEV,all,all,trip_frequency_ridehail,never,85,percent,5442,p.12 / PDF 21,figure,
+ownership,2023,PHEV,all,all,trip_frequency_full_commute,daily_or_almost_daily,55,percent,5744,p.10 / PDF 19,figure,Fig 11
+ownership,2023,PHEV,all,all,trip_frequency_full_commute,few_times_per_week,16,percent,5744,p.10 / PDF 19,figure,
+ownership,2023,PHEV,all,all,trip_frequency_full_commute,about_once_per_week,4,percent,5744,p.10 / PDF 19,figure,
+ownership,2023,PHEV,all,all,trip_frequency_full_commute,few_times_per_month_or_less,8,percent,5744,p.10 / PDF 19,figure,
+ownership,2023,PHEV,all,all,trip_frequency_full_commute,never,17,percent,5744,p.10 / PDF 19,figure,
+ownership,2023,PHEV,all,all,trip_frequency_partial_commute,daily_or_almost_daily,16,percent,4974,p.11 / PDF 20,figure,Fig 12
+ownership,2023,PHEV,all,all,trip_frequency_partial_commute,few_times_per_week,10,percent,4974,p.11 / PDF 20,figure,
+ownership,2023,PHEV,all,all,trip_frequency_partial_commute,about_once_per_week,4,percent,4974,p.11 / PDF 20,figure,
+ownership,2023,PHEV,all,all,trip_frequency_partial_commute,few_times_per_month_or_less,7,percent,4974,p.11 / PDF 20,figure,
+ownership,2023,PHEV,all,all,trip_frequency_partial_commute,never,63,percent,4974,p.11 / PDF 20,figure,
+ownership,2023,PHEV,all,all,trip_frequency_local_errands,daily_or_almost_daily,57,percent,6441,p.11 / PDF 20,figure,Fig 13
+ownership,2023,PHEV,all,all,trip_frequency_local_errands,few_times_per_week,33,percent,6441,p.11 / PDF 20,figure,
+ownership,2023,PHEV,all,all,trip_frequency_local_errands,about_once_per_week,5,percent,6441,p.11 / PDF 20,figure,
+ownership,2023,PHEV,all,all,trip_frequency_local_errands,few_times_per_month_or_less,4,percent,6441,p.11 / PDF 20,figure,
+ownership,2023,PHEV,all,all,trip_frequency_local_errands,never,1,percent,6441,p.11 / PDF 20,figure,
+ownership,2023,PHEV,all,all,trip_frequency_long_trips_gt50mi,daily_or_almost_daily,6,percent,6374,p.12 / PDF 21,figure,Fig 14
+ownership,2023,PHEV,all,all,trip_frequency_long_trips_gt50mi,few_times_per_week,7,percent,6374,p.12 / PDF 21,figure,
+ownership,2023,PHEV,all,all,trip_frequency_long_trips_gt50mi,about_once_per_week,12,percent,6374,p.12 / PDF 21,figure,
+ownership,2023,PHEV,all,all,trip_frequency_long_trips_gt50mi,few_times_per_month_or_less,67,percent,6374,p.12 / PDF 21,figure,
+ownership,2023,PHEV,all,all,trip_frequency_long_trips_gt50mi,never,9,percent,6374,p.12 / PDF 21,figure,
+ownership,2023,PHEV,all,all,trip_frequency_ridehail,daily_or_almost_daily,2,percent,5442,p.12 / PDF 21,figure,Fig 15
+ownership,2023,PHEV,all,all,trip_frequency_ridehail,few_times_per_week,0.4,percent,5442,p.12 / PDF 21,figure,
+ownership,2023,PHEV,all,all,trip_frequency_ridehail,about_once_per_week,0.2,percent,5442,p.12 / PDF 21,figure,
+ownership,2023,PHEV,all,all,trip_frequency_ridehail,few_times_per_month_or_less,3,percent,5442,p.12 / PDF 21,figure,
+ownership,2023,PHEV,all,all,trip_frequency_ridehail,never,95,percent,5442,p.12 / PDF 21,figure,
+ownership,2023,All,all,all,workplace_charging_access,yes_free,11,percent,5482,p.18 / PDF 27,figure,Fig 22; no BEV/PHEV difference
+ownership,2023,All,all,all,workplace_charging_access,yes_paid,12,percent,5482,p.18 / PDF 27,figure,
+ownership,2023,All,all,all,workplace_charging_access,no,72,percent,5482,p.18 / PDF 27,figure,
+ownership,2023,All,all,all,workplace_charging_access,dont_know,5,percent,5482,p.18 / PDF 27,figure,
+ownership,2023,All,all,all,workplace_charging_access_any,yes,22,percent,5482,p.18 / PDF 27,text,
+ownership,2023,BEV,all,all,workplace_charging_use_any_given_access,not_never,69,percent,1212,p.18 / PDF 27,text,
+ownership,2023,PHEV,all,all,workplace_charging_use_any_given_access,not_never,74,percent,1212,p.18 / PDF 27,text,
+ownership,2023,BEV,all,all,charging_frequency_home,daily_or_almost_daily,37,percent,6491,p.19 / PDF 28,figure,Fig 23
+ownership,2023,BEV,all,all,charging_frequency_home,few_times_per_week,27,percent,6491,p.19 / PDF 28,figure,
+ownership,2023,BEV,all,all,charging_frequency_home,about_once_per_week,16,percent,6491,p.19 / PDF 28,figure,
+ownership,2023,BEV,all,all,charging_frequency_home,few_times_per_month_or_less,7,percent,6491,p.19 / PDF 28,figure,
+ownership,2023,BEV,all,all,charging_frequency_home,never,14,percent,6491,p.19 / PDF 28,figure,
+ownership,2023,PHEV,all,all,charging_frequency_home,daily_or_almost_daily,56,percent,6491,p.19 / PDF 28,figure,Fig 23
+ownership,2023,PHEV,all,all,charging_frequency_home,few_times_per_week,15,percent,6491,p.19 / PDF 28,figure,
+ownership,2023,PHEV,all,all,charging_frequency_home,about_once_per_week,6,percent,6491,p.19 / PDF 28,figure,
+ownership,2023,PHEV,all,all,charging_frequency_home,few_times_per_month_or_less,9,percent,6491,p.19 / PDF 28,figure,
+ownership,2023,PHEV,all,all,charging_frequency_home,never,15,percent,6491,p.19 / PDF 28,figure,
+ownership,2023,BEV,all,all,charging_frequency_workplace_onsite,daily_or_almost_daily,12,percent,1212,p.19 / PDF 28,figure,Fig 23; base = those with workplace access
+ownership,2023,BEV,all,all,charging_frequency_workplace_onsite,few_times_per_week,20,percent,1212,p.19 / PDF 28,figure,
+ownership,2023,BEV,all,all,charging_frequency_workplace_onsite,about_once_per_week,14,percent,1212,p.19 / PDF 28,figure,
+ownership,2023,BEV,all,all,charging_frequency_workplace_onsite,few_times_per_month_or_less,23,percent,1212,p.19 / PDF 28,figure,
+ownership,2023,BEV,all,all,charging_frequency_workplace_onsite,never,31,percent,1212,p.19 / PDF 28,figure,
+ownership,2023,PHEV,all,all,charging_frequency_workplace_onsite,daily_or_almost_daily,23,percent,1212,p.19 / PDF 28,figure,Fig 23
+ownership,2023,PHEV,all,all,charging_frequency_workplace_onsite,few_times_per_week,18,percent,1212,p.19 / PDF 28,figure,
+ownership,2023,PHEV,all,all,charging_frequency_workplace_onsite,about_once_per_week,10,percent,1212,p.19 / PDF 28,figure,
+ownership,2023,PHEV,all,all,charging_frequency_workplace_onsite,few_times_per_month_or_less,24,percent,1212,p.19 / PDF 28,figure,
+ownership,2023,PHEV,all,all,charging_frequency_workplace_onsite,never,26,percent,1212,p.19 / PDF 28,figure,
+ownership,2023,BEV,all,all,charging_frequency_near_work_offsite,daily_or_almost_daily,4.4,percent,4753,p.19 / PDF 28,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2023,BEV,all,all,charging_frequency_near_work_offsite,few_times_per_week,3.5,percent,4753,p.19 / PDF 28,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2023,BEV,all,all,charging_frequency_near_work_offsite,about_once_per_week,2.9,percent,4753,p.19 / PDF 28,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2023,BEV,all,all,charging_frequency_near_work_offsite,few_times_per_month_or_less,4.8,percent,4753,p.19 / PDF 28,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2023,BEV,all,all,charging_frequency_near_work_offsite,never,84,percent,4753,p.19 / PDF 28,figure,
+ownership,2023,PHEV,all,all,charging_frequency_near_work_offsite,daily_or_almost_daily,3.4,percent,4753,p.19 / PDF 28,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2023,PHEV,all,all,charging_frequency_near_work_offsite,few_times_per_week,1.9,percent,4753,p.19 / PDF 28,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2023,PHEV,all,all,charging_frequency_near_work_offsite,about_once_per_week,1.8,percent,4753,p.19 / PDF 28,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2023,PHEV,all,all,charging_frequency_near_work_offsite,few_times_per_month_or_less,6,percent,4753,p.19 / PDF 28,figure,
+ownership,2023,PHEV,all,all,charging_frequency_near_work_offsite,never,87,percent,4753,p.19 / PDF 28,figure,
+ownership,2023,BEV,all,all,charging_frequency_public,daily_or_almost_daily,6,percent,6429,p.19 / PDF 28,figure,Fig 23
+ownership,2023,BEV,all,all,charging_frequency_public,few_times_per_week,7,percent,6429,p.19 / PDF 28,figure,
+ownership,2023,BEV,all,all,charging_frequency_public,about_once_per_week,9,percent,6429,p.19 / PDF 28,figure,
+ownership,2023,BEV,all,all,charging_frequency_public,few_times_per_month_or_less,55,percent,6429,p.19 / PDF 28,figure,
+ownership,2023,BEV,all,all,charging_frequency_public,never,23,percent,6429,p.19 / PDF 28,figure,
+ownership,2023,PHEV,all,all,charging_frequency_public,daily_or_almost_daily,1.0,percent,6429,p.19 / PDF 28,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2023,PHEV,all,all,charging_frequency_public,few_times_per_week,2.4,percent,6429,p.19 / PDF 28,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2023,PHEV,all,all,charging_frequency_public,about_once_per_week,5,percent,6429,p.19 / PDF 28,figure,
+ownership,2023,PHEV,all,all,charging_frequency_public,few_times_per_month_or_less,31,percent,6429,p.19 / PDF 28,figure,
+ownership,2023,PHEV,all,all,charging_frequency_public,never,60,percent,6429,p.19 / PDF 28,figure,
+ownership,2023,BEV,all,all,charging_frequency_other,daily_or_almost_daily,4.0,percent,5672,p.19 / PDF 28,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2023,BEV,all,all,charging_frequency_other,few_times_per_week,3.5,percent,5672,p.19 / PDF 28,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2023,BEV,all,all,charging_frequency_other,about_once_per_week,2.7,percent,5672,p.19 / PDF 28,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2023,BEV,all,all,charging_frequency_other,few_times_per_month_or_less,15,percent,5672,p.19 / PDF 28,figure,
+ownership,2023,BEV,all,all,charging_frequency_other,never,75,percent,5672,p.19 / PDF 28,figure,
+ownership,2023,PHEV,all,all,charging_frequency_other,daily_or_almost_daily,0.6,percent,5672,p.19 / PDF 28,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2023,PHEV,all,all,charging_frequency_other,few_times_per_week,1.1,percent,5672,p.19 / PDF 28,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2023,PHEV,all,all,charging_frequency_other,about_once_per_week,1.1,percent,5672,p.19 / PDF 28,figure,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+ownership,2023,PHEV,all,all,charging_frequency_other,few_times_per_month_or_less,9,percent,5672,p.19 / PDF 28,figure,
+ownership,2023,PHEV,all,all,charging_frequency_other,never,88,percent,5672,p.19 / PDF 28,figure,
+ownership,2023,BEV,all,all,public_charging_any_use,not_never,77,percent,6429,p.19 / PDF 28,text,
+ownership,2023,PHEV,all,all,public_charging_any_use,not_never,40,percent,6429,p.19 / PDF 28,text,
+ownership,2023,BEV,all,all,home_charging_few_per_week_or_more,daily_or_few_per_week,64,percent,6491,p.19 / PDF 28,text,
+ownership,2023,BEV,all,all,home_charging_method,level2_240v_station,59,percent_multiselect,5470,p.20 / PDF 29,figure,Fig 24; multi-select
+ownership,2023,BEV,all,all,home_charging_method,outlet_240v_direct,26,percent_multiselect,5470,p.20 / PDF 29,figure,
+ownership,2023,BEV,all,all,home_charging_method,level1_120v_station,8,percent_multiselect,5470,p.20 / PDF 29,figure,
+ownership,2023,BEV,all,all,home_charging_method,outlet_120v_direct,15,percent_multiselect,5470,p.20 / PDF 29,figure,
+ownership,2023,PHEV,all,all,home_charging_method,level2_240v_station,25,percent_multiselect,5470,p.20 / PDF 29,figure,Fig 24; multi-select
+ownership,2023,PHEV,all,all,home_charging_method,outlet_240v_direct,11,percent_multiselect,5470,p.20 / PDF 29,figure,
+ownership,2023,PHEV,all,all,home_charging_method,level1_120v_station,8,percent_multiselect,5470,p.20 / PDF 29,figure,
+ownership,2023,PHEV,all,all,home_charging_method,outlet_120v_direct,64,percent_multiselect,5470,p.20 / PDF 29,figure,
+ownership,2022,BEV,all,all,charging_frequency_home,daily_or_almost_daily,38,percent,,ES-2 / PDF 9,text,value for 2022 vehicles quoted in 2023 Ownership report (2022 report not in repo)
+ownership,2022,PHEV,all,all,charging_frequency_home,daily_or_almost_daily,67,percent,,ES-2 / PDF 9,text,value for 2022 vehicles quoted in 2023 Ownership report (2022 report not in repo)
+ownership,2022,BEV,all,all,home_charging_few_per_week_or_more,daily_or_few_per_week,66,percent,,p.19 / PDF 28,text,value for 2022 vehicles quoted in 2023 Ownership report (2022 report not in repo)
+ownership,2022,BEV,all,all,public_charging_any_use,not_never,78,percent,,p.19 / PDF 28,text,value for 2022 vehicles quoted in 2023 Ownership report (2022 report not in repo)
+ownership,2022,PHEV,all,all,public_charging_any_use,not_never,46,percent,,p.19 / PDF 28,text,value for 2022 vehicles quoted in 2023 Ownership report (2022 report not in repo)
+ownership,2022,BEV,all,all,total_miles_since_acquisition_mean,mean,12248,miles,,p.9 / PDF 18,text,value for 2022 vehicles quoted in 2023 Ownership report (2022 report not in repo)
+ownership,2022,PHEV,all,all,total_miles_since_acquisition_mean,mean,12080,miles,,p.9 / PDF 18,text,value for 2022 vehicles quoted in 2023 Ownership report (2022 report not in repo)
+ownership,2022,All,all,all,technology_share,BEV,73,percent,,p.3 / PDF 12,text,value for 2022 vehicles quoted in 2023 Ownership report (2022 report not in repo)
+adoption,2025,All,all,all,invited_participants,count,38300,count,,p.1 / PDF 9,text,
+adoption,2025,All,all,all,valid_responses,count,4361,count,,p.1 / PDF 9,text,
+adoption,2025,All,all,all,population_represented,count,38177,count,,p.2 / PDF 10,table,Table 1
+adoption,2025,All,all,all,technology_share,BEV,76,percent,4361,p.3 / PDF 11,text,
+adoption,2025,All,all,all,technology_share,PHEV,24,percent,4361,p.3 / PDF 11,text,
+adoption,2025,All,all,all,home_charging_status,yes,82,percent,4331,p.14 / PDF 22,figure,"Fig 15; no significant BEV/PHEV difference, so only All published; 'yes' includes current home charging 1-3 weeks after purchase"
+adoption,2025,All,all,all,home_charging_status,no_but_planning,9,percent,4331,p.14 / PDF 22,figure,
+adoption,2025,All,all,all,home_charging_status,no_no_plans,9,percent,4331,p.14 / PDF 22,figure,
+adoption,2025,BEV,all,all,workplace_charging_access,yes,35,percent,3030,p.14 / PDF 22,figure,Fig 16; question allows 'Not applicable' (excluded); not comparable with ownership-survey wording
+adoption,2025,BEV,all,all,workplace_charging_access,no,58,percent,3030,p.14 / PDF 22,figure,
+adoption,2025,BEV,all,all,workplace_charging_access,dont_know,6,percent,3030,p.14 / PDF 22,figure,
+adoption,2025,PHEV,all,all,workplace_charging_access,yes,28,percent,3030,p.14 / PDF 22,figure,Fig 16; question allows 'Not applicable' (excluded); not comparable with ownership-survey wording
+adoption,2025,PHEV,all,all,workplace_charging_access,no,63,percent,3030,p.14 / PDF 22,figure,
+adoption,2025,PHEV,all,all,workplace_charging_access,dont_know,9,percent,3030,p.14 / PDF 22,figure,
+adoption,2025,BEV,all,all,near_workplace_charging_access,yes,61,percent,3071,p.14 / PDF 22,figure,Fig 16
+adoption,2025,BEV,all,all,near_workplace_charging_access,no,24,percent,3071,p.14 / PDF 22,figure,
+adoption,2025,BEV,all,all,near_workplace_charging_access,dont_know,15,percent,3071,p.14 / PDF 22,figure,
+adoption,2025,PHEV,all,all,near_workplace_charging_access,yes,34,percent,3071,p.14 / PDF 22,figure,Fig 16
+adoption,2025,PHEV,all,all,near_workplace_charging_access,no,37,percent,3071,p.14 / PDF 22,figure,
+adoption,2025,PHEV,all,all,near_workplace_charging_access,dont_know,29,percent,3071,p.14 / PDF 22,figure,
+adoption,2025,BEV,all,all,home_charging_method_current_or_planned,level2_240v_station,62,percent_multiselect,3965,p.15 / PDF 23,figure,Fig 17; multi-select; base = charge or plan to charge at home
+adoption,2025,BEV,all,all,home_charging_method_current_or_planned,outlet_240v_direct,21,percent_multiselect,3965,p.15 / PDF 23,figure,
+adoption,2025,BEV,all,all,home_charging_method_current_or_planned,level1_120v_station,7,percent_multiselect,3965,p.15 / PDF 23,figure,
+adoption,2025,BEV,all,all,home_charging_method_current_or_planned,outlet_120v_direct,22,percent_multiselect,3965,p.15 / PDF 23,figure,
+adoption,2025,PHEV,all,all,home_charging_method_current_or_planned,level2_240v_station,23,percent_multiselect,3965,p.15 / PDF 23,figure,Fig 17; multi-select
+adoption,2025,PHEV,all,all,home_charging_method_current_or_planned,outlet_240v_direct,9,percent_multiselect,3965,p.15 / PDF 23,figure,
+adoption,2025,PHEV,all,all,home_charging_method_current_or_planned,level1_120v_station,8,percent_multiselect,3965,p.15 / PDF 23,figure,
+adoption,2025,PHEV,all,all,home_charging_method_current_or_planned,outlet_120v_direct,70,percent_multiselect,3965,p.15 / PDF 23,figure,
+adoption,2025,All,all,all,tenure,own,84,percent,4254,p.15 / PDF 23,figure,Fig 18; no BEV/PHEV difference
+adoption,2025,All,all,all,tenure,rent,13,percent,4254,p.15 / PDF 23,figure,
+adoption,2025,All,all,all,tenure,neither,3,percent,4254,p.15 / PDF 23,figure,
+adoption,2025,All,all,all,residence_type,detached_house,77,percent,4282,p.16 / PDF 24,figure,Fig 19; no BEV/PHEV difference
+adoption,2025,All,all,all,residence_type,apartment_condominium,13,percent,4282,p.16 / PDF 24,figure,
+adoption,2025,All,all,all,residence_type,attached_house,10,percent,4282,p.16 / PDF 24,figure,
+adoption,2025,All,all,all,residence_type,other,0.8,percent,4282,p.16 / PDF 24,figure,
+adoption,2025,All,dac,inside_dac,residence_type,detached_house,59,percent,4210,p.22 / PDF 30,figure,Fig 29
+adoption,2025,All,dac,inside_dac,residence_type,apartment_condominium,24,percent,4210,p.22 / PDF 30,figure,
+adoption,2025,All,dac,inside_dac,residence_type,attached_house,16,percent,4210,p.22 / PDF 30,figure,
+adoption,2025,All,dac,inside_dac,residence_type,other,1,percent,4210,p.22 / PDF 30,figure,
+adoption,2025,All,dac,outside_dac,residence_type,detached_house,79,percent,4210,p.22 / PDF 30,figure,Fig 29
+adoption,2025,All,dac,outside_dac,residence_type,apartment_condominium,11,percent,4210,p.22 / PDF 30,figure,
+adoption,2025,All,dac,outside_dac,residence_type,attached_house,9,percent,4210,p.22 / PDF 30,figure,
+adoption,2025,All,dac,outside_dac,residence_type,other,0.8,percent,4210,p.22 / PDF 30,figure,
+adoption,2025,BEV,all,all,solar_at_residence,installed,19,percent,4350,p.16 / PDF 24,figure,Fig 20
+adoption,2025,BEV,all,all,solar_at_residence,considering,31,percent,4350,p.16 / PDF 24,figure,
+adoption,2025,BEV,all,all,solar_at_residence,no_plans,50,percent,4350,p.16 / PDF 24,figure,
+adoption,2025,PHEV,all,all,solar_at_residence,installed,15,percent,4350,p.16 / PDF 24,figure,Fig 20
+adoption,2025,PHEV,all,all,solar_at_residence,considering,23,percent,4350,p.16 / PDF 24,figure,
+adoption,2025,PHEV,all,all,solar_at_residence,no_plans,61,percent,4350,p.16 / PDF 24,figure,
+adoption,2025,All,all,all,household_income,lt25k,1,percent,3625,p.19 / PDF 27,figure,Fig 24; no BEV/PHEV difference
+adoption,2025,All,all,all,household_income,25_50k,4,percent,3625,p.19 / PDF 27,figure,
+adoption,2025,All,all,all,household_income,50_75k,9,percent,3625,p.19 / PDF 27,figure,
+adoption,2025,All,all,all,household_income,75_100k,12,percent,3625,p.19 / PDF 27,figure,
+adoption,2025,All,all,all,household_income,100_150k,23,percent,3625,p.19 / PDF 27,figure,
+adoption,2025,All,all,all,household_income,150_200k,16,percent,3625,p.19 / PDF 27,figure,
+adoption,2025,All,all,all,household_income,200_300k,18,percent,3625,p.19 / PDF 27,figure,
+adoption,2025,All,all,all,household_income,300_400k,7,percent,3625,p.19 / PDF 27,figure,
+adoption,2025,All,all,all,household_income,ge400k,10,percent,3625,p.19 / PDF 27,figure,
+adoption,2025,All,dac,inside_dac,household_income,lt25k,3,percent,3561,p.22 / PDF 30,figure,Fig 28
+adoption,2025,All,dac,inside_dac,household_income,25_50k,7,percent,3561,p.22 / PDF 30,figure,
+adoption,2025,All,dac,inside_dac,household_income,50_75k,14,percent,3561,p.22 / PDF 30,figure,
+adoption,2025,All,dac,inside_dac,household_income,75_100k,14,percent,3561,p.22 / PDF 30,figure,
+adoption,2025,All,dac,inside_dac,household_income,100_150k,26,percent,3561,p.22 / PDF 30,figure,
+adoption,2025,All,dac,inside_dac,household_income,150_200k,15,percent,3561,p.22 / PDF 30,figure,
+adoption,2025,All,dac,inside_dac,household_income,200_300k,12,percent,3561,p.22 / PDF 30,figure,
+adoption,2025,All,dac,inside_dac,household_income,300_400k,5,percent,3561,p.22 / PDF 30,figure,
+adoption,2025,All,dac,inside_dac,household_income,ge400k,4,percent,3561,p.22 / PDF 30,figure,
+adoption,2025,All,dac,outside_dac,household_income,lt25k,1,percent,3561,p.22 / PDF 30,figure,Fig 28
+adoption,2025,All,dac,outside_dac,household_income,25_50k,4,percent,3561,p.22 / PDF 30,figure,
+adoption,2025,All,dac,outside_dac,household_income,50_75k,8,percent,3561,p.22 / PDF 30,figure,
+adoption,2025,All,dac,outside_dac,household_income,75_100k,11,percent,3561,p.22 / PDF 30,figure,
+adoption,2025,All,dac,outside_dac,household_income,100_150k,22,percent,3561,p.22 / PDF 30,figure,
+adoption,2025,All,dac,outside_dac,household_income,150_200k,16,percent,3561,p.22 / PDF 30,figure,
+adoption,2025,All,dac,outside_dac,household_income,200_300k,19,percent,3561,p.22 / PDF 30,figure,
+adoption,2025,All,dac,outside_dac,household_income,300_400k,7,percent,3561,p.22 / PDF 30,figure,
+adoption,2025,All,dac,outside_dac,household_income,ge400k,11,percent,3561,p.22 / PDF 30,figure,
+adoption,2025,All,dac,inside_dac,household_income_lt_150k,share,64,percent,,p.21 / PDF 29,text,
+adoption,2025,All,dac,outside_dac,household_income_lt_150k,share,47,percent,,p.21 / PDF 29,text,
+adoption,2025,All,all,all,dac_share_of_respondents,inside_dac,14,percent,,p.20 / PDF 28,text,
+adoption,2025,All,all,all,dac_share_of_participants,inside_dac,16,percent,37283,p.20 / PDF 28,text,
+adoption,2025,BEV,all,all,vehicle_replacement_status,replaces_household_car,79,percent,4335,p.4 / PDF 12,figure,Fig 2
+adoption,2025,BEV,all,all,vehicle_replacement_status,adds_to_fleet,16,percent,4335,p.4 / PDF 12,figure,
+adoption,2025,BEV,all,all,vehicle_replacement_status,first_or_only_car,5,percent,4335,p.4 / PDF 12,figure,
+adoption,2025,PHEV,all,all,vehicle_replacement_status,replaces_household_car,90,percent,4335,p.4 / PDF 12,figure,Fig 2
+adoption,2025,PHEV,all,all,vehicle_replacement_status,adds_to_fleet,7,percent,4335,p.4 / PDF 12,figure,
+adoption,2025,PHEV,all,all,vehicle_replacement_status,first_or_only_car,3,percent,4335,p.4 / PDF 12,figure,
+adoption,2025,All,all,all,vehicle_replacement_status,replaces_household_car,82,percent,4335,p.3 / PDF 11,text,overall; adds_to_fleet overall 14%
+adoption,2025,All,dac,inside_dac,vehicle_replacement_status,replaces_household_car,75,percent,4260,p.23 / PDF 31,figure,Fig 30
+adoption,2025,All,dac,inside_dac,vehicle_replacement_status,adds_to_fleet,14,percent,4260,p.23 / PDF 31,figure,
+adoption,2025,All,dac,inside_dac,vehicle_replacement_status,first_or_only_car,11,percent,4260,p.23 / PDF 31,figure,
+adoption,2025,All,dac,outside_dac,vehicle_replacement_status,replaces_household_car,83,percent,4260,p.23 / PDF 31,figure,Fig 30
+adoption,2025,All,dac,outside_dac,vehicle_replacement_status,adds_to_fleet,14,percent,4260,p.23 / PDF 31,figure,
+adoption,2025,All,dac,outside_dac,vehicle_replacement_status,first_or_only_car,3,percent,4260,p.23 / PDF 31,figure,
+adoption,2025,BEV,all,all,replaced_vehicle_fuel,gasoline,56,percent,3559,p.5 / PDF 13,figure,Fig 3; base = replacers
+adoption,2025,BEV,all,all,replaced_vehicle_fuel,bev,34,percent,3559,p.5 / PDF 13,figure,
+adoption,2025,BEV,all,all,replaced_vehicle_fuel,conventional_hybrid,5,percent,3559,p.5 / PDF 13,figure,
+adoption,2025,BEV,all,all,replaced_vehicle_fuel,phev,4,percent,3559,p.5 / PDF 13,figure,
+adoption,2025,BEV,all,all,replaced_vehicle_fuel,diesel,0.3,percent,3559,p.5 / PDF 13,figure,
+adoption,2025,BEV,all,all,replaced_vehicle_fuel,flex_fuel,0.2,percent,3559,p.5 / PDF 13,figure,
+adoption,2025,BEV,all,all,replaced_vehicle_fuel,fcev,0.1,percent,3559,p.5 / PDF 13,figure,
+adoption,2025,BEV,all,all,replaced_vehicle_fuel,other,0.1,percent,3559,p.5 / PDF 13,figure,
+adoption,2025,BEV,all,all,replaced_vehicle_fuel,cng,0,percent,3559,p.5 / PDF 13,figure,
+adoption,2025,PHEV,all,all,replaced_vehicle_fuel,gasoline,53,percent,3559,p.5 / PDF 13,figure,Fig 3
+adoption,2025,PHEV,all,all,replaced_vehicle_fuel,bev,4,percent,3559,p.5 / PDF 13,figure,
+adoption,2025,PHEV,all,all,replaced_vehicle_fuel,conventional_hybrid,11,percent,3559,p.5 / PDF 13,figure,
+adoption,2025,PHEV,all,all,replaced_vehicle_fuel,phev,32,percent,3559,p.5 / PDF 13,figure,
+adoption,2025,PHEV,all,all,replaced_vehicle_fuel,diesel,0.6,percent,3559,p.5 / PDF 13,figure,
+adoption,2025,PHEV,all,all,replaced_vehicle_fuel,flex_fuel,0.1,percent,3559,p.5 / PDF 13,figure,
+adoption,2025,PHEV,all,all,replaced_vehicle_fuel,fcev,0,percent,3559,p.5 / PDF 13,figure,
+adoption,2025,PHEV,all,all,replaced_vehicle_fuel,other,0,percent,3559,p.5 / PDF 13,figure,
+adoption,2025,PHEV,all,all,replaced_vehicle_fuel,cng,0.1,percent,3559,p.5 / PDF 13,figure,
+adoption,2025,BEV,all,all,first_ev_ever,yes,68,percent,4349,p.5 / PDF 13,figure,Fig 4
+adoption,2025,PHEV,all,all,first_ev_ever,yes,72,percent,4349,p.5 / PDF 13,figure,Fig 4
+adoption,2025,All,all,all,first_ev_ever,yes,69,percent,4349,p.4 / PDF 12,text,
+adoption,2024,All,all,all,invited_participants,count,42498,count,,p.1 / PDF 9,text,
+adoption,2024,All,all,all,valid_responses,count,5292,count,,p.1 / PDF 9,text,
+adoption,2024,All,all,all,population_represented,count,42396,count,,p.2 / PDF 10,table,Table 1
+adoption,2024,All,all,all,technology_share,BEV,65,percent,5292,p.3 / PDF 11,text,
+adoption,2024,All,all,all,technology_share,PHEV,35,percent,5292,p.3 / PDF 11,text,
+adoption,2024,BEV,all,all,home_charging_status,yes,80,percent,5266,p.12 / PDF 20,figure,Fig 14
+adoption,2024,BEV,all,all,home_charging_status,no_but_planning,11,percent,5266,p.12 / PDF 20,figure,
+adoption,2024,BEV,all,all,home_charging_status,no_no_plans,9,percent,5266,p.12 / PDF 20,figure,
+adoption,2024,PHEV,all,all,home_charging_status,yes,76,percent,5266,p.12 / PDF 20,figure,Fig 14
+adoption,2024,PHEV,all,all,home_charging_status,no_but_planning,11,percent,5266,p.12 / PDF 20,figure,
+adoption,2024,PHEV,all,all,home_charging_status,no_no_plans,14,percent,5266,p.12 / PDF 20,figure,
+adoption,2024,All,all,all,home_charging_status,yes,78,percent,5266,p.12 / PDF 20,text,overall; no_no_plans not stated in text
+adoption,2024,All,all,all,home_charging_status,no_but_planning,11,percent,5266,p.12 / PDF 20,text,
+adoption,2024,BEV,all,all,workplace_charging_access,yes,34,percent,3951,p.13 / PDF 21,figure,Fig 15; 'Not applicable' excluded
+adoption,2024,BEV,all,all,workplace_charging_access,no,61,percent,3951,p.13 / PDF 21,figure,
+adoption,2024,BEV,all,all,workplace_charging_access,dont_know,6,percent,3951,p.13 / PDF 21,figure,
+adoption,2024,PHEV,all,all,workplace_charging_access,yes,24,percent,3951,p.13 / PDF 21,figure,Fig 15
+adoption,2024,PHEV,all,all,workplace_charging_access,no,65,percent,3951,p.13 / PDF 21,figure,
+adoption,2024,PHEV,all,all,workplace_charging_access,dont_know,11,percent,3951,p.13 / PDF 21,figure,
+adoption,2024,BEV,all,all,near_workplace_charging_access,yes,59,percent,3985,p.13 / PDF 21,figure,Fig 15
+adoption,2024,BEV,all,all,near_workplace_charging_access,no,27,percent,3985,p.13 / PDF 21,figure,
+adoption,2024,BEV,all,all,near_workplace_charging_access,dont_know,14,percent,3985,p.13 / PDF 21,figure,
+adoption,2024,PHEV,all,all,near_workplace_charging_access,yes,30,percent,3985,p.13 / PDF 21,figure,Fig 15
+adoption,2024,PHEV,all,all,near_workplace_charging_access,no,40,percent,3985,p.13 / PDF 21,figure,
+adoption,2024,PHEV,all,all,near_workplace_charging_access,dont_know,30,percent,3985,p.13 / PDF 21,figure,
+adoption,2024,BEV,all,all,home_charging_method_current_or_planned,level2_240v_station,61,percent_multiselect,4663,p.14 / PDF 22,figure,Fig 16; multi-select
+adoption,2024,BEV,all,all,home_charging_method_current_or_planned,outlet_240v_direct,23,percent_multiselect,4663,p.14 / PDF 22,figure,
+adoption,2024,BEV,all,all,home_charging_method_current_or_planned,level1_120v_station,7,percent_multiselect,4663,p.14 / PDF 22,figure,
+adoption,2024,BEV,all,all,home_charging_method_current_or_planned,outlet_120v_direct,20,percent_multiselect,4663,p.14 / PDF 22,figure,
+adoption,2024,PHEV,all,all,home_charging_method_current_or_planned,level2_240v_station,21,percent_multiselect,4663,p.14 / PDF 22,figure,Fig 16; multi-select
+adoption,2024,PHEV,all,all,home_charging_method_current_or_planned,outlet_240v_direct,8,percent_multiselect,4663,p.14 / PDF 22,figure,
+adoption,2024,PHEV,all,all,home_charging_method_current_or_planned,level1_120v_station,7,percent_multiselect,4663,p.14 / PDF 22,figure,
+adoption,2024,PHEV,all,all,home_charging_method_current_or_planned,outlet_120v_direct,72,percent_multiselect,4663,p.14 / PDF 22,figure,
+adoption,2024,BEV,all,all,tenure,own,82,percent,5122,p.15 / PDF 23,figure,Fig 17; no BEV/PHEV difference
+adoption,2024,BEV,all,all,tenure,rent,15,percent,5122,p.15 / PDF 23,figure,
+adoption,2024,BEV,all,all,tenure,neither,3,percent,5122,p.15 / PDF 23,figure,
+adoption,2024,PHEV,all,all,tenure,own,83,percent,5122,p.15 / PDF 23,figure,Fig 17
+adoption,2024,PHEV,all,all,tenure,rent,14,percent,5122,p.15 / PDF 23,figure,
+adoption,2024,PHEV,all,all,tenure,neither,4,percent,5122,p.15 / PDF 23,figure,
+adoption,2024,All,all,all,tenure,own,82,percent,5122,p.14 / PDF 22,text,overall own only
+adoption,2024,BEV,all,all,residence_type,detached_house,76,percent,5155,p.15 / PDF 23,figure,Fig 18
+adoption,2024,BEV,all,all,residence_type,apartment_condominium,13,percent,5155,p.15 / PDF 23,figure,
+adoption,2024,BEV,all,all,residence_type,attached_house,10,percent,5155,p.15 / PDF 23,figure,
+adoption,2024,BEV,all,all,residence_type,other,0.9,percent,5155,p.15 / PDF 23,figure,
+adoption,2024,PHEV,all,all,residence_type,detached_house,79,percent,5155,p.15 / PDF 23,figure,Fig 18
+adoption,2024,PHEV,all,all,residence_type,apartment_condominium,12,percent,5155,p.15 / PDF 23,figure,
+adoption,2024,PHEV,all,all,residence_type,attached_house,8,percent,5155,p.15 / PDF 23,figure,
+adoption,2024,PHEV,all,all,residence_type,other,2,percent,5155,p.15 / PDF 23,figure,
+adoption,2024,All,all,all,residence_type,detached_house,77,percent,5155,p.14 / PDF 22,text,overall detached only
+adoption,2024,All,all,all,residence_type_prior_year_detached,detached_house,72,percent,,p.14 / PDF 22,text,2023 adoption survey value quoted in 2024 report
+adoption,2024,All,dac,inside_dac,residence_type,detached_house,54,percent,5095,p.23 / PDF 31,figure,Fig 28
+adoption,2024,All,dac,inside_dac,residence_type,apartment_condominium,29,percent,5095,p.23 / PDF 31,figure,
+adoption,2024,All,dac,inside_dac,residence_type,attached_house,14,percent,5095,p.23 / PDF 31,figure,
+adoption,2024,All,dac,inside_dac,residence_type,other,3,percent,5095,p.23 / PDF 31,figure,
+adoption,2024,All,dac,outside_dac,residence_type,detached_house,81,percent,5095,p.23 / PDF 31,figure,Fig 28
+adoption,2024,All,dac,outside_dac,residence_type,apartment_condominium,9,percent,5095,p.23 / PDF 31,figure,
+adoption,2024,All,dac,outside_dac,residence_type,attached_house,8,percent,5095,p.23 / PDF 31,figure,
+adoption,2024,All,dac,outside_dac,residence_type,other,0.8,percent,5095,p.23 / PDF 31,figure,
+adoption,2024,BEV,all,all,household_income,lt25k,0.7,percent,4455,p.18 / PDF 26,figure,Fig 23
+adoption,2024,BEV,all,all,household_income,25_50k,4,percent,4455,p.18 / PDF 26,figure,
+adoption,2024,BEV,all,all,household_income,50_75k,9,percent,4455,p.18 / PDF 26,figure,
+adoption,2024,BEV,all,all,household_income,75_100k,12,percent,4455,p.18 / PDF 26,figure,
+adoption,2024,BEV,all,all,household_income,100_150k,22,percent,4455,p.18 / PDF 26,figure,
+adoption,2024,BEV,all,all,household_income,150_200k,17,percent,4455,p.18 / PDF 26,figure,
+adoption,2024,BEV,all,all,household_income,200_300k,17,percent,4455,p.18 / PDF 26,figure,
+adoption,2024,BEV,all,all,household_income,300_400k,8,percent,4455,p.18 / PDF 26,figure,
+adoption,2024,BEV,all,all,household_income,ge400k,10,percent,4455,p.18 / PDF 26,figure,
+adoption,2024,PHEV,all,all,household_income,lt25k,0.3,percent,4455,p.18 / PDF 26,figure,Fig 23
+adoption,2024,PHEV,all,all,household_income,25_50k,4,percent,4455,p.18 / PDF 26,figure,
+adoption,2024,PHEV,all,all,household_income,50_75k,8,percent,4455,p.18 / PDF 26,figure,
+adoption,2024,PHEV,all,all,household_income,75_100k,14,percent,4455,p.18 / PDF 26,figure,
+adoption,2024,PHEV,all,all,household_income,100_150k,25,percent,4455,p.18 / PDF 26,figure,
+adoption,2024,PHEV,all,all,household_income,150_200k,17,percent,4455,p.18 / PDF 26,figure,
+adoption,2024,PHEV,all,all,household_income,200_300k,16,percent,4455,p.18 / PDF 26,figure,
+adoption,2024,PHEV,all,all,household_income,300_400k,7,percent,4455,p.18 / PDF 26,figure,
+adoption,2024,PHEV,all,all,household_income,ge400k,9,percent,4455,p.18 / PDF 26,figure,
+adoption,2024,All,dac,inside_dac,household_income_lt_150k,share,64,percent,,p.21 / PDF 29,text,
+adoption,2024,All,dac,outside_dac,household_income_lt_150k,share,46,percent,,p.21 / PDF 29,text,
+adoption,2024,All,all,all,dac_share_of_respondents,inside_dac,16,percent,,p.19 / PDF 27,text,
+adoption,2024,All,all,all,dac_share_of_participants,inside_dac,16,percent,41717,p.19 / PDF 27,text,
+adoption,2024,BEV,all,all,vehicle_replacement_status,replaces_household_car,80,percent,5268,p.4 / PDF 12,figure,Fig 2
+adoption,2024,BEV,all,all,vehicle_replacement_status,adds_to_fleet,15,percent,5268,p.4 / PDF 12,figure,
+adoption,2024,BEV,all,all,vehicle_replacement_status,first_or_only_car,5,percent,5268,p.4 / PDF 12,figure,
+adoption,2024,PHEV,all,all,vehicle_replacement_status,replaces_household_car,88,percent,5268,p.4 / PDF 12,figure,Fig 2
+adoption,2024,PHEV,all,all,vehicle_replacement_status,adds_to_fleet,9,percent,5268,p.4 / PDF 12,figure,
+adoption,2024,PHEV,all,all,vehicle_replacement_status,first_or_only_car,3,percent,5268,p.4 / PDF 12,figure,
+adoption,2024,All,dac,inside_dac,vehicle_replacement_status,replaces_household_car,83,percent,5207,p.23 / PDF 31,figure,Fig 29
+adoption,2024,All,dac,inside_dac,vehicle_replacement_status,adds_to_fleet,9,percent,5207,p.23 / PDF 31,figure,
+adoption,2024,All,dac,inside_dac,vehicle_replacement_status,first_or_only_car,8,percent,5207,p.23 / PDF 31,figure,
+adoption,2024,All,dac,outside_dac,vehicle_replacement_status,replaces_household_car,83,percent,5207,p.23 / PDF 31,figure,Fig 29
+adoption,2024,All,dac,outside_dac,vehicle_replacement_status,adds_to_fleet,13,percent,5207,p.23 / PDF 31,figure,
+adoption,2024,All,dac,outside_dac,vehicle_replacement_status,first_or_only_car,4,percent,5207,p.23 / PDF 31,figure,
+adoption,2024,BEV,all,all,replaced_vehicle_fuel,gasoline,61,percent,4324,p.5 / PDF 13,figure,Fig 3; base = replacers
+adoption,2024,BEV,all,all,replaced_vehicle_fuel,bev,28,percent,4324,p.5 / PDF 13,figure,
+adoption,2024,BEV,all,all,replaced_vehicle_fuel,conventional_hybrid,6,percent,4324,p.5 / PDF 13,figure,
+adoption,2024,BEV,all,all,replaced_vehicle_fuel,phev,4,percent,4324,p.5 / PDF 13,figure,
+adoption,2024,BEV,all,all,replaced_vehicle_fuel,diesel,0.5,percent,4324,p.5 / PDF 13,figure,
+adoption,2024,BEV,all,all,replaced_vehicle_fuel,flex_fuel,0.3,percent,4324,p.5 / PDF 13,figure,
+adoption,2024,BEV,all,all,replaced_vehicle_fuel,fcev,0.1,percent,4324,p.5 / PDF 13,figure,
+adoption,2024,BEV,all,all,replaced_vehicle_fuel,other,0.1,percent,4324,p.5 / PDF 13,figure,
+adoption,2024,BEV,all,all,replaced_vehicle_fuel,cng,0,percent,4324,p.5 / PDF 13,figure,
+adoption,2024,PHEV,all,all,replaced_vehicle_fuel,gasoline,63,percent,4324,p.5 / PDF 13,figure,Fig 3
+adoption,2024,PHEV,all,all,replaced_vehicle_fuel,bev,0.8,percent,4324,p.5 / PDF 13,figure,
+adoption,2024,PHEV,all,all,replaced_vehicle_fuel,conventional_hybrid,9,percent,4324,p.5 / PDF 13,figure,
+adoption,2024,PHEV,all,all,replaced_vehicle_fuel,phev,26,percent,4324,p.5 / PDF 13,figure,
+adoption,2024,PHEV,all,all,replaced_vehicle_fuel,diesel,0.1,percent,4324,p.5 / PDF 13,figure,
+adoption,2024,PHEV,all,all,replaced_vehicle_fuel,flex_fuel,0.1,percent,4324,p.5 / PDF 13,figure,
+adoption,2024,PHEV,all,all,replaced_vehicle_fuel,fcev,0,percent,4324,p.5 / PDF 13,figure,
+adoption,2024,PHEV,all,all,replaced_vehicle_fuel,other,0,percent,4324,p.5 / PDF 13,figure,
+adoption,2024,PHEV,all,all,replaced_vehicle_fuel,cng,0.1,percent,4324,p.5 / PDF 13,figure,
+adoption,2024,BEV,all,all,first_ev_ever,yes,72,percent,5272,p.5 / PDF 13,figure,Fig 4
+adoption,2024,PHEV,all,all,first_ev_ever,yes,81,percent,5272,p.5 / PDF 13,figure,Fig 4
+adoption,2024,All,all,all,first_ev_ever,yes,75,percent,5272,p.4 / PDF 12,text,
+cse_vehicle_characteristics_deck,2024,All,all,all,rebates_leased_share,lease,64,percent,45535,PDF 10,text,B-admin; share of rebates
+cse_vehicle_characteristics_deck,2023,All,all,all,rebates_leased_share,lease,39,percent,,PDF 10,text,B-admin
+cse_vehicle_characteristics_deck,2022,All,all,all,rebates_leased_share,lease,19,percent,,PDF 10,text,B-admin
+cse_vehicle_characteristics_deck,2024,All,all,all,funding_leased_share,lease,67,percent,,PDF 10,figure,B-admin; share of rebate dollars
+cse_vehicle_characteristics_deck,2024,All,all,all,rebates_urban_rural_share,urban,88,percent,,PDF 19,figure,B-admin; Census 2020 urban-rural; classified for 95% of 2024 purchases
+cse_vehicle_characteristics_deck,2024,All,all,all,rebates_urban_rural_share,rural,12,percent,,PDF 19,figure,
+cse_vehicle_characteristics_deck,2024,All,all,all,rebates_vehicle_category_share,tesla_bev,41,percent,45535,PDF 4,text,B-admin
+cse_vehicle_characteristics_deck,2024,All,all,all,rebates_vehicle_category_share,phev,35,percent,45535,PDF 4,text,
+cse_vehicle_characteristics_deck,2024,All,all,all,rebates_vehicle_category_share,other_bev,24,percent,45535,PDF 4,text,
+cse_vehicle_characteristics_deck,2024,All,all,all,rebates_500_dollar_share,500_dollar,90,percent,45535,PDF 15,text,B-admin; $500 = <40 e-miles or MSRP > $42k
+cse_vehicle_characteristics_deck,2024,All,all,all,rebates_min_msrp_lt_40k_share,msrp_lt_40k,17,percent,,PDF 15,text,"B-admin; model minimum MSRP, not transaction price"
+cse_vehicle_characteristics_deck,2023,All,all,all,rebates_min_msrp_lt_40k_share,msrp_lt_40k,12,percent,,PDF 15,text,"B-admin; model minimum MSRP, not transaction price"
+cse_vehicle_characteristics_deck,2022,All,all,all,rebates_min_msrp_lt_40k_share,msrp_lt_40k,29,percent,,PDF 15,text,"B-admin; model minimum MSRP, not transaction price"
+cse_vehicle_characteristics_deck,2021,All,all,all,rebates_min_msrp_lt_40k_share,msrp_lt_40k,60,percent,,PDF 15,text,"B-admin; model minimum MSRP, not transaction price"
+cse_vehicle_replacement_deck,2017,All,all,all,vehicle_replacement_rate,replaced_a_vehicle,81,percent,1011,PDF 8,figure,adoption-survey data pooled by CSE (cut-off differs from annual reports)
+cse_vehicle_replacement_deck,2018,All,all,all,vehicle_replacement_rate,replaced_a_vehicle,85,percent,2201,PDF 8,figure,adoption-survey data pooled by CSE (cut-off differs from annual reports)
+cse_vehicle_replacement_deck,2019,All,all,all,vehicle_replacement_rate,replaced_a_vehicle,84,percent,2245,PDF 8,figure,adoption-survey data pooled by CSE (cut-off differs from annual reports)
+cse_vehicle_replacement_deck,2020,All,all,all,vehicle_replacement_rate,replaced_a_vehicle,79,percent,3394,PDF 8,figure,adoption-survey data pooled by CSE (cut-off differs from annual reports)
+cse_vehicle_replacement_deck,2021,All,all,all,vehicle_replacement_rate,replaced_a_vehicle,80,percent,5080,PDF 8,figure,adoption-survey data pooled by CSE (cut-off differs from annual reports)
+cse_vehicle_replacement_deck,2022,All,all,all,vehicle_replacement_rate,replaced_a_vehicle,78,percent,5458,PDF 8,figure,adoption-survey data pooled by CSE (cut-off differs from annual reports)
+cse_vehicle_replacement_deck,2023,All,all,all,vehicle_replacement_rate,replaced_a_vehicle,77,percent,7196,PDF 8,figure,adoption-survey data pooled by CSE (cut-off differs from annual reports)
+cse_vehicle_replacement_deck,2024,All,all,all,vehicle_replacement_rate,replaced_a_vehicle,83,percent,5569,PDF 8,figure,adoption-survey data pooled by CSE (cut-off differs from annual reports)
+cse_vehicle_replacement_deck,2024,All,all,all,replaced_vehicle_age_10plus_years,share,20,percent,4502,PDF 9,text,'1/5th of replaced vehicles were 10+ years old'
+cse_vehicle_replacement_deck,2023,All,all,all,replaced_vehicle_age_10plus_years,share,25,percent,5554,PDF 18,text,'1/4th'
+cse_vehicle_replacement_deck,2024,All,all,all,replaced_vehicle_fuel_gasoline_only,gasoline,64,percent,4502,PDF 12,text,
+cse_vehicle_replacement_deck,2023,All,all,all,replaced_vehicle_fuel_gasoline_only,gasoline,70,percent,5554,PDF 12,text,
+cse_consumer_characteristics_deck,2017,All,all,all,tenure,own,90,percent,,PDF 15,table,adoption-survey based; 'prefer not to answer' excluded; 2017 = from Mar 2017
+cse_consumer_characteristics_deck,2017,All,all,all,household_income_ge_100k,share,63,percent,,PDF 15,table,adoption-survey based
+cse_consumer_characteristics_deck,2018,All,all,all,tenure,own,90,percent,,PDF 15,table,adoption-survey based; 'prefer not to answer' excluded; 2017 = from Mar 2017
+cse_consumer_characteristics_deck,2018,All,all,all,household_income_ge_100k,share,68,percent,,PDF 15,table,adoption-survey based
+cse_consumer_characteristics_deck,2019,All,all,all,tenure,own,88,percent,,PDF 15,table,adoption-survey based; 'prefer not to answer' excluded; 2017 = from Mar 2017
+cse_consumer_characteristics_deck,2019,All,all,all,household_income_ge_100k,share,69,percent,,PDF 15,table,adoption-survey based
+cse_consumer_characteristics_deck,2020,All,all,all,tenure,own,85,percent,,PDF 15,table,adoption-survey based; 'prefer not to answer' excluded; 2017 = from Mar 2017
+cse_consumer_characteristics_deck,2020,All,all,all,household_income_ge_100k,share,72,percent,,PDF 15,table,adoption-survey based
+cse_consumer_characteristics_deck,2021,All,all,all,tenure,own,83,percent,,PDF 15,table,adoption-survey based; 'prefer not to answer' excluded; 2017 = from Mar 2017
+cse_consumer_characteristics_deck,2021,All,all,all,household_income_ge_100k,share,71,percent,,PDF 15,table,adoption-survey based
+cse_consumer_characteristics_deck,2022,All,all,all,tenure,own,86,percent,,PDF 15,table,adoption-survey based; 'prefer not to answer' excluded; 2017 = from Mar 2017
+cse_consumer_characteristics_deck,2022,All,all,all,household_income_ge_100k,share,78,percent,,PDF 15,table,adoption-survey based
+cse_consumer_characteristics_deck,2023,All,all,all,tenure,own,81,percent,,PDF 15,table,adoption-survey based; 'prefer not to answer' excluded; 2017 = from Mar 2017
+cse_consumer_characteristics_deck,2023,All,all,all,household_income_ge_100k,share,73,percent,,PDF 15,table,adoption-survey based
+cse_consumer_characteristics_deck,2024,All,all,all,tenure,own,82,percent,5593,PDF 15,table,adoption-survey based; 'prefer not to answer' excluded; 2017 = from Mar 2017
+cse_consumer_characteristics_deck,2024,All,all,all,household_income_ge_100k,share,74,percent,5593,PDF 15,table,adoption-survey based
+cse_consumer_characteristics_deck,2022,All,comparison_population,ny_new_vehicle_buyers_nves2022,tenure,own,77,percent,,PDF 12,table,Strategic Vision NVES 2022 (no Tesla buyers)
+cse_consumer_characteristics_deck,2022,All,comparison_population,ny_new_vehicle_buyers_nves2022,household_income_gt_100k,share,55,percent,,PDF 12,table,NVES uses >100k
+cse_consumer_characteristics_deck,2023,All,comparison_population,ny_households_acs_pums_2019_2023,tenure,own,54,percent,,PDF 12,table,household-level ACS PUMS 2019-2023
+cse_consumer_characteristics_deck,2023,All,comparison_population,ny_households_acs_pums_2019_2023,household_income_ge_100k,share,43,percent,,PDF 12,table,household-level ACS PUMS 2019-2023
+cse_consumer_characteristics_deck,2024,All,all,all,funding_to_households_income_lt_200k,share,68,percent,4748,PDF 5,text,
+cse_consumer_characteristics_deck,2019,All,purchase_year_group,2017-2019,program_share_of_ny_ev_sales,share,56,percent,5474,PDF 22,figure,approximate vs Autos Innovate dashboard; program population N=21843
+cse_consumer_characteristics_deck,2020,All,purchase_year_group,2020,program_share_of_ny_ev_sales,share,72,percent,3480,PDF 22,figure,approximate vs Autos Innovate dashboard; program population N=13038
+cse_consumer_characteristics_deck,2021,All,purchase_year_group,2021,program_share_of_ny_ev_sales,share,65,percent,5087,PDF 22,figure,approximate vs Autos Innovate dashboard; program population N=23098
+cse_consumer_characteristics_deck,2022,All,purchase_year_group,2022,program_share_of_ny_ev_sales,share,66,percent,5472,PDF 22,figure,approximate vs Autos Innovate dashboard; program population N=27187
+cse_consumer_characteristics_deck,2023,All,purchase_year_group,2023,program_share_of_ny_ev_sales,share,61,percent,7225,PDF 22,figure,approximate vs Autos Innovate dashboard; program population N=46237
+cse_consumer_characteristics_deck,2024,All,purchase_year_group,2024,program_share_of_ny_ev_sales,share,53,percent,5593,PDF 22,figure,approximate vs Autos Innovate dashboard; program population N=45443

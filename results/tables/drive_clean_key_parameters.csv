@@ -1,0 +1,212 @@
+block,survey,survey_year,segment_dimension,segment_value,parameter,category,BEV,PHEV,All,unit,base_n,value_source,housing_type_or_tenure_breakdown_published,note
+home_access,adoption,2024,all,all,home_charging_status,no_but_planning,11.0,11.0,11.0,percent,5266,figure|text,no,
+home_access,adoption,2024,all,all,home_charging_status,no_no_plans,9.0,14.0,,percent,5266,figure,no,
+home_access,adoption,2024,all,all,home_charging_status,yes,80.0,76.0,78.0,percent,5266,figure|text,no,Fig 14; overall; no_no_plans not stated in text
+home_access,adoption,2025,all,all,home_charging_status,no_but_planning,,,9.0,percent,4331,figure,no,
+home_access,adoption,2025,all,all,home_charging_status,no_no_plans,,,9.0,percent,4331,figure,no,
+home_access,adoption,2025,all,all,home_charging_status,yes,,,82.0,percent,4331,figure,no,"Fig 15; no significant BEV/PHEV difference, so only All published; 'yes' includes current home charging 1-3 weeks after purchase"
+home_frequency,ownership,2022,all,all,charging_frequency_home,daily_or_almost_daily,38.0,67.0,,percent,,text,no,value for 2022 vehicles quoted in 2023 Ownership report (2022 report not in repo)
+home_frequency,ownership,2023,all,all,charging_frequency_home,about_once_per_week,16.0,6.0,,percent,6491,figure,no,
+home_frequency,ownership,2023,all,all,charging_frequency_home,daily_or_almost_daily,37.0,56.0,,percent,6491,figure,no,Fig 23
+home_frequency,ownership,2023,all,all,charging_frequency_home,few_times_per_month_or_less,7.0,9.0,,percent,6491,figure,no,
+home_frequency,ownership,2023,all,all,charging_frequency_home,few_times_per_week,27.0,15.0,,percent,6491,figure,no,
+home_frequency,ownership,2023,all,all,charging_frequency_home,never,14.0,15.0,,percent,6491,figure,no,
+home_frequency,ownership,2024,all,all,charging_frequency_home,about_once_per_week,20.0,4.4,,percent,4849,figure,no,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp); residual 100-51-15-10-19 = 5
+home_frequency,ownership,2024,all,all,charging_frequency_home,daily_or_almost_daily,34.0,51.0,,percent,4849,figure,no,Fig 24
+home_frequency,ownership,2024,all,all,charging_frequency_home,few_times_per_month_or_less,7.0,10.0,,percent,4849,figure,no,
+home_frequency,ownership,2024,all,all,charging_frequency_home,few_times_per_week,28.0,15.0,,percent,4849,figure,no,
+home_frequency,ownership,2024,all,all,charging_frequency_home,never,11.0,19.0,,percent,4849,figure,no,
+home_frequency,ownership,2022,all,all,home_charging_few_per_week_or_more,daily_or_few_per_week,66.0,,,percent,,text,no,value for 2022 vehicles quoted in 2023 Ownership report (2022 report not in repo)
+home_frequency,ownership,2023,all,all,home_charging_few_per_week_or_more,daily_or_few_per_week,64.0,,,percent,6491,text,no,
+home_frequency,ownership,2024,all,all,home_charging_few_per_week_or_more,daily_or_few_per_week,62.0,,,percent,4849,text,no,
+home_method,ownership,2023,all,all,home_charging_method,level1_120v_station,8.0,8.0,,percent_multiselect,5470,figure,no,
+home_method,ownership,2023,all,all,home_charging_method,level2_240v_station,59.0,25.0,,percent_multiselect,5470,figure,no,Fig 24; multi-select
+home_method,ownership,2023,all,all,home_charging_method,outlet_120v_direct,15.0,64.0,,percent_multiselect,5470,figure,no,
+home_method,ownership,2023,all,all,home_charging_method,outlet_240v_direct,26.0,11.0,,percent_multiselect,5470,figure,no,
+home_method,ownership,2024,all,all,home_charging_method,level1_120v_station,8.0,7.0,,percent_multiselect,4288,figure,no,
+home_method,ownership,2024,all,all,home_charging_method,level2_240v_station,58.0,24.0,,percent_multiselect,4288,figure,no,Fig 25; multi-select; Fig 25; multi-select; base = charge at home >= few times/month
+home_method,ownership,2024,all,all,home_charging_method,outlet_120v_direct,14.0,68.0,,percent_multiselect,4288,figure,no,
+home_method,ownership,2024,all,all,home_charging_method,outlet_240v_direct,27.0,11.0,,percent_multiselect,4288,figure,no,
+home_method,adoption,2024,all,all,home_charging_method_current_or_planned,level1_120v_station,7.0,7.0,,percent_multiselect,4663,figure,no,
+home_method,adoption,2024,all,all,home_charging_method_current_or_planned,level2_240v_station,61.0,21.0,,percent_multiselect,4663,figure,no,Fig 16; multi-select
+home_method,adoption,2024,all,all,home_charging_method_current_or_planned,outlet_120v_direct,20.0,72.0,,percent_multiselect,4663,figure,no,
+home_method,adoption,2024,all,all,home_charging_method_current_or_planned,outlet_240v_direct,23.0,8.0,,percent_multiselect,4663,figure,no,
+home_method,adoption,2025,all,all,home_charging_method_current_or_planned,level1_120v_station,7.0,8.0,,percent_multiselect,3965,figure,no,
+home_method,adoption,2025,all,all,home_charging_method_current_or_planned,level2_240v_station,62.0,23.0,,percent_multiselect,3965,figure,no,Fig 17; multi-select; Fig 17; multi-select; base = charge or plan to charge at home
+home_method,adoption,2025,all,all,home_charging_method_current_or_planned,outlet_120v_direct,22.0,70.0,,percent_multiselect,3965,figure,no,
+home_method,adoption,2025,all,all,home_charging_method_current_or_planned,outlet_240v_direct,21.0,9.0,,percent_multiselect,3965,figure,no,
+workplace,adoption,2024,all,all,workplace_charging_access,dont_know,6.0,11.0,,percent,3951,figure,no,
+workplace,adoption,2024,all,all,workplace_charging_access,no,61.0,65.0,,percent,3951,figure,no,
+workplace,adoption,2024,all,all,workplace_charging_access,yes,34.0,24.0,,percent,3951,figure,no,Fig 15; Fig 15; 'Not applicable' excluded
+workplace,adoption,2025,all,all,workplace_charging_access,dont_know,6.0,9.0,,percent,3030,figure,no,
+workplace,adoption,2025,all,all,workplace_charging_access,no,58.0,63.0,,percent,3030,figure,no,
+workplace,adoption,2025,all,all,workplace_charging_access,yes,35.0,28.0,,percent,3030,figure,no,Fig 16; question allows 'Not applicable' (excluded); not comparable with ownership-survey wording
+workplace,ownership,2023,all,all,workplace_charging_access,dont_know,,,5.0,percent,5482,figure,no,
+workplace,ownership,2023,all,all,workplace_charging_access,no,,,72.0,percent,5482,figure,no,
+workplace,ownership,2023,all,all,workplace_charging_access,yes_free,,,11.0,percent,5482,figure,no,Fig 22; no BEV/PHEV difference
+workplace,ownership,2023,all,all,workplace_charging_access,yes_paid,,,12.0,percent,5482,figure,no,
+workplace,ownership,2024,all,all,workplace_charging_access,dont_know,6.0,8.0,,percent,3792,figure,no,
+workplace,ownership,2024,all,all,workplace_charging_access,no,70.0,73.0,,percent,3792,figure,no,
+workplace,ownership,2024,all,all,workplace_charging_access,yes_free,11.0,10.0,,percent,3792,figure,no,Fig 23; Fig 23; asked only of respondents who work outside home
+workplace,ownership,2024,all,all,workplace_charging_access,yes_paid,13.0,9.0,,percent,3792,figure,no,
+workplace,ownership,2023,all,all,workplace_charging_access_any,yes,,,22.0,percent,5482,text,no,
+workplace,ownership,2024,all,all,workplace_charging_access_any,yes,,,23.0,percent,3792,text,no,
+workplace,ownership,2023,all,all,workplace_charging_use_any_given_access,not_never,69.0,74.0,,percent,1212,text,no,
+workplace,ownership,2024,all,all,workplace_charging_use_any_given_access,not_never,66.0,63.0,,percent,912,text,no,
+workplace,ownership,2023,all,all,charging_frequency_workplace_onsite,about_once_per_week,14.0,10.0,,percent,1212,figure,no,
+workplace,ownership,2023,all,all,charging_frequency_workplace_onsite,daily_or_almost_daily,12.0,23.0,,percent,1212,figure,no,Fig 23; Fig 23; base = those with workplace access
+workplace,ownership,2023,all,all,charging_frequency_workplace_onsite,few_times_per_month_or_less,23.0,24.0,,percent,1212,figure,no,
+workplace,ownership,2023,all,all,charging_frequency_workplace_onsite,few_times_per_week,20.0,18.0,,percent,1212,figure,no,
+workplace,ownership,2023,all,all,charging_frequency_workplace_onsite,never,31.0,26.0,,percent,1212,figure,no,
+workplace,ownership,2024,all,all,charging_frequency_workplace_onsite,about_once_per_week,16.0,8.0,,percent,912,figure,no,
+workplace,ownership,2024,all,all,charging_frequency_workplace_onsite,daily_or_almost_daily,9.0,19.0,,percent,912,figure,no,Fig 24; base = those with workplace access
+workplace,ownership,2024,all,all,charging_frequency_workplace_onsite,few_times_per_month_or_less,24.0,19.0,,percent,912,figure,no,
+workplace,ownership,2024,all,all,charging_frequency_workplace_onsite,few_times_per_week,16.0,17.0,,percent,912,figure,no,
+workplace,ownership,2024,all,all,charging_frequency_workplace_onsite,never,34.0,37.0,,percent,912,figure,no,
+public,ownership,2023,all,all,charging_frequency_public,about_once_per_week,9.0,5.0,,percent,6429,figure,no,
+public,ownership,2023,all,all,charging_frequency_public,daily_or_almost_daily,6.0,1.0,,percent,6429,figure,no,Fig 23; pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+public,ownership,2023,all,all,charging_frequency_public,few_times_per_month_or_less,55.0,31.0,,percent,6429,figure,no,
+public,ownership,2023,all,all,charging_frequency_public,few_times_per_week,7.0,2.4,,percent,6429,figure,no,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+public,ownership,2023,all,all,charging_frequency_public,never,23.0,60.0,,percent,6429,figure,no,
+public,ownership,2024,all,all,charging_frequency_public,about_once_per_week,9.0,2.6,,percent,4794,figure,no,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+public,ownership,2024,all,all,charging_frequency_public,daily_or_almost_daily,1.6,0.5,,percent,4794,figure,no,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+public,ownership,2024,all,all,charging_frequency_public,few_times_per_month_or_less,57.0,28.0,,percent,4794,figure,no,
+public,ownership,2024,all,all,charging_frequency_public,few_times_per_week,5.0,1.8,,percent,4794,figure,no,pixel-measured width of unlabeled chart segment (approx +/-0.5 pp)
+public,ownership,2024,all,all,charging_frequency_public,never,27.0,68.0,,percent,4794,figure,no,ES-1 states 60% never (repeats 2023 value); figure shows 68%; public L2 vs DCFC not distinguished; public use likely under-counted (write-ins under Other)
+public,ownership,2022,all,all,public_charging_any_use,not_never,78.0,46.0,,percent,,text,no,value for 2022 vehicles quoted in 2023 Ownership report (2022 report not in repo)
+public,ownership,2023,all,all,public_charging_any_use,not_never,77.0,40.0,,percent,6429,text,no,
+public,ownership,2024,all,all,public_charging_any_use,not_never,73.0,32.0,,percent,4794,text,no,
+driving,ownership,2023,all,all,miles_per_day_mean,mean,41.0,30.0,,miles_per_day,,text,no,
+driving,ownership,2024,all,all,miles_per_day_mean,mean,33.0,30.0,,miles_per_day,4605,text,no,self-reported 'about how many miles per day'; weighted mean
+driving,ownership,2022,all,all,total_miles_since_acquisition_mean,mean,12248.0,12080.0,,miles,,text,no,value for 2022 vehicles quoted in 2023 Ownership report (2022 report not in repo)
+driving,ownership,2023,all,all,total_miles_since_acquisition_mean,mean,12056.0,10606.0,,miles,6004,figure,no,Fig 10; Fig 10; BEV/PHEV difference not significant
+driving,ownership,2024,all,all,total_miles_since_acquisition_mean,mean,10670.0,10082.0,,miles,4465,figure,no,"Fig 11; ES-1 says 10,097; Fig 11; ~annual (9.4-14.1 months owned); ES-1 says 10,674"
+fleet,adoption,2024,all,all,technology_share,BEV,,,65.0,percent,5292,text,no,
+fleet,adoption,2024,all,all,technology_share,PHEV,,,35.0,percent,5292,text,no,
+fleet,adoption,2025,all,all,technology_share,BEV,,,76.0,percent,4361,text,no,
+fleet,adoption,2025,all,all,technology_share,PHEV,,,24.0,percent,4361,text,no,
+fleet,ownership,2022,all,all,technology_share,BEV,,,73.0,percent,,text,no,value for 2022 vehicles quoted in 2023 Ownership report (2022 report not in repo)
+fleet,ownership,2023,all,all,technology_share,BEV,,,70.0,percent,6542,text,no,
+fleet,ownership,2023,all,all,technology_share,PHEV,,,30.0,percent,6542,text,no,
+fleet,ownership,2024,all,all,technology_share,BEV,,,66.0,percent,4869,figure,no,Fig 1
+fleet,ownership,2024,all,all,technology_share,PHEV,,,34.0,percent,4869,figure,no,
+fleet,adoption,2024,all,all,vehicle_replacement_status,adds_to_fleet,15.0,9.0,,percent,5268,figure,no,
+fleet,adoption,2024,all,all,vehicle_replacement_status,first_or_only_car,5.0,3.0,,percent,5268,figure,no,
+fleet,adoption,2024,all,all,vehicle_replacement_status,replaces_household_car,80.0,88.0,,percent,5268,figure,no,Fig 2
+fleet,adoption,2024,dac,inside_dac,vehicle_replacement_status,adds_to_fleet,,,9.0,percent,5207,figure,no,
+fleet,adoption,2024,dac,inside_dac,vehicle_replacement_status,first_or_only_car,,,8.0,percent,5207,figure,no,
+fleet,adoption,2024,dac,inside_dac,vehicle_replacement_status,replaces_household_car,,,83.0,percent,5207,figure,no,Fig 29
+fleet,adoption,2024,dac,outside_dac,vehicle_replacement_status,adds_to_fleet,,,13.0,percent,5207,figure,no,
+fleet,adoption,2024,dac,outside_dac,vehicle_replacement_status,first_or_only_car,,,4.0,percent,5207,figure,no,
+fleet,adoption,2024,dac,outside_dac,vehicle_replacement_status,replaces_household_car,,,83.0,percent,5207,figure,no,Fig 29
+fleet,adoption,2025,all,all,vehicle_replacement_status,adds_to_fleet,16.0,7.0,,percent,4335,figure,no,
+fleet,adoption,2025,all,all,vehicle_replacement_status,first_or_only_car,5.0,3.0,,percent,4335,figure,no,
+fleet,adoption,2025,all,all,vehicle_replacement_status,replaces_household_car,79.0,90.0,82.0,percent,4335,figure|text,no,Fig 2; overall; adds_to_fleet overall 14%
+fleet,adoption,2025,dac,inside_dac,vehicle_replacement_status,adds_to_fleet,,,14.0,percent,4260,figure,no,
+fleet,adoption,2025,dac,inside_dac,vehicle_replacement_status,first_or_only_car,,,11.0,percent,4260,figure,no,
+fleet,adoption,2025,dac,inside_dac,vehicle_replacement_status,replaces_household_car,,,75.0,percent,4260,figure,no,Fig 30
+fleet,adoption,2025,dac,outside_dac,vehicle_replacement_status,adds_to_fleet,,,14.0,percent,4260,figure,no,
+fleet,adoption,2025,dac,outside_dac,vehicle_replacement_status,first_or_only_car,,,3.0,percent,4260,figure,no,
+fleet,adoption,2025,dac,outside_dac,vehicle_replacement_status,replaces_household_car,,,83.0,percent,4260,figure,no,Fig 30
+fleet,adoption,2024,all,all,first_ev_ever,yes,72.0,81.0,75.0,percent,5272,figure|text,no,Fig 4
+fleet,adoption,2025,all,all,first_ev_ever,yes,68.0,72.0,69.0,percent,4349,figure|text,no,Fig 4
+respondent_housing,adoption,2024,all,all,residence_type,apartment_condominium,13.0,12.0,,percent,5155,figure,dac_only,
+respondent_housing,adoption,2024,all,all,residence_type,attached_house,10.0,8.0,,percent,5155,figure,dac_only,
+respondent_housing,adoption,2024,all,all,residence_type,detached_house,76.0,79.0,77.0,percent,5155,figure|text,dac_only,Fig 18; overall detached only
+respondent_housing,adoption,2024,all,all,residence_type,other,0.9,2.0,,percent,5155,figure,dac_only,
+respondent_housing,adoption,2024,dac,inside_dac,residence_type,apartment_condominium,,,29.0,percent,5095,figure,dac_only,
+respondent_housing,adoption,2024,dac,inside_dac,residence_type,attached_house,,,14.0,percent,5095,figure,dac_only,
+respondent_housing,adoption,2024,dac,inside_dac,residence_type,detached_house,,,54.0,percent,5095,figure,dac_only,Fig 28
+respondent_housing,adoption,2024,dac,inside_dac,residence_type,other,,,3.0,percent,5095,figure,dac_only,
+respondent_housing,adoption,2024,dac,outside_dac,residence_type,apartment_condominium,,,9.0,percent,5095,figure,dac_only,
+respondent_housing,adoption,2024,dac,outside_dac,residence_type,attached_house,,,8.0,percent,5095,figure,dac_only,
+respondent_housing,adoption,2024,dac,outside_dac,residence_type,detached_house,,,81.0,percent,5095,figure,dac_only,Fig 28
+respondent_housing,adoption,2024,dac,outside_dac,residence_type,other,,,0.8,percent,5095,figure,dac_only,
+respondent_housing,adoption,2025,all,all,residence_type,apartment_condominium,,,13.0,percent,4282,figure,dac_only,
+respondent_housing,adoption,2025,all,all,residence_type,attached_house,,,10.0,percent,4282,figure,dac_only,
+respondent_housing,adoption,2025,all,all,residence_type,detached_house,,,77.0,percent,4282,figure,dac_only,Fig 19; no BEV/PHEV difference
+respondent_housing,adoption,2025,all,all,residence_type,other,,,0.8,percent,4282,figure,dac_only,
+respondent_housing,adoption,2025,dac,inside_dac,residence_type,apartment_condominium,,,24.0,percent,4210,figure,dac_only,
+respondent_housing,adoption,2025,dac,inside_dac,residence_type,attached_house,,,16.0,percent,4210,figure,dac_only,
+respondent_housing,adoption,2025,dac,inside_dac,residence_type,detached_house,,,59.0,percent,4210,figure,dac_only,Fig 29
+respondent_housing,adoption,2025,dac,inside_dac,residence_type,other,,,1.0,percent,4210,figure,dac_only,
+respondent_housing,adoption,2025,dac,outside_dac,residence_type,apartment_condominium,,,11.0,percent,4210,figure,dac_only,
+respondent_housing,adoption,2025,dac,outside_dac,residence_type,attached_house,,,9.0,percent,4210,figure,dac_only,
+respondent_housing,adoption,2025,dac,outside_dac,residence_type,detached_house,,,79.0,percent,4210,figure,dac_only,Fig 29
+respondent_housing,adoption,2025,dac,outside_dac,residence_type,other,,,0.8,percent,4210,figure,dac_only,
+respondent_housing,ownership,2023,all,all,residence_type,apartment_condominium,16.0,12.0,,percent,6309,figure,dac_only,
+respondent_housing,ownership,2023,all,all,residence_type,attached_house,12.0,10.0,,percent,6309,figure,dac_only,
+respondent_housing,ownership,2023,all,all,residence_type,detached_house,71.0,78.0,73.0,percent,6309,figure|text,dac_only,Fig 8; overall detached only
+respondent_housing,ownership,2023,all,all,residence_type,other,1.0,0.6,,percent,6309,figure,dac_only,
+respondent_housing,ownership,2023,dac,inside_dac,residence_type,apartment_condominium,,,31.0,percent,6059,figure,dac_only,
+respondent_housing,ownership,2023,dac,inside_dac,residence_type,attached_house,,,21.0,percent,6059,figure,dac_only,
+respondent_housing,ownership,2023,dac,inside_dac,residence_type,detached_house,,,47.0,percent,6059,figure,dac_only,Fig 34
+respondent_housing,ownership,2023,dac,inside_dac,residence_type,other,,,1.0,percent,6059,figure,dac_only,
+respondent_housing,ownership,2023,dac,outside_dac,residence_type,apartment_condominium,,,11.0,percent,6059,figure,dac_only,
+respondent_housing,ownership,2023,dac,outside_dac,residence_type,attached_house,,,10.0,percent,6059,figure,dac_only,
+respondent_housing,ownership,2023,dac,outside_dac,residence_type,detached_house,,,78.0,percent,6059,figure,dac_only,Fig 34
+respondent_housing,ownership,2023,dac,outside_dac,residence_type,other,,,0.8,percent,6059,figure,dac_only,
+respondent_housing,ownership,2024,all,all,residence_type,apartment_condominium,,,11.0,percent,4709,figure,dac_only,
+respondent_housing,ownership,2024,all,all,residence_type,attached_house,,,10.0,percent,4709,figure,dac_only,
+respondent_housing,ownership,2024,all,all,residence_type,detached_house,,,78.0,percent,4709,figure,dac_only,Fig 9; no BEV/PHEV difference; text 78%
+respondent_housing,ownership,2024,all,all,residence_type,other,,,1.0,percent,4709,figure,dac_only,
+respondent_housing,ownership,2024,dac,inside_dac,residence_type,apartment_condominium,,,28.0,percent,4378,figure,dac_only,
+respondent_housing,ownership,2024,dac,inside_dac,residence_type,attached_house,,,15.0,percent,4378,figure,dac_only,
+respondent_housing,ownership,2024,dac,inside_dac,residence_type,detached_house,,,54.0,percent,4378,figure,dac_only,Fig 36 (n for both DAC groups combined)
+respondent_housing,ownership,2024,dac,inside_dac,residence_type,other,,,4.0,percent,4378,figure,dac_only,
+respondent_housing,ownership,2024,dac,outside_dac,residence_type,apartment_condominium,,,8.0,percent,4378,figure,dac_only,
+respondent_housing,ownership,2024,dac,outside_dac,residence_type,attached_house,,,9.0,percent,4378,figure,dac_only,
+respondent_housing,ownership,2024,dac,outside_dac,residence_type,detached_house,,,82.0,percent,4378,figure,dac_only,Fig 36
+respondent_housing,ownership,2024,dac,outside_dac,residence_type,other,,,0.7,percent,4378,figure,dac_only,
+respondent_housing,adoption,2024,all,all,tenure,neither,3.0,4.0,,percent,5122,figure,dac_only,
+respondent_housing,adoption,2024,all,all,tenure,own,82.0,83.0,82.0,percent,5122,figure|text,dac_only,Fig 17; Fig 17; no BEV/PHEV difference; overall own only
+respondent_housing,adoption,2024,all,all,tenure,rent,15.0,14.0,,percent,5122,figure,dac_only,
+respondent_housing,adoption,2025,all,all,tenure,neither,,,3.0,percent,4254,figure,dac_only,
+respondent_housing,adoption,2025,all,all,tenure,own,,,84.0,percent,4254,figure,dac_only,Fig 18; no BEV/PHEV difference
+respondent_housing,adoption,2025,all,all,tenure,rent,,,13.0,percent,4254,figure,dac_only,
+respondent_housing,ownership,2023,all,all,tenure,neither,2.0,2.0,,percent,6279,figure,dac_only,
+respondent_housing,ownership,2023,all,all,tenure,own,82.0,85.0,83.0,percent,6279,figure|text,dac_only,Fig 7; Fig 7; BEV/PHEV significantly different; overall own only
+respondent_housing,ownership,2023,all,all,tenure,rent,16.0,13.0,,percent,6279,figure,dac_only,
+respondent_housing,ownership,2024,all,all,tenure,neither,,,2.0,percent,4712,figure,dac_only,
+respondent_housing,ownership,2024,all,all,tenure,own,,,85.0,percent,4712,figure,dac_only,Fig 8; no BEV/PHEV difference; text 85%
+respondent_housing,ownership,2024,all,all,tenure,rent,,,12.0,percent,4712,figure,dac_only,
+home_method,adoption,2024,all,all,home_charging_method_current_or_planned_any_240v,any_240v_lower_bound,61.0,,,percent_of_home_chargers,,derived,no,"D: max(L2 station, 240V outlet) .. min(100, sum); true overlap not published"
+home_method,adoption,2024,all,all,home_charging_method_current_or_planned_any_240v,any_240v_upper_bound,84.0,,,percent_of_home_chargers,,derived,no,"D: max(L2 station, 240V outlet) .. min(100, sum); true overlap not published"
+home_method,adoption,2024,all,all,home_charging_method_current_or_planned_any_240v,any_240v_lower_bound,,21.0,,percent_of_home_chargers,,derived,no,"D: max(L2 station, 240V outlet) .. min(100, sum); true overlap not published"
+home_method,adoption,2024,all,all,home_charging_method_current_or_planned_any_240v,any_240v_upper_bound,,29.0,,percent_of_home_chargers,,derived,no,"D: max(L2 station, 240V outlet) .. min(100, sum); true overlap not published"
+home_method,adoption,2025,all,all,home_charging_method_current_or_planned_any_240v,any_240v_lower_bound,62.0,,,percent_of_home_chargers,,derived,no,"D: max(L2 station, 240V outlet) .. min(100, sum); true overlap not published"
+home_method,adoption,2025,all,all,home_charging_method_current_or_planned_any_240v,any_240v_upper_bound,83.0,,,percent_of_home_chargers,,derived,no,"D: max(L2 station, 240V outlet) .. min(100, sum); true overlap not published"
+home_method,adoption,2025,all,all,home_charging_method_current_or_planned_any_240v,any_240v_lower_bound,,23.0,,percent_of_home_chargers,,derived,no,"D: max(L2 station, 240V outlet) .. min(100, sum); true overlap not published"
+home_method,adoption,2025,all,all,home_charging_method_current_or_planned_any_240v,any_240v_upper_bound,,32.0,,percent_of_home_chargers,,derived,no,"D: max(L2 station, 240V outlet) .. min(100, sum); true overlap not published"
+home_method,ownership,2023,all,all,home_charging_method_any_240v,any_240v_lower_bound,59.0,,,percent_of_home_chargers,,derived,no,"D: max(L2 station, 240V outlet) .. min(100, sum); true overlap not published"
+home_method,ownership,2023,all,all,home_charging_method_any_240v,any_240v_upper_bound,85.0,,,percent_of_home_chargers,,derived,no,"D: max(L2 station, 240V outlet) .. min(100, sum); true overlap not published"
+home_method,ownership,2023,all,all,home_charging_method_any_240v,any_240v_lower_bound,,25.0,,percent_of_home_chargers,,derived,no,"D: max(L2 station, 240V outlet) .. min(100, sum); true overlap not published"
+home_method,ownership,2023,all,all,home_charging_method_any_240v,any_240v_upper_bound,,36.0,,percent_of_home_chargers,,derived,no,"D: max(L2 station, 240V outlet) .. min(100, sum); true overlap not published"
+home_method,ownership,2024,all,all,home_charging_method_any_240v,any_240v_lower_bound,58.0,,,percent_of_home_chargers,,derived,no,"D: max(L2 station, 240V outlet) .. min(100, sum); true overlap not published"
+home_method,ownership,2024,all,all,home_charging_method_any_240v,any_240v_upper_bound,85.0,,,percent_of_home_chargers,,derived,no,"D: max(L2 station, 240V outlet) .. min(100, sum); true overlap not published"
+home_method,ownership,2024,all,all,home_charging_method_any_240v,any_240v_lower_bound,,24.0,,percent_of_home_chargers,,derived,no,"D: max(L2 station, 240V outlet) .. min(100, sum); true overlap not published"
+home_method,ownership,2024,all,all,home_charging_method_any_240v,any_240v_upper_bound,,35.0,,percent_of_home_chargers,,derived,no,"D: max(L2 station, 240V outlet) .. min(100, sum); true overlap not published"
+relative_propensity_vs_ny_acs,ownership,2024,all,all,residence_type_share_ratio_respondents_vs_ny_households,detached_house,,,1.907,ratio,,derived,no,D: respondent share 0.780 / NY ACS 2020-2024 household share 0.409; survey All; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,ownership,2024,all,all,residence_type_share_ratio_respondents_vs_ny_households,apartment_condominium,,,0.214,ratio,,derived,no,D: respondent share 0.110 / NY ACS 2020-2024 household share 0.515; survey All; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,ownership,2024,all,all,residence_type_share_ratio_respondents_vs_ny_households,attached_house,,,1.793,ratio,,derived,no,D: respondent share 0.100 / NY ACS 2020-2024 household share 0.056; survey All; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,ownership,2024,all,all,residence_type_share_ratio_respondents_vs_ny_households,other,,,0.491,ratio,,derived,no,D: respondent share 0.010 / NY ACS 2020-2024 household share 0.020; survey All; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,ownership,2024,all,all,tenure_share_ratio_respondents_vs_ny_households,own,,,1.612,ratio,,derived,no,D: respondent share 0.876 / NY ACS 2020-2024 household share 0.543; survey All; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,ownership,2024,all,all,tenure_share_ratio_respondents_vs_ny_households,rent,,,0.271,ratio,,derived,no,D: respondent share 0.124 / NY ACS 2020-2024 household share 0.457; survey All; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,ownership,2023,all,all,residence_type_share_ratio_respondents_vs_ny_households,apartment_condominium,,,0.287,ratio,,derived,no,D: respondent share 0.148 / NY ACS 2020-2024 household share 0.515; combined from BEV/PHEV shares weighted by technology share; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,ownership,2023,all,all,residence_type_share_ratio_respondents_vs_ny_households,attached_house,,,2.04,ratio,,derived,no,D: respondent share 0.114 / NY ACS 2020-2024 household share 0.056; combined from BEV/PHEV shares weighted by technology share; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,ownership,2023,all,all,residence_type_share_ratio_respondents_vs_ny_households,detached_house,,,1.784,ratio,,derived,no,D: respondent share 0.730 / NY ACS 2020-2024 household share 0.409; combined from BEV/PHEV shares weighted by technology share; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,ownership,2023,all,all,residence_type_share_ratio_respondents_vs_ny_households,other,,,0.431,ratio,,derived,no,D: respondent share 0.009 / NY ACS 2020-2024 household share 0.020; combined from BEV/PHEV shares weighted by technology share; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,ownership,2023,all,all,tenure_share_ratio_respondents_vs_ny_households,own,,,1.557,ratio,,derived,no,D: respondent share 0.846 / NY ACS 2020-2024 household share 0.543; combined from BEV/PHEV shares weighted by technology share; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,ownership,2023,all,all,tenure_share_ratio_respondents_vs_ny_households,rent,,,0.338,ratio,,derived,no,D: respondent share 0.154 / NY ACS 2020-2024 household share 0.457; combined from BEV/PHEV shares weighted by technology share; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,adoption,2025,all,all,residence_type_share_ratio_respondents_vs_ny_households,detached_house,,,1.868,ratio,,derived,no,D: respondent share 0.764 / NY ACS 2020-2024 household share 0.409; survey All; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,adoption,2025,all,all,residence_type_share_ratio_respondents_vs_ny_households,apartment_condominium,,,0.25,ratio,,derived,no,D: respondent share 0.129 / NY ACS 2020-2024 household share 0.515; survey All; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,adoption,2025,all,all,residence_type_share_ratio_respondents_vs_ny_households,attached_house,,,1.779,ratio,,derived,no,D: respondent share 0.099 / NY ACS 2020-2024 household share 0.056; survey All; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,adoption,2025,all,all,residence_type_share_ratio_respondents_vs_ny_households,other,,,0.39,ratio,,derived,no,D: respondent share 0.008 / NY ACS 2020-2024 household share 0.020; survey All; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,adoption,2025,all,all,tenure_share_ratio_respondents_vs_ny_households,own,,,1.593,ratio,,derived,no,D: respondent share 0.866 / NY ACS 2020-2024 household share 0.543; survey All; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,adoption,2025,all,all,tenure_share_ratio_respondents_vs_ny_households,rent,,,0.294,ratio,,derived,no,D: respondent share 0.134 / NY ACS 2020-2024 household share 0.457; survey All; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,adoption,2024,all,all,residence_type_share_ratio_respondents_vs_ny_households,apartment_condominium,,,0.245,ratio,,derived,no,D: respondent share 0.126 / NY ACS 2020-2024 household share 0.515; combined from BEV/PHEV shares weighted by technology share; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,adoption,2024,all,all,residence_type_share_ratio_respondents_vs_ny_households,attached_house,,,1.663,ratio,,derived,no,D: respondent share 0.093 / NY ACS 2020-2024 household share 0.056; combined from BEV/PHEV shares weighted by technology share; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,adoption,2024,all,all,residence_type_share_ratio_respondents_vs_ny_households,detached_house,,,1.879,ratio,,derived,no,D: respondent share 0.768 / NY ACS 2020-2024 household share 0.409; combined from BEV/PHEV shares weighted by technology share; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,adoption,2024,all,all,residence_type_share_ratio_respondents_vs_ny_households,other,,,0.629,ratio,,derived,no,D: respondent share 0.013 / NY ACS 2020-2024 household share 0.020; combined from BEV/PHEV shares weighted by technology share; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,adoption,2024,all,all,tenure_share_ratio_respondents_vs_ny_households,own,,,1.562,ratio,,derived,no,D: respondent share 0.849 / NY ACS 2020-2024 household share 0.543; combined from BEV/PHEV shares weighted by technology share; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
+relative_propensity_vs_ny_acs,adoption,2024,all,all,tenure_share_ratio_respondents_vs_ny_households,rent,,,0.331,ratio,,derived,no,D: respondent share 0.151 / NY ACS 2020-2024 household share 0.457; combined from BEV/PHEV shares weighted by technology share; = P(rebate|type)/P(rebate) only if survey is unbiased; survey 'attached house' includes duplex/triplex which ACS counts as 2-4 units; new-vehicle rebate recipients only
