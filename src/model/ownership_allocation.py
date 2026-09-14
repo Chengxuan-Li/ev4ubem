@@ -265,11 +265,11 @@ def main() -> None:
     g["struct_ratio"] = g["structural_max"] / g["structural_min"].clip(lower=0.5)
     fig, axes = plt.subplots(1, 3, figsize=(16, 6))
     g.plot(column="ev_per_hh", ax=axes[0], legend=True, cmap="viridis", edgecolor="w", linewidth=0.2)
-    axes[0].set_title("2026 expected personal EVs per household (model)")
+    axes[0].set_title("2026 expected personal EVs per household (central ensemble)")
     g.plot(column="cv_draws", ax=axes[1], legend=True, cmap="magma_r", vmin=0, vmax=0.5, edgecolor="w", linewidth=0.2)
     axes[1].set_title("Sampling uncertainty: (p95-p05)/(3.29·mean)")
     g.plot(column="struct_ratio", ax=axes[2], legend=True, cmap="magma_r", vmin=1, vmax=3, edgecolor="w", linewidth=0.2)
-    axes[2].set_title("Structural spread: max/min across weightings")
+    axes[2].set_title("Structural spread: max/min across 5 weightings")
     for a_ in axes:
         a_.set_axis_off()
     fig.suptitle("Tompkins 2026 EV allocation to dwelling units, aggregated to block groups (inferred; EPSG:32618)")
