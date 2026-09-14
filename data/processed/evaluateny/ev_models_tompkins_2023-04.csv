@@ -1,0 +1,340 @@
+ZIP Code,Drivetrain_Type,EV_Atlas_Vehicle_Name,vehicles
+13045,PHEV,Toyota Prius Prime,29
+13045,PHEV,Chevrolet Volt,12
+13045,BEV,GEM NEV,10
+13045,PHEV,Toyota RAV4 Prime,10
+13045,BEV,Tesla Model Y,7
+13045,PHEV,Toyota Prius Plug-in,6
+13045,BEV,Chevrolet Bolt EV,5
+13045,BEV,Nissan Leaf,5
+13045,BEV,Tesla Model 3,5
+13045,BEV,Volkswagen ID.4,5
+13045,BEV,Ford Mustang Mach-E,4
+13045,BEV,Hyundai Kona Electric,4
+13045,PHEV,Chrysler Pacifica,4
+13045,BEV,Hyundai Ioniq EV,3
+13045,BEV,Kia Niro EV,3
+13045,BEV,Tesla Model X,3
+13045,PHEV,Honda Clarity Plug In,3
+13045,PHEV,Jeep Wrangler 4xe,3
+13045,BEV,Chevrolet Bolt EUV,2
+13045,BEV,Ford E-Transit,2
+13045,BEV,Ford F-150 Lightning,2
+13045,BEV,Polestar 2,2
+13045,BEV,Tesla Model S,2
+13045,PHEV,BMW 5-Series Plug in,2
+13045,PHEV,Ford Fusion Energi,2
+13045,PHEV,Hyundai Ioniq Plug In,2
+13045,PHEV,Mitsubishi Outlander Plug In,2
+13045,BEV,BMW iX,1
+13045,BEV,Fiat 500e,1
+13045,BEV,Smart forTwo EV,1
+13045,BEV,Subaru Solterra,1
+13045,PHEV,Audi A3 Plug In,1
+13045,PHEV,BMW 3-Series Plug in,1
+13045,PHEV,Cadillac ELR,1
+13045,PHEV,Ford C-Max Energi,1
+13045,PHEV,Ford Escape Plug-in Hybrid,1
+13045,PHEV,Hyundai Santa Fe Plug In,1
+13045,PHEV,Subaru Crosstrek Hybrid,1
+13045,PHEV,Volvo XC60 Plug-In,1
+13053,PHEV,Chevrolet Volt,8
+13053,PHEV,Toyota Prius Prime,4
+13053,BEV,Chevrolet Bolt EUV,3
+13053,BEV,Chevrolet Bolt EV,3
+13053,BEV,Tesla Model 3,3
+13053,PHEV,Honda Clarity Plug In,2
+13053,PHEV,Toyota RAV4 Prime,2
+13053,BEV,Ford Mustang Mach-E,1
+13053,BEV,Tesla Model Y,1
+13053,BEV,Volkswagen ID.4,1
+13053,PHEV,BMW X5,1
+13053,PHEV,Ford Fusion Energi,1
+13053,PHEV,Hyundai Santa Fe Plug In,1
+13053,PHEV,Jeep Wrangler 4xe,1
+13053,PHEV,Kia Niro Plug In,1
+13053,PHEV,Mitsubishi Outlander Plug In,1
+13062,BEV,Tesla Model 3,2
+13062,BEV,Chevrolet Bolt EV,1
+13062,BEV,Tesla Model Y,1
+13062,PHEV,Chevrolet Volt,1
+13062,PHEV,Mitsubishi Outlander Plug In,1
+13068,PHEV,Toyota Prius Prime,12
+13068,PHEV,Toyota RAV4 Prime,12
+13068,PHEV,Chevrolet Volt,10
+13068,BEV,Chevrolet Bolt EV,4
+13068,BEV,Tesla Model 3,4
+13068,PHEV,Chrysler Pacifica,4
+13068,PHEV,Hyundai Ioniq Plug In,4
+13068,PHEV,Subaru Crosstrek Hybrid,4
+13068,BEV,Tesla Model Y,3
+13068,BEV,Chevrolet Bolt EUV,2
+13068,BEV,Kia Soul EV,2
+13068,BEV,Volkswagen e-Golf,2
+13068,PHEV,Ford C-Max Energi,2
+13068,PHEV,Volvo XC60 Plug-In,2
+13068,BEV,Ford Mustang Mach-E,1
+13068,BEV,Hyundai Ioniq 5,1
+13068,BEV,Hyundai Kona Electric,1
+13068,BEV,Nissan Leaf,1
+13068,BEV,Rivian R1T,1
+13068,BEV,Volkswagen ID.4,1
+13068,PHEV,Ford Escape Plug-in Hybrid,1
+13068,PHEV,Honda Clarity Plug In,1
+13068,PHEV,Hyundai Santa Fe Plug In,1
+13068,PHEV,Mitsubishi Outlander Plug In,1
+13068,PHEV,Toyota Prius Plug-in,1
+13068,PHEV,Volvo XC90 Plug-In,1
+13073,PHEV,Chevrolet Volt,4
+13073,PHEV,Toyota RAV4 Prime,4
+13073,PHEV,Toyota Prius Plug-in,3
+13073,BEV,Chevrolet Bolt EUV,2
+13073,BEV,Tesla Model 3,2
+13073,BEV,Tesla Model Y,2
+13073,PHEV,Honda Clarity Plug In,2
+13073,PHEV,Toyota Prius Prime,2
+13073,BEV,Chevrolet Bolt EV,1
+13073,BEV,Ford Mustang Mach-E,1
+13073,BEV,Kia Niro EV,1
+13073,BEV,Nissan Leaf,1
+13073,BEV,Volvo C40 Recharge,1
+13073,PHEV,Ford C-Max Energi,1
+13073,PHEV,Jeep Wrangler 4xe,1
+13073,PHEV,Kia Sorrento Plug In,1
+13073,PHEV,Mercedes GLC 350e Hybrid,1
+13092,BEV,Chevrolet Bolt EV,1
+13092,PHEV,Chevrolet Volt,1
+13092,PHEV,Jeep Wrangler 4xe,1
+13092,PHEV,Toyota Prius Prime,1
+13736,PHEV,Toyota Prius Prime,3
+13736,PHEV,Toyota RAV4 Prime,3
+13736,BEV,Chevrolet Bolt EV,1
+13736,BEV,Nissan Leaf,1
+13736,PHEV,Chevrolet Volt,1
+13736,PHEV,Jeep Grand Cherokee Plug In,1
+13864,BEV,Chevrolet Bolt EV,1
+13864,BEV,Hyundai Ioniq 5,1
+13864,BEV,Kia Niro EV,1
+13864,PHEV,Chevrolet Volt,1
+13864,PHEV,Ford C-Max Energi,1
+13864,PHEV,Mitsubishi Outlander Plug In,1
+13864,PHEV,Toyota Prius Prime,1
+14817,PHEV,Toyota Prius Prime,15
+14817,PHEV,Chevrolet Volt,6
+14817,PHEV,Toyota RAV4 Prime,6
+14817,BEV,Tesla Model 3,4
+14817,BEV,Chevrolet Bolt EV,3
+14817,PHEV,Toyota Prius Plug-in,3
+14817,BEV,Hyundai Kona Electric,2
+14817,BEV,Nissan Leaf,2
+14817,PHEV,Ford C-Max Energi,2
+14817,BEV,Hyundai Ioniq 5,1
+14817,BEV,Hyundai Ioniq EV,1
+14817,BEV,Kia EV6,1
+14817,BEV,Kia Niro EV,1
+14817,BEV,Tesla Model X,1
+14817,BEV,Volkswagen e-Golf,1
+14817,PHEV,Audi A3 Plug In,1
+14817,PHEV,Chrysler Pacifica,1
+14817,PHEV,Honda Clarity Plug In,1
+14817,PHEV,Hyundai Ioniq Plug In,1
+14817,PHEV,Jeep Grand Cherokee Plug In,1
+14817,PHEV,Subaru Crosstrek Hybrid,1
+14817,PHEV,Volvo XC90 Plug-In,1
+14850,PHEV,Toyota Prius Prime,148
+14850,PHEV,Toyota RAV4 Prime,114
+14850,PHEV,Chevrolet Volt,89
+14850,BEV,Nissan Leaf,84
+14850,BEV,Tesla Model 3,82
+14850,BEV,Chevrolet Bolt EV,74
+14850,BEV,Tesla Model Y,68
+14850,PHEV,Chrysler Pacifica,39
+14850,PHEV,Honda Clarity Plug In,38
+14850,PHEV,Hyundai Ioniq Plug In,36
+14850,PHEV,Toyota Prius Plug-in,26
+14850,BEV,Hyundai Kona Electric,25
+14850,PHEV,Subaru Crosstrek Hybrid,23
+14850,BEV,Tesla Model S,22
+14850,BEV,Ford Mustang Mach-E,21
+14850,BEV,Tesla Model X,19
+14850,BEV,Chevrolet Bolt EUV,17
+14850,BEV,Volkswagen ID.4,17
+14850,BEV,Hyundai Ioniq EV,15
+14850,BEV,Ford F-150 Lightning,14
+14850,PHEV,Ford C-Max Energi,14
+14850,BEV,Kia Niro EV,12
+14850,BEV,Hyundai Ioniq 5,11
+14850,BEV,Volvo XC40 Recharge,11
+14850,PHEV,Hyundai Santa Fe Plug In,11
+14850,PHEV,Mitsubishi Outlander Plug In,11
+14850,PHEV,Volvo XC60 Plug-In,11
+14850,PHEV,Ford Escape Plug-in Hybrid,10
+14850,PHEV,Jeep Wrangler 4xe,9
+14850,PHEV,Kia Niro Plug In,8
+14850,PHEV,Volvo XC90 Plug-In,8
+14850,BEV,Proterra Electric Transit Bus,7
+14850,BEV,Volkswagen e-Golf,7
+14850,BEV,Kia EV6,6
+14850,PHEV,Audi Q5 Plug In,6
+14850,PHEV,Kia Sorrento Plug In,6
+14850,BEV,Rivian R1T,5
+14850,PHEV,BMW X5,5
+14850,PHEV,BMW i3 REx,5
+14850,BEV,Audi e-tron,4
+14850,BEV,Ford E-Transit,4
+14850,BEV,GEM NEV,4
+14850,BEV,Subaru Solterra,4
+14850,PHEV,BMW 5-Series Plug in,4
+14850,BEV,Porsche Taycan,3
+14850,BEV,Volvo C40 Recharge,3
+14850,PHEV,BMW 3-Series Plug in,3
+14850,PHEV,Ford Fusion Energi,3
+14850,BEV,Audi Q4 e-tron,2
+14850,BEV,BMW i3,2
+14850,BEV,BMW i4,2
+14850,BEV,Chevrolet Spark,2
+14850,BEV,Kia Soul EV,2
+14850,BEV,Mini Countryman Hard Top Plug In,2
+14850,BEV,Mitsubishi i,2
+14850,BEV,Polestar 2,2
+14850,BEV,Smart forTwo EV,2
+14850,PHEV,Audi A3 Plug In,2
+14850,PHEV,BMW X3,2
+14850,PHEV,Kia Sportage Plug-In,2
+14850,PHEV,Lexus NX 450h+,2
+14850,PHEV,Mini Countryman Plug In,2
+14850,BEV,Audi e-tron GT,1
+14850,BEV,BMW iX,1
+14850,BEV,Fiat 500e,1
+14850,BEV,Ford Focus EV,1
+14850,BEV,Jaguar I-Pace,1
+14850,BEV,Tesla Roadster,1
+14850,PHEV,Audi A8 Plug In,1
+14850,PHEV,Cadillac CT6,1
+14850,PHEV,Hyundai Sonata Plug In,1
+14850,PHEV,Hyundai Tucson Plug In,1
+14850,PHEV,Kia Optima Plug In,1
+14850,PHEV,Lincoln Corsair,1
+14850,PHEV,Mercedes GLC 350e Hybrid,1
+14850,PHEV,Porsche Cayenne S E-Hybrid,1
+14850,PHEV,Volvo S60 Plug In,1
+14850,PHEV,Volvo V60 Plug In,1
+14851,PHEV,Chevrolet Volt,5
+14851,BEV,Chevrolet Bolt EV,2
+14851,PHEV,Toyota RAV4 Prime,1
+14852,BEV,BMW iX,1
+14852,BEV,Ford F-150 Lightning,1
+14852,BEV,Nissan Leaf,1
+14852,BEV,Smart forTwo EV,1
+14852,PHEV,Chevrolet Volt,1
+14852,PHEV,Toyota Prius Prime,1
+14853,BEV,GEM NEV,5
+14853,PHEV,Toyota Prius Prime,4
+14853,BEV,Ford E-Transit,3
+14853,BEV,Tesla Model S,1
+14853,PHEV,BMW 5-Series Plug in,1
+14853,PHEV,Ford Escape Plug-in Hybrid,1
+14853,PHEV,Hyundai Ioniq Plug In,1
+14853,PHEV,Hyundai Santa Fe Plug In,1
+14867,PHEV,Toyota Prius Prime,10
+14867,BEV,Tesla Model 3,4
+14867,PHEV,Chevrolet Volt,4
+14867,BEV,Chevrolet Bolt EV,3
+14867,BEV,Hyundai Kona Electric,3
+14867,BEV,Nissan Leaf,3
+14867,PHEV,Honda Clarity Plug In,3
+14867,PHEV,Toyota Prius Plug-in,3
+14867,PHEV,Toyota RAV4 Prime,3
+14867,BEV,Tesla Model Y,2
+14867,BEV,Chevrolet Bolt EUV,1
+14867,BEV,Polestar 2,1
+14867,PHEV,Chrysler Pacifica,1
+14867,PHEV,Hyundai Ioniq Plug In,1
+14867,PHEV,Kia Niro Plug In,1
+14867,PHEV,Kia Sorrento Plug In,1
+14867,PHEV,Mitsubishi Outlander Plug In,1
+14867,PHEV,Subaru Crosstrek Hybrid,1
+14867,PHEV,Volvo S60 Plug In,1
+14867,PHEV,Volvo XC60 Plug-In,1
+14881,BEV,Nissan Leaf,2
+14881,PHEV,Chevrolet Volt,2
+14881,PHEV,Toyota RAV4 Prime,2
+14881,BEV,Kia Soul EV,1
+14882,PHEV,Toyota RAV4 Prime,9
+14882,PHEV,Chevrolet Volt,7
+14882,BEV,Nissan Leaf,4
+14882,PHEV,Toyota Prius Prime,4
+14882,BEV,Chevrolet Bolt EUV,3
+14882,BEV,Tesla Model 3,3
+14882,BEV,Chevrolet Bolt EV,2
+14882,BEV,Tesla Model Y,2
+14882,PHEV,Hyundai Ioniq Plug In,2
+14882,PHEV,Subaru Crosstrek Hybrid,2
+14882,BEV,Ford F-150 Lightning,1
+14882,BEV,Ford Mustang Mach-E,1
+14882,BEV,Hyundai Kona Electric,1
+14882,BEV,Kia EV6,1
+14882,BEV,Tesla Model X,1
+14882,BEV,Volkswagen ID.4,1
+14882,PHEV,Audi Q5 Plug In,1
+14882,PHEV,BMW X5,1
+14882,PHEV,BMW i8,1
+14882,PHEV,Ford C-Max Energi,1
+14882,PHEV,Ford Escape Plug-in Hybrid,1
+14882,PHEV,Ford Fusion Energi,1
+14882,PHEV,Honda Clarity Plug In,1
+14882,PHEV,Kia Sorrento Plug In,1
+14882,PHEV,Mitsubishi Outlander Plug In,1
+14882,PHEV,Toyota Prius Plug-in,1
+14882,PHEV,Volvo XC60 Plug-In,1
+14883,PHEV,Toyota RAV4 Prime,6
+14883,PHEV,Toyota Prius Prime,5
+14883,PHEV,Toyota Prius Plug-in,3
+14883,BEV,Chevrolet Bolt EV,2
+14883,BEV,Hyundai Ioniq EV,2
+14883,PHEV,Chevrolet Volt,2
+14883,BEV,Ford F-150 Lightning,1
+14883,BEV,Hyundai Ioniq 5,1
+14883,BEV,Hyundai Kona Electric,1
+14883,BEV,Kia EV6,1
+14883,BEV,Tesla Model 3,1
+14883,BEV,Tesla Model Y,1
+14883,PHEV,Honda Clarity Plug In,1
+14883,PHEV,Jeep Wrangler 4xe,1
+14883,PHEV,Subaru Crosstrek Hybrid,1
+14883,PHEV,Volvo XC90 Plug-In,1
+14886,PHEV,Chevrolet Volt,24
+14886,PHEV,Toyota RAV4 Prime,16
+14886,BEV,Nissan Leaf,11
+14886,PHEV,Toyota Prius Prime,9
+14886,BEV,Chevrolet Bolt EV,8
+14886,PHEV,Toyota Prius Plug-in,4
+14886,BEV,Chevrolet Bolt EUV,3
+14886,BEV,Hyundai Kona Electric,3
+14886,BEV,Subaru Solterra,3
+14886,BEV,Tesla Model 3,3
+14886,BEV,Tesla Model Y,3
+14886,BEV,Volkswagen e-Golf,3
+14886,PHEV,Chrysler Pacifica,3
+14886,PHEV,Honda Clarity Plug In,3
+14886,PHEV,Subaru Crosstrek Hybrid,3
+14886,BEV,Hyundai Ioniq EV,2
+14886,PHEV,Audi Q5 Plug In,2
+14886,PHEV,Ford C-Max Energi,2
+14886,PHEV,Hyundai Ioniq Plug In,2
+14886,PHEV,Jeep Grand Cherokee Plug In,2
+14886,PHEV,Kia Niro Plug In,2
+14886,PHEV,Mitsubishi Outlander Plug In,2
+14886,PHEV,Volvo XC60 Plug-In,2
+14886,BEV,Audi Q4 e-tron,1
+14886,BEV,Ford F-150 Lightning,1
+14886,BEV,Ford Mustang Mach-E,1
+14886,BEV,Kia EV6,1
+14886,BEV,Mini Hardtop 2 Door EV,1
+14886,BEV,Rivian R1T,1
+14886,BEV,Tesla Model S,1
+14886,BEV,Toyota RAV4 EV,1
+14886,BEV,Volvo C40 Recharge,1
+14886,PHEV,BMW X3,1
+14886,PHEV,Hyundai Sonata Plug In,1
+14886,PHEV,Mini Countryman Plug In,1
