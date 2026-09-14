@@ -1,0 +1,5 @@
+land_use,open_source,pearson_r,mean_abs_diff_peak_norm,ny_anchor_max_hour,open_anchor_max_hour,open_hourly_max_hour
+workplace,workplace_midwest L2,0.468,0.234,9,12,12
+public,boulder_public L2,0.911,0.144,9,12,10
+public,palo_alto_public L2,0.91,0.142,9,12,11
+mud,norway_residential home,0.97,0.059,21,21,22

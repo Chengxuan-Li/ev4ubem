@@ -185,17 +185,24 @@ def main() -> None:
     shp.round(4).to_csv(TABLES / "sessions_hourly_energy_share.csv", index=False)
     pd.concat(cond).round(3).to_csv(TABLES / "sessions_energy_by_start_period.csv", index=False)
 
+    # Seasonality as ratio to a centred 12-month moving average of daily kWh (removes adoption growth trends);
+    # months 2020-03..2021-06 (COVID disruption) are excluded from the ratios.
     mon = []
     for g, x in s.groupby("group"):
-        yrs = x["start"].dt.year
-        full = [y for y in yrs.unique() if x.loc[yrs == y, "start"].dt.month.nunique() == 12 and y != 2020]
-        if not full:
+        daily = x.set_index("start")["kwh"].resample("MS").sum()
+        daily = daily / daily.index.days_in_month
+        if len(daily) < 30:
             continue
-        xx = x[yrs.isin(full)]
-        m = xx.groupby(xx["start"].dt.month)["kwh"].sum() / len(full)
-        dpm = pd.Series([31, 28.25, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31], index=range(1, 13))
-        idx = (m / dpm) / (m.sum() / dpm.sum())
-        mon += [{"dataset": g.split("|")[0], "port_type": g.split("|")[1], "years": ",".join(map(str, sorted(full))), "month": k, "daily_kwh_index": v} for k, v in idx.items()]
+        ma = daily.rolling(12, center=True).mean().rolling(2).mean().shift(-1)  # 2x12 centred MA
+        ratio = (daily / ma).dropna()
+        ratio = ratio[~((ratio.index >= "2020-03-01") & (ratio.index < "2021-07-01"))]
+        if ratio.index.month.nunique() < 12:
+            continue
+        idx = ratio.groupby(ratio.index.month).mean()
+        idx = idx / idx.mean()
+        n_months = ratio.groupby(ratio.index.month).size()
+        mon += [{"dataset": g.split("|")[0], "port_type": g.split("|")[1], "method": "ratio to 2x12 centred MA",
+                 "month": k, "daily_kwh_index": v, "n_months": int(n_months[k])} for k, v in idx.items()]
     pd.DataFrame(mon).round(3).to_csv(TABLES / "sessions_monthly_index.csv", index=False)
 
     uf = []

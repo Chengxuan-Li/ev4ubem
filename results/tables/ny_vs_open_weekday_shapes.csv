@@ -1,0 +1,57 @@
+land_use,source,hour,value,peak_normalised
+workplace,NYSERDA 22-03 Fig.18 (2018-19 mean),0,1.0,0.0488
+workplace,NYSERDA 22-03 Fig.18 (2018-19 mean),3,0.5,0.0244
+workplace,NYSERDA 22-03 Fig.18 (2018-19 mean),6,1.0,0.0488
+workplace,NYSERDA 22-03 Fig.18 (2018-19 mean),9,20.5,1.0
+workplace,NYSERDA 22-03 Fig.18 (2018-19 mean),12,13.25,0.6463
+workplace,NYSERDA 22-03 Fig.18 (2018-19 mean),15,9.75,0.4756
+workplace,NYSERDA 22-03 Fig.18 (2018-19 mean),18,5.5,0.2683
+workplace,NYSERDA 22-03 Fig.18 (2018-19 mean),21,2.25,0.1098
+workplace,workplace_midwest L2,0,6.324,0.0078
+workplace,workplace_midwest L2,3,1.4314,0.0018
+workplace,workplace_midwest L2,6,1.0,0.0012
+workplace,workplace_midwest L2,9,154.2167,0.1906
+workplace,workplace_midwest L2,12,809.1879,1.0
+workplace,workplace_midwest L2,15,283.7238,0.3506
+workplace,workplace_midwest L2,18,578.4755,0.7149
+workplace,workplace_midwest L2,21,70.508,0.0871
+public,NYSERDA 22-03 Fig.18 (2018-19 mean),0,1.75,0.1346
+public,NYSERDA 22-03 Fig.18 (2018-19 mean),3,1.1,0.0846
+public,NYSERDA 22-03 Fig.18 (2018-19 mean),6,1.0,0.0769
+public,NYSERDA 22-03 Fig.18 (2018-19 mean),9,13.0,1.0
+public,NYSERDA 22-03 Fig.18 (2018-19 mean),12,9.25,0.7115
+public,NYSERDA 22-03 Fig.18 (2018-19 mean),15,7.5,0.5769
+public,NYSERDA 22-03 Fig.18 (2018-19 mean),18,6.25,0.4808
+public,NYSERDA 22-03 Fig.18 (2018-19 mean),21,5.25,0.4038
+public,boulder_public L2,0,1571.4192,0.1124
+public,boulder_public L2,3,764.0019,0.0546
+public,boulder_public L2,6,2731.065,0.1953
+public,boulder_public L2,9,13488.9408,0.9647
+public,boulder_public L2,12,13982.3831,1.0
+public,boulder_public L2,15,10846.0967,0.7757
+public,boulder_public L2,18,11563.9511,0.827
+public,boulder_public L2,21,4069.8592,0.2911
+public,palo_alto_public L2,0,4324.2844,0.1405
+public,palo_alto_public L2,3,1466.1286,0.0477
+public,palo_alto_public L2,6,8245.115,0.268
+public,palo_alto_public L2,9,27999.6083,0.91
+public,palo_alto_public L2,12,30767.3319,1.0
+public,palo_alto_public L2,15,25646.3353,0.8336
+public,palo_alto_public L2,18,22936.7256,0.7455
+public,palo_alto_public L2,21,12432.4975,0.4041
+mud,NYSERDA 22-03 Fig.18 (2018-19 mean),0,5.5,0.8462
+mud,NYSERDA 22-03 Fig.18 (2018-19 mean),3,2.5,0.3846
+mud,NYSERDA 22-03 Fig.18 (2018-19 mean),6,1.25,0.1923
+mud,NYSERDA 22-03 Fig.18 (2018-19 mean),9,1.25,0.1923
+mud,NYSERDA 22-03 Fig.18 (2018-19 mean),12,2.75,0.4231
+mud,NYSERDA 22-03 Fig.18 (2018-19 mean),15,3.75,0.5769
+mud,NYSERDA 22-03 Fig.18 (2018-19 mean),18,5.5,0.8462
+mud,NYSERDA 22-03 Fig.18 (2018-19 mean),21,6.5,1.0
+mud,norway_residential home,0,5221.9594,0.7851
+mud,norway_residential home,3,2818.2267,0.4237
+mud,norway_residential home,6,1467.7781,0.2207
+mud,norway_residential home,9,1036.0878,0.1558
+mud,norway_residential home,12,1508.5483,0.2268
+mud,norway_residential home,15,3146.0264,0.473
+mud,norway_residential home,18,5693.8175,0.856
+mud,norway_residential home,21,6651.6194,1.0
