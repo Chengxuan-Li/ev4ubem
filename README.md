@@ -8,7 +8,8 @@ and model-feasibility/validation design. See the original brief:
 
 **Start here:** [`docs/findings.md`](docs/findings.md) (what we know, labelled by evidence class) ·
 [`docs/data_sources.md`](docs/data_sources.md) (source inventory and availability) ·
-[`docs/methodology.md`](docs/methodology.md) · [`docs/decisions/`](docs/decisions/) ·
+[`docs/methodology.md`](docs/methodology.md) · [`docs/validation_matrix.md`](docs/validation_matrix.md) ·
+[`docs/decisions/`](docs/decisions/) ·
 [`AGENTS.md`](AGENTS.md) (working rules).
 
 ## Reproduce
