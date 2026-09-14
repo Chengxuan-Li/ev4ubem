@@ -1,0 +1,95 @@
+[
+  {
+    "local_path": "data/raw/charging_sessions/boulder_public_l2/boulder_sessions.parquet",
+    "url": "https://services.arcgis.com/ePKBjXrBZ2vEEgWd/arcgis/rest/services/Electric_Vehicle_Charging_Station_Data/FeatureServer/0/query",
+    "params": {
+      "where": "1=1",
+      "outFields": "*"
+    },
+    "retrieved_utc": "2026-09-14T07:53:27+00:00",
+    "bytes": 5591118,
+    "sha256": "39037a7717614bf57c51d4f96ed088238d89844b8e505c70febdf1fbf40a6a34",
+    "note": "City of Boulder EV charging sessions (CC0)"
+  },
+  {
+    "local_path": "data/raw/charging_sessions/boulder_public_l2/ev_datadictionary.csv",
+    "url": "https://webappsprod.bouldercolorado.gov/opendata/ev_datadictionary.csv",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:53:28+00:00",
+    "bytes": 1196,
+    "sha256": "ddd96ebdf00a94f72bb0125d51aa9539f698eb52eaaef3c0f595db1c976a9a25",
+    "note": ""
+  },
+  {
+    "local_path": "data/raw/charging_sessions/dundee_public/dundee_2021H2.csv",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/189b838f51e74f6bb77509d91c47d7c0/data",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:53:29+00:00",
+    "bytes": 4155268,
+    "sha256": "18008320bca59b19b446d48fc7f14f7760f0b783e62b3105e04bac64edb9f6b1",
+    "note": "Dundee City Council public EV charge point usage (OGL-UK-3.0)"
+  },
+  {
+    "local_path": "data/raw/charging_sessions/dundee_public/dundee_2022.csv",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/f1a6b5df441d4606821d5f1a78e92d7e/data",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:53:30+00:00",
+    "bytes": 10264136,
+    "sha256": "242bebd2832a11efccab3cdb9f97688b8d16945295ccf98f6d0aa8bb32f25a63",
+    "note": "Dundee City Council public EV charge point usage (OGL-UK-3.0)"
+  },
+  {
+    "local_path": "data/raw/charging_sessions/dundee_public/dundee_2023.csv",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/80df5f177b8c4a94b2bc692835801e8e/data",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:53:31+00:00",
+    "bytes": 13743007,
+    "sha256": "d700deb970a2db41c7cb873fcebd19512190cc612c2c6fb0f8d2d342fdbab3e5",
+    "note": "Dundee City Council public EV charge point usage (OGL-UK-3.0)"
+  },
+  {
+    "local_path": "data/raw/charging_sessions/dundee_public/dundee_2024.csv",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/8b443deaf9174b7aa9d3e10eaa906422/data",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:53:31+00:00",
+    "bytes": 10883129,
+    "sha256": "88796251376700b571ab7b30543bd2c8effe3c058931cda28b766ca9cb584cd1",
+    "note": "Dundee City Council public EV charge point usage (OGL-UK-3.0)"
+  },
+  {
+    "local_path": "data/raw/charging_sessions/dundee_public/dundee_2025H1.csv",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/e185a3a1cfc948a69ada76e950b9d447/data",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:53:32+00:00",
+    "bytes": 5755833,
+    "sha256": "3add50e66e68d18c77b2fab47e2facddd4bc5c10ae49fe6a6720273019c6f7fd",
+    "note": "Dundee City Council public EV charge point usage (OGL-UK-3.0)"
+  },
+  {
+    "local_path": "data/raw/charging_sessions/norway_residential/Dataset1_charging_reports.csv",
+    "url": "https://zenodo.org/api/records/13896176/files/Dataset1_charging_reports.csv/content",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:52:15+00:00",
+    "bytes": 3105240,
+    "sha256": "48c15189e2c1acca7a34d4e3789b1d615ddd091849a9803ae39aee8aec474ed2",
+    "note": "Zenodo 13896176 residential charging (Norway)"
+  },
+  {
+    "local_path": "data/raw/charging_sessions/palo_alto_public/palo_alto_2011_2020.csv",
+    "url": "https://data.paloalto.gov/datasets/194693-electric-vehicle-charging-station-usage-july-2011-dec-2020.download/",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:53:37+00:00",
+    "bytes": 85445823,
+    "sha256": "e65f5f5d3861cdd6bf3da2de97aabe590d7708e001db1532202eec52081ba82c",
+    "note": "City of Palo Alto EV charging station usage Jul 2011-Dec 2020"
+  },
+  {
+    "local_path": "data/raw/charging_sessions/workplace_midwest/ev_workplace_charging_data.tsv",
+    "url": "https://dataverse.harvard.edu/api/access/datafile/4491950",
+    "params": {},
+    "retrieved_utc": "2026-09-14T07:53:29+00:00",
+    "bytes": 447586,
+    "sha256": "f1f2b5946777d9a04978b825f460e5835f3652e049d050da8cf386721c705d2f",
+    "note": "Harvard Dataverse doi:10.7910/DVN/QF1PMO (CC0)"
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "local_path": "data/processed/tempo/tompkins_annual_summary_county.csv",
+    "url": "s3://nrel-pds-dsgrid/tempo/tempo-2022/v1.0.0/annual_summary_county/table.parquet",
+    "params": {
+      "filter": "county == 36109"
+    },
+    "retrieved_utc": "2026-09-14T07:52:16+00:00"
+  },
+  {
+    "local_path": "data/processed/tempo/tompkins_hourly_efs_high_ldv_2026.parquet",
+    "url": "s3://nrel-pds-dsgrid/tempo/tempo-2022/v1.0.0/full_dataset/table.parquet/scenario=efs_high_ldv/tempo_project_model_years=2026/state=NY/part-00247-d668d769-0c35-46e0-94bc-3fa450b31efc.c000.snappy.parquet",
+    "params": {
+      "filter": "county == 36109"
+    },
+    "rows_source_subset": 2040274,
+    "retrieved_utc": "2026-09-14T07:54:45+00:00",
+    "annual_mwh": 19209.42309733771,
+    "note": "TEMPO 2022 v1.0.0 full_dataset; class E model output"
+  },
+  {
+    "local_path": "data/processed/tempo/tompkins_hourly_efs_high_ldv_2030.parquet",
+    "url": "s3://nrel-pds-dsgrid/tempo/tempo-2022/v1.0.0/full_dataset/table.parquet/scenario=efs_high_ldv/tempo_project_model_years=2030/state=NY/part-00251-d668d769-0c35-46e0-94bc-3fa450b31efc.c000.snappy.parquet",
+    "params": {
+      "filter": "county == 36109"
+    },
+    "rows_source_subset": 4657322,
+    "retrieved_utc": "2026-09-14T07:54:51+00:00",
+    "annual_mwh": 63411.65931928182,
+    "note": "TEMPO 2022 v1.0.0 full_dataset; class E model output"
+  },
+  {
+    "local_path": "data/processed/tempo/tompkins_hourly_ldv_sales_evs_2035_2030.parquet",
+    "url": "s3://nrel-pds-dsgrid/tempo/tempo-2022/v1.0.0/full_dataset/table.parquet/scenario=ldv_sales_evs_2035/tempo_project_model_years=2030/state=NY/part-00251-d668d769-0c35-46e0-94bc-3fa450b31efc.c000.snappy.parquet",
+    "params": {
+      "filter": "county == 36109"
+    },
+    "rows_source_subset": 2584764,
+    "retrieved_utc": "2026-09-14T07:54:54+00:00",
+    "annual_mwh": 41348.43378242044,
+    "note": "TEMPO 2022 v1.0.0 full_dataset; class E model output"
+  },
+  {
+    "local_path": "data/processed/tempo/tompkins_hourly_reference_2024.parquet",
+    "url": "s3://nrel-pds-dsgrid/tempo/tempo-2022/v1.0.0/full_dataset/table.parquet/scenario=reference/tempo_project_model_years=2024/state=NY/part-00247-d668d769-0c35-46e0-94bc-3fa450b31efc.c000.snappy.parquet",
+    "params": {
+      "filter": "county == 36109"
+    },
+    "rows_source_subset": 2233480,
+    "retrieved_utc": "2026-09-14T07:53:37+00:00",
+    "annual_mwh": 21578.71285204361,
+    "note": "TEMPO 2022 v1.0.0 full_dataset; class E model output"
+  },
+  {
+    "local_path": "data/processed/tempo/tompkins_hourly_reference_2026.parquet",
+    "url": "s3://nrel-pds-dsgrid/tempo/tempo-2022/v1.0.0/full_dataset/table.parquet/scenario=reference/tempo_project_model_years=2026/state=NY/part-00247-d668d769-0c35-46e0-94bc-3fa450b31efc.c000.snappy.parquet",
+    "params": {
+      "filter": "county == 36109"
+    },
+    "rows_source_subset": 2356426,
+    "retrieved_utc": "2026-09-14T07:54:22+00:00",
+    "annual_mwh": 23991.77367276146,
+    "note": "TEMPO 2022 v1.0.0 full_dataset; class E model output"
+  },
+  {
+    "local_path": "data/processed/tempo/tompkins_hourly_reference_2030.parquet",
+    "url": "s3://nrel-pds-dsgrid/tempo/tempo-2022/v1.0.0/full_dataset/table.parquet/scenario=reference/tempo_project_model_years=2030/state=NY/part-00247-d668d769-0c35-46e0-94bc-3fa450b31efc.c000.snappy.parquet",
+    "params": {
+      "filter": "county == 36109"
+    },
+    "rows_source_subset": 3199498,
+    "retrieved_utc": "2026-09-14T07:54:30+00:00",
+    "annual_mwh": 36122.906833113295,
+    "note": "TEMPO 2022 v1.0.0 full_dataset; class E model output"
+  }
+]

@@ -1,5 +1,35 @@
 [
   {
+    "local_path": "data/raw/ny_open_data/afdc_stations_ny.parquet",
+    "url": "https://data.ny.gov/resource/bpkx-gmh7.csv",
+    "dataset_id": "bpkx-gmh7",
+    "dataset_name": "Alternative Fuel Stations in New York",
+    "source_rows_updated_utc": "2026-09-13T19:01:14+00:00",
+    "params": {
+      "$order": ":id"
+    },
+    "retrieved_utc": "2026-09-14T07:41:05+00:00",
+    "rows": 0,
+    "bytes": 550544,
+    "sha256_parquet": "bcfbc9e1a28ce7e671ea8d0ecc9470c8776276eec3256007728904f0b813ac6d",
+    "note": "afdc_stations_ny"
+  },
+  {
+    "local_path": "data/raw/ny_open_data/charge_ready_ny.parquet",
+    "url": "https://data.ny.gov/resource/9wxk-hakb.csv",
+    "dataset_id": "9wxk-hakb",
+    "dataset_name": "Charge Ready NY Programs: Beginning 2018",
+    "source_rows_updated_utc": "2026-09-05T14:31:13+00:00",
+    "params": {
+      "$order": ":id"
+    },
+    "retrieved_utc": "2026-09-14T07:40:57+00:00",
+    "rows": 0,
+    "bytes": 204956,
+    "sha256_parquet": "f22c9009f55328ed8c0a39f858595465dcf94046d2ecfb787a3130ac7ef1f6b7",
+    "note": "charge_ready_ny"
+  },
+  {
     "local_path": "data/raw/ny_open_data/dmv_reg_ny_agg_county_class_fuel_body.parquet",
     "url": "https://data.ny.gov/resource/w4pv-hbkt.csv",
     "dataset_id": "w4pv-hbkt",
@@ -51,6 +81,18 @@
     "note": "dmv_reg_ny_electric"
   },
   {
+    "local_path": "data/raw/ny_open_data/dmv_reg_ny_veh_full_compact.parquet",
+    "url": "https://data.ny.gov/api/views/w4pv-hbkt/rows.csv?accessType=DOWNLOAD",
+    "dataset_id": "w4pv-hbkt",
+    "source_rows_updated_utc": "2026-09-02T21:34:45+00:00",
+    "retrieved_utc": "2026-09-14T07:49:42+00:00",
+    "raw_csv_bytes": 1384636804,
+    "raw_csv_sha256": "35e02da55943579518748a3d705039806a1693403cb8008bae4b7781ec30a35a",
+    "rows_veh": 11377388,
+    "bytes": 68093336,
+    "note": "full export, VEH rows only, VIN reduced to pattern key"
+  },
+  {
     "local_path": "data/raw/ny_open_data/dmv_reg_tompkins_area_veh.parquet",
     "url": "https://data.ny.gov/resource/w4pv-hbkt.csv",
     "dataset_id": "w4pv-hbkt",
@@ -67,6 +109,23 @@
     "note": "dmv_reg_tompkins_area_veh"
   },
   {
+    "local_path": "data/raw/ny_open_data/dmv_transactions_ny_agg_month_county_fuel.parquet",
+    "url": "https://data.ny.gov/resource/s2dd-yksa.csv",
+    "dataset_id": "s2dd-yksa",
+    "dataset_name": "Department of Motor Vehicles Registration Transactions: Two Year Window",
+    "source_rows_updated_utc": "2026-09-13T22:42:06+00:00",
+    "params": {
+      "$select": "date_trunc_ym(effective_date) as month, residence_county, transaction, fuel, registration_class, count(*) as n",
+      "$group": "month, residence_county, transaction, fuel, registration_class",
+      "$order": "month, residence_county, transaction, fuel, registration_class"
+    },
+    "retrieved_utc": "2026-09-14T07:40:41+00:00",
+    "rows": 0,
+    "bytes": 550003,
+    "sha256_parquet": "f0beb1a814aa3ee1203c3dd9d013c5e63e73166a3d0ab6a393f75d70b01279bb",
+    "note": "dmv_transactions_ny_agg_month_county_fuel"
+  },
+  {
     "local_path": "data/raw/ny_open_data/dmv_transactions_tompkins.parquet",
     "url": "https://data.ny.gov/resource/s2dd-yksa.csv",
     "dataset_id": "s2dd-yksa",
@@ -81,5 +140,20 @@
     "bytes": 2877953,
     "sha256_parquet": "e310facab2b7ca74edd4d063224d0cabb8a7fbdebb811343b1f75c501a4a5caa",
     "note": "dmv_transactions_tompkins"
+  },
+  {
+    "local_path": "data/raw/ny_open_data/drive_clean_rebates.parquet",
+    "url": "https://data.ny.gov/resource/thd2-fu8y.csv",
+    "dataset_id": "thd2-fu8y",
+    "dataset_name": "NYSERDA Electric Vehicle Drive Clean Rebate Data: Beginning 2017",
+    "source_rows_updated_utc": "2026-09-01T14:32:32+00:00",
+    "params": {
+      "$order": ":id"
+    },
+    "retrieved_utc": "2026-09-14T07:40:56+00:00",
+    "rows": 0,
+    "bytes": 1350425,
+    "sha256_parquet": "89b23fa0ca15225a05bc8217c6c47e5d8ef50398dc50d8ee3f54e79ee8d2f2d2",
+    "note": "drive_clean_rebates"
   }
 ]
