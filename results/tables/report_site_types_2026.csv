@@ -1,0 +1,6 @@
+site_type,sites,annual_mwh,max_site_peak_kw
+dcfc,12,2091.85,688.27
+fleet_depot,2296,1779.61,168.26
+public_l2,90,830.79,24.07
+workplace_listed,8,223.5,73.29
+workplace_unlisted_parcel,271,223.5,36.6

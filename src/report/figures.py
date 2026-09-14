@@ -119,7 +119,7 @@ def parcel_peaks():
         p = PROCESSED / "load" / f"parcel_summary_{year}_trend_base.csv"
         if not p.exists():
             continue
-        s = pd.read_csv(p).join(struct, on="parcel").join(units, on="parcel")
+        s = pd.read_csv(p, dtype={"parcel": str}).join(struct, on="parcel").join(units, on="parcel")
         s = s[(s["prob_any_ev_charging"] > 0) & (s["E_ev"] > 0) & (s["peak_kw_p90"] > 0)]
         for st, mk in [("SFD", "o"), ("MF20P", "s")]:
             q = s[s["structure"] == st]

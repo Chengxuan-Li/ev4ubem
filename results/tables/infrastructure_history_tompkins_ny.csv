@@ -1,0 +1,380 @@
+year,date,geography,access,level,stations,ports,count_basis,source,evidence
+2014,2014-12-31,New York State,all,DCFC,,16.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2015,2015-12-31,New York State,all,DCFC,,71.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2016,2016-12-31,New York State,all,DCFC,,133.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2017,2017-12-31,New York State,all,DCFC,,176.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2018,2018-12-31,New York State,all,DCFC,,320.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2019,2019-12-31,New York State,all,DCFC,,506.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2020,2020-12-31,New York State,all,DCFC,,657.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2021,2021-12-31,New York State,all,DCFC,,855.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2022,2022-12-31,New York State,all,DCFC,,1164.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2023,2023-12-31,New York State,all,DCFC,,1359.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2024,2024-12-31,New York State,all,DCFC,,2059.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2025,2025-12-31,New York State,all,DCFC,,2962.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2014,2014-12-31,New York State,all,L1,,139.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2015,2015-12-31,New York State,all,L1,,103.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2016,2016-12-31,New York State,all,L1,,86.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2017,2017-12-31,New York State,all,L1,,81.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2018,2018-12-31,New York State,all,L1,,53.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2019,2019-12-31,New York State,all,L1,,25.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2020,2020-12-31,New York State,all,L1,,21.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2021,2021-12-31,New York State,all,L1,,42.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2022,2022-12-31,New York State,all,L1,,41.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2023,2023-12-31,New York State,all,L1,,38.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2024,2024-12-31,New York State,all,L1,,40.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2025,2025-12-31,New York State,all,L1,,57.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2014,2014-12-31,New York State,all,L2,,917.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2015,2015-12-31,New York State,all,L2,,1107.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2016,2016-12-31,New York State,all,L2,,1458.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2017,2017-12-31,New York State,all,L2,,1695.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2018,2018-12-31,New York State,all,L2,,2189.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2019,2019-12-31,New York State,all,L2,,4000.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2020,2020-12-31,New York State,all,L2,,5456.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2021,2021-12-31,New York State,all,L2,,6749.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2022,2022-12-31,New York State,all,L2,,8330.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2023,2023-12-31,New York State,all,L2,,9717.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2024,2024-12-31,New York State,all,L2,,15617.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2025,2025-12-31,New York State,all,L2,,17344.0,ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2007,2007-12-31,New York State,all,all,1.0,,"station locations only, 2007-2010","AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2008,2008-12-31,New York State,all,all,1.0,,"station locations only, 2007-2010","AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2009,2009-12-31,New York State,all,all,1.0,,"station locations only, 2007-2010","AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2010,2010-12-31,New York State,all,all,9.0,,"station locations only, 2007-2010","AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2011,2011-12-31,New York State,all,all,,226.0,"outlets (ports) only, 2011-2013","AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2012,2012-12-31,New York State,all,all,,520.0,"outlets (ports) only, 2011-2013","AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2013,2013-12-31,New York State,all,all,,693.0,"outlets (ports) only, 2011-2013","AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2014,2014-12-31,New York State,all,all,503.0,1072.0,stations|ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2015,2015-12-31,New York State,all,all,603.0,1281.0,stations|ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2016,2016-12-31,New York State,all,all,862.0,1677.0,stations|ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2017,2017-12-31,New York State,all,all,954.0,1952.0,stations|ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2018,2018-12-31,New York State,all,all,1157.0,2562.0,stations|ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2019,2019-12-31,New York State,all,all,1655.0,4531.0,stations|ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2020,2020-12-31,New York State,all,all,2036.0,6134.0,stations|ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2021,2021-12-31,New York State,all,all,2983.0,7646.0,stations|ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2022,2022-12-31,New York State,all,all,3326.0,9535.0,stations|ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2023,2023-12-31,New York State,all,all,3898.0,11114.0,stations|ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2024,2024-12-31,New York State,all,all,5182.0,17716.0,stations|ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2025,2025-12-31,New York State,all,all,5482.0,20363.0,stations|ports,"AFDC historical-station-counts.xlsx (late-Dec, public+private)",B
+2014,2014-12-31,New York State,all,DCFC,,16.0,stations|ports,AFDC stations/states?date= page (status E),B
+2015,2015-12-31,New York State,all,DCFC,,71.0,stations|ports,AFDC stations/states?date= page (status E),B
+2016,2016-12-31,New York State,all,DCFC,,133.0,stations|ports,AFDC stations/states?date= page (status E),B
+2017,2017-12-31,New York State,all,DCFC,,176.0,stations|ports,AFDC stations/states?date= page (status E),B
+2018,2018-12-31,New York State,all,DCFC,,320.0,stations|ports,AFDC stations/states?date= page (status E),B
+2019,2019-12-31,New York State,all,DCFC,,506.0,stations|ports,AFDC stations/states?date= page (status E),B
+2020,2020-12-31,New York State,all,DCFC,,657.0,stations|ports,AFDC stations/states?date= page (status E),B
+2021,2021-12-31,New York State,all,DCFC,,855.0,stations|ports,AFDC stations/states?date= page (status E),B
+2022,2022-12-31,New York State,all,DCFC,,1164.0,stations|ports,AFDC stations/states?date= page (status E),B
+2023,2023-12-31,New York State,all,DCFC,,1359.0,stations|ports,AFDC stations/states?date= page (status E),B
+2024,2024-12-31,New York State,all,DCFC,,2026.0,stations|ports,AFDC stations/states?date= page (status E),B
+2025,2025-12-31,New York State,all,DCFC,,2859.0,stations|ports,AFDC stations/states?date= page (status E),B
+2026,2026-09-01,New York State,all,DCFC,,3376.0,stations|ports,AFDC stations/states?date= page (status E),B
+2014,2014-12-31,New York State,all,L1,,139.0,stations|ports,AFDC stations/states?date= page (status E),B
+2015,2015-12-31,New York State,all,L1,,103.0,stations|ports,AFDC stations/states?date= page (status E),B
+2016,2016-12-31,New York State,all,L1,,86.0,stations|ports,AFDC stations/states?date= page (status E),B
+2017,2017-12-31,New York State,all,L1,,81.0,stations|ports,AFDC stations/states?date= page (status E),B
+2018,2018-12-31,New York State,all,L1,,53.0,stations|ports,AFDC stations/states?date= page (status E),B
+2019,2019-12-31,New York State,all,L1,,25.0,stations|ports,AFDC stations/states?date= page (status E),B
+2020,2020-12-31,New York State,all,L1,,21.0,stations|ports,AFDC stations/states?date= page (status E),B
+2021,2021-12-31,New York State,all,L1,,42.0,stations|ports,AFDC stations/states?date= page (status E),B
+2022,2022-12-31,New York State,all,L1,,41.0,stations|ports,AFDC stations/states?date= page (status E),B
+2023,2023-12-31,New York State,all,L1,,38.0,stations|ports,AFDC stations/states?date= page (status E),B
+2024,2024-12-31,New York State,all,L1,,40.0,stations|ports,AFDC stations/states?date= page (status E),B
+2025,2025-12-31,New York State,all,L1,,57.0,stations|ports,AFDC stations/states?date= page (status E),B
+2026,2026-09-01,New York State,all,L1,,46.0,stations|ports,AFDC stations/states?date= page (status E),B
+2014,2014-12-31,New York State,all,L2,,917.0,stations|ports,AFDC stations/states?date= page (status E),B
+2015,2015-12-31,New York State,all,L2,,1107.0,stations|ports,AFDC stations/states?date= page (status E),B
+2016,2016-12-31,New York State,all,L2,,1458.0,stations|ports,AFDC stations/states?date= page (status E),B
+2017,2017-12-31,New York State,all,L2,,1695.0,stations|ports,AFDC stations/states?date= page (status E),B
+2018,2018-12-31,New York State,all,L2,,2189.0,stations|ports,AFDC stations/states?date= page (status E),B
+2019,2019-12-31,New York State,all,L2,,4000.0,stations|ports,AFDC stations/states?date= page (status E),B
+2020,2020-12-31,New York State,all,L2,,5456.0,stations|ports,AFDC stations/states?date= page (status E),B
+2021,2021-12-31,New York State,all,L2,,6749.0,stations|ports,AFDC stations/states?date= page (status E),B
+2022,2022-12-31,New York State,all,L2,,8330.0,stations|ports,AFDC stations/states?date= page (status E),B
+2023,2023-12-31,New York State,all,L2,,9717.0,stations|ports,AFDC stations/states?date= page (status E),B
+2024,2024-12-31,New York State,all,L2,,14773.0,stations|ports,AFDC stations/states?date= page (status E),B
+2025,2025-12-31,New York State,all,L2,,16966.0,stations|ports,AFDC stations/states?date= page (status E),B
+2026,2026-09-01,New York State,all,L2,,19465.0,stations|ports,AFDC stations/states?date= page (status E),B
+2014,2014-12-31,New York State,all,all,503.0,1072.0,stations|ports,AFDC stations/states?date= page (status E),B
+2015,2015-12-31,New York State,all,all,603.0,1281.0,stations|ports,AFDC stations/states?date= page (status E),B
+2016,2016-12-31,New York State,all,all,862.0,1677.0,stations|ports,AFDC stations/states?date= page (status E),B
+2017,2017-12-31,New York State,all,all,954.0,1952.0,stations|ports,AFDC stations/states?date= page (status E),B
+2018,2018-12-31,New York State,all,all,1157.0,2562.0,stations|ports,AFDC stations/states?date= page (status E),B
+2019,2019-12-31,New York State,all,all,1655.0,4531.0,stations|ports,AFDC stations/states?date= page (status E),B
+2020,2020-12-31,New York State,all,all,2036.0,6134.0,stations|ports,AFDC stations/states?date= page (status E),B
+2021,2021-12-31,New York State,all,all,2983.0,7646.0,stations|ports,AFDC stations/states?date= page (status E),B
+2022,2022-12-31,New York State,all,all,3326.0,9535.0,stations|ports,AFDC stations/states?date= page (status E),B
+2023,2023-12-31,New York State,all,all,3898.0,11114.0,stations|ports,AFDC stations/states?date= page (status E),B
+2024,2024-12-31,New York State,all,all,4777.0,16839.0,stations|ports,AFDC stations/states?date= page (status E),B
+2025,2025-12-31,New York State,all,all,5331.0,19882.0,stations|ports,AFDC stations/states?date= page (status E),B
+2026,2026-09-01,New York State,all,all,5791.0,22887.0,stations|ports,AFDC stations/states?date= page (status E),B
+2014,2014-12-31,New York State,private,DCFC,,0.0,stations|ports,AFDC stations/states?date= page (status E),B
+2015,2015-12-31,New York State,private,DCFC,,0.0,stations|ports,AFDC stations/states?date= page (status E),B
+2016,2016-12-31,New York State,private,DCFC,,0.0,stations|ports,AFDC stations/states?date= page (status E),B
+2017,2017-12-31,New York State,private,DCFC,,0.0,stations|ports,AFDC stations/states?date= page (status E),B
+2018,2018-12-31,New York State,private,DCFC,,1.0,stations|ports,AFDC stations/states?date= page (status E),B
+2019,2019-12-31,New York State,private,DCFC,,1.0,stations|ports,AFDC stations/states?date= page (status E),B
+2020,2020-12-31,New York State,private,DCFC,,19.0,stations|ports,AFDC stations/states?date= page (status E),B
+2021,2021-12-31,New York State,private,DCFC,,17.0,stations|ports,AFDC stations/states?date= page (status E),B
+2022,2022-12-31,New York State,private,DCFC,,17.0,stations|ports,AFDC stations/states?date= page (status E),B
+2023,2023-12-31,New York State,private,DCFC,,35.0,stations|ports,AFDC stations/states?date= page (status E),B
+2024,2024-12-31,New York State,private,DCFC,,39.0,stations|ports,AFDC stations/states?date= page (status E),B
+2025,2025-12-31,New York State,private,DCFC,,44.0,stations|ports,AFDC stations/states?date= page (status E),B
+2026,2026-09-01,New York State,private,DCFC,,31.0,stations|ports,AFDC stations/states?date= page (status E),B
+2014,2014-12-31,New York State,private,L1,,14.0,stations|ports,AFDC stations/states?date= page (status E),B
+2015,2015-12-31,New York State,private,L1,,11.0,stations|ports,AFDC stations/states?date= page (status E),B
+2016,2016-12-31,New York State,private,L1,,15.0,stations|ports,AFDC stations/states?date= page (status E),B
+2017,2017-12-31,New York State,private,L1,,15.0,stations|ports,AFDC stations/states?date= page (status E),B
+2018,2018-12-31,New York State,private,L1,,13.0,stations|ports,AFDC stations/states?date= page (status E),B
+2019,2019-12-31,New York State,private,L1,,12.0,stations|ports,AFDC stations/states?date= page (status E),B
+2020,2020-12-31,New York State,private,L1,,15.0,stations|ports,AFDC stations/states?date= page (status E),B
+2021,2021-12-31,New York State,private,L1,,27.0,stations|ports,AFDC stations/states?date= page (status E),B
+2022,2022-12-31,New York State,private,L1,,26.0,stations|ports,AFDC stations/states?date= page (status E),B
+2023,2023-12-31,New York State,private,L1,,31.0,stations|ports,AFDC stations/states?date= page (status E),B
+2024,2024-12-31,New York State,private,L1,,29.0,stations|ports,AFDC stations/states?date= page (status E),B
+2025,2025-12-31,New York State,private,L1,,46.0,stations|ports,AFDC stations/states?date= page (status E),B
+2026,2026-09-01,New York State,private,L1,,35.0,stations|ports,AFDC stations/states?date= page (status E),B
+2014,2014-12-31,New York State,private,L2,,120.0,stations|ports,AFDC stations/states?date= page (status E),B
+2015,2015-12-31,New York State,private,L2,,126.0,stations|ports,AFDC stations/states?date= page (status E),B
+2016,2016-12-31,New York State,private,L2,,145.0,stations|ports,AFDC stations/states?date= page (status E),B
+2017,2017-12-31,New York State,private,L2,,106.0,stations|ports,AFDC stations/states?date= page (status E),B
+2018,2018-12-31,New York State,private,L2,,143.0,stations|ports,AFDC stations/states?date= page (status E),B
+2019,2019-12-31,New York State,private,L2,,241.0,stations|ports,AFDC stations/states?date= page (status E),B
+2020,2020-12-31,New York State,private,L2,,552.0,stations|ports,AFDC stations/states?date= page (status E),B
+2021,2021-12-31,New York State,private,L2,,713.0,stations|ports,AFDC stations/states?date= page (status E),B
+2022,2022-12-31,New York State,private,L2,,804.0,stations|ports,AFDC stations/states?date= page (status E),B
+2023,2023-12-31,New York State,private,L2,,804.0,stations|ports,AFDC stations/states?date= page (status E),B
+2024,2024-12-31,New York State,private,L2,,919.0,stations|ports,AFDC stations/states?date= page (status E),B
+2025,2025-12-31,New York State,private,L2,,1402.0,stations|ports,AFDC stations/states?date= page (status E),B
+2026,2026-09-01,New York State,private,L2,,1283.0,stations|ports,AFDC stations/states?date= page (status E),B
+2014,2014-12-31,New York State,private,all,82.0,134.0,stations|ports,AFDC stations/states?date= page (status E),B
+2015,2015-12-31,New York State,private,all,81.0,137.0,stations|ports,AFDC stations/states?date= page (status E),B
+2016,2016-12-31,New York State,private,all,112.0,160.0,stations|ports,AFDC stations/states?date= page (status E),B
+2017,2017-12-31,New York State,private,all,87.0,121.0,stations|ports,AFDC stations/states?date= page (status E),B
+2018,2018-12-31,New York State,private,all,94.0,157.0,stations|ports,AFDC stations/states?date= page (status E),B
+2019,2019-12-31,New York State,private,all,99.0,254.0,stations|ports,AFDC stations/states?date= page (status E),B
+2020,2020-12-31,New York State,private,all,157.0,586.0,stations|ports,AFDC stations/states?date= page (status E),B
+2021,2021-12-31,New York State,private,all,183.0,757.0,stations|ports,AFDC stations/states?date= page (status E),B
+2022,2022-12-31,New York State,private,all,193.0,847.0,stations|ports,AFDC stations/states?date= page (status E),B
+2023,2023-12-31,New York State,private,all,213.0,870.0,stations|ports,AFDC stations/states?date= page (status E),B
+2024,2024-12-31,New York State,private,all,238.0,987.0,stations|ports,AFDC stations/states?date= page (status E),B
+2025,2025-12-31,New York State,private,all,271.0,1492.0,stations|ports,AFDC stations/states?date= page (status E),B
+2026,2026-09-01,New York State,private,all,258.0,1349.0,stations|ports,AFDC stations/states?date= page (status E),B
+2014,2014-12-31,New York State,public,DCFC,,16.0,stations|ports,AFDC stations/states?date= page (status E),B
+2015,2015-12-31,New York State,public,DCFC,,71.0,stations|ports,AFDC stations/states?date= page (status E),B
+2016,2016-12-31,New York State,public,DCFC,,133.0,stations|ports,AFDC stations/states?date= page (status E),B
+2017,2017-12-31,New York State,public,DCFC,,176.0,stations|ports,AFDC stations/states?date= page (status E),B
+2018,2018-12-31,New York State,public,DCFC,,319.0,stations|ports,AFDC stations/states?date= page (status E),B
+2019,2019-12-31,New York State,public,DCFC,,505.0,stations|ports,AFDC stations/states?date= page (status E),B
+2020,2020-12-31,New York State,public,DCFC,,638.0,stations|ports,AFDC stations/states?date= page (status E),B
+2021,2021-12-31,New York State,public,DCFC,,838.0,stations|ports,AFDC stations/states?date= page (status E),B
+2022,2022-12-31,New York State,public,DCFC,,1147.0,stations|ports,AFDC stations/states?date= page (status E),B
+2023,2023-12-31,New York State,public,DCFC,,1324.0,stations|ports,AFDC stations/states?date= page (status E),B
+2024,2024-12-31,New York State,public,DCFC,,1987.0,stations|ports,AFDC stations/states?date= page (status E),B
+2025,2025-12-31,New York State,public,DCFC,,2815.0,stations|ports,AFDC stations/states?date= page (status E),B
+2026,2026-09-01,New York State,public,DCFC,,3345.0,stations|ports,AFDC stations/states?date= page (status E),B
+2014,2014-12-31,New York State,public,L1,,125.0,stations|ports,AFDC stations/states?date= page (status E),B
+2015,2015-12-31,New York State,public,L1,,92.0,stations|ports,AFDC stations/states?date= page (status E),B
+2016,2016-12-31,New York State,public,L1,,71.0,stations|ports,AFDC stations/states?date= page (status E),B
+2017,2017-12-31,New York State,public,L1,,66.0,stations|ports,AFDC stations/states?date= page (status E),B
+2018,2018-12-31,New York State,public,L1,,40.0,stations|ports,AFDC stations/states?date= page (status E),B
+2019,2019-12-31,New York State,public,L1,,13.0,stations|ports,AFDC stations/states?date= page (status E),B
+2020,2020-12-31,New York State,public,L1,,6.0,stations|ports,AFDC stations/states?date= page (status E),B
+2021,2021-12-31,New York State,public,L1,,15.0,stations|ports,AFDC stations/states?date= page (status E),B
+2022,2022-12-31,New York State,public,L1,,15.0,stations|ports,AFDC stations/states?date= page (status E),B
+2023,2023-12-31,New York State,public,L1,,7.0,stations|ports,AFDC stations/states?date= page (status E),B
+2024,2024-12-31,New York State,public,L1,,11.0,stations|ports,AFDC stations/states?date= page (status E),B
+2025,2025-12-31,New York State,public,L1,,11.0,stations|ports,AFDC stations/states?date= page (status E),B
+2026,2026-09-01,New York State,public,L1,,11.0,stations|ports,AFDC stations/states?date= page (status E),B
+2014,2014-12-31,New York State,public,L2,,797.0,stations|ports,AFDC stations/states?date= page (status E),B
+2015,2015-12-31,New York State,public,L2,,981.0,stations|ports,AFDC stations/states?date= page (status E),B
+2016,2016-12-31,New York State,public,L2,,1313.0,stations|ports,AFDC stations/states?date= page (status E),B
+2017,2017-12-31,New York State,public,L2,,1589.0,stations|ports,AFDC stations/states?date= page (status E),B
+2018,2018-12-31,New York State,public,L2,,2046.0,stations|ports,AFDC stations/states?date= page (status E),B
+2019,2019-12-31,New York State,public,L2,,3759.0,stations|ports,AFDC stations/states?date= page (status E),B
+2020,2020-12-31,New York State,public,L2,,4904.0,stations|ports,AFDC stations/states?date= page (status E),B
+2021,2021-12-31,New York State,public,L2,,6036.0,stations|ports,AFDC stations/states?date= page (status E),B
+2022,2022-12-31,New York State,public,L2,,7526.0,stations|ports,AFDC stations/states?date= page (status E),B
+2023,2023-12-31,New York State,public,L2,,8913.0,stations|ports,AFDC stations/states?date= page (status E),B
+2024,2024-12-31,New York State,public,L2,,13854.0,stations|ports,AFDC stations/states?date= page (status E),B
+2025,2025-12-31,New York State,public,L2,,15564.0,stations|ports,AFDC stations/states?date= page (status E),B
+2026,2026-09-01,New York State,public,L2,,18182.0,stations|ports,AFDC stations/states?date= page (status E),B
+2014,2014-12-31,New York State,public,all,421.0,938.0,stations|ports,AFDC stations/states?date= page (status E),B
+2015,2015-12-31,New York State,public,all,522.0,1144.0,stations|ports,AFDC stations/states?date= page (status E),B
+2016,2016-12-31,New York State,public,all,750.0,1517.0,stations|ports,AFDC stations/states?date= page (status E),B
+2017,2017-12-31,New York State,public,all,867.0,1831.0,stations|ports,AFDC stations/states?date= page (status E),B
+2018,2018-12-31,New York State,public,all,1063.0,2405.0,stations|ports,AFDC stations/states?date= page (status E),B
+2019,2019-12-31,New York State,public,all,1556.0,4277.0,stations|ports,AFDC stations/states?date= page (status E),B
+2020,2020-12-31,New York State,public,all,1879.0,5548.0,stations|ports,AFDC stations/states?date= page (status E),B
+2021,2021-12-31,New York State,public,all,2800.0,6889.0,stations|ports,AFDC stations/states?date= page (status E),B
+2022,2022-12-31,New York State,public,all,3133.0,8688.0,stations|ports,AFDC stations/states?date= page (status E),B
+2023,2023-12-31,New York State,public,all,3685.0,10244.0,stations|ports,AFDC stations/states?date= page (status E),B
+2024,2024-12-31,New York State,public,all,4539.0,15852.0,stations|ports,AFDC stations/states?date= page (status E),B
+2025,2025-12-31,New York State,public,all,5060.0,18390.0,stations|ports,AFDC stations/states?date= page (status E),B
+2026,2026-09-01,New York State,public,all,5533.0,21538.0,stations|ports,AFDC stations/states?date= page (status E),B
+2014,2014-12-31,New York State,all,DCFC,5.0,16.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2015,2015-12-31,New York State,all,DCFC,27.0,71.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2016,2016-12-31,New York State,all,DCFC,47.0,133.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2017,2017-12-31,New York State,all,DCFC,59.0,176.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2018,2018-12-31,New York State,all,DCFC,82.0,320.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2019,2019-12-31,New York State,all,DCFC,123.0,506.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2020,2020-12-31,New York State,all,DCFC,144.0,657.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2014,2014-12-31,New York State,all,L1,88.0,139.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2015,2015-12-31,New York State,all,L1,66.0,103.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2016,2016-12-31,New York State,all,L1,55.0,86.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2017,2017-12-31,New York State,all,L1,55.0,81.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2018,2018-12-31,New York State,all,L1,39.0,53.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2019,2019-12-31,New York State,all,L1,16.0,25.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2020,2020-12-31,New York State,all,L1,11.0,21.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2014,2014-12-31,New York State,all,L2,490.0,917.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2015,2015-12-31,New York State,all,L2,577.0,1107.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2016,2016-12-31,New York State,all,L2,814.0,1458.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2017,2017-12-31,New York State,all,L2,897.0,1695.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2018,2018-12-31,New York State,all,L2,1085.0,2189.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2019,2019-12-31,New York State,all,L2,1553.0,4000.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2020,2020-12-31,New York State,all,L2,1918.0,5456.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2014,2014-12-31,New York State,all,all,503.0,1072.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2015,2015-12-31,New York State,all,all,603.0,1281.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2016,2016-12-31,New York State,all,all,862.0,1677.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2017,2017-12-31,New York State,all,all,954.0,1952.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2018,2018-12-31,New York State,all,all,1157.0,2562.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2019,2019-12-31,New York State,all,all,1655.0,4531.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2020,2020-12-31,New York State,all,all,2036.0,6134.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2014,2014-12-31,New York State,private,DCFC,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2015,2015-12-31,New York State,private,DCFC,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2016,2016-12-31,New York State,private,DCFC,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2017,2017-12-31,New York State,private,DCFC,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2018,2018-12-31,New York State,private,DCFC,1.0,1.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2019,2019-12-31,New York State,private,DCFC,1.0,1.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2020,2020-12-31,New York State,private,DCFC,3.0,19.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2014,2014-12-31,New York State,private,L1,7.0,14.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2015,2015-12-31,New York State,private,L1,5.0,11.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2016,2016-12-31,New York State,private,L1,6.0,15.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2017,2017-12-31,New York State,private,L1,6.0,15.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2018,2018-12-31,New York State,private,L1,5.0,13.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2019,2019-12-31,New York State,private,L1,5.0,12.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2020,2020-12-31,New York State,private,L1,7.0,15.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2014,2014-12-31,New York State,private,L2,78.0,120.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2015,2015-12-31,New York State,private,L2,77.0,126.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2016,2016-12-31,New York State,private,L2,107.0,145.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2017,2017-12-31,New York State,private,L2,82.0,106.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2018,2018-12-31,New York State,private,L2,91.0,143.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2019,2019-12-31,New York State,private,L2,96.0,241.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2020,2020-12-31,New York State,private,L2,152.0,552.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2014,2014-12-31,New York State,private,all,82.0,134.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2015,2015-12-31,New York State,private,all,81.0,137.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2016,2016-12-31,New York State,private,all,112.0,160.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2017,2017-12-31,New York State,private,all,87.0,121.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2018,2018-12-31,New York State,private,all,94.0,157.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2019,2019-12-31,New York State,private,all,99.0,254.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2020,2020-12-31,New York State,private,all,157.0,586.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2014,2014-12-31,New York State,public,DCFC,5.0,16.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2015,2015-12-31,New York State,public,DCFC,27.0,71.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2016,2016-12-31,New York State,public,DCFC,47.0,133.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2017,2017-12-31,New York State,public,DCFC,59.0,176.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2018,2018-12-31,New York State,public,DCFC,81.0,319.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2019,2019-12-31,New York State,public,DCFC,122.0,505.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2020,2020-12-31,New York State,public,DCFC,141.0,638.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2014,2014-12-31,New York State,public,L1,81.0,125.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2015,2015-12-31,New York State,public,L1,61.0,92.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2016,2016-12-31,New York State,public,L1,49.0,71.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2017,2017-12-31,New York State,public,L1,49.0,66.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2018,2018-12-31,New York State,public,L1,34.0,40.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2019,2019-12-31,New York State,public,L1,11.0,13.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2020,2020-12-31,New York State,public,L1,4.0,6.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2014,2014-12-31,New York State,public,L2,412.0,797.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2015,2015-12-31,New York State,public,L2,500.0,981.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2016,2016-12-31,New York State,public,L2,707.0,1313.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2017,2017-12-31,New York State,public,L2,815.0,1589.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2018,2018-12-31,New York State,public,L2,994.0,2046.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2019,2019-12-31,New York State,public,L2,1457.0,3759.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2020,2020-12-31,New York State,public,L2,1766.0,4904.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2014,2014-12-31,New York State,public,all,421.0,938.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2015,2015-12-31,New York State,public,all,522.0,1144.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2016,2016-12-31,New York State,public,all,750.0,1517.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2017,2017-12-31,New York State,public,all,867.0,1831.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2018,2018-12-31,New York State,public,all,1063.0,2405.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2019,2019-12-31,New York State,public,all,1556.0,4277.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2020,2020-12-31,New York State,public,all,1879.0,5548.0,stations|ports,NLR API v0/historical-date station records (status E),B
+2014,2014-12-31,Tompkins County,all,DCFC,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2015,2015-12-31,Tompkins County,all,DCFC,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2016,2016-12-31,Tompkins County,all,DCFC,1.0,2.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2017,2017-12-31,Tompkins County,all,DCFC,1.0,2.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2018,2018-12-31,Tompkins County,all,DCFC,1.0,2.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2019,2019-12-31,Tompkins County,all,DCFC,3.0,11.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2020,2020-12-31,Tompkins County,all,DCFC,3.0,11.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2014,2014-12-31,Tompkins County,all,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2015,2015-12-31,Tompkins County,all,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2016,2016-12-31,Tompkins County,all,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2017,2017-12-31,Tompkins County,all,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2018,2018-12-31,Tompkins County,all,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2019,2019-12-31,Tompkins County,all,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2020,2020-12-31,Tompkins County,all,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2014,2014-12-31,Tompkins County,all,L2,5.0,8.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2015,2015-12-31,Tompkins County,all,L2,6.0,10.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2016,2016-12-31,Tompkins County,all,L2,8.0,12.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2017,2017-12-31,Tompkins County,all,L2,12.0,20.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2018,2018-12-31,Tompkins County,all,L2,21.0,40.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2019,2019-12-31,Tompkins County,all,L2,27.0,54.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2020,2020-12-31,Tompkins County,all,L2,33.0,68.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2014,2014-12-31,Tompkins County,all,all,5.0,8.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2015,2015-12-31,Tompkins County,all,all,6.0,10.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2016,2016-12-31,Tompkins County,all,all,9.0,14.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2017,2017-12-31,Tompkins County,all,all,13.0,22.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2018,2018-12-31,Tompkins County,all,all,22.0,42.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2019,2019-12-31,Tompkins County,all,all,29.0,65.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2020,2020-12-31,Tompkins County,all,all,34.0,79.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2014,2014-12-31,Tompkins County,private,DCFC,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2015,2015-12-31,Tompkins County,private,DCFC,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2016,2016-12-31,Tompkins County,private,DCFC,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2017,2017-12-31,Tompkins County,private,DCFC,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2018,2018-12-31,Tompkins County,private,DCFC,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2019,2019-12-31,Tompkins County,private,DCFC,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2020,2020-12-31,Tompkins County,private,DCFC,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2014,2014-12-31,Tompkins County,private,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2015,2015-12-31,Tompkins County,private,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2016,2016-12-31,Tompkins County,private,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2017,2017-12-31,Tompkins County,private,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2018,2018-12-31,Tompkins County,private,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2019,2019-12-31,Tompkins County,private,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2020,2020-12-31,Tompkins County,private,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2014,2014-12-31,Tompkins County,private,L2,1.0,1.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2015,2015-12-31,Tompkins County,private,L2,1.0,1.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2016,2016-12-31,Tompkins County,private,L2,1.0,1.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2017,2017-12-31,Tompkins County,private,L2,1.0,1.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2018,2018-12-31,Tompkins County,private,L2,1.0,1.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2019,2019-12-31,Tompkins County,private,L2,1.0,1.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2020,2020-12-31,Tompkins County,private,L2,3.0,7.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2014,2014-12-31,Tompkins County,private,all,1.0,1.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2015,2015-12-31,Tompkins County,private,all,1.0,1.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2016,2016-12-31,Tompkins County,private,all,1.0,1.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2017,2017-12-31,Tompkins County,private,all,1.0,1.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2018,2018-12-31,Tompkins County,private,all,1.0,1.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2019,2019-12-31,Tompkins County,private,all,1.0,1.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2020,2020-12-31,Tompkins County,private,all,3.0,7.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2014,2014-12-31,Tompkins County,public,DCFC,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2015,2015-12-31,Tompkins County,public,DCFC,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2016,2016-12-31,Tompkins County,public,DCFC,1.0,2.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2017,2017-12-31,Tompkins County,public,DCFC,1.0,2.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2018,2018-12-31,Tompkins County,public,DCFC,1.0,2.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2019,2019-12-31,Tompkins County,public,DCFC,3.0,11.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2020,2020-12-31,Tompkins County,public,DCFC,3.0,11.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2014,2014-12-31,Tompkins County,public,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2015,2015-12-31,Tompkins County,public,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2016,2016-12-31,Tompkins County,public,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2017,2017-12-31,Tompkins County,public,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2018,2018-12-31,Tompkins County,public,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2019,2019-12-31,Tompkins County,public,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2020,2020-12-31,Tompkins County,public,L1,0.0,0.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2014,2014-12-31,Tompkins County,public,L2,4.0,7.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2015,2015-12-31,Tompkins County,public,L2,5.0,9.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2016,2016-12-31,Tompkins County,public,L2,7.0,11.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2017,2017-12-31,Tompkins County,public,L2,11.0,19.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2018,2018-12-31,Tompkins County,public,L2,20.0,39.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2019,2019-12-31,Tompkins County,public,L2,26.0,53.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2020,2020-12-31,Tompkins County,public,L2,30.0,61.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2014,2014-12-31,Tompkins County,public,all,4.0,7.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2015,2015-12-31,Tompkins County,public,all,5.0,9.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2016,2016-12-31,Tompkins County,public,all,8.0,13.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2017,2017-12-31,Tompkins County,public,all,12.0,21.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2018,2018-12-31,Tompkins County,public,all,21.0,41.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2019,2019-12-31,Tompkins County,public,all,28.0,64.0,stations|ports,NLR API v0/historical-date station records (status E),A
+2020,2020-12-31,Tompkins County,public,all,31.0,72.0,stations|ports,NLR API v0/historical-date station records (status E),A

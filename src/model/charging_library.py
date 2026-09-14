@@ -16,7 +16,7 @@ Charging opportunities (in order within a day):
   home (if home access): plug-in with probability by frequency type (daily .92, few/week .45, weekly .16, rare .05),
     forced if D > 0.60 C (BEV only; PHEVs fall back to gasoline); plug-in hour and connection duration sampled jointly from Norway
     residential sessions with the same day type (weekday/weekend); energy at the plug = min(D/η, P·conn_h);
-    managed EVs (L2) start at max(plug-in, 23:00) when the connection window allows full delivery, else immediately.
+    managed EVs (L2) start at max(plug-in, 23:00 + U[0, 2] h) when the connection window allows full delivery, else immediately.
   no home access: public L2 / DCFC sessions when D > 0.5 C (BEV) or D > 0.6 C (PHEV, 60 % of days), public_l2 share parameter.
   PHEVs use public L2 only (most PHEVs cannot DC fast charge).
 Hourly energy: each session delivers constant power P from its charging start; hours are local clock hours of the
@@ -172,7 +172,8 @@ def simulate_ev(arch: dict, year: int, rng, emp, tday, weekend, sessions: list, 
                 deliver = min(D / eta, home_kw * conn)
                 start = plug
                 if arch["managed"] and arch["level"] == "L2":
-                    off = 23.0 if plug < 23.0 else plug
+                    off = 23.0 + 2.0 * rng.random()  # staggered off-peak start 23:00-01:00 (avoids a synchronized timer peak)
+                    off = off if plug < off else plug
                     if plug + conn >= off + deliver / home_kw:
                         start = off
                 add_session(home, h0 + start, deliver, home_kw)

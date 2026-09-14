@@ -1,24 +1,24 @@
 check,metric,value,evidence
-V1 home frequency BEV,total variation distance,0.1915,B
-V1 home frequency PHEV,total variation distance,0.001,B
-V2 home session kWh median,sim / Norway,1.0722,C
-V3 weekday shape home vs NY mud,Pearson r (anchor hours),0.9693,B
-V3 weekday shape work vs NY workplace,Pearson r (anchor hours),0.8856,B
-V3 weekday shape public_l2 vs NY public,Pearson r (anchor hours),0.9021,B
-"V4 public L2 kWh/port-day (sim, residents only)",kWh/port-day,9.9144,inferred
+V1 home frequency BEV,total variation distance,0.182,B
+V1 home frequency PHEV,total variation distance,0.0,B
+V2 home session kWh median,sim / Norway,1.0744,C
+V3 weekday shape home vs NY mud,Pearson r (anchor hours),0.9691,B
+V3 weekday shape work vs NY workplace,Pearson r (anchor hours),0.8827,B
+V3 weekday shape public_l2 vs NY public,Pearson r (anchor hours),0.9114,B
+"V4 public L2 kWh/port-day (sim, residents only)",kWh/port-day,9.604,inferred
 V4 ChargePoint 14850 2019,kWh/port-day,7.312,A/B
 V4 ChargePoint 14850 2022,kWh/port-day,16.448,A/B
 V4 NYSERDA 22-03 mean 2012-2020,kWh/port-day,3.25,B
-V5 annual plug kWh per resident EV (sim),kWh/EV,3082.7776,inferred
+V5 annual plug kWh per resident EV (sim),kWh/EV,2994.2259,inferred
 V5 bottom-up survey estimate (Drive Clean miles × efficiency),kWh/EV,2915.0,B+assumption
 V5 TEMPO reference MY2026 per observed EV,kWh/EV,7421.0,E
-V5 simulated PHEV electric-mile share,share,0.4151,inferred (assumed 0.45 earlier)
-V5 annual plug kWh per BEV (sim),kWh/EV,4104.6072,inferred
-V5 annual plug kWh per PHEV (sim),kWh/EV,1829.0034,inferred
-V5 location energy share home (sim),share,0.6579,inferred (earlier assumption 80/7/8/5)
-V5 location energy share work (sim),share,0.0497,inferred (earlier assumption 80/7/8/5)
-V5 location energy share public_l2 (sim),share,0.0974,inferred (earlier assumption 80/7/8/5)
-V5 location energy share dcfc (sim),share,0.1949,inferred (earlier assumption 80/7/8/5)
-V6 monthly index vs Dundee,Pearson r,0.819,C
-V8 TEMPO/simulated annual energy,ratio,2.1437,E vs inferred
-V8 weekday hour-of-day shape vs TEMPO (EST vs local std),Pearson r,0.408,E vs inferred
+V5 simulated PHEV electric-mile share,share,0.4062,inferred (assumed 0.45 earlier)
+V5 annual plug kWh per BEV (sim),kWh/EV,3941.0621,inferred
+V5 annual plug kWh per PHEV (sim),kWh/EV,1832.4684,inferred
+V5 location energy share home (sim),share,0.667,inferred (earlier assumption 80/7/8/5)
+V5 location energy share work (sim),share,0.0523,inferred (earlier assumption 80/7/8/5)
+V5 location energy share public_l2 (sim),share,0.0972,inferred (earlier assumption 80/7/8/5)
+V5 location energy share dcfc (sim),share,0.1835,inferred (earlier assumption 80/7/8/5)
+V6 monthly index vs Dundee,Pearson r,0.8236,C
+V8 TEMPO/simulated annual energy,ratio,2.2033,E vs inferred
+V8 weekday hour-of-day shape vs TEMPO (EST vs local std),Pearson r,0.4046,E vs inferred

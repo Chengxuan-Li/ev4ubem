@@ -1,0 +1,85 @@
+year,geography,access,metric,historical_snapshot,open_date_curve,open_date_basis,difference,ratio_open_date_to_snapshot,evidence
+2014,Tompkins County,public,stations,4.0,0,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-4.0,0.0,D
+2014,Tompkins County,public,L2 ports,7.0,0,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-7.0,0.0,D
+2014,Tompkins County,public,DCFC ports,0.0,0,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,,D
+2015,Tompkins County,public,stations,5.0,0,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-5.0,0.0,D
+2015,Tompkins County,public,L2 ports,9.0,0,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-9.0,0.0,D
+2015,Tompkins County,public,DCFC ports,0.0,0,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,,D
+2016,Tompkins County,public,stations,8.0,2,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-6.0,0.25,D
+2016,Tompkins County,public,L2 ports,11.0,3,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-8.0,0.2727272727272727,D
+2016,Tompkins County,public,DCFC ports,2.0,0,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-2.0,0.0,D
+2017,Tompkins County,public,stations,12.0,2,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-10.0,0.16666666666666666,D
+2017,Tompkins County,public,L2 ports,19.0,3,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-16.0,0.15789473684210525,D
+2017,Tompkins County,public,DCFC ports,2.0,0,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-2.0,0.0,D
+2018,Tompkins County,public,stations,21.0,2,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-19.0,0.09523809523809523,D
+2018,Tompkins County,public,L2 ports,39.0,3,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-36.0,0.07692307692307693,D
+2018,Tompkins County,public,DCFC ports,2.0,0,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-2.0,0.0,D
+2019,Tompkins County,public,stations,28.0,6,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-22.0,0.21428571428571427,D
+2019,Tompkins County,public,L2 ports,53.0,11,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-42.0,0.20754716981132076,D
+2019,Tompkins County,public,DCFC ports,11.0,9,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-2.0,0.8181818181818182,D
+2020,Tompkins County,public,stations,31.0,17,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-14.0,0.5483870967741935,D
+2020,Tompkins County,public,L2 ports,61.0,33,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-28.0,0.5409836065573771,D
+2020,Tompkins County,public,DCFC ports,11.0,9,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",-2.0,0.8181818181818182,D
+2014,Tompkins County,private,stations,1.0,1,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,1.0,D
+2014,Tompkins County,private,L2 ports,1.0,1,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,1.0,D
+2014,Tompkins County,private,DCFC ports,0.0,0,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,,D
+2015,Tompkins County,private,stations,1.0,1,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,1.0,D
+2015,Tompkins County,private,L2 ports,1.0,1,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,1.0,D
+2015,Tompkins County,private,DCFC ports,0.0,0,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,,D
+2016,Tompkins County,private,stations,1.0,1,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,1.0,D
+2016,Tompkins County,private,L2 ports,1.0,1,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,1.0,D
+2016,Tompkins County,private,DCFC ports,0.0,0,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,,D
+2017,Tompkins County,private,stations,1.0,1,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,1.0,D
+2017,Tompkins County,private,L2 ports,1.0,1,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,1.0,D
+2017,Tompkins County,private,DCFC ports,0.0,0,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,,D
+2018,Tompkins County,private,stations,1.0,1,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,1.0,D
+2018,Tompkins County,private,L2 ports,1.0,1,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,1.0,D
+2018,Tompkins County,private,DCFC ports,0.0,0,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,,D
+2019,Tompkins County,private,stations,1.0,1,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,1.0,D
+2019,Tompkins County,private,L2 ports,1.0,1,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,1.0,D
+2019,Tompkins County,private,DCFC ports,0.0,0,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,,D
+2020,Tompkins County,private,stations,3.0,4,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",1.0,1.3333333333333333,D
+2020,Tompkins County,private,L2 ports,7.0,7,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",0.0,1.0,D
+2020,Tompkins County,private,DCFC ports,0.0,2,"data/processed/infrastructure/tompkins_ports_by_open_year.csv (2026-09-14 API, status E)",2.0,,D
+2014,New York State,public,stations,421.0,48,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-373.0,0.11401425178147269,D
+2014,New York State,public,L2 ports,797.0,82,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-715.0,0.1028858218318695,D
+2014,New York State,public,DCFC ports,16.0,30,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,14.0,1.875,D
+2015,New York State,public,stations,522.0,117,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-405.0,0.22413793103448276,D
+2015,New York State,public,L2 ports,981.0,259,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-722.0,0.2640163098878695,D
+2015,New York State,public,DCFC ports,71.0,68,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-3.0,0.9577464788732394,D
+2016,New York State,public,stations,750.0,210,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-540.0,0.28,D
+2016,New York State,public,L2 ports,1313.0,512,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-801.0,0.38994668697638996,D
+2016,New York State,public,DCFC ports,133.0,123,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-10.0,0.924812030075188,D
+2017,New York State,public,stations,867.0,310,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-557.0,0.3575547866205306,D
+2017,New York State,public,L2 ports,1589.0,791,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-798.0,0.4977973568281938,D
+2017,New York State,public,DCFC ports,176.0,182,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,6.0,1.0340909090909092,D
+2018,New York State,public,stations,1063.0,430,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-633.0,0.4045155221072437,D
+2018,New York State,public,L2 ports,2046.0,1162,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-884.0,0.5679374389051809,D
+2018,New York State,public,DCFC ports,319.0,306,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-13.0,0.9592476489028213,D
+2019,New York State,public,stations,1556.0,647,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-909.0,0.4158097686375321,D
+2019,New York State,public,L2 ports,3759.0,1668,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-2091.0,0.44373503591380686,D
+2019,New York State,public,DCFC ports,505.0,446,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-59.0,0.8831683168316832,D
+2020,New York State,public,stations,1879.0,1006,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-873.0,0.535391165513571,D
+2020,New York State,public,L2 ports,4904.0,2414,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-2490.0,0.49225122349102773,D
+2020,New York State,public,DCFC ports,638.0,573,data/raw/afdc/afdc_elec_ny_all_status.json status E; 0 stations lack open_date,-65.0,0.8981191222570533,D
+2014,New York State,private,stations,82.0,37,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,-45.0,0.45121951219512196,D
+2014,New York State,private,L2 ports,120.0,44,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,-76.0,0.36666666666666664,D
+2014,New York State,private,DCFC ports,0.0,0,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,0.0,,D
+2015,New York State,private,stations,81.0,38,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,-43.0,0.4691358024691358,D
+2015,New York State,private,L2 ports,126.0,51,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,-75.0,0.40476190476190477,D
+2015,New York State,private,DCFC ports,0.0,0,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,0.0,,D
+2016,New York State,private,stations,112.0,43,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,-69.0,0.38392857142857145,D
+2016,New York State,private,L2 ports,145.0,60,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,-85.0,0.41379310344827586,D
+2016,New York State,private,DCFC ports,0.0,0,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,0.0,,D
+2017,New York State,private,stations,87.0,43,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,-44.0,0.4942528735632184,D
+2017,New York State,private,L2 ports,106.0,60,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,-46.0,0.5660377358490566,D
+2017,New York State,private,DCFC ports,0.0,0,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,0.0,,D
+2018,New York State,private,stations,94.0,49,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,-45.0,0.5212765957446809,D
+2018,New York State,private,L2 ports,143.0,100,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,-43.0,0.6993006993006993,D
+2018,New York State,private,DCFC ports,1.0,0,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,-1.0,0.0,D
+2019,New York State,private,stations,99.0,85,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,-14.0,0.8585858585858586,D
+2019,New York State,private,L2 ports,241.0,353,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,112.0,1.4647302904564314,D
+2019,New York State,private,DCFC ports,1.0,1,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,0.0,1.0,D
+2020,New York State,private,stations,157.0,120,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,-37.0,0.7643312101910829,D
+2020,New York State,private,L2 ports,552.0,508,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,-44.0,0.9202898550724637,D
+2020,New York State,private,DCFC ports,19.0,19,data/raw/afdc/afdc_elec_ny_all_status.json status E; 2 stations lack open_date,0.0,1.0,D

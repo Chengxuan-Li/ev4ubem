@@ -5,7 +5,7 @@ Drive Clean miles x efficiency (Tompkins mix),B+assumption,3165.0,all locations
 NHTS 2022 BEV diary miles (n=166),C,4489.0,all locations
 NHTS 2022 BEV self-reported annual miles,C,4717.9,all locations
 Norway residential median user (home energy only),C,1829.1,home only
-Event model 2026: BEV,inferred,4104.6,all locations
-Event model 2026: PHEV,inferred,1829.0,all locations
-Event model 2026: resident EV mix,inferred,3082.8,all locations
+Event model 2026: BEV,inferred,3941.1,all locations
+Event model 2026: PHEV,inferred,1832.5,all locations
+Event model 2026: resident EV mix,inferred,2994.2,all locations
 TEMPO 2022 reference MY2026 / observed EVs,E,7421.0,all locations

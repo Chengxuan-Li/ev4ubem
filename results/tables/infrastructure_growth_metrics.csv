@@ -1,0 +1,37 @@
+geography,access,level,start_year,end_year,start_ports,end_ports,cagr,abs_growth_per_year,note,evidence
+New York State,public,L2,2014,2025,797.0,,,,spans 2021 AFDC OCPI counting change,D
+New York State,public,L2,2014,2020,797.0,4904.0,0.3536779559800354,684.5,,D
+New York State,public,L2,2016,2020,1313.0,4904.0,0.39018127294221316,897.75,,D
+New York State,public,L2,2021,2025,,,,,,D
+New York State,public,L2,2019,2025,3759.0,,,,spans 2021 AFDC OCPI counting change,D
+New York State,public,L2,2022,2025,,,,,,D
+New York State,public,DCFC,2014,2025,16.0,,,,spans 2021 AFDC OCPI counting change,D
+New York State,public,DCFC,2014,2020,16.0,638.0,0.8483467548388266,103.66666666666667,,D
+New York State,public,DCFC,2016,2020,133.0,638.0,0.479933698972129,126.25,,D
+New York State,public,DCFC,2021,2025,,,,,,D
+New York State,public,DCFC,2019,2025,505.0,,,,spans 2021 AFDC OCPI counting change,D
+New York State,public,DCFC,2022,2025,,,,,,D
+New York State,public,all,2014,2025,938.0,,,,spans 2021 AFDC OCPI counting change,D
+New York State,public,all,2014,2020,938.0,5548.0,0.34479350323195446,768.3333333333334,,D
+New York State,public,all,2016,2020,1517.0,5548.0,0.38289026031533324,1007.75,,D
+New York State,public,all,2021,2025,,,,,,D
+New York State,public,all,2019,2025,4277.0,,,,spans 2021 AFDC OCPI counting change,D
+New York State,public,all,2022,2025,,,,,,D
+Tompkins County,public,L2,2014,2025,7.0,,,,spans 2021 AFDC OCPI counting change,D
+Tompkins County,public,L2,2014,2020,7.0,61.0,0.43451567832965465,9.0,,D
+Tompkins County,public,L2,2016,2020,11.0,61.0,0.5345614622004093,12.5,,D
+Tompkins County,public,L2,2021,2025,,,,,,D
+Tompkins County,public,L2,2019,2025,53.0,,,,spans 2021 AFDC OCPI counting change,D
+Tompkins County,public,L2,2022,2025,,,,,,D
+Tompkins County,public,DCFC,2014,2025,0.0,,,,spans 2021 AFDC OCPI counting change,D
+Tompkins County,public,DCFC,2014,2020,0.0,11.0,,1.8333333333333333,,D
+Tompkins County,public,DCFC,2016,2020,2.0,11.0,0.531407156804393,2.25,,D
+Tompkins County,public,DCFC,2021,2025,,,,,,D
+Tompkins County,public,DCFC,2019,2025,11.0,,,,spans 2021 AFDC OCPI counting change,D
+Tompkins County,public,DCFC,2022,2025,,,,,,D
+Tompkins County,public,all,2014,2025,7.0,,,,spans 2021 AFDC OCPI counting change,D
+Tompkins County,public,all,2014,2020,7.0,72.0,0.4747070034436618,10.833333333333334,,D
+Tompkins County,public,all,2016,2020,13.0,72.0,0.534077449693531,14.75,,D
+Tompkins County,public,all,2021,2025,,,,,,D
+Tompkins County,public,all,2019,2025,64.0,,,,spans 2021 AFDC OCPI counting change,D
+Tompkins County,public,all,2022,2025,,,,,,D
