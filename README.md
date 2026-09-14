@@ -12,6 +12,18 @@ and model-feasibility/validation design. See the original brief:
 [`docs/decisions/`](docs/decisions/) ·
 [`AGENTS.md`](AGENTS.md) (working rules).
 
+## Key results so far (2026-09-14; details and evidence labels in `docs/findings.md`)
+
+- **Tompkins EV stock is directly observed:** 3,233 plug-in EVs (1,833 BEV, 1,400 PHEV) in the NYS DMV snapshot of
+  2026-09-02, ~5.4 % of light-duty vehicles, roughly doubled since April 2023. PHEVs are registered as `GAS`, so the
+  identification relies on VIN decoding.
+- **Nothing public observes EVs below ZIP code.** Plausible allocation rules place 8–38 % of EVs in multi-unit housing.
+  This is the dominant uncertainty for building-level loads.
+- **No public New York session-level charging data.** NY summary evidence (NYSERDA 22-03, Drive Clean surveys) plus open
+  non-NY session datasets give charging shapes; public-L2 and residential shapes agree with NY utilisation curves (r ≈ 0.9+).
+- **Bottom-up 2026 county EV energy ≈ 9.4 GWh/yr (6.9–12.3)** with a ~2.1 MW hourly peak; NREL TEMPO (model) is ~2.5× higher.
+- **Building peaks need event-based profiles:** per-EV peak falls from ~7 kW (one EV) to ~1.5 kW (48 EVs).
+
 ## Reproduce
 
 ```bash

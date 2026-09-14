@@ -17,3 +17,4 @@ pdfplumber>=0.11
 mapclassify>=2.6
 jupyter
 nbformat
+pytest>=8

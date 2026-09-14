@@ -203,6 +203,12 @@ location energy shares, session-level distributions, charging power distribution
 - Home-dominated mixtures peak 17–21 h; public/workplace shares add a 9 am–3 pm plateau. County peak per EV (0.5–0.85 kW)
   is far below single-building per-EV peaks (≈4–7 kW at N=1), so **building-level loads require event-based sampling or
   diversity-aware profiles, not a scaled county profile.**
+- **Event-based home library prototype** (`src/analysis/home_event_library.py`, `results/tables/home_event_library_*.csv`)
+  [C timing + B power shares, inferred]: 400 synthetic EV-years from Norway user-years scaled to Tompkins home energy
+  (BEV ≈2,330, PHEV ≈1,410 kWh/yr) with Drive Clean L1/L2 shares. Median annual-peak hourly load: 1 EV 7.2 kW (L2 cap),
+  2 EVs 8.6 kW, 6 EVs 19 kW, 12 EVs 29 kW (2.4 kW/EV), 24 EVs 43 kW, 48 EVs 71 kW (1.5 kW/EV); single-EV peak/mean ≈27.
+  BEVs on L1 deliver only 76 % of target energy within the observed connection windows → L1 households must plug in
+  more often/longer than the source users; L1 behaviour is a data gap.
 
 ---
 

@@ -23,16 +23,26 @@ python -m src.processing.acs_features
 python -m src.processing.infrastructure
 python -m src.processing.drive_clean
 python -m src.processing.dmv_ev_stock
+python -m src.processing.dmv_statewide_ev         # after vpic --statewide
 # analysis (results/tables, results/figures, results/maps)
 python -m src.analysis.ownership_trends
-python -m src.analysis.zip_ev_penetration
+python -m src.analysis.flows_reconciliation
+python -m src.analysis.zip_ev_penetration 2023
+python -m src.analysis.zip_ev_penetration 2026
 python -m src.analysis.nhts_vehicle_days
 python -m src.analysis.nhts_ev_propensity
 python -m src.analysis.subzip_allocation
 python -m src.analysis.charging_sessions
+python -m src.analysis.ny_vs_open_shapes
+python -m src.analysis.chargepoint_local_use
 python -m src.analysis.diversity
 python -m src.analysis.hourly_load_scenarios
+python -m src.analysis.home_event_library
+# checks
+python -m pytest -q tests
 ```
+
+Equivalent one-liners: `python -m src.acquisition.run_all`, `python -m src.processing.run_all`, `python -m src.analysis.run_all`.
 
 Unzip step (not scripted because of archive size; any unzip tool):
 `unzip EValuateNY_v11_pt1.zip -d evaluateny_v11 && unzip EValuateNY_v11_pt2.zip -d evaluateny_v11`.
