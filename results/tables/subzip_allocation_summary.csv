@@ -1,0 +1,6 @@
+scenario,evs_allocated,evs_observed_in_zips,share_in_multi_unit,share_in_single_unit,bg_ev_per_hh_cv,median_abs_bg_diff_vs_S0,unallocated_acs_occupied_units_no_matching_parcels,calibrated_households,acs_occupied_units_total,evs_in_zips_without_parcels
+S0,3233.0,3233.0,0.3857,0.555,0.2326,0.0,,,,
+S1,3233.0,3233.0,0.2911,0.6444,0.3505,5.4231,,,,
+S2,3233.0,3233.0,0.102,0.8736,0.3869,7.27,,,,
+S3,3233.0,3233.0,0.0809,0.8963,0.6266,12.1392,,,,
+diagnostic,,,,,,,135.0,43128.0,43263.0,0.0

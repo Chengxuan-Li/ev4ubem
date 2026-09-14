@@ -1,0 +1,8 @@
+scenario,bev_2026,phev_2026,evidence,annual_mwh,kwh_per_ev,peak_hour_mw,peak_kw_per_ev,peak_timestamp,mean_weekday_peak_hour,load_factor
+A: stock x kWh/EV (low) x location mix (base),1833.0,1400.0,A stock x B/C assumptions,6880.5771,2128.2329,2.0424,0.6317,2026-12-01 17:00:00,17,0.3846
+A: stock x kWh/EV (base) x location mix (base),1833.0,1400.0,A stock x B/C assumptions,9424.0847,2914.9659,2.7974,0.8653,2026-12-01 17:00:00,17,0.3846
+A: stock x kWh/EV (base) x location mix (home_heavy),1833.0,1400.0,A stock x B/C assumptions,9424.0847,2914.9659,2.7414,0.848,2026-12-01 21:00:00,21,0.3924
+A: stock x kWh/EV (base) x location mix (public_heavy),1833.0,1400.0,A stock x B/C assumptions,9424.0847,2914.9659,2.8394,0.8783,2026-12-01 17:00:00,17,0.3789
+A: stock x kWh/EV (high) x location mix (base),1833.0,1400.0,A stock x B/C assumptions,12296.9376,3803.5687,3.6502,1.129,2026-12-01 17:00:00,17,0.3846
+TEMPO 2022 reference MY2026 (model),1833.0,1400.0,E model output; per-EV uses DMV stock,23991.7737,7420.9012,6.7016,2.0729,2012-01-01 23:00:00,18,0.4076
+TEMPO 2022 efs_high_ldv MY2026 (model),1833.0,1400.0,E model output; per-EV uses DMV stock,19209.4231,5941.6712,4.9859,1.5422,2012-01-05 18:00:00,17,0.4386
