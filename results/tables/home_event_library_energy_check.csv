@@ -1,0 +1,5 @@
+drivetrain,level,n,delivered_fraction_mean,annual_kwh_mean
+BEV,L1,31,0.761,1774.331
+BEV,L2,180,0.99,2307.817
+PHEV,L1,135,0.902,1272.242
+PHEV,L2,54,0.999,1410.211

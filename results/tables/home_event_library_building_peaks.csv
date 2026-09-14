@@ -1,0 +1,7 @@
+n_evs,building_type,peak_kw_p50,peak_kw_p90,peak_kw_per_ev_p50,mean_kw,mean_kw_17_22,peak_to_mean_p50
+1,single-family,7.2,7.2,7.2,0.204,0.375,27.046
+2,single-family,8.6,14.4,4.3,0.411,0.787,22.609
+6,multifamily garage,19.355,24.4,3.226,1.222,2.346,15.742
+12,multifamily garage,28.591,35.089,2.383,2.446,4.645,11.661
+24,multifamily garage,43.35,53.332,1.806,4.928,9.386,8.791
+48,multifamily garage,70.81,82.548,1.475,9.85,18.826,7.164
