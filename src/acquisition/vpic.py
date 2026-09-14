@@ -69,6 +69,12 @@ def decode(reps: pd.DataFrame, batch: int = 50, sleep: float = 0.3) -> pd.DataFr
     return cache
 
 
+def wildcard_vin(key11: pd.Series) -> pd.Series:
+    """Build a decodable partial VIN from a pattern key: VIN[:8] + '*' (check digit) + VIN[9:11] + '******'.
+    vPIC decodes such partial VINs (ErrorCode 1 'check digit' warning only; verified 2026-09-14)."""
+    return key11.str[:8] + "*" + key11.str[8:10] + "******"
+
+
 def main(extra_keys_file: str | None = None) -> None:
     src = RAW / "ny_open_data"
     parts = []
