@@ -75,7 +75,7 @@ def wildcard_vin(key11: pd.Series) -> pd.Series:
     return key11.str[:8] + "*" + key11.str[8:10] + "******"
 
 
-def main(extra_keys_file: str | None = None) -> None:
+def main(extra_keys_file: str | None = None, statewide: bool = False) -> None:
     src = RAW / "ny_open_data"
     parts = []
     t = pd.read_parquet(src / "dmv_reg_tompkins_area_veh.parquet", columns=["vin", "model_year"])
@@ -83,6 +83,14 @@ def main(extra_keys_file: str | None = None) -> None:
     parts.append(representatives(pd.read_parquet(src / "dmv_reg_ny_electric.parquet", columns=["vin"])))
     if extra_keys_file:
         parts.append(pd.read_parquet(extra_keys_file)[["vin_key11", "vin"]])
+    if statewide:
+        # statewide MY>=2011 VIN patterns absent from EValuateNY's lookup, decoded via wildcard partial VINs
+        full = pd.read_parquet(src / "dmv_reg_ny_veh_full_compact.parquet", columns=["vin_key11", "model_year"])
+        keys = full.loc[(full["model_year"] >= 2011) & full["vin_key11"].notna(), "vin_key11"].drop_duplicates()
+        vd = pd.read_csv(RAW / "nyserda" / "evaluateny_v11" / "Vehicle Description.csv", dtype=str, low_memory=False,
+                         usecols=["VIN_Key"])
+        keys = keys[~keys.str[:9].isin(set(vd["VIN_Key"]))]
+        parts.append(pd.DataFrame({"vin_key11": keys, "vin": wildcard_vin(keys)}))
     reps = pd.concat(parts).drop_duplicates("vin_key11")
     decode(reps)
     record("vpic", {"local_path": rel(CACHE), "url": URL, "params": {"method": "DecodeVINValuesBatch", "key": "VIN[:8]+VIN[9:11]"},
@@ -93,4 +101,6 @@ def main(extra_keys_file: str | None = None) -> None:
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--extra-keys")
-    main(ap.parse_args().extra_keys)
+    ap.add_argument("--statewide", action="store_true", help="also decode statewide MY>=2011 patterns not in EValuateNY")
+    a = ap.parse_args()
+    main(a.extra_keys, a.statewide)
