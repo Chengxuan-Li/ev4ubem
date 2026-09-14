@@ -1,0 +1,13 @@
+geo,quantity,t,observed,predicted,ape
+tompkins,EV stock,2022.92,1533.7,1791.7667,0.1683
+tompkins,EV stock,2023.25,1655.4,2022.7513,0.2219
+tompkins,EV stock,2026.67,3123.0,6161.5975,0.973
+tompkins,EV share of new additions,2024.67,0.1247,0.1999,0.6025
+tompkins,EV share of new additions,2025.67,0.0928,0.2643,1.8469
+tompkins,EV share of new additions,2022.5,0.0953,0.102,0.0705
+tompkins,EV share of new additions,2023.15,0.1376,0.1257,0.0859
+ny,EV stock,2022.92,124294.0,128662.3051,0.0351
+ny,EV stock,2023.25,139222.0,143932.1525,0.0338
+ny,EV stock,2026.67,324838.0,419045.5192,0.29
+ny,EV share of new additions,2022.5,0.0498,0.0391,0.2155
+ny,EV share of new additions,2023.15,0.0686,0.0478,0.3025
