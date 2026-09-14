@@ -15,7 +15,8 @@ Tables/figures cited are in `results/` and reproducible via `docs/methodology.md
 
 1. **EV stock is observed, not predicted**, at county and ZIP level with BEV/PHEV, make/model and model year,
    provided PHEVs are identified by VIN decoding (DMV's fuel field misses them). Tompkins: **3,233 plug-in EVs**
-   (1,833 BEV, 1,400 PHEV) in Sep 2026 [A, observed], roughly doubling since Apr 2023.
+   (1,833 BEV, 1,400 PHEV) in Sep 2026 [A, observed], roughly doubling since Apr 2023; 5.4 % of light-duty vehicles,
+   2nd-highest of New York's 62 counties.
 2. **Nothing public observes EVs below ZIP.** Building/parcel placement is inference; plausible assumptions move the
    share of EVs in multi-unit housing between ~38 % and ~8 % [inferred]. This is the dominant ownership uncertainty
    for a building-level model.
@@ -45,6 +46,12 @@ Tables/figures cited are in `results/` and reproducible via `docs/methodology.md
 
 Source tables: `data/processed/dmv/tompkins_ev_stock_zip_2026.csv`, `results/tables/tompkins_ev_stock_timeseries.csv`.
 
+**Statewide context (same snapshot, full VIN decoding; `data/processed/dmv/ny_county_ev_2026.csv`)** [B/A, observed]:
+New York has 333,087 light-duty plug-in EVs (215,030 BEV, 118,057 PHEV), 3.1 % of 10.6 M LDVs. **Tompkins (5.36 %) ranks
+2nd of 62 counties**, essentially tied with New York County (5.39 %) and above Westchester (4.98 %) and Nassau (4.72 %).
+Tompkins' PHEV share of EVs (44 %) is well above the state (35 %). Drivetrain source for MY2011+ LDVs: vPIC 89.8 %,
+EValuateNY lookup 10.2 %, unclassified 0.04 %.
+
 - **PHEVs are 44 % of Tompkins LDV EVs and are coded `fuel_type = GAS` in DMV** (983 of 1,400 matched both vPIC and
   EValuateNY; only 4 PHEVs are coded ELECTRIC). DMV `ELECTRIC` ≈ BEV. Using the fuel field alone halves the EV count
   (decision 0002). 10 `ELECTRIC` rows decode as ICE/HEV (data-entry conflicts, <1 %).
@@ -61,10 +68,10 @@ Source tables: `data/processed/dmv/tompkins_ev_stock_zip_2026.csv`, `results/tab
 ### 1.2 Growth [D/A, observed]
 EValuateNY (ZIP-weighted to Tompkins): 335 EVs (Apr 2018) → 736 (Apr 2020) → 1,294 (Apr 2022) → 1,655 (Apr 2023);
 DMV (same method) 3,123 (Sep 2026). **CAGR 2023→2026 ≈ 20 %/yr; net growth ≈ 430 EVs/yr.**
-Flows (Sep 2024–Aug 2026, `results/tables/tompkins_ev_flows_summary.csv`) [A]: ~530 ORIGINAL registrations of EVs per year
-(≈366 BEV, 164 PHEV; 5.9 % of decoded original registrations), 260 Drive Clean rebates per year (≈49 % of EV original
-registrations). Originals exceed net growth as expected (used-vehicle transfers, move-ins, scrappage/move-outs).
-Decoding covered 82 % of all original registrations in the first pass (to be updated after statewide VIN decoding).
+Flows (Sep 2024–Aug 2026, `results/tables/tompkins_ev_flows_summary.csv`) [A]: ~535 ORIGINAL registrations of EVs per year
+(≈370 BEV, 165 PHEV; 5.3 % of decoded original registrations, 92 % of all originals decoded), 260 Drive Clean rebates per
+year (≈49 % of EV original registrations). Originals exceed net stock growth (~430/yr) as expected (used-vehicle transfers
+within the county, move-ins, scrappage/move-outs).
 
 ### 1.3 Cross-source reconciliation
 | Comparison | Result | Explanation |
@@ -97,7 +104,13 @@ housing type of the registrant. DMV transactions' `georeference` is a ZIP centro
   **under-predict several rural Tompkins ZIPs by ~2×** — a local effect not explained by ACS composition.
 - Ecological caveat: these are ZIP associations, not household probabilities; they inform which *area* attributes carry
   information, not how EVs distribute among buildings within a ZIP.
-- 2026 statewide replication: **pending statewide VIN decoding** (see §6).
+- **2026 replication** (DMV snapshot, statewide VIN decoding; `results/tables/zip_ev_model_*_2026.csv`; 1,356 ZIPs, 323,308 EVs):
+  NB GLM 67 % and gradient boosting 69 % of deviance explained out-of-county; IRRs stable (home value 1.48, bachelor's+
+  1.24, zero-vehicle share 0.55, commute ≥30 min 0.93; transit share 1.11 and density 1.06 now weakly positive).
+  Tompkins held out: 14850 observed 2,224 vs predicted 2,159; Freeville 160 vs 78; Brooktondale 105 vs 50; Trumansburg
+  248 vs 126; Lansing 108 vs 88; Dryden 82 vs 78; Groton 71 vs 69. **The ~2× under-prediction of several rural Tompkins
+  ZIPs persists across 2023 and 2026** — a stable local adoption effect beyond ACS composition, which argues for using
+  observed ZIP totals rather than model-predicted ones.
 
 ### 2.2 Household-level propensity (NHTS 2022) [C, inferred]
 7,893 households, 241 with a plug-in vehicle (`results/tables/nhts_ev_propensity_by_class.csv`):
