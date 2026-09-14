@@ -106,13 +106,18 @@ def main() -> None:
     p["w_S2"] = p["struct"].map(NHTS_HOME_REL)
     p["w_S3"] = p["w_S2"] * p["income_index"]
 
-    ev = pd.read_csv(PROCESSED / "dmv" / "tompkins_ev_stock_zip_2026.csv", dtype={"zip": str})
-    ev = ev[ev["drivetrain"].isin(["BEV", "PHEV"])].copy()
+    ev_all = pd.read_csv(PROCESSED / "dmv" / "tompkins_ev_stock_zip_2026.csv", dtype={"zip": str})
+    ev_all = ev_all[ev_all["drivetrain"].isin(["BEV", "PHEV"])].copy()
+    # Only personal light-duty EVs (registration class PAS) are allocated to housing; commercial/organizational
+    # EVs (e.g. a 731-vehicle fleet address in ZIP 12449 coded county=TOMPKINS) belong to non-residential sites.
+    ev = ev_all[(ev_all["class_group"] == "PAS") & ev_all["is_ldv"]].copy()
     ev["zip"] = ev["zip"].replace({"14851": "14850", "14852": "14850"})
     evz = ev.groupby("zip")["vehicles"].sum()
     zips_with_hh = set(p.loc[p["hh"] > 0, "zcta"].dropna())
-    fold = {z: "14850" for z in evz.index if z not in zips_with_hh}
-    evz = evz.rename(index=fold).groupby(level=0).sum()
+    # Ithaca campus ZIPs without household parcels fold into 14850; ZIPs outside Tompkins-area ZCTAs are excluded
+    fold = {z: "14850" for z in evz.index if z not in zips_with_hh and z in {"14853", "14854"}}
+    excluded = evz[~evz.index.isin(zips_with_hh) & ~evz.index.isin(fold)]
+    evz = evz.drop(excluded.index).rename(index=fold).groupby(level=0).sum()
     for s in ["S0", "S1", "S2", "S3"]:
         wh = p["hh"] * p[f"w_{s}"]
         p[s] = wh / wh.groupby(p["zcta"]).transform("sum") * p["zcta"].map(evz).fillna(0)
@@ -135,7 +140,11 @@ def main() -> None:
                      "median_abs_bg_diff_vs_S0": (bgt[s] - bgt["S0"]).abs().median()})
     summ.append({"scenario": "diagnostic", "unallocated_acs_occupied_units_no_matching_parcels": unalloc,
                  "calibrated_households": p["hh"].sum(), "acs_occupied_units_total": acs_long["acs_occ"].sum(),
-                 "evs_in_zips_without_parcels": float(evz[~evz.index.isin(p["zcta"].dropna())].sum())})
+                 "evs_in_zips_without_parcels": float(evz[~evz.index.isin(p["zcta"].dropna())].sum()),
+                 "pas_ldv_evs_county_tompkins": float(ev["vehicles"].sum()),
+                 "pas_ldv_evs_excluded_outside_area_zips": float(excluded.sum()),
+                 "excluded_zips": ";".join(excluded.index),
+                 "non_pas_or_non_ldv_evs_county_tompkins": float(ev_all["vehicles"].sum() - ev["vehicles"].sum())})
     pd.DataFrame(summ).round(4).to_csv(TABLES / "subzip_allocation_summary.csv", index=False)
 
     bgg = gpd.read_file(PROCESSED / "geography" / "tompkins_bg.gpkg").rename(columns={"GEOID": "bg"}).merge(bgt, on="bg").to_crs(32618)

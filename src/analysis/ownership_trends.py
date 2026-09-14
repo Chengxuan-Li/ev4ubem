@@ -43,7 +43,17 @@ def main() -> None:
     cur = d[d["drivetrain"].isin(["BEV", "PHEV"])].groupby("drivetrain")["vehicles"].sum()
     snap = pd.DataFrame([{"snapshot_date": pd.Timestamp("2026-09-02"), "BEV": cur.get("BEV", 0), "PHEV": cur.get("PHEV", 0),
                           "source": "DMV w4pv-hbkt 2026-09-02, county=TOMPKINS, VIN-decoded"}])
-    out = pd.concat([ts, snap], ignore_index=True)
+    # method-consistent 2026 point: all DMV residents of Tompkins-area ZIPs weighted by ZIP population share
+    from src.processing.dmv_ev_stock import classify
+    from src.utils.paths import RAW
+    raw = classify(pd.read_parquet(RAW / "ny_open_data" / "dmv_reg_tompkins_area_veh.parquet"))
+    e26 = raw[raw["drivetrain"].isin(["BEV", "PHEV"])].copy()
+    e26["w"] = e26["zip"].map(s).fillna(0)
+    e26.loc[e26["zip"].isin(["14851", "14852"]), "w"] = 1.0
+    zw = e26.groupby("drivetrain")["w"].sum()
+    snap_zw = pd.DataFrame([{"snapshot_date": pd.Timestamp("2026-09-02"), "BEV": zw.get("BEV", 0), "PHEV": zw.get("PHEV", 0),
+                             "source": "DMV w4pv-hbkt 2026-09-02, ZIP pop-share weighted (method-consistent with EValuateNY)"}])
+    out = pd.concat([ts, snap_zw, snap], ignore_index=True)
     out["EV"] = out["BEV"] + out["PHEV"]
     out.round(1).to_csv(TABLES / "tompkins_ev_stock_timeseries.csv", index=False)
 
