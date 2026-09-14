@@ -1,0 +1,29 @@
+[
+  {
+    "local_path": "data/raw/weather/USA_NY_Ithaca.Tompkins.Rgnl.AP.725155_TMYx.2009-2023.zip",
+    "url": "https://climate.onebuilding.org/WMO_Region_4_North_and_Central_America/USA_United_States_of_America/NY_New_York/USA_NY_Ithaca.Tompkins.Rgnl.AP.725155_TMYx.2009-2023.zip",
+    "params": {},
+    "retrieved_utc": "2026-09-14T08:44:47+00:00",
+    "bytes": 429117,
+    "sha256": "d2eceb1d02789eb11e6f9d8522ae4cfaa41287b37c7a980d2111fb025ed8638e",
+    "note": "OneBuilding TMYx Ithaca"
+  },
+  {
+    "local_path": "data/raw/weather/USA_NY_Ithaca.Tompkins.Rgnl.AP.725155_TMYx.2011-2025.zip",
+    "url": "https://climate.onebuilding.org/WMO_Region_4_North_and_Central_America/USA_United_States_of_America/NY_New_York/USA_NY_Ithaca.Tompkins.Rgnl.AP.725155_TMYx.2011-2025.zip",
+    "params": {},
+    "retrieved_utc": "2026-09-14T08:44:46+00:00",
+    "bytes": 429341,
+    "sha256": "ac61ec7b45a081c6294de0bc8c39286bf7464cee41730e92ae7d88d598617eb2",
+    "note": "OneBuilding TMYx Ithaca"
+  },
+  {
+    "local_path": "data/raw/weather/USA_NY_Ithaca.Tompkins.Rgnl.AP.725155_TMYx.zip",
+    "url": "https://climate.onebuilding.org/WMO_Region_4_North_and_Central_America/USA_United_States_of_America/NY_New_York/USA_NY_Ithaca.Tompkins.Rgnl.AP.725155_TMYx.zip",
+    "params": {},
+    "retrieved_utc": "2026-09-14T08:44:48+00:00",
+    "bytes": 433261,
+    "sha256": "eca8520a969b2a2a640682bc431dff59e4f5926313e51188f58e8f9b1d6a580f",
+    "note": "OneBuilding TMYx Ithaca"
+  }
+]
