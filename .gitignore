@@ -25,3 +25,14 @@ data/interim/*
 data/processed/**/*.large.*
 *.gpkg-journal
 *.tmp
+
+# Scenario load outputs: track only the core set (trend ownership county profiles for all charging scenarios,
+# trend/base site, parcel and BG outputs); the full scenario grid is reproducible via src.model.load_assembly
+data/processed/load/county_hourly_*_slow_*.parquet
+data/processed/load/county_hourly_*_stall_*.parquet
+data/processed/load/county_hourly_*_policy_*.parquet
+data/processed/load/site_summary_*_slow_*.csv
+data/processed/load/site_summary_*_stall_*.csv
+data/processed/load/site_summary_*_policy_*.csv
+data/processed/load/site_summary_*_trend_access+.csv
+data/processed/load/site_summary_*_trend_managed.csv
