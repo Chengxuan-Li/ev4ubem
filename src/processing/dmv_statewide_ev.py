@@ -53,6 +53,8 @@ def main() -> None:
     c = c.join(pas)
     c["ev_share_ldv"] = (c["bev"] + c["phev"]) / c["ldv"]
     c["phev_share_of_ev"] = c["phev"] / (c["bev"] + c["phev"])
+    ny = c.index != "OUT-OF-STATE"
+    c.loc[ny, "rank_ev_share_among_ny_counties"] = c.loc[ny, "ev_share_ldv"].rank(ascending=False, method="min")
     c.sort_values("ev_share_ldv", ascending=False).round(4).to_csv(OUT / "ny_county_ev_2026.csv")
     print(cov.round(4).to_dict())
     print(c.loc[["TOMPKINS", "WESTCHESTER", "ONONDAGA", "MONROE", "NEW YORK"]].round(4).to_string() if "TOMPKINS" in c.index else c.head())

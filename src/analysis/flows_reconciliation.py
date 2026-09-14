@@ -3,7 +3,7 @@
 Sources
 - Stock: EValuateNY 2023-04 (ZIP-weighted) and DMV 2026-09 (ZIP-weighted and county field) — results/tables/tompkins_ev_stock_timeseries.csv
 - DMV Registration Transactions (s2dd-yksa), residence_county = TOMPKINS, effective 2024-09-01..2026-08-31 (full months only),
-  VIN-decoded with the same pattern lookup (data/processed/dmv/vin_pattern_drivetrain_lookup.parquet, EValuateNY fallback).
+  VIN-decoded with the full vPIC pattern cache (Tompkins + statewide) and the full EValuateNY Vehicle Description as fallback.
   Transaction types: ORIGINAL (new registration of a vehicle to a registrant: new or used purchase, move-in),
   RENEWAL, RE-REGISTRATION, RENEWAL WITH DIFFERENT VEHICLE, AMENDMENT, DUPLICATE.
 - Drive Clean rebates (thd2-fu8y), county = TOMPKINS, same window.
@@ -28,9 +28,13 @@ def main() -> None:
     v = tr["vehicle_identification_number"].fillna("")
     tr["vin_key11"] = (v.str[:8] + v.str[9:11]).where(v.str.len() == 17)
     tr["vin_key9"] = (v.str[:8] + v.str[9]).where(v.str.len() == 17)
-    lk = pd.read_parquet(PROCESSED / "dmv" / "vin_pattern_drivetrain_lookup.parquet")[["vin_key11", "drivetrain"]]
+    from src.processing.dmv_ev_stock import lookup  # full vPIC cache (Tompkins + statewide patterns)
+    lk = lookup()[["vin_key11", "vpic_class"]].rename(columns={"vpic_class": "drivetrain"})
+    lk = lk[lk["drivetrain"] != "UNKNOWN"]
     tr = tr.merge(lk, on="vin_key11", how="left")
-    evny = pd.read_parquet(PROCESSED / "evaluateny" / "vin_key_drivetrain_lookup.parquet")[["VIN_Key", "Drivetrain_Type"]]
+    evny = pd.read_csv(RAW / "nyserda" / "evaluateny_v11" / "Vehicle Description.csv", dtype=str, low_memory=False,
+                       usecols=["VIN_Key", "Drivetrain_Type"])  # full table incl. ICE patterns
+    evny = evny[evny["Drivetrain_Type"].isin(["BEV", "PHEV", "FCV", "ICE"])]
     tr = tr.merge(evny.drop_duplicates("VIN_Key").rename(columns={"VIN_Key": "vin_key9", "Drivetrain_Type": "evny"}), on="vin_key9", how="left")
     tr["drivetrain"] = tr["drivetrain"].fillna(tr["evny"])
     tr["decoded"] = tr["drivetrain"].notna()

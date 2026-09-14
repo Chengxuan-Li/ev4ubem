@@ -1,0 +1,14 @@
+metric,value
+"EV stock 2023-04 (EValuateNY, ZIP-weighted)",1655.4
+"EV stock 2026-09 (DMV, ZIP-weighted)",3123.0
+Net stock growth per year 2023-04..2026-09,429.1761
+CAGR 2023-04..2026-09,0.204
+"ORIGINAL registrations, all vehicles, 24 months",21997.0
+ORIGINAL registrations decoded share,0.9209
+"ORIGINAL EV registrations per year (BEV+PHEV, decoded)",534.5
+  of which BEV per year,369.5
+  of which PHEV per year,165.0
+EV share of ORIGINAL registrations,0.0528
+ORIGINAL with DMV fuel=ELECTRIC per year,378.5
+Drive Clean rebates per year (same window),260.0
+Rebates / ORIGINAL EV registrations,0.4864
