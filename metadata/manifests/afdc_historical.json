@@ -1,0 +1,584 @@
+[
+  {
+    "local_path": "data/raw/afdc_historical/historical-station-counts.xlsx",
+    "url": "https://afdc.energy.gov/files/docs/historical-station-counts.xlsx",
+    "params": {},
+    "retrieved_utc": "2026-09-14T08:51:58+00:00",
+    "bytes": 170217,
+    "sha256": "a6f9f00d79bb3f73f241a9942128a145e4b3baed138fa7cd651bac832a4354a8",
+    "note": "AFDC annual historical station counts by state/fuel (late December each year), 2007-2025"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/historical_date/ny_elec_2014-12-31.json",
+    "url": "https://developer.nlr.gov/api/alt-fuel-stations/v0/historical-date/2014-12-31.json",
+    "params": {
+      "state": "NY",
+      "fuel_type": "ELEC",
+      "access": "all",
+      "status": "all",
+      "limit": "all"
+    },
+    "retrieved_utc": "2026-09-14T08:51:36+00:00",
+    "bytes": 1252637,
+    "sha256": "dae801a7c0b64cb022fe8d530b13c891f47c75125e920ec5a4812eef0f9a3b5f",
+    "note": "NLR v0 historical-date station snapshot (as published on date); api_key omitted from record"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/historical_date/ny_elec_2015-12-31.json",
+    "url": "https://developer.nlr.gov/api/alt-fuel-stations/v0/historical-date/2015-12-31.json",
+    "params": {
+      "state": "NY",
+      "fuel_type": "ELEC",
+      "access": "all",
+      "status": "all",
+      "limit": "all"
+    },
+    "retrieved_utc": "2026-09-14T08:53:57+00:00",
+    "bytes": 1611990,
+    "sha256": "3a93b80bc3d050c3c5abf51b234ce336b7d7d4bbbd092160d3d721651c44f894",
+    "note": "NLR v0 historical-date station snapshot (as published on date); api_key omitted from record"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/historical_date/ny_elec_2016-12-31.json",
+    "url": "https://developer.nlr.gov/api/alt-fuel-stations/v0/historical-date/2016-12-31.json",
+    "params": {
+      "state": "NY",
+      "fuel_type": "ELEC",
+      "access": "all",
+      "status": "all",
+      "limit": "all"
+    },
+    "retrieved_utc": "2026-09-14T08:53:59+00:00",
+    "bytes": 2249540,
+    "sha256": "35d2747e0f99df331b2cd765f2c0060a2d2e5d74c0037e96c3fd7f7453b0c797",
+    "note": "NLR v0 historical-date station snapshot (as published on date); api_key omitted from record"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/historical_date/ny_elec_2017-12-31.json",
+    "url": "https://developer.nlr.gov/api/alt-fuel-stations/v0/historical-date/2017-12-31.json",
+    "params": {
+      "state": "NY",
+      "fuel_type": "ELEC",
+      "access": "all",
+      "status": "all",
+      "limit": "all"
+    },
+    "retrieved_utc": "2026-09-14T08:54:00+00:00",
+    "bytes": 2477683,
+    "sha256": "75a8f0f2e3283a23343acf163a3d37b81ddfa0088ccfa9da960149f4b7dde505",
+    "note": "NLR v0 historical-date station snapshot (as published on date); api_key omitted from record"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/historical_date/ny_elec_2018-12-31.json",
+    "url": "https://developer.nlr.gov/api/alt-fuel-stations/v0/historical-date/2018-12-31.json",
+    "params": {
+      "state": "NY",
+      "fuel_type": "ELEC",
+      "access": "all",
+      "status": "all",
+      "limit": "all"
+    },
+    "retrieved_utc": "2026-09-14T08:54:02+00:00",
+    "bytes": 3100237,
+    "sha256": "016639c94d6ebea0a340a8a483d5eda940665ef6c41a30b6fb18ad1b0fde6579",
+    "note": "NLR v0 historical-date station snapshot (as published on date); api_key omitted from record"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/historical_date/ny_elec_2019-12-31.json",
+    "url": "https://developer.nlr.gov/api/alt-fuel-stations/v0/historical-date/2019-12-31.json",
+    "params": {
+      "state": "NY",
+      "fuel_type": "ELEC",
+      "access": "all",
+      "status": "all",
+      "limit": "all"
+    },
+    "retrieved_utc": "2026-09-14T08:54:04+00:00",
+    "bytes": 5078249,
+    "sha256": "fa67c25945557ee265d1bf806cd9f846b33d095ad12ffddc6233d1c93e77eaa7",
+    "note": "NLR v0 historical-date station snapshot (as published on date); api_key omitted from record"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/historical_date/ny_elec_2020-12-31.json",
+    "url": "https://developer.nlr.gov/api/alt-fuel-stations/v0/historical-date/2020-12-31.json",
+    "params": {
+      "state": "NY",
+      "fuel_type": "ELEC",
+      "access": "all",
+      "status": "all",
+      "limit": "all"
+    },
+    "retrieved_utc": "2026-09-14T08:54:06+00:00",
+    "bytes": 6383833,
+    "sha256": "c503739415d5019ed22d451f11cf08ff67aea465614d8d692a33c6b6cefe2a9a",
+    "note": "NLR v0 historical-date station snapshot (as published on date); api_key omitted from record"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_private_2014-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "private",
+      "date": "2014-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:01+00:00",
+    "bytes": 47528,
+    "sha256": "d3756c59f346fd254eedaa7b102a7f06b03c53543734ac849696af422c933526",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_private_2015-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "private",
+      "date": "2015-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:08+00:00",
+    "bytes": 47541,
+    "sha256": "97942ea0864fbc1a70bc0eeb5285fb08db39de0975ceb71dd53c433f86db09f1",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_private_2016-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "private",
+      "date": "2016-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:16+00:00",
+    "bytes": 47560,
+    "sha256": "239cbc3f045c3d24560de6ad7460727da61c929ae8927ae6e60a056865e1f829",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_private_2017-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "private",
+      "date": "2017-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:24+00:00",
+    "bytes": 47573,
+    "sha256": "6d84d868e8498e3d17db0bf3671b7da36458e11804274cfa18ac1ae1c536cbb8",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_private_2018-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "private",
+      "date": "2018-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:31+00:00",
+    "bytes": 47573,
+    "sha256": "446c415dc9a15d70699ddf28b5bb33e04d699f96bd515e93efc51118ec072ee8",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_private_2019-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "private",
+      "date": "2019-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:38+00:00",
+    "bytes": 47595,
+    "sha256": "58338e2bf7fd6cef3ccf425b5ee33c7618db22e331c05e1403e48f62f94ce05b",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_private_2020-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "private",
+      "date": "2020-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:47+00:00",
+    "bytes": 47597,
+    "sha256": "6f115af8b01e6d439dd244acfc298914219ca0c33a5b26a84e54aeeb6685e8dd",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_private_2021-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "private",
+      "date": "2021-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:55+00:00",
+    "bytes": 47640,
+    "sha256": "a2f7a1f9f29f283af7a89af511049a9670cec671f6b9402ed6c428ba2cf01fb9",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_private_2022-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "private",
+      "date": "2022-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:53:05+00:00",
+    "bytes": 47646,
+    "sha256": "b831662754251211c147e45dfa104edcdd2219222200dd4c4a75631e03ac8d38",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_private_2023-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "private",
+      "date": "2023-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:53:16+00:00",
+    "bytes": 47648,
+    "sha256": "05f68e7a885aa27a09fc54d255dd403d5dab67139475538cdf706d10a2ddcc09",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_private_2024-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "private",
+      "date": "2024-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:53:24+00:00",
+    "bytes": 47680,
+    "sha256": "8352672b18f9ba61e6993af1e1f593b289fa3ee8f74c665458d5996165a4e653",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_private_2025-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "private",
+      "date": "2025-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:53:38+00:00",
+    "bytes": 47738,
+    "sha256": "fef6f947ca12907149d8a1e2745bbbe9b01889fedffbc8484e53e3a1e0d41ecf",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_private_2026-09-01.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "private",
+      "date": "2026-09-01"
+    },
+    "retrieved_utc": "2026-09-14T08:53:50+00:00",
+    "bytes": 47740,
+    "sha256": "95f99c97696afd55d17dc64a91e6b55ab7636ee78979d9935d95c49e5b8a25bd",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_public_2014-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "public",
+      "date": "2014-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:51:59+00:00",
+    "bytes": 47884,
+    "sha256": "e90175a81053fe4f1c2e30e0913da4a712e344806e2745fffedc377d9ee812bf",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_public_2015-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "public",
+      "date": "2015-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:06+00:00",
+    "bytes": 47956,
+    "sha256": "0c5e4fcb6b9de5f33f505bb33e3c9b00439cebb6c43ab1cfc0596d79a7ca7715",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_public_2016-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "public",
+      "date": "2016-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:13+00:00",
+    "bytes": 47977,
+    "sha256": "f60c5429ab5129afbbf2420a4df62ef7d45b40fdae900461f12ec1cbaeed8345",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_public_2017-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "public",
+      "date": "2017-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:21+00:00",
+    "bytes": 48021,
+    "sha256": "0528ff5b0fbdba6f12ed897965d081c962732aac621aa9fb59d2a13700595a18",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_public_2018-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "public",
+      "date": "2018-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:28+00:00",
+    "bytes": 48052,
+    "sha256": "cb1545d936fd023571374cd941442c6d1645f93d0da9dd30dd0fdb3dc26fdc78",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_public_2019-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "public",
+      "date": "2019-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:36+00:00",
+    "bytes": 48089,
+    "sha256": "219ad5ba2705d6c7ebe82265f51570588501a687894b4f618a89659e464e4420",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_public_2020-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "public",
+      "date": "2020-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:44+00:00",
+    "bytes": 48124,
+    "sha256": "807cb6c149c5fd19f056ebcdf64ceb355e5942c3e68e0b0ff1384f107d7c9dec",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_public_2021-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "public",
+      "date": "2021-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:53+00:00",
+    "bytes": 48165,
+    "sha256": "339caf874bca7980d97d804cb2f69dbf38f1ddbcae44800238ea42165dbde142",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_public_2022-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "public",
+      "date": "2022-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:53:01+00:00",
+    "bytes": 48193,
+    "sha256": "fc73617ed532ae695c3abf36a1800d8800884481282bd01353a1b57a3def8ca7",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_public_2023-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "public",
+      "date": "2023-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:53:12+00:00",
+    "bytes": 48238,
+    "sha256": "dae5797be17ac70a692992dfeb4a24ccab541096f518a98987597f707b1653b3",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_public_2024-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "public",
+      "date": "2024-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:53:22+00:00",
+    "bytes": 48290,
+    "sha256": "5db7867eadeefe59a0223a3eed2ea44e6c1f7bd08a0fcef3142214c9d68a5042",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_public_2025-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "public",
+      "date": "2025-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:53:33+00:00",
+    "bytes": 48324,
+    "sha256": "bf5b53c9f822c6f04404172d7acb44abf1ea2ac6c9512264186b55d605730c1e",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_public_2026-09-01.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "public",
+      "date": "2026-09-01"
+    },
+    "retrieved_utc": "2026-09-14T08:53:45+00:00",
+    "bytes": 48335,
+    "sha256": "e2e971c703f661ae01bd60c9e86e5233b8b948ba1bf171ae0c8378bed74db1ab",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_total_2014-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "total",
+      "date": "2014-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:03+00:00",
+    "bytes": 47949,
+    "sha256": "e068e4e387d2d054890f2d4b5012ff9425747b10489cadb30e58823f39ba0660",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_total_2015-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "total",
+      "date": "2015-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:10+00:00",
+    "bytes": 48017,
+    "sha256": "44cf7c5fb4223ed48a9ff3bf0932927796954f675cd9bf5adfd3fba4f2e2ad59",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_total_2016-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "total",
+      "date": "2016-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:18+00:00",
+    "bytes": 48053,
+    "sha256": "7c2e052dab22b70fe68b516dbdb5b4c7b5eff5193437a5583846e6af4e968e2d",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_total_2017-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "total",
+      "date": "2017-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:26+00:00",
+    "bytes": 48095,
+    "sha256": "24ec02b56b96b6ce03bd8e77b6774761ffe651e511e8496e55376c70abb41a98",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_total_2018-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "total",
+      "date": "2018-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:33+00:00",
+    "bytes": 48108,
+    "sha256": "de52abe45aaefd55c72bda2318303f0940585db807d80ade383e5555c1f9e3e2",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_total_2019-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "total",
+      "date": "2019-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:41+00:00",
+    "bytes": 48160,
+    "sha256": "938d8991b6585d494d590f525ce39bd6697c115c19bf419af20db116065d0e34",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_total_2020-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "total",
+      "date": "2020-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:50+00:00",
+    "bytes": 48192,
+    "sha256": "af57301fa8d64dcc8315bcdce042c1a67d5e040034dfe2df3f01efe414d75de8",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_total_2021-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "total",
+      "date": "2021-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:52:58+00:00",
+    "bytes": 48244,
+    "sha256": "c7a058f9d65e29761822a365f53d8100e97d727d5032373a9b5cfd59518993af",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_total_2022-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "total",
+      "date": "2022-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:53:08+00:00",
+    "bytes": 48269,
+    "sha256": "ec843c769280be27d2ce1d80a7bfc448b79a54eb75c42b68c1c5b4b51ba1615b",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_total_2023-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "total",
+      "date": "2023-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:53:18+00:00",
+    "bytes": 48317,
+    "sha256": "c311c33fb3c57f464d0ed0d0f55e263b285dc93c88041219e51808b3ca521941",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_total_2024-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "total",
+      "date": "2024-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:53:28+00:00",
+    "bytes": 48362,
+    "sha256": "5898ee5ed59d43edf57fe563d7005aae0a6bdd2e8cfc6671c1b09755a728a82a",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_total_2025-12-31.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "total",
+      "date": "2025-12-31"
+    },
+    "retrieved_utc": "2026-09-14T08:53:40+00:00",
+    "bytes": 48403,
+    "sha256": "602c3de660e548d8b9f27ff92fbfae51455dc3a2dfeb872901c2fb787f29eb4c",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  },
+  {
+    "local_path": "data/raw/afdc_historical/state_count_pages/states_total_2026-09-01.html",
+    "url": "https://afdc.energy.gov/stations/states",
+    "params": {
+      "count": "total",
+      "date": "2026-09-01"
+    },
+    "retrieved_utc": "2026-09-14T08:53:55+00:00",
+    "bytes": 48408,
+    "sha256": "72e427eee7f29a2497d344a9e0ed4704703fb2c3bf840299d36415d6a36ed7f0",
+    "note": "AFDC state station counts on date (Historical Data view); HTML table"
+  }
+]
