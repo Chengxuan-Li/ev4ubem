@@ -1,0 +1,28 @@
+appendix_table,variable,domain,category,pct_weighted_cadmus,eb90_pct,n
+A-110,site parking type,statewide,Open lot,40.0,8.0,294
+A-110,site parking type,statewide,Covered lot,2.0,3.0,294
+A-110,site parking type,statewide,Above ground parking garage,7.0,4.0,294
+A-110,site parking type,statewide,Underground parking garage,10.0,5.0,294
+A-110,site parking type,statewide,None,41.0,11.0,294
+A-107,site parking type,NYC,None,67.0,17.0,94
+A-107,site parking type,Climate Zone 4 (LI+Westchester),None,8.0,13.0,54
+A-107,site parking type,Climate Zone 5,None,9.0,6.0,113
+A-107,site parking type,Climate Zone 6 (incl. Tompkins),None,1.0,2.0,33
+A-107,site parking type,Climate Zone 5,Open lot,82.0,14.0,113
+A-107,site parking type,Climate Zone 6 (incl. Tompkins),Open lot,90.0,42.0,33
+A-107,site parking type,NYC,Underground parking garage,8.0,5.0,94
+A-116,assigned parking spaces (E16),statewide,76-100%,36.0,8.0,623
+A-116,assigned parking spaces (E16),statewide,None,25.0,5.0,623
+A-116,assigned parking spaces (E16),statewide,51-75%,15.0,6.0,623
+A-116,assigned parking spaces (E16),statewide,26-50%,13.0,5.0,623
+A-116,assigned parking spaces (E16),statewide,1-25%,8.0,4.0,623
+A-141,households with an EV (G15),Affordable subsidized,has EV,1.0,1.0,117
+A-141,households with an EV (G15),Affordable census block,has EV,0.0,0.0,117
+A-141,households with an EV (G15),Co-ops and condos,has EV,10.0,7.0,117
+A-141,households with an EV (G15),Market-rate rental,has EV,2.0,1.0,117
+A-128,site buildings with EV charging,statewide,Level 2 present (3 buildings),,,3
+A-134,L2 stations per building with stations,statewide,mean 3.57 (EB 0.59),,,3
+A-140,EV charging fee to tenants (E18),statewide,"Yes, charge per kWh",32.0,33.0,31
+A-140,EV charging fee to tenants (E18),statewide,"Yes, monthly charge",26.0,32.0,31
+A-140,EV charging fee to tenants (E18),statewide,"No, tenants pay on their electric bill",24.0,15.0,31
+A-140,EV charging fee to tenants (E18),statewide,"No, it's free",12.0,12.0,31

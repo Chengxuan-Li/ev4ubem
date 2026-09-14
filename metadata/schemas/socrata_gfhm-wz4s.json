@@ -1,0 +1,999 @@
+{
+  "id": "gfhm-wz4s",
+  "name": "Statewide Multifamily Building Study (SMBS): 2022 General Survey",
+  "description": "The 2022 NYSERDA Statewide Multifamily Building Study (SMBS) is the first multifamily building stock assessment to characterize the estimated 2.6 million multifamily dwelling units throughout New York State (NYS). The SMBS collected data about New York buildings through two primary means\u2014online and phone surveys and site visits.\n\nThis dataset includes the findings from the online and phone surveys conducted statewide with 1,337 building representatives between June 2022 and January 2023. \n\nThe New York State Energy Research and Development Authority (NYSERDA) offers objective information and analysis, innovative programs, technical expertise, and support to help New Yorkers increase energy efficiency, save money, use renewable energy, accelerate economic growth, and reduce reliance on fossil fuels. To learn more about NYSERDA\u2019s programs, visit nyserda.ny.gov or follow us on X, Facebook, YouTube, or Instagram.",
+  "attribution": "New York State Energy Research and Development Authority (NYSERDA)",
+  "rowsUpdatedAt_utc": "2026-08-21T15:52:01+00:00",
+  "columns": [
+    {
+      "fieldName": "duration_in_seconds",
+      "name": "Duration (in seconds)",
+      "dataTypeName": "number",
+      "description": "Question Asked: Duration (in seconds). Response Options: integer"
+    },
+    {
+      "fieldName": "recordeddate",
+      "name": "RecordedDate",
+      "dataTypeName": "calendar_date",
+      "description": "Question Asked: Recorded Date. Response Options: float"
+    },
+    {
+      "fieldName": "responseid",
+      "name": "ResponseId",
+      "dataTypeName": "text",
+      "description": "Question Asked: Response ID. Response Options: unique ID"
+    },
+    {
+      "fieldName": "userlanguage",
+      "name": "UserLanguage",
+      "dataTypeName": "text",
+      "description": "Question Asked: User Language. Response Options: EN, ES-ES, ZH-S"
+    },
+    {
+      "fieldName": "d1",
+      "name": "D1",
+      "dataTypeName": "text",
+      "description": "Question Asked: First, we will ask a few questions to determine if you and your property qualify for our study. Are you familiar with your building\u2019s physical characteristics and equipment (such as space heating, cooling, and water heating systems)?. Response Options: Yes"
+    },
+    {
+      "fieldName": "d2",
+      "name": "D2",
+      "dataTypeName": "text",
+      "description": "Question Asked: Are you involved in the financial decision-making about upgrades to this building\u2019s equipment or physical structures? As a reminder, we aren\u2019t trying to sell you anything.. Response Options: Yes, No"
+    },
+    {
+      "fieldName": "c2",
+      "name": "C2",
+      "dataTypeName": "text",
+      "description": "Question Asked: Are you the correct person to speak to about your building\u2019s physical features and equipment?. Response Options: free text entry"
+    },
+    {
+      "fieldName": "c3",
+      "name": "C3",
+      "dataTypeName": "text",
+      "description": "Question Asked: Are you the correct person to speak to about how your property makes financial decisions about upgrades to its buildings\u2019 equipment or physical structures?. Response Options: free text entry"
+    },
+    {
+      "fieldName": "strata1",
+      "name": "Strata1",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many floors are in this building, not including the basement?(Please enter number of floors). Response Options: integer"
+    },
+    {
+      "fieldName": "strata2",
+      "name": "Strata2",
+      "dataTypeName": "text",
+      "description": "Question Asked: What is the approximate square footage of total living unit space in this building? Don\u2019t include common areas or unconditioned porches, garages, or basements in this estimate. - Selected Choice. Response Options: Please enter number of square footage, Don't know"
+    },
+    {
+      "fieldName": "strata2_1_text",
+      "name": "Strata2_1_TEXT",
+      "dataTypeName": "number",
+      "description": "Question Asked: What is the approximate square footage of total living unit space in this building? Don\u2019t include common areas or unconditioned porches, garages, or basements in this estimate. - Please enter number of square footage - Text. Response Options: integer"
+    },
+    {
+      "fieldName": "strata3",
+      "name": "Strata3",
+      "dataTypeName": "text",
+      "description": "Question Asked: What's the most accurate description of this building\u2019s living units?. Response Options: Market-rate rentals (no subsidies), Subsidized affordable housing rentals (applies to 25% or more of units), Naturally occurring affordable rentals (rents are low/affordable without subsidies), Co-op or condos"
+    },
+    {
+      "fieldName": "strata4",
+      "name": "Strata4",
+      "dataTypeName": "text",
+      "description": "Question Asked: Who is the electric utility for your building?. Response Options: National Grid, Rochester Gas and Electric (RG&E), New York State Electric and Gas Corporation (NYSEG), ConEdison, Central Hudson, PSEG Long Island, Orange and Rockland"
+    },
+    {
+      "fieldName": "e3",
+      "name": "E3",
+      "dataTypeName": "text",
+      "description": "Question Asked: How many individual living units are there in this building? (Please enter number of units). Response Options: integer"
+    },
+    {
+      "fieldName": "e1",
+      "name": "E1",
+      "dataTypeName": "text",
+      "description": "Question Asked: Does this building have five or more apartment, condo, or coop units?. Response Options: Yes"
+    },
+    {
+      "fieldName": "e2",
+      "name": "E2",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the following best describes the property where this building is located?. Response Options: A stand-alone/single building, A building complex with multiple buildings"
+    },
+    {
+      "fieldName": "e4",
+      "name": "E4",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many buildings with at least five living units are there in this complex?(Please enter number of buildings). Response Options: integer"
+    },
+    {
+      "fieldName": "e5new",
+      "name": "E5new",
+      "dataTypeName": "text",
+      "description": "Question Asked: How many other multifamily properties that contain buildings with 5 or more living units do you own or manage in New York? - Selected Choice. Response Options: None, More than two, please enter the number of properties:, One, Two"
+    },
+    {
+      "fieldName": "e5new_7_text",
+      "name": "E5new_7_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: How many other multifamily properties that contain buildings with 5 or more living units do you own or manage in New York? - More than two, please enter the number of properties: - Text. Response Options: integer"
+    },
+    {
+      "fieldName": "t1",
+      "name": "T1",
+      "dataTypeName": "text",
+      "description": "Question Asked: Would you be interested in being a part of this study for at least one multifamily building with 5 or more units in New York?. Response Options: No, Yes, I have more questions"
+    },
+    {
+      "fieldName": "t1_faq",
+      "name": "T1 (FAQ)",
+      "dataTypeName": "text",
+      "description": "Question Asked: Follow this link for more information about the study (it will open in a new browser window): https://www.nyserda.ny.gov/About/Publications/Building-Stock-and-Potential-Studies/Multifamily-Statewide-Baseline-Study Would you be interested in being a part of this study?. Response Options: No, Yes"
+    },
+    {
+      "fieldName": "t2",
+      "name": "T2",
+      "dataTypeName": "text",
+      "description": "Question Asked: Great! As part of the site visit research, we would like to review your building\u2019s utility consumption history. Are you willing to allow us to gather your building\u2019s utility billing history from your electric and gas utility?. Response Options: Yes, No, Don't know"
+    },
+    {
+      "fieldName": "e6_1_1",
+      "name": "E6_1_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many living units does this building have for the following? - Studio apartments - Enter number of units. Response Options: integer"
+    },
+    {
+      "fieldName": "e6_2_1",
+      "name": "E6_2_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many living units does this building have for the following? - 1 bedroom apartments - Enter number of units. Response Options: integer"
+    },
+    {
+      "fieldName": "e6_3_1",
+      "name": "E6_3_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many living units does this building have for the following? - 2 bedroom apartments - Enter number of units. Response Options: integer"
+    },
+    {
+      "fieldName": "e6_4_1",
+      "name": "E6_4_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many living units does this building have for the following? - 3 bedroom apartments - Enter number of units. Response Options: integer"
+    },
+    {
+      "fieldName": "e6_5_1",
+      "name": "E6_5_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many living units does this building have for the following? - 4 or more bedroom apartments - Enter number of units. Response Options: integer"
+    },
+    {
+      "fieldName": "e8",
+      "name": "E8",
+      "dataTypeName": "text",
+      "description": "Question Asked: Does this building also have a basement?. Response Options: Yes, No"
+    },
+    {
+      "fieldName": "e9",
+      "name": "E9",
+      "dataTypeName": "text",
+      "description": "Question Asked: Approximately what year was the building built? - Selected Choice. Response Options: Please enter a year, Don't Know"
+    },
+    {
+      "fieldName": "e9_1_text",
+      "name": "E9_1_TEXT",
+      "dataTypeName": "number",
+      "description": "Question Asked: Approximately what year was the building built? - Please enter a year - Text. Response Options: integer"
+    },
+    {
+      "fieldName": "e10",
+      "name": "E10",
+      "dataTypeName": "text",
+      "description": "Question Asked: About when do you believe this building was built?. Response Options: Before 1940, 1940 to 1978, Or after 2006, 1979 to 2006"
+    },
+    {
+      "fieldName": "e11",
+      "name": "E11",
+      "dataTypeName": "text",
+      "description": "Question Asked: Does your building contain any commercial space?. Response Options: No, Yes"
+    },
+    {
+      "fieldName": "e13",
+      "name": "E13",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the following best describes the ownership of this property?. Response Options: Family-owned or an individual, Mid-sized portfolio owner, Institutional investor, Real estate investment trust (REIT), Private corporate large portfolio owner, Don't Know, Government-owned"
+    },
+    {
+      "fieldName": "e14",
+      "name": "E14",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the following amenities does this building have? Please select all that apply.. Response Options: Parking areas, Common area laundry (located in this building), Swimming pools or hot tubs, None of the above, Bike storage facilities, Access to bike sharing or scooter sharing, Common area laundry (located elsewhere on property), Electric vehicle charging stations, Access to carsharing"
+    },
+    {
+      "fieldName": "e15",
+      "name": "E15",
+      "dataTypeName": "text",
+      "description": "Question Asked: What kind of parking does this building have for tenants and staff? (Select all that apply) - Selected Choice. Response Options: Underground parking garage (Enter number of parking spaces), Above-ground parking garage (Enter number of parking spaces), Open parking lot (Enter number of parking spaces), Street parking only"
+    },
+    {
+      "fieldName": "e15_1_text",
+      "name": "E15_1_TEXT",
+      "dataTypeName": "number",
+      "description": "Question Asked: What kind of parking does this building have for tenants and staff? (Select all that apply) - Underground parking garage (Enter number of parking spaces) - Text. Response Options: integer"
+    },
+    {
+      "fieldName": "e15_2_text",
+      "name": "E15_2_TEXT",
+      "dataTypeName": "number",
+      "description": "Question Asked: What kind of parking does this building have for tenants and staff? (Select all that apply) - Above-ground parking garage (Enter number of parking spaces) - Text. Response Options: integer"
+    },
+    {
+      "fieldName": "e15_3_text",
+      "name": "E15_3_TEXT",
+      "dataTypeName": "number",
+      "description": "Question Asked: What kind of parking does this building have for tenants and staff? (Select all that apply) - Open parking lot (Enter number of parking spaces) - Text. Response Options: integer"
+    },
+    {
+      "fieldName": "e16",
+      "name": "E16",
+      "dataTypeName": "text",
+      "description": "Question Asked: About what percent of parking spaces are assigned to specific tenants?. Response Options: None, 1 \u2013 25%, 51 \u2013 75%, 26 \u2013 50%, Don't know, 76 \u2013 100%"
+    },
+    {
+      "fieldName": "e17",
+      "name": "E17",
+      "dataTypeName": "text",
+      "description": "Question Asked: How many electric vehicle charging stations are available to occupants of this building? - Selected Choice. Response Options: Level 3 charger(s) (fast charger) \u2013 enter the number of charging stations below, Chargers of unknown type \u2013 enter the number of charging stations below, Level 2 charger(s) (208V or 240V) \u2013 enter the number of charging stations below, Level 1 charger(s) (120V) \u2013 enter the number of charging stations below"
+    },
+    {
+      "fieldName": "e17_2_text",
+      "name": "E17_2_TEXT",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many electric vehicle charging stations are available to occupants of this building? - Level 1 charger(s) (120V) \u2013 enter the number of charging stations below - Text. Response Options: integer"
+    },
+    {
+      "fieldName": "e17_3_text",
+      "name": "E17_3_TEXT",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many electric vehicle charging stations are available to occupants of this building? - Level 2 charger(s) (208V or 240V) \u2013 enter the number of charging stations below - Text. Response Options: integer"
+    },
+    {
+      "fieldName": "e17_4_text",
+      "name": "E17_4_TEXT",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many electric vehicle charging stations are available to occupants of this building? - Level 3 charger(s) (fast charger) \u2013 enter the number of charging stations below - Text. Response Options: integer"
+    },
+    {
+      "fieldName": "e17_5_text",
+      "name": "E17_5_TEXT",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many electric vehicle charging stations are available to occupants of this building? - Chargers of unknown type \u2013 enter the number of charging stations below - Text. Response Options: integer"
+    },
+    {
+      "fieldName": "e18",
+      "name": "E18",
+      "dataTypeName": "text",
+      "description": "Question Asked: Do you charge tenants to use the electric vehicles chargers?. Response Options: Yes, monthly charge, Yes, charge per kilowatt-hour, No, tenants pay for the charger use on their electric bill, No, its free, Yes, flat fee each time charged, Don't know, Yes, included in rent"
+    },
+    {
+      "fieldName": "e19",
+      "name": "E19",
+      "dataTypeName": "text",
+      "description": "Question Asked: How are electric utilities metered for this building?. Response Options: Direct-metered living units, Master meter only, Master meter with living unit submeters, Other"
+    },
+    {
+      "fieldName": "e20",
+      "name": "E20",
+      "dataTypeName": "text",
+      "description": "Question Asked: How are natural gas utilities metered for this building?. Response Options: Direct-metered living units, Master meter only, No gas service, Don't know, Master meter with living unit submeters, Other"
+    },
+    {
+      "fieldName": "f1",
+      "name": "F1",
+      "dataTypeName": "text",
+      "description": "Question Asked: What is the construction type of the exterior walls of the building? (If the building has multiple types of wall, please tell us the type which accounts for most of the building.) - Selected Choice. Response Options: Wood frame, Brick or stone masonry, Don't know, Concrete block, Poured concrete, Metal frame, Something else \u2013 what is it? (Please specify), Curtain wall"
+    },
+    {
+      "fieldName": "f1_7_text",
+      "name": "F1_7_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: What is the construction type of the exterior walls of the building? (If the building has multiple types of wall, please tell us the type which accounts for most of the building.) - Something else \u2013 what is it? (Please specify) - Text. Response Options: text"
+    },
+    {
+      "fieldName": "f2",
+      "name": "F2",
+      "dataTypeName": "text",
+      "description": "Question Asked: What is the primary type of cladding or fa\u00e7ade for this building\u2019s exterior walls? - Selected Choice. Response Options: Wood, Brick, Vinyl, Don't know, Stucco, Concrete, Something else \u2013 what is it? (Please specify), Limestone/sandstone, Composite"
+    },
+    {
+      "fieldName": "f2_8_text",
+      "name": "F2_8_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: What is the primary type of cladding or fa\u00e7ade for this building\u2019s exterior walls? - Something else \u2013 what is it? (Please specify) - Text. Response Options: text"
+    },
+    {
+      "fieldName": "g1",
+      "name": "G1",
+      "dataTypeName": "text",
+      "description": "Question Asked: What is the typical primary heating system for the building's living units? - Selected Choice. Response Options: Something else \u2013 what is it? (Please specify), Central boiler, Baseboard or wall electric resistance heat, Ducted air source heat pump, Don't know, Ductless mini-split heat pump, Ground source heat pump, District steam, Packaged terminal AC with heat, Packaged terminal heat pump"
+    },
+    {
+      "fieldName": "g1_14_text",
+      "name": "G1_14_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: What is the typical primary heating system for the building's living units? - Something else \u2013 what is it? (Please specify) - Text. Response Options: Gas forced air, furnace, Storage heaters, in unit gas boilers, 5 gas fired hot water boilers, 6 gas fired hot water boilers, 7 gas fired hot water boilers, Forced-Air Systems: Natural Gas Furnaces And Electric Furnaces image, Fire tube boiler two pipe seem, Forced hot air in each unit, Forced air, individual gas furnaces, DUCTED RINNAI HEATER"
+    },
+    {
+      "fieldName": "g2_1_1",
+      "name": "G2_1_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percent of the living unit primary heating systems fall into each age range? - Less than 5 Years - Enter percentages:. Response Options: float"
+    },
+    {
+      "fieldName": "g2_2_1",
+      "name": "G2_2_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percent of the living unit primary heating systems fall into each age range? - 5 to 9 Years - Enter percentages:. Response Options: float"
+    },
+    {
+      "fieldName": "g2_3_1",
+      "name": "G2_3_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percent of the living unit primary heating systems fall into each age range? - 10 to 14 Years - Enter percentages:. Response Options: float"
+    },
+    {
+      "fieldName": "g2_4_1",
+      "name": "G2_4_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percent of the living unit primary heating systems fall into each age range? - 15 to 19 Years - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "g2_5_1",
+      "name": "G2_5_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percent of the living unit primary heating systems fall into each age range? - 20 or More Years - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "g2_6_1",
+      "name": "G2_6_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percent of the living unit primary heating systems fall into each age range? - Don't know - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "g3",
+      "name": "G3",
+      "dataTypeName": "text",
+      "description": "Question Asked: Can the residents of this building control the heating temperatures in their living unit?. Response Options: Yes, No, Don't know"
+    },
+    {
+      "fieldName": "g4",
+      "name": "G4",
+      "dataTypeName": "text",
+      "description": "Question Asked: What type of thermostat controls are typically provided for heating in living units? - Selected Choice. Response Options: Programmable thermostat (does not learn occupant behavior), Manual thermostat with a physical dial (analog), Controls integrated with equipment, Manual thermostat with buttons and a digital display (digital), Something else \u2013 what is it? (Please specify), Don't know, Smart/Wi-Fi-Enabled Thermostat (learns occupant behavior)"
+    },
+    {
+      "fieldName": "g4_6_text",
+      "name": "G4_6_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: What type of thermostat controls are typically provided for heating in living units? - Something else \u2013 what is it? (Please specify) - Text. Response Options: text"
+    },
+    {
+      "fieldName": "h1",
+      "name": "H1",
+      "dataTypeName": "text",
+      "description": "Question Asked: What is the typical primary cooling system for the building's living units? - Selected Choice. Response Options: Window AC, Through-the-wall AC, Ducted central AC system with compressor, Something else \u2013 what is it? (Please specify), Don't know, Ductless mini-split heat pump, No air conditioning in living units, Ducted air source heat pump, Packaged terminal AC, Central chiller, Packaged terminal heat pump, Ground source heat pump"
+    },
+    {
+      "fieldName": "h1_14_text",
+      "name": "H1_14_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: What is the typical primary cooling system for the building's living units? - Something else \u2013 what is it? (Please specify) - Text. Response Options: text"
+    },
+    {
+      "fieldName": "h2_1_1",
+      "name": "H2_1_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percent of the living unit primary cooling systems fall into each age range? - Less than 5 Years - Enter percentages:. Response Options: float"
+    },
+    {
+      "fieldName": "h2_2_1",
+      "name": "H2_2_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percent of the living unit primary cooling systems fall into each age range? - 5 to 9 Years - Enter percentages:. Response Options: float"
+    },
+    {
+      "fieldName": "h2_3_1",
+      "name": "H2_3_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percent of the living unit primary cooling systems fall into each age range? - 10 to 14 Years - Enter percentages:. Response Options: float"
+    },
+    {
+      "fieldName": "h2_4_1",
+      "name": "H2_4_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percent of the living unit primary cooling systems fall into each age range? - 15 to 19 Years - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "h2_5_1",
+      "name": "H2_5_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percent of the living unit primary cooling systems fall into each age range? - 20 or More Years - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "h2_6_1",
+      "name": "H2_6_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percent of the living unit primary cooling systems fall into each age range? - Don't know - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "h3",
+      "name": "H3",
+      "dataTypeName": "text",
+      "description": "Question Asked: Who typically owns the window air conditioners?. Response Options: Tenant, Building, Third party, Don't know"
+    },
+    {
+      "fieldName": "h4",
+      "name": "H4",
+      "dataTypeName": "text",
+      "description": "Question Asked: Are the window air conditioners removed in the Winter?. Response Options: Yes, No, Don't know"
+    },
+    {
+      "fieldName": "h5",
+      "name": "H5",
+      "dataTypeName": "text",
+      "description": "Question Asked: Can the residents of this building control the space cooling in their living unit?. Response Options: Yes, No, Don't know"
+    },
+    {
+      "fieldName": "h6",
+      "name": "H6",
+      "dataTypeName": "text",
+      "description": "Question Asked: What type of thermostat controls are typically provided for cooling in living units? - Selected Choice. Response Options: Controls integrated with equipment, Manual thermostat with buttons and a digital display (digital), Programmable thermostat (does not learn occupant behavior), Manual thermostat with a physical dial (analog), Don't know, Something else \u2013 what is it? (Please specify), Smart/Wi-Fi-Enabled Thermostat (learns occupant behavior)"
+    },
+    {
+      "fieldName": "h6_6_text",
+      "name": "H6_6_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: What type of thermostat controls are typically provided for cooling in living units? - Something else \u2013 what is it? (Please specify) - Text. Response Options: text"
+    },
+    {
+      "fieldName": "i1",
+      "name": "I1",
+      "dataTypeName": "text",
+      "description": "Question Asked: What equipment typically provides domestic hot water for the building's living units?. Response Options: Storage water heater (tank), Central boiler, Don't know, Ground source heat pump with tank, Heat pump water heater, Tankless/on-demand"
+    },
+    {
+      "fieldName": "i2_1_1",
+      "name": "I2_1_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percentage of the equipment that typically provides domestic hot water to living units falls into each age range? - Less than 5 Years - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "i2_2_1",
+      "name": "I2_2_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percentage of the equipment that typically provides domestic hot water to living units falls into each age range? - 5 to 9 Years - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "i2_3_1",
+      "name": "I2_3_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percentage of the equipment that typically provides domestic hot water to living units falls into each age range? - 10 to 14 Years - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "i2_4_1",
+      "name": "I2_4_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percentage of the equipment that typically provides domestic hot water to living units falls into each age range? - 15 to 19 Years - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "i2_5_1",
+      "name": "I2_5_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percentage of the equipment that typically provides domestic hot water to living units falls into each age range? - 20 or More Years - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "i2_6_1",
+      "name": "I2_6_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: What percentage of the equipment that typically provides domestic hot water to living units falls into each age range? - Don't know - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "j1",
+      "name": "J1",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the following equipment or systems does this building have? Select all that apply.. Response Options: None of the above, Working fireplaces or stoves in the living units, Combined heat and power (CHP) equipment (Also known as cogeneration systems, CHP systems provide on-site electric power and heating from a single fuel source), Solar photovoltaic (PV) system, Energy storage system (An on-site energy storage system provides a way for energy to be stored for later conversion back to electricity when needed, such as through batteries or thermal storage.)"
+    },
+    {
+      "fieldName": "k1_1",
+      "name": "K1_1",
+      "dataTypeName": "text",
+      "description": "Question Asked: How often are the following systems serviced for your building: - Common area heating systems:. Response Options: Rarely, Don't know, Multiple times per year, Annually, Not Applicable, Never, Every other year, Every few years"
+    },
+    {
+      "fieldName": "k1_2",
+      "name": "K1_2",
+      "dataTypeName": "text",
+      "description": "Question Asked: How often are the following systems serviced for your building: - Living unit heating systems:. Response Options: Every few years, Don't know, Rarely, Multiple times per year, Annually, Not Applicable, Every other year, Never"
+    },
+    {
+      "fieldName": "k1_3",
+      "name": "K1_3",
+      "dataTypeName": "text",
+      "description": "Question Asked: How often are the following systems serviced for your building: - Common area cooling systems:. Response Options: Never, Not Applicable, Multiple times per year, Annually, Don't know, Every other year, Every few years, Rarely"
+    },
+    {
+      "fieldName": "k1_4",
+      "name": "K1_4",
+      "dataTypeName": "text",
+      "description": "Question Asked: How often are the following systems serviced for your building: - Living unit cooling systems:. Response Options: Never, Rarely, Multiple times per year, Not Applicable, Annually, Every few years, Don't know, Every other year"
+    },
+    {
+      "fieldName": "k1_5",
+      "name": "K1_5",
+      "dataTypeName": "text",
+      "description": "Question Asked: How often are the following systems serviced for your building: - Common area domestic hot water systems:. Response Options: Never, Don't know, Not Applicable, Multiple times per year, Annually, Every other year, Rarely, Every few years"
+    },
+    {
+      "fieldName": "k1_6",
+      "name": "K1_6",
+      "dataTypeName": "text",
+      "description": "Question Asked: How often are the following systems serviced for your building: - Living unit domestic hot water systems:. Response Options: Rarely, Don't know, Every few years, Multiple times per year, Annually, Not Applicable, Every other year, Never"
+    },
+    {
+      "fieldName": "k2_1",
+      "name": "K2_1",
+      "dataTypeName": "text",
+      "description": "Question Asked: How often do you replace the filters for this equipment? - Common area heating systems:. Response Options: Don't know, Multiple times per year, Never, Every few years, Annually, Rarely, Every other year"
+    },
+    {
+      "fieldName": "k2_2",
+      "name": "K2_2",
+      "dataTypeName": "text",
+      "description": "Question Asked: How often do you replace the filters for this equipment? - Living unit heating systems:. Response Options: Annually, Don't know, Multiple times per year, Never, Rarely, Every other year, Every few years"
+    },
+    {
+      "fieldName": "k2_3",
+      "name": "K2_3",
+      "dataTypeName": "text",
+      "description": "Question Asked: How often do you replace the filters for this equipment? - Common area cooling systems:. Response Options: Don't know, Multiple times per year, Annually, Never, Rarely, Every few years, Every other year"
+    },
+    {
+      "fieldName": "k2_4",
+      "name": "K2_4",
+      "dataTypeName": "text",
+      "description": "Question Asked: How often do you replace the filters for this equipment? - Living unit cooling systems:. Response Options: Don't know, Rarely, Multiple times per year, Every few years, Annually, Never, Every other year"
+    },
+    {
+      "fieldName": "l1_1",
+      "name": "L1_1",
+      "dataTypeName": "text",
+      "description": "Question Asked: How is the lighting for this building controlled for each of the following lighting types? - Exterior Lighting. Response Options: Lights have motion sensors, Lights are controlled to automatically turn on and off, Not applicable: building does not have this type of lighting, Lights are always on, Lights are manually turned on and off"
+    },
+    {
+      "fieldName": "l1_2",
+      "name": "L1_2",
+      "dataTypeName": "text",
+      "description": "Question Asked: How is the lighting for this building controlled for each of the following lighting types? - Common Hallway Lighting. Response Options: Not applicable: building does not have this type of lighting, Lights are always on, Lights are controlled to automatically turn on and off, Lights have motion sensors, Lights are manually turned on and off"
+    },
+    {
+      "fieldName": "l1_3",
+      "name": "L1_3",
+      "dataTypeName": "text",
+      "description": "Question Asked: How is the lighting for this building controlled for each of the following lighting types? - Other Common Area Lighting. Response Options: Not applicable: building does not have this type of lighting, Lights are always on, Lights have motion sensors, Lights are manually turned on and off, Lights are controlled to automatically turn on and off"
+    },
+    {
+      "fieldName": "l2_1_1",
+      "name": "L2_1_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: For the building's exterior lighting, about what percentage of the lamps are the following technologies? - LEDs - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "l2_2_1",
+      "name": "L2_2_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: For the building's exterior lighting, about what percentage of the lamps are the following technologies? - CFL - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "l2_3_1",
+      "name": "L2_3_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: For the building's exterior lighting, about what percentage of the lamps are the following technologies? - Linear fluorescent - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "l2_4_1",
+      "name": "L2_4_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: For the building's exterior lighting, about what percentage of the lamps are the following technologies? - HID (high-intensity discharge) - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "l2_5_1",
+      "name": "L2_5_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: For the building's exterior lighting, about what percentage of the lamps are the following technologies? - Incandescent or halogen - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "l2_6_text",
+      "name": "L2_6_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: For the building's exterior lighting, about what percentage of the lamps are the following technologies? - Something else \u2013 what is it? - Text. Response Options: Solar, National Grid supplies, Floursent, mix - switching to LED, incandescent light bulbs, just light bulbs, Induction"
+    },
+    {
+      "fieldName": "l2_6_1",
+      "name": "L2_6_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: For the building's exterior lighting, about what percentage of the lamps are the following technologies? - Something else \u2013 what is it? - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "l2_7_1",
+      "name": "L2_7_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: For the building's exterior lighting, about what percentage of the lamps are the following technologies? - Don't know - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "l3",
+      "name": "L3",
+      "dataTypeName": "text",
+      "description": "Question Asked: About how many years ago was most of the common hallway lighting in this building installed?. Response Options: Less than 5 Years, 5 to 9 Years, 15 to 19 Years, Don't know, 20 or More Years, 10 to 14 Years"
+    },
+    {
+      "fieldName": "l4_1_1",
+      "name": "L4_1_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: Considering only the lighting in common area hallways, about what percentage of lamps use each of the following technologies? - LEDs - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "l4_2_1",
+      "name": "L4_2_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: Considering only the lighting in common area hallways, about what percentage of lamps use each of the following technologies? - CFL - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "l4_3_1",
+      "name": "L4_3_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: Considering only the lighting in common area hallways, about what percentage of lamps use each of the following technologies? - Linear fluorescent - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "l4_4_1",
+      "name": "L4_4_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: Considering only the lighting in common area hallways, about what percentage of lamps use each of the following technologies? - Incandescent or halogen - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "l4_5_text",
+      "name": "L4_5_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: Considering only the lighting in common area hallways, about what percentage of lamps use each of the following technologies? - Something else \u2013 what is it? - Text. Response Options: 100, bulbs, circular, na, incandescent light bulbs, just light bulbs, non linear fluorescent"
+    },
+    {
+      "fieldName": "l4_5_1",
+      "name": "L4_5_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: Considering only the lighting in common area hallways, about what percentage of lamps use each of the following technologies? - Something else \u2013 what is it? - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "l4_6_1",
+      "name": "L4_6_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: Considering only the lighting in common area hallways, about what percentage of lamps use each of the following technologies? - Don't know - Enter percentages:. Response Options: integer"
+    },
+    {
+      "fieldName": "m1",
+      "name": "M1",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the following best describes the building\u2019s common laundry area(s)?. Response Options: Common area laundry equipment is owned by the building, Common area laundry equipment is leased from a third party, Don't know"
+    },
+    {
+      "fieldName": "m2",
+      "name": "M2",
+      "dataTypeName": "text",
+      "description": "Question Asked: About how many washing machines are there in the building\u2019s common laundry area(s)? - Selected Choice. Response Options: Please enter number of washing machines:, Don't know"
+    },
+    {
+      "fieldName": "m2_1_text",
+      "name": "M2_1_TEXT",
+      "dataTypeName": "number",
+      "description": "Question Asked: About how many washing machines are there in the building\u2019s common laundry area(s)? - Please enter number of washing machines: - Text. Response Options: integer"
+    },
+    {
+      "fieldName": "m3",
+      "name": "M3",
+      "dataTypeName": "text",
+      "description": "Question Asked: What is the main type of washing machine in the common laundry area(s)?. Response Options: Top loading washer, Front loading washer, Don't know, Combo washer and dryer, Stacked washer/dryer"
+    },
+    {
+      "fieldName": "m4",
+      "name": "M4",
+      "dataTypeName": "text",
+      "description": "Question Asked: How many clothes dryers are there in the building\u2019s common laundry area(s)? - Selected Choice. Response Options: Please enter number of clothes dryers:, Don't know"
+    },
+    {
+      "fieldName": "m4_1_text",
+      "name": "M4_1_TEXT",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many clothes dryers are there in the building\u2019s common laundry area(s)? - Please enter number of clothes dryers: - Text. Response Options: integer"
+    },
+    {
+      "fieldName": "m5_1",
+      "name": "M5_1",
+      "dataTypeName": "text",
+      "description": "Question Asked: About how old are the majority of the common area washing machines and clothes dryers? - Clothes Washers. Response Options: 15 to 19 years, 10 to 14 years, Less than 5 years, Don't know, 5 to 9 years, 20 or more years"
+    },
+    {
+      "fieldName": "m5_2",
+      "name": "M5_2",
+      "dataTypeName": "text",
+      "description": "Question Asked: About how old are the majority of the common area washing machines and clothes dryers? - Clothes Dryers. Response Options: 15 to 19 years, 10 to 14 years, Less than 5 years, Don't know, 5 to 9 years, 20 or more years"
+    },
+    {
+      "fieldName": "m6",
+      "name": "M6",
+      "dataTypeName": "text",
+      "description": "Question Asked: What is the main type of clothes dryers in the common laundry area(s)?. Response Options: Top loading, Front loading, Don't know, Stacked washer/dryer, Combo washer and dryer"
+    },
+    {
+      "fieldName": "n1",
+      "name": "N1",
+      "dataTypeName": "text",
+      "description": "Question Asked: What type of clothes washers are included in most of the building\u2019s living units?. Response Options: Don't know, No clothes washers in units, Front loading, Top loading, Stacked washer/dryer, Combo washer and dryer"
+    },
+    {
+      "fieldName": "n2",
+      "name": "N2",
+      "dataTypeName": "text",
+      "description": "Question Asked: What type of clothes dryers are included in most of the building's living units?. Response Options: Don't know, No clothes dryers in units, Standalone, Stacked washer/dryer, Combo washer and dryer"
+    },
+    {
+      "fieldName": "n3",
+      "name": "N3",
+      "dataTypeName": "text",
+      "description": "Question Asked: Are most of these clothes dryers vented or ventless?. Response Options: Vented, Ventless, Don't know"
+    },
+    {
+      "fieldName": "n4",
+      "name": "N4",
+      "dataTypeName": "text",
+      "description": "Question Asked: Who owns the clothes washers and dryers in the building's living units?. Response Options: Tenant or third-party, Don't know, Building"
+    },
+    {
+      "fieldName": "n5",
+      "name": "N5",
+      "dataTypeName": "text",
+      "description": "Question Asked: Do any of the building's living units have dishwashers? - Selected Choice. Response Options: Some units have dishwashers (about what percent?), None of the units have dishwashers, All units have dishwashers, Don't know"
+    },
+    {
+      "fieldName": "n5_2_text",
+      "name": "N5_2_TEXT",
+      "dataTypeName": "number",
+      "description": "Question Asked: Do any of the building's living units have dishwashers? - Some units have dishwashers (about what percent?) - Text. Response Options: integer"
+    },
+    {
+      "fieldName": "n6_1",
+      "name": "N6_1",
+      "dataTypeName": "text",
+      "description": "Question Asked: About how old are the following appliances in the living units? - Clothes Washer. Response Options: Don't know, 15 to 19 years, Less than 5 years, 5 to 9 years, 10 to 14 years, 20 or more years"
+    },
+    {
+      "fieldName": "n6_2",
+      "name": "N6_2",
+      "dataTypeName": "text",
+      "description": "Question Asked: About how old are the following appliances in the living units? - Clothes Dryers. Response Options: Don't know, 15 to 19 years, Less than 5 years, 5 to 9 years, 10 to 14 years, 20 or more years"
+    },
+    {
+      "fieldName": "n6_3",
+      "name": "N6_3",
+      "dataTypeName": "text",
+      "description": "Question Asked: About how old are the following appliances in the living units? - Refrigerator. Response Options: 15 to 19 years, 5 to 9 years, 10 to 14 years, Less than 5 years, Don't know, 20 or more years"
+    },
+    {
+      "fieldName": "n6_4",
+      "name": "N6_4",
+      "dataTypeName": "text",
+      "description": "Question Asked: About how old are the following appliances in the living units? - Dishwashers. Response Options: Less than 5 years, Don't know, 5 to 9 years, 15 to 19 years, 20 or more years, 10 to 14 years"
+    },
+    {
+      "fieldName": "o1_1",
+      "name": "O1_1",
+      "dataTypeName": "text",
+      "description": "Question Asked: What type of fuel is used for the following equipment types? - Living unit primary heating system. Response Options: Natural Gas, Electricity, Propane, Don't know, Fuel Oil, Something else, Kerosene, Wood Pellets, Wood"
+    },
+    {
+      "fieldName": "o1_2",
+      "name": "O1_2",
+      "dataTypeName": "text",
+      "description": "Question Asked: What type of fuel is used for the following equipment types? - Living unit water heating. Response Options: Electricity, Natural Gas, Propane, Don't know, Fuel Oil, Something else, Solar, Kerosene, Wood Pellets, Wood"
+    },
+    {
+      "fieldName": "o1_3",
+      "name": "O1_3",
+      "dataTypeName": "text",
+      "description": "Question Asked: What type of fuel is used for the following equipment types? - Common area clothes dryers. Response Options: Electricity, Propane, Don't know, Natural Gas, Fuel Oil"
+    },
+    {
+      "fieldName": "o1_4",
+      "name": "O1_4",
+      "dataTypeName": "text",
+      "description": "Question Asked: What type of fuel is used for the following equipment types? - Living unit clothes dryers. Response Options: Electricity, Natural Gas, Don't know, Something else, Propane, Fuel Oil, Wood"
+    },
+    {
+      "fieldName": "o1_5",
+      "name": "O1_5",
+      "dataTypeName": "text",
+      "description": "Question Asked: What type of fuel is used for the following equipment types? - Living unit fireplaces / heating stoves. Response Options: Natural Gas, Don't know, Something else, Wood, Electricity, Propane, Wood Pellets"
+    },
+    {
+      "fieldName": "o1_6",
+      "name": "O1_6",
+      "dataTypeName": "text",
+      "description": "Question Asked: What type of fuel is used for the following equipment types? - Boilers. Response Options: Propane, Natural Gas, Fuel Oil, Electricity, Don't know, Kerosene, Wood Pellets, Wood, Something else"
+    },
+    {
+      "fieldName": "o1_7",
+      "name": "O1_7",
+      "dataTypeName": "text",
+      "description": "Question Asked: What type of fuel is used for the following equipment types? - Chillers. Response Options: Electricity, Natural Gas, Don't know, Something else"
+    },
+    {
+      "fieldName": "p1",
+      "name": "P1",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the building\u2019s systems are controlled by an energy management system? Please select all that apply. - Selected Choice. Response Options: There is no energy management system, There is an energy management system, but I don\u2019t know what it controls, Exterior lighting controlled, Space heating controlled, Water heating controlled, Other systems are controlled \u2013 which ones? (Please specify), Cooling controlled, Interior lighting controlled"
+    },
+    {
+      "fieldName": "p1_7_text",
+      "name": "P1_7_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the building\u2019s systems are controlled by an energy management system? Please select all that apply. - Other systems are controlled \u2013 which ones? (Please specify) - Text. Response Options: Boiler, Don't know, Boiler System, Temp limits on living unit t-stats, Lighting sensor, Central heating, text option"
+    },
+    {
+      "fieldName": "p2",
+      "name": "P2",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the following best describes your current awareness and interest in energy management systems and building automation?. Response Options: I have little or no awareness of energy management systems and building automation, I am aware of and interested in energy management systems and building automation for this building, I am aware of energy management systems and building automation, but am not interested in them for this building"
+    },
+    {
+      "fieldName": "p3",
+      "name": "P3",
+      "dataTypeName": "text",
+      "description": "Question Asked: About how old is the building's energy management system?. Response Options: Don't know, 5 to 9 Years, 10 to 14 Years, 2 to 4 Years, Less than 2 Years, 15 or More Years"
+    },
+    {
+      "fieldName": "p4",
+      "name": "P4",
+      "dataTypeName": "text",
+      "description": "Question Asked: Is the building energy management system controlled by software running on a computer?. Response Options: Don't Know, No, Yes"
+    },
+    {
+      "fieldName": "p5",
+      "name": "P5",
+      "dataTypeName": "text",
+      "description": "Question Asked: Did the building operators for this building receive specialty training on energy management system software?. Response Options: No, Don't Know, Yes"
+    },
+    {
+      "fieldName": "q1",
+      "name": "Q1",
+      "dataTypeName": "text",
+      "description": "Question Asked: Has the building undergone any major renovations or additions in the past five years? A major renovation or addition means construction activities like increasing the size of the building's living space, upgrading the building shell or HVAC system, or reconstruction due to flooding or hurricane.. Response Options: Yes, No, Don't Know"
+    },
+    {
+      "fieldName": "q2",
+      "name": "Q2",
+      "dataTypeName": "text",
+      "description": "Question Asked: In what year was this renovation or addition completed? - Selected Choice. Response Options: Please enter the year, Don't know"
+    },
+    {
+      "fieldName": "q2_1_text",
+      "name": "Q2_1_TEXT",
+      "dataTypeName": "number",
+      "description": "Question Asked: In what year was this renovation or addition completed? - Please enter the year - Text. Response Options: integer"
+    },
+    {
+      "fieldName": "q3",
+      "name": "Q3",
+      "dataTypeName": "text",
+      "description": "Question Asked: How many units in this building or complex have undergone major renovations in the past five years? A major renovation or addition means construction activities like increasing the size of the building's living space, upgrading the building shell or HVAC system, or reconstruction due to flooding or hurricane. - Selected Choice. Response Options: Please enter the number of units:, Don't know"
+    },
+    {
+      "fieldName": "q3_1_text",
+      "name": "Q3_1_TEXT",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many units in this building or complex have undergone major renovations in the past five years? A major renovation or addition means construction activities like increasing the size of the building's living space, upgrading the building shell or HVAC system, or reconstruction due to flooding or hurricane. - Please enter the number of units: - Text. Response Options: integer"
+    },
+    {
+      "fieldName": "q4",
+      "name": "Q4",
+      "dataTypeName": "text",
+      "description": "Question Asked: How many units in this building or complex are currently being renovated or planned to be renovated in the next two years? - Selected Choice. Response Options: Please enter the number of units:, Don't know"
+    },
+    {
+      "fieldName": "q4_1_text",
+      "name": "Q4_1_TEXT",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many units in this building or complex are currently being renovated or planned to be renovated in the next two years? - Please enter the number of units: - Text. Response Options: integer"
+    },
+    {
+      "fieldName": "q5",
+      "name": "Q5",
+      "dataTypeName": "text",
+      "description": "Question Asked: Does your building have any green building certifications? Which ones? (Select all that apply) - Selected Choice. Response Options: No green certifications, ENERGY STAR, Don't know, LEED, Something else \u2013 what is it? (Please specify), LEED,ENERGY STAR, LEED,ENERGY STAR,Something else \u2013 what is it? (Please specify), ENERGY STAR,Something else \u2013 what is it? (Please specify)"
+    },
+    {
+      "fieldName": "q5_4_text",
+      "name": "Q5_4_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: Does your building have any green building certifications? Which ones? (Select all that apply) - Something else \u2013 what is it? (Please specify) - Text. Response Options: Solar Panels Roof, 0, HESS, C-Neutral certificate, green-e climate certified, NONE, Enterprise Green Communities, PHUIS+2015 Certified, Passive house design, FitWel, Enterprise Green Certification, NY Stretch Code, Enterprise Green"
+    },
+    {
+      "fieldName": "q6",
+      "name": "Q6",
+      "dataTypeName": "text",
+      "description": "Question Asked: Approximately how many multifamily properties does your organization own or manage in New York State?. Response Options: Only this property, 11 to 20, 2 to 5, More than 20, Don't know, 6 to 10"
+    },
+    {
+      "fieldName": "q7",
+      "name": "Q7",
+      "dataTypeName": "text",
+      "description": "Question Asked: What's the most accurate description of most of the properties your organization owns or manages?. Response Options: Market-rate rental, A mix of the options above, Subsidized affordable housing, Don't know, Naturally occurring affordable housing, Co-op or condos"
+    },
+    {
+      "fieldName": "q8",
+      "name": "Q8",
+      "dataTypeName": "text",
+      "description": "Question Asked: How aware are you of programs offered by NYSERDA or your utility company to make multifamily buildings more energy efficient or to manage energy use?. Response Options: Not at all aware, Somewhat aware, Very aware, Not too aware"
+    },
+    {
+      "fieldName": "q9",
+      "name": "Q9",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the following programs have you heard of? Select all that apply.. Response Options: Multifamily Performance Program for Existing Buildings, NY-Sun, NYS Clean Heat (heat pump program), None of these, Clean Heating and Cooling Screenings for Large Buildings, Real Time Energy Management (RTEM) Program, Energy Storage, RetrofitNY"
+    },
+    {
+      "fieldName": "q10",
+      "name": "Q10",
+      "dataTypeName": "text",
+      "description": "Question Asked: In the past 5 years, have you participated in any programs offered by NYSERDA or your utility to make any energy saving updates, manage your energy demand, or shift your energy demand to another time? Select all that apply.. Response Options: Don't Know, No, Yes"
+    },
+    {
+      "fieldName": "q11",
+      "name": "Q11",
+      "dataTypeName": "text",
+      "description": "Question Asked: Why hasn't your building participated in any programs offered by NYSERDA or your utility company? (Select all that apply.) - Selected Choice. Response Options: Something else \u2013 what is it? (Please specify), Occupants pay most energy bills, so we lack incentive to reduce energy costs, Not aware of any reason to participate, Don't Know, Do not know who to contact, We tend to purchase the least expensive equipment option, Have not needed to upgrade equipment, Updating equipment would disrupt occupied living spaces"
+    },
+    {
+      "fieldName": "q11_8_text",
+      "name": "Q11_8_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: Why hasn't your building participated in any programs offered by NYSERDA or your utility company? (Select all that apply.) - Something else \u2013 what is it? (Please specify) - Text. Response Options: text"
+    },
+    {
+      "fieldName": "r1",
+      "name": "R1",
+      "dataTypeName": "text",
+      "description": "Question Asked: How would you rate the clarity of the questions in this survey?. Response Options: 7, 4, 8, 3, 10 (Outstanding), Don't know, 5, 6, 9, 1 (Unacceptable), 2"
+    },
+    {
+      "fieldName": "r2",
+      "name": "R2",
+      "dataTypeName": "text",
+      "description": "Question Asked: Considering we are providing a $100 incentive, how would you rate the length of this survey?. Response Options: 8, 7, 10 (Outstanding), 4, 9, Don't know, 3, 5, 6, 1 (Unacceptable), 2"
+    },
+    {
+      "fieldName": "u1",
+      "name": "U1",
+      "dataTypeName": "text",
+      "description": "Question Asked: For an additional $50 incentive, we would also like to survey you about your building\u2019s schedule for replacing equipment and how those decisions are made. Are you able to take the follow-up survey now or at a later date?. Response Options: I don\u2019t want to take the survey, I\u2019d like to take the survey later online, I'd like to take the survey later online, I don't want to take the survey"
+    },
+    {
+      "fieldName": "u1_maonly",
+      "name": "U1-MAonly",
+      "dataTypeName": "text",
+      "description": "Question Asked: While you do not qualify for our survey on your building\u2019s characteristics and equipment for $100, we would still like to invite you to participate in our survey about decision-making for your building and its replacement schedules. For a $50 incentive, are you able to take the follow-up survey now or at a later date?. Response Options: free text entry"
+    },
+    {
+      "fieldName": "v0",
+      "name": "V0",
+      "dataTypeName": "text",
+      "description": "Question Asked: Those are all the questions we have. Thank you for participating in the survey. You can learn more about NYSERDA\u2019s programs that provide assistance to multifamily buildings for energy-efficient upgrades and energy management on NYSERDA\u2019s website here and here. Would you like to be contacted regarding opportunities to upgrade your building\u2019s energy efficiency?. Response Options: No, not at this time, Yes"
+    }
+  ]
+}

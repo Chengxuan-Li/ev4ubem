@@ -1,0 +1,40 @@
+dataset,margin,level,population_target,n_sample_weighted_rows,n_sample_all_rows,weighted_total,mean_weight
+general_survey gfhm-wz4s,size,1-3 floors,60659,514,514,60659,118.0
+general_survey gfhm-wz4s,size,4-7 floors,53032,365,365,53032,145.3
+general_survey gfhm-wz4s,size,8+ floors,8913,142,142,8913,62.8
+general_survey gfhm-wz4s,own,Affordable subsidized,9990,250,250,9990,40.0
+general_survey gfhm-wz4s,own,Affordable census block/NOAH,41589,219,219,41589,189.9
+general_survey gfhm-wz4s,own,Co-op/condo,15283,187,187,15283,81.7
+general_survey gfhm-wz4s,own,Market-rate rental,55742,365,365,55742,152.7
+general_survey gfhm-wz4s,region,CenHud+O&R,11012,86,86,11012,128.0
+general_survey gfhm-wz4s,region,ConEd,73734,462,462,73734,159.6
+general_survey gfhm-wz4s,region,PSEG-LI,10161,56,56,10161,181.4
+general_survey gfhm-wz4s,region,NYSEG+RG&E,13843,213,213,13843,65.0
+general_survey gfhm-wz4s,region,NationalGrid,13854,204,204,13854,67.9
+general_survey gfhm-wz4s,ALL,rows_with_weight,122604,1021,1366,122604,34.9
+occupant_survey gjv3-iq86,size,1-3 floors,60659,69,70,60659,879.1
+occupant_survey gjv3-iq86,size,4-7 floors,53032,51,51,53032,1039.8
+occupant_survey gjv3-iq86,size,8+ floors,8913,19,19,8913,469.1
+occupant_survey gjv3-iq86,own,Affordable subsidized,9990,25,25,9990,399.6
+occupant_survey gjv3-iq86,own,Affordable census block/NOAH,41589,37,37,41589,1124.0
+occupant_survey gjv3-iq86,own,Co-op/condo,15283,24,24,15283,636.8
+occupant_survey gjv3-iq86,own,Market-rate rental,55742,53,53,55742,1051.7
+occupant_survey gjv3-iq86,region,CenHud+O&R,11012,12,13,11012,917.7
+occupant_survey gjv3-iq86,region,ConEd,73734,57,57,73734,1293.6
+occupant_survey gjv3-iq86,region,PSEG-LI,10161,10,10,10161,1016.1
+occupant_survey gjv3-iq86,region,NYSEG+RG&E,13843,17,17,13843,814.3
+occupant_survey gjv3-iq86,region,NationalGrid,13854,43,43,13854,322.2
+occupant_survey gjv3-iq86,ALL,rows_with_weight,122604,139,156,122604,25.8
+site_visits qwyr-7esw,size,1-3 floors,60659,217,228,60659,279.5
+site_visits qwyr-7esw,size,4-7 floors,53032,123,133,53032,431.2
+site_visits qwyr-7esw,size,8+ floors,8913,69,73,8913,129.2
+site_visits qwyr-7esw,own,Affordable subsidized,9990,135,135,9990,74.0
+site_visits qwyr-7esw,own,Affordable census block/NOAH,41589,81,83,41589,513.4
+site_visits qwyr-7esw,own,Co-op/condo,15283,43,44,15283,355.4
+site_visits qwyr-7esw,own,Market-rate rental,55742,150,151,55742,371.6
+site_visits qwyr-7esw,region,CenHud+O&R,11012,42,42,11012,262.2
+site_visits qwyr-7esw,region,ConEd,73734,168,180,73734,438.9
+site_visits qwyr-7esw,region,PSEG-LI,10161,57,57,10161,178.3
+site_visits qwyr-7esw,region,NYSEG+RG&E,13843,65,68,13843,213.0
+site_visits qwyr-7esw,region,NationalGrid,13854,77,81,13854,179.9
+site_visits qwyr-7esw,ALL,rows_with_weight,122604,409,434,122604,58.5

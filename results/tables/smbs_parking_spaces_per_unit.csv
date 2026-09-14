@@ -1,0 +1,16 @@
+dimension,level,n_buildings,median,p25,p75,weighted_mean_capped5,ratio_of_sums_spaces_per_unit
+statewide,all,683,1.111,0.721,1.771,1.452,1.315
+size,1-3 floors,345,1.333,1.0,2.0,1.688,1.697
+size,4-7 floors,101,0.833,0.439,1.2,0.93,0.874
+size,8+ floors,62,0.499,0.312,1.0,0.995,0.776
+units_class,10-19,99,1.2,0.85,2.125,1.714,3.407
+units_class,100+,112,0.9,0.434,1.306,1.117,1.015
+units_class,20-49,139,1.0,0.714,1.509,1.212,1.264
+units_class,5-9,235,1.5,1.0,2.333,1.781,3.965
+units_class,50-99,98,0.83,0.434,1.238,1.052,1.314
+region,ConEd,87,0.583,0.333,1.134,0.93,0.807
+region,PSEG-LI,45,1.6,1.0,2.385,1.797,1.589
+region,CenHud+O&R,74,1.2,0.949,1.663,1.505,1.24
+region,NationalGrid,148,1.071,0.788,2.0,1.552,1.106
+region,NYSEG+RG&E,154,1.2,0.911,1.785,1.62,1.285
+region,Upstate (NationalGrid+NYSEG+RG&E),302,1.198,0.833,2.0,1.586,1.204

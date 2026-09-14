@@ -1,0 +1,247 @@
+source,dimension,level,indicator,n,k,share_unweighted,wilson95_lo,wilson95_hi,n_weighted,share_weighted,boot95_lo,boot95_hi,kish_n_eff,share_weighted_by_units,boot95_units_lo,boot95_units_hi
+general_survey gfhm-wz4s,statewide,all,park_any_amenity,1366,717,0.5249,0.4984,0.5513,1021,0.4212,0.3845,0.4573,675.141,0.6748,0.6092,0.739
+general_survey gfhm-wz4s,statewide,all,park_offstreet,1366,687,0.5029,0.4764,0.5294,1021,0.4013,0.3662,0.4368,675.141,0.6418,0.564,0.7118
+general_survey gfhm-wz4s,statewide,all,park_garage,1366,238,0.1742,0.155,0.1953,1021,0.164,0.1349,0.1897,675.141,0.3971,0.2947,0.496
+general_survey gfhm-wz4s,statewide,all,park_open_lot,1366,551,0.4034,0.3777,0.4296,1021,0.3194,0.2882,0.3493,675.141,0.5436,0.448,0.6239
+general_survey gfhm-wz4s,statewide,all,park_street_only,1366,30,0.022,0.0154,0.0312,1021,0.0199,0.0117,0.0288,675.141,0.0329,0.0126,0.066
+general_survey gfhm-wz4s,statewide,all,ev_charging,1366,34,0.0249,0.0179,0.0346,1021,0.0178,0.0096,0.0276,675.141,0.0353,0.0137,0.0659
+general_survey gfhm-wz4s,size,1-3 floors,park_any_amenity,514,352,0.6848,0.6434,0.7235,514,0.5672,0.5188,0.621,358.0952,0.856,0.7881,0.9021
+general_survey gfhm-wz4s,size,1-3 floors,park_offstreet,514,346,0.6732,0.6314,0.7123,514,0.5538,0.501,0.6095,358.0952,0.8477,0.7765,0.8955
+general_survey gfhm-wz4s,size,1-3 floors,park_garage,514,77,0.1498,0.1216,0.1833,514,0.1547,0.1204,0.1923,358.0952,0.3713,0.1983,0.5387
+general_survey gfhm-wz4s,size,1-3 floors,park_open_lot,514,308,0.5992,0.5563,0.6407,514,0.4727,0.4228,0.5257,358.0952,0.782,0.6872,0.8479
+general_survey gfhm-wz4s,size,1-3 floors,park_street_only,514,6,0.0117,0.0054,0.0252,514,0.0134,0.0031,0.0262,358.0952,0.0083,0.0006,0.0205
+general_survey gfhm-wz4s,size,1-3 floors,ev_charging,514,6,0.0117,0.0054,0.0252,514,0.0118,0.0031,0.0236,358.0952,0.0466,0.0025,0.1242
+general_survey gfhm-wz4s,size,4-7 floors,park_any_amenity,365,118,0.3233,0.2774,0.3729,365,0.252,0.2002,0.3035,250.7431,0.6015,0.4795,0.7105
+general_survey gfhm-wz4s,size,4-7 floors,park_offstreet,365,102,0.2795,0.2359,0.3276,365,0.2291,0.1804,0.28,250.7431,0.5525,0.4118,0.6708
+general_survey gfhm-wz4s,size,4-7 floors,park_garage,365,68,0.1863,0.1497,0.2294,365,0.163,0.1222,0.2043,250.7431,0.4478,0.2816,0.5753
+general_survey gfhm-wz4s,size,4-7 floors,park_open_lot,365,62,0.1699,0.1348,0.2118,365,0.1517,0.1097,0.1969,250.7431,0.4397,0.2765,0.5849
+general_survey gfhm-wz4s,size,4-7 floors,park_street_only,365,16,0.0438,0.0272,0.07,365,0.0229,0.0112,0.0388,250.7431,0.049,0.0104,0.115
+general_survey gfhm-wz4s,size,4-7 floors,ev_charging,365,11,0.0301,0.0169,0.0532,365,0.0225,0.0093,0.041,250.7431,0.0289,0.008,0.0606
+general_survey gfhm-wz4s,size,8+ floors,park_any_amenity,142,70,0.493,0.412,0.5743,142,0.4344,0.3366,0.5272,102.7547,0.5581,0.4238,0.6805
+general_survey gfhm-wz4s,size,8+ floors,park_offstreet,142,62,0.4366,0.3578,0.5188,142,0.3879,0.3011,0.4787,102.7547,0.5237,0.389,0.6491
+general_survey gfhm-wz4s,size,8+ floors,park_garage,142,36,0.2535,0.1891,0.3309,142,0.2327,0.1637,0.3183,102.7547,0.3189,0.1897,0.4526
+general_survey gfhm-wz4s,size,8+ floors,park_open_lot,142,43,0.3028,0.2333,0.3828,142,0.2739,0.1919,0.3667,102.7547,0.4081,0.2683,0.5475
+general_survey gfhm-wz4s,size,8+ floors,park_street_only,142,8,0.0563,0.0288,0.1072,142,0.0465,0.0131,0.0886,102.7547,0.0345,0.0115,0.0648
+general_survey gfhm-wz4s,size,8+ floors,ev_charging,142,5,0.0352,0.0151,0.0798,142,0.0314,0.0061,0.0675,102.7547,0.0325,0.0026,0.072
+general_survey gfhm-wz4s,units_class,10-19,park_any_amenity,223,104,0.4664,0.402,0.5319,171,0.3541,0.2739,0.4418,112.6851,0.3512,0.2757,0.4443
+general_survey gfhm-wz4s,units_class,10-19,park_offstreet,223,100,0.4484,0.3846,0.514,171,0.3418,0.2659,0.4312,112.6851,0.3372,0.2583,0.426
+general_survey gfhm-wz4s,units_class,10-19,park_garage,223,30,0.1345,0.0959,0.1856,171,0.1338,0.0828,0.194,112.6851,0.1335,0.0812,0.1942
+general_survey gfhm-wz4s,units_class,10-19,park_open_lot,223,81,0.3632,0.3029,0.4282,171,0.247,0.1859,0.319,112.6851,0.241,0.1784,0.3133
+general_survey gfhm-wz4s,units_class,10-19,park_street_only,223,4,0.0179,0.007,0.0452,171,0.0123,0.0,0.0286,112.6851,0.014,0.0,0.0333
+general_survey gfhm-wz4s,units_class,10-19,ev_charging,223,5,0.0224,0.0096,0.0514,171,0.0181,0.0025,0.0398,112.6851,0.0167,0.0026,0.0361
+general_survey gfhm-wz4s,units_class,100+,park_any_amenity,141,117,0.8298,0.7592,0.8829,107,0.8706,0.7888,0.9353,67.6327,0.8905,0.8055,0.948
+general_survey gfhm-wz4s,units_class,100+,park_offstreet,141,112,0.7943,0.7202,0.8528,107,0.8329,0.7373,0.9086,67.6327,0.8544,0.7443,0.9262
+general_survey gfhm-wz4s,units_class,100+,park_garage,141,59,0.4184,0.3402,0.501,107,0.5003,0.3843,0.6163,67.6327,0.5779,0.4153,0.715
+general_survey gfhm-wz4s,units_class,100+,park_open_lot,141,90,0.6383,0.5563,0.713,107,0.7166,0.5963,0.8156,67.6327,0.7646,0.6319,0.8625
+general_survey gfhm-wz4s,units_class,100+,park_street_only,141,5,0.0355,0.0152,0.0803,107,0.0376,0.0035,0.0905,67.6327,0.0361,0.0026,0.0952
+general_survey gfhm-wz4s,units_class,100+,ev_charging,141,9,0.0638,0.0339,0.1169,107,0.0371,0.0047,0.0809,67.6327,0.0358,0.0045,0.0901
+general_survey gfhm-wz4s,units_class,20-49,park_any_amenity,320,148,0.4625,0.4086,0.5173,232,0.3661,0.2945,0.4492,144.6011,0.3628,0.2857,0.4536
+general_survey gfhm-wz4s,units_class,20-49,park_offstreet,320,140,0.4375,0.3842,0.4923,232,0.3419,0.2768,0.416,144.6011,0.337,0.2693,0.418
+general_survey gfhm-wz4s,units_class,20-49,park_garage,320,62,0.1938,0.1542,0.2406,232,0.2022,0.1449,0.2645,144.6011,0.201,0.1422,0.2679
+general_survey gfhm-wz4s,units_class,20-49,park_open_lot,320,100,0.3125,0.2642,0.3653,232,0.2318,0.1747,0.295,144.6011,0.2341,0.1748,0.3036
+general_survey gfhm-wz4s,units_class,20-49,park_street_only,320,8,0.025,0.0127,0.0485,232,0.0242,0.0066,0.0466,144.6011,0.0258,0.0073,0.0497
+general_survey gfhm-wz4s,units_class,20-49,ev_charging,320,6,0.0188,0.0086,0.0403,232,0.0156,0.0015,0.0378,144.6011,0.0153,0.0011,0.0366
+general_survey gfhm-wz4s,units_class,5-9,park_any_amenity,491,239,0.4868,0.4428,0.5309,367,0.3503,0.3022,0.4043,266.5178,0.3412,0.2938,0.3969
+general_survey gfhm-wz4s,units_class,5-9,park_offstreet,491,236,0.4807,0.4368,0.5248,367,0.3447,0.2934,0.3974,266.5178,0.3358,0.2827,0.3899
+general_survey gfhm-wz4s,units_class,5-9,park_garage,491,44,0.0896,0.0674,0.1182,367,0.0662,0.042,0.0923,266.5178,0.0617,0.0391,0.0859
+general_survey gfhm-wz4s,units_class,5-9,park_open_lot,491,208,0.4236,0.3807,0.4678,367,0.3009,0.2546,0.351,266.5178,0.2957,0.2496,0.3436
+general_survey gfhm-wz4s,units_class,5-9,park_street_only,491,3,0.0061,0.0021,0.0178,367,0.0055,0.0,0.0132,266.5178,0.0055,0.0,0.0131
+general_survey gfhm-wz4s,units_class,5-9,ev_charging,491,2,0.0041,0.0011,0.0147,367,0.0037,0.0,0.0104,266.5178,0.0044,0.0,0.0119
+general_survey gfhm-wz4s,units_class,50-99,park_any_amenity,189,108,0.5714,0.5001,0.6399,142,0.5357,0.4347,0.6404,87.5283,0.5566,0.4555,0.6591
+general_survey gfhm-wz4s,units_class,50-99,park_offstreet,189,99,0.5238,0.4528,0.5938,142,0.4894,0.3902,0.5925,87.5283,0.5104,0.4106,0.613
+general_survey gfhm-wz4s,units_class,50-99,park_garage,189,43,0.2275,0.1735,0.2924,142,0.251,0.1679,0.3595,87.5283,0.2587,0.1701,0.3692
+general_survey gfhm-wz4s,units_class,50-99,park_open_lot,189,72,0.381,0.3147,0.4519,142,0.3567,0.2636,0.4522,87.5283,0.3701,0.2697,0.4728
+general_survey gfhm-wz4s,units_class,50-99,park_street_only,189,9,0.0476,0.0253,0.088,142,0.0463,0.0189,0.0828,87.5283,0.0462,0.0191,0.0817
+general_survey gfhm-wz4s,units_class,50-99,ev_charging,189,12,0.0635,0.0367,0.1077,142,0.0629,0.0187,0.1258,87.5283,0.0689,0.0215,0.1341
+general_survey gfhm-wz4s,own,Affordable census block/NOAH,park_any_amenity,219,119,0.5434,0.4772,0.608,219,0.405,0.341,0.4763,177.9022,0.7318,0.5661,0.8428
+general_survey gfhm-wz4s,own,Affordable census block/NOAH,park_offstreet,219,114,0.5205,0.4546,0.5858,219,0.3854,0.3249,0.4539,177.9022,0.7204,0.5422,0.8287
+general_survey gfhm-wz4s,own,Affordable census block/NOAH,park_garage,219,29,0.1324,0.0938,0.1837,219,0.1043,0.0672,0.1478,177.9022,0.4251,0.1356,0.6282
+general_survey gfhm-wz4s,own,Affordable census block/NOAH,park_open_lot,219,105,0.4795,0.4142,0.5454,219,0.3546,0.2883,0.4212,177.9022,0.7082,0.5155,0.8203
+general_survey gfhm-wz4s,own,Affordable census block/NOAH,park_street_only,219,5,0.0228,0.0098,0.0523,219,0.0196,0.0043,0.0411,177.9022,0.0113,0.0007,0.0313
+general_survey gfhm-wz4s,own,Affordable census block/NOAH,ev_charging,219,6,0.0274,0.0126,0.0585,219,0.0203,0.0049,0.0407,177.9022,0.0185,0.0014,0.0602
+general_survey gfhm-wz4s,own,Affordable subsidized,park_any_amenity,250,116,0.464,0.4032,0.5259,250,0.3384,0.2735,0.3984,204.5704,0.4421,0.3464,0.5317
+general_survey gfhm-wz4s,own,Affordable subsidized,park_offstreet,250,111,0.444,0.3837,0.506,250,0.3274,0.27,0.3884,204.5704,0.4027,0.3145,0.4908
+general_survey gfhm-wz4s,own,Affordable subsidized,park_garage,250,17,0.068,0.0429,0.1062,250,0.058,0.0308,0.0913,204.5704,0.1145,0.0452,0.1862
+general_survey gfhm-wz4s,own,Affordable subsidized,park_open_lot,250,98,0.392,0.3336,0.4537,250,0.2881,0.2328,0.3492,204.5704,0.3295,0.2525,0.4122
+general_survey gfhm-wz4s,own,Affordable subsidized,park_street_only,250,5,0.02,0.0086,0.046,250,0.011,0.0025,0.0223,204.5704,0.0394,0.0043,0.0875
+general_survey gfhm-wz4s,own,Affordable subsidized,ev_charging,250,2,0.008,0.0022,0.0287,250,0.0073,0.0,0.0208,204.5704,0.0157,0.0,0.0428
+general_survey gfhm-wz4s,own,Co-op/condo,park_any_amenity,187,114,0.6096,0.5382,0.6767,187,0.5482,0.471,0.6313,154.4975,0.6732,0.5738,0.7661
+general_survey gfhm-wz4s,own,Co-op/condo,park_offstreet,187,96,0.5134,0.4422,0.584,187,0.469,0.3846,0.5504,154.4975,0.6013,0.4814,0.7003
+general_survey gfhm-wz4s,own,Co-op/condo,park_garage,187,66,0.3529,0.288,0.4238,187,0.3393,0.2669,0.4174,154.4975,0.4448,0.3209,0.5538
+general_survey gfhm-wz4s,own,Co-op/condo,park_open_lot,187,56,0.2995,0.2384,0.3686,187,0.2518,0.1862,0.3192,154.4975,0.3621,0.2475,0.4659
+general_survey gfhm-wz4s,own,Co-op/condo,park_street_only,187,18,0.0963,0.0618,0.147,187,0.0791,0.0451,0.1225,154.4975,0.0719,0.0381,0.1189
+general_survey gfhm-wz4s,own,Co-op/condo,ev_charging,187,5,0.0267,0.0115,0.0611,187,0.0205,0.0036,0.0424,154.4975,0.0326,0.0031,0.0763
+general_survey gfhm-wz4s,own,Market-rate rental,park_any_amenity,365,191,0.5233,0.4721,0.574,365,0.4134,0.3582,0.4687,294.7283,0.6748,0.5668,0.7567
+general_survey gfhm-wz4s,own,Market-rate rental,park_offstreet,365,189,0.5178,0.4666,0.5686,365,0.4078,0.3552,0.4659,294.7283,0.6429,0.5282,0.7364
+general_survey gfhm-wz4s,own,Market-rate rental,park_garage,365,69,0.189,0.1522,0.2324,365,0.1794,0.1371,0.2243,294.7283,0.4073,0.2746,0.5414
+general_survey gfhm-wz4s,own,Market-rate rental,park_open_lot,365,154,0.4219,0.3723,0.4731,365,0.3172,0.2689,0.37,294.7283,0.5344,0.4228,0.6385
+general_survey gfhm-wz4s,own,Market-rate rental,park_street_only,365,2,0.0055,0.0015,0.0198,365,0.0055,0.0,0.0163,294.7283,0.0319,0.0,0.0983
+general_survey gfhm-wz4s,own,Market-rate rental,ev_charging,365,9,0.0247,0.013,0.0462,365,0.0171,0.0065,0.0309,294.7283,0.0521,0.012,0.1183
+general_survey gfhm-wz4s,region,ConEd,park_any_amenity,462,91,0.197,0.1633,0.2357,462,0.1602,0.1228,0.1996,340.0132,0.4009,0.2613,0.5524
+general_survey gfhm-wz4s,region,ConEd,park_offstreet,462,87,0.1883,0.1553,0.2265,462,0.1531,0.1183,0.1922,340.0132,0.3929,0.2496,0.5361
+general_survey gfhm-wz4s,region,ConEd,park_garage,462,50,0.1082,0.0831,0.1399,462,0.0859,0.0612,0.1125,340.0132,0.2952,0.1476,0.4333
+general_survey gfhm-wz4s,region,ConEd,park_open_lot,462,54,0.1169,0.0907,0.1494,462,0.0966,0.0672,0.126,340.0132,0.3063,0.1558,0.4693
+general_survey gfhm-wz4s,region,ConEd,park_street_only,462,4,0.0087,0.0034,0.022,462,0.007,0.0004,0.017,340.0132,0.008,0.0,0.0181
+general_survey gfhm-wz4s,region,ConEd,ev_charging,462,5,0.0108,0.0046,0.0251,462,0.0105,0.0018,0.0228,340.0132,0.0222,0.0047,0.0486
+general_survey gfhm-wz4s,region,PSEG-LI,park_any_amenity,56,47,0.8393,0.7219,0.9131,56,0.8036,0.6706,0.9253,44.6038,0.911,0.7965,0.9766
+general_survey gfhm-wz4s,region,PSEG-LI,park_offstreet,56,45,0.8036,0.6816,0.8866,56,0.7645,0.6291,0.8815,44.6038,0.8524,0.6882,0.9619
+general_survey gfhm-wz4s,region,PSEG-LI,park_garage,56,22,0.3929,0.2758,0.5237,56,0.4757,0.3305,0.6103,44.6038,0.6902,0.4549,0.8654
+general_survey gfhm-wz4s,region,PSEG-LI,park_open_lot,56,34,0.6071,0.4763,0.7242,56,0.5665,0.418,0.722,44.6038,0.7332,0.5119,0.8819
+general_survey gfhm-wz4s,region,PSEG-LI,park_street_only,56,2,0.0357,0.0098,0.1212,56,0.0391,0.0,0.0982,44.6038,0.0586,0.0,0.1853
+general_survey gfhm-wz4s,region,PSEG-LI,ev_charging,56,0,0.0,0.0,0.0642,56,0.0,0.0,0.0,44.6038,0.0,0.0,0.0
+general_survey gfhm-wz4s,region,CenHud+O&R,park_any_amenity,86,82,0.9535,0.8864,0.9818,86,0.941,0.876,0.9924,71.7963,0.984,0.959,0.9991
+general_survey gfhm-wz4s,region,CenHud+O&R,park_offstreet,86,74,0.8605,0.7718,0.9183,86,0.8731,0.7984,0.9436,71.7963,0.9341,0.8769,0.9744
+general_survey gfhm-wz4s,region,CenHud+O&R,park_garage,86,27,0.314,0.2256,0.4182,86,0.3063,0.2043,0.4195,71.7963,0.3351,0.1518,0.5159
+general_survey gfhm-wz4s,region,CenHud+O&R,park_open_lot,86,66,0.7674,0.6679,0.8441,86,0.7831,0.6873,0.8657,71.7963,0.8888,0.8077,0.9447
+general_survey gfhm-wz4s,region,CenHud+O&R,park_street_only,86,8,0.093,0.0479,0.173,86,0.0679,0.0233,0.1215,71.7963,0.0499,0.0165,0.1031
+general_survey gfhm-wz4s,region,CenHud+O&R,ev_charging,86,3,0.0349,0.0119,0.0976,86,0.0261,0.0,0.0649,71.7963,0.1079,0.0,0.2986
+general_survey gfhm-wz4s,region,NationalGrid,park_any_amenity,204,160,0.7843,0.7229,0.8352,204,0.7712,0.7021,0.8379,162.3976,0.8458,0.7607,0.9174
+general_survey gfhm-wz4s,region,NationalGrid,park_offstreet,204,150,0.7353,0.6708,0.7911,204,0.7411,0.67,0.8016,162.3976,0.7651,0.667,0.8487
+general_survey gfhm-wz4s,region,NationalGrid,park_garage,204,29,0.1422,0.1008,0.1967,204,0.1426,0.0971,0.198,162.3976,0.238,0.1343,0.3652
+general_survey gfhm-wz4s,region,NationalGrid,park_open_lot,204,136,0.6667,0.5994,0.7277,204,0.6725,0.5988,0.7411,162.3976,0.6293,0.5073,0.7394
+general_survey gfhm-wz4s,region,NationalGrid,park_street_only,204,10,0.049,0.0268,0.0879,204,0.0301,0.0123,0.0515,162.3976,0.0807,0.0251,0.1529
+general_survey gfhm-wz4s,region,NationalGrid,ev_charging,204,5,0.0245,0.0105,0.0561,204,0.0243,0.0048,0.0499,162.3976,0.0545,0.0055,0.1206
+general_survey gfhm-wz4s,region,NYSEG+RG&E,park_any_amenity,213,160,0.7512,0.689,0.8044,213,0.7675,0.7011,0.8228,175.9159,0.8641,0.806,0.9074
+general_survey gfhm-wz4s,region,NYSEG+RG&E,park_offstreet,213,154,0.723,0.6594,0.7787,213,0.7411,0.6822,0.805,175.9159,0.8381,0.7741,0.8858
+general_survey gfhm-wz4s,region,NYSEG+RG&E,park_garage,213,53,0.2488,0.1956,0.311,213,0.2593,0.1988,0.3285,175.9159,0.3872,0.2633,0.5093
+general_survey gfhm-wz4s,region,NYSEG+RG&E,park_open_lot,213,123,0.5775,0.5103,0.6419,213,0.6025,0.5312,0.6794,175.9159,0.6798,0.5721,0.7738
+general_survey gfhm-wz4s,region,NYSEG+RG&E,park_street_only,213,6,0.0282,0.013,0.0601,213,0.0264,0.0071,0.0532,175.9159,0.026,0.0038,0.0631
+general_survey gfhm-wz4s,region,NYSEG+RG&E,ev_charging,213,9,0.0423,0.0224,0.0783,213,0.0567,0.0214,0.0996,175.9159,0.0712,0.0135,0.1461
+general_survey gfhm-wz4s,region,Upstate (NationalGrid+NYSEG+RG&E),park_any_amenity,417,320,0.7674,0.7245,0.8054,417,0.7693,0.7234,0.8143,337.7628,0.855,0.8047,0.8981
+general_survey gfhm-wz4s,region,Upstate (NationalGrid+NYSEG+RG&E),park_offstreet,417,304,0.729,0.6844,0.7694,417,0.7411,0.6928,0.7862,337.7628,0.8019,0.7356,0.8569
+general_survey gfhm-wz4s,region,Upstate (NationalGrid+NYSEG+RG&E),park_garage,417,82,0.1966,0.1613,0.2375,417,0.2009,0.1604,0.2449,337.7628,0.3132,0.2178,0.4031
+general_survey gfhm-wz4s,region,Upstate (NationalGrid+NYSEG+RG&E),park_open_lot,417,259,0.6211,0.5736,0.6664,417,0.6375,0.5849,0.6876,337.7628,0.6547,0.5664,0.7281
+general_survey gfhm-wz4s,region,Upstate (NationalGrid+NYSEG+RG&E),park_street_only,417,16,0.0384,0.0238,0.0614,417,0.0282,0.0138,0.0448,337.7628,0.0531,0.0216,0.0903
+general_survey gfhm-wz4s,region,Upstate (NationalGrid+NYSEG+RG&E),ev_charging,417,14,0.0336,0.0201,0.0556,417,0.0405,0.0198,0.0647,337.7628,0.0629,0.024,0.1125
+general_survey gfhm-wz4s,vintage,1940-1978,park_any_amenity,396,289,0.7298,0.684,0.7712,302,0.6708,0.601,0.7428,204.3588,0.8191,0.7474,0.882
+general_survey gfhm-wz4s,vintage,1940-1978,park_offstreet,396,280,0.7071,0.6604,0.7497,302,0.6494,0.5821,0.7136,204.3588,0.7968,0.7156,0.8628
+general_survey gfhm-wz4s,vintage,1940-1978,park_garage,396,82,0.2071,0.1701,0.2497,302,0.1948,0.1404,0.2495,204.3588,0.3549,0.2415,0.4806
+general_survey gfhm-wz4s,vintage,1940-1978,park_open_lot,396,237,0.5985,0.5495,0.6456,302,0.5533,0.4875,0.6242,204.3588,0.6858,0.5743,0.7728
+general_survey gfhm-wz4s,vintage,1940-1978,park_street_only,396,9,0.0227,0.012,0.0426,302,0.0214,0.0068,0.0404,204.3588,0.0222,0.0077,0.0413
+general_survey gfhm-wz4s,vintage,1940-1978,ev_charging,396,10,0.0253,0.0138,0.0459,302,0.0153,0.0035,0.0309,204.3588,0.0427,0.0025,0.1087
+general_survey gfhm-wz4s,vintage,1979-2006,park_any_amenity,212,130,0.6132,0.5462,0.6762,146,0.5931,0.4856,0.6887,91.9329,0.8044,0.6723,0.8802
+general_survey gfhm-wz4s,vintage,1979-2006,park_offstreet,212,129,0.6085,0.5414,0.6717,146,0.5907,0.4874,0.6908,91.9329,0.7933,0.6517,0.877
+general_survey gfhm-wz4s,vintage,1979-2006,park_garage,212,54,0.2547,0.2008,0.3174,146,0.3588,0.2571,0.4639,91.9329,0.4893,0.2551,0.6917
+general_survey gfhm-wz4s,vintage,1979-2006,park_open_lot,212,98,0.4623,0.3964,0.5295,146,0.418,0.3183,0.5183,91.9329,0.6053,0.3745,0.7801
+general_survey gfhm-wz4s,vintage,1979-2006,park_street_only,212,1,0.0047,0.0008,0.0262,146,0.0024,0.0,0.008,91.9329,0.0111,0.0,0.0403
+general_survey gfhm-wz4s,vintage,1979-2006,ev_charging,212,6,0.0283,0.013,0.0604,146,0.0336,0.0078,0.0684,91.9329,0.0393,0.0029,0.0977
+general_survey gfhm-wz4s,vintage,2007+,park_any_amenity,155,107,0.6903,0.6137,0.7578,104,0.6651,0.5483,0.777,66.886,0.9117,0.8137,0.9585
+general_survey gfhm-wz4s,vintage,2007+,park_offstreet,155,100,0.6452,0.5672,0.7161,104,0.6204,0.5126,0.742,66.886,0.8921,0.7786,0.9503
+general_survey gfhm-wz4s,vintage,2007+,park_garage,155,56,0.3613,0.2899,0.4394,104,0.4736,0.3598,0.6002,66.886,0.7991,0.5914,0.8924
+general_survey gfhm-wz4s,vintage,2007+,park_open_lot,155,71,0.4581,0.3816,0.5366,104,0.4467,0.3246,0.5595,66.886,0.7908,0.5789,0.8833
+general_survey gfhm-wz4s,vintage,2007+,park_street_only,155,7,0.0452,0.022,0.0903,104,0.0447,0.0131,0.0847,66.886,0.0196,0.0034,0.0521
+general_survey gfhm-wz4s,vintage,2007+,ev_charging,155,16,0.1032,0.0645,0.1611,104,0.1104,0.0445,0.1919,66.886,0.0626,0.0194,0.1513
+general_survey gfhm-wz4s,vintage,pre-1940,park_any_amenity,603,191,0.3167,0.2809,0.3549,469,0.2336,0.1928,0.2748,330.2319,0.2199,0.1431,0.3164
+general_survey gfhm-wz4s,vintage,pre-1940,park_offstreet,603,178,0.2952,0.2602,0.3328,469,0.2156,0.1749,0.2525,330.2319,0.1517,0.1118,0.1963
+general_survey gfhm-wz4s,vintage,pre-1940,park_garage,603,46,0.0763,0.0577,0.1003,469,0.0611,0.0401,0.0834,330.2319,0.0677,0.0388,0.1039
+general_survey gfhm-wz4s,vintage,pre-1940,park_open_lot,603,145,0.2405,0.2081,0.2762,469,0.1724,0.1376,0.2099,330.2319,0.1116,0.0765,0.1576
+general_survey gfhm-wz4s,vintage,pre-1940,park_street_only,603,13,0.0216,0.0126,0.0365,469,0.0181,0.0069,0.0318,330.2319,0.0682,0.009,0.1672
+general_survey gfhm-wz4s,vintage,pre-1940,ev_charging,603,2,0.0033,0.0009,0.012,469,0.0,0.0,0.0,330.2319,0.0,0.0,0.0
+site_visits qwyr-7esw,statewide,all,sv_onsite_parking,434,260,0.5991,0.5523,0.6441,409,0.45,0.3901,0.5157,241.7737,,,
+site_visits qwyr-7esw,statewide,all,sv_open_lot,434,221,0.5092,0.4623,0.556,409,0.3638,0.3098,0.4264,241.7737,,,
+site_visits qwyr-7esw,statewide,all,sv_covered_lot,434,12,0.0276,0.0159,0.0477,409,0.0212,0.0065,0.0381,241.7737,,,
+site_visits qwyr-7esw,statewide,all,sv_garage,434,40,0.0922,0.0684,0.1231,409,0.092,0.058,0.1312,241.7737,,,
+site_visits qwyr-7esw,statewide,all,sv_ev_plugin,434,7,0.0161,0.0078,0.0329,409,0.0179,0.0047,0.0363,241.7737,,,
+site_visits qwyr-7esw,statewide,all,svc_has_208V,414,123,0.2971,0.2551,0.3428,391,0.1975,0.1551,0.2456,230.4317,,,
+site_visits qwyr-7esw,size,1-3 floors,sv_onsite_parking,228,172,0.7544,0.6946,0.8057,217,0.5967,0.5129,0.6944,131.706,,,
+site_visits qwyr-7esw,size,1-3 floors,sv_open_lot,228,163,0.7149,0.6531,0.7696,217,0.5607,0.4729,0.6511,131.706,,,
+site_visits qwyr-7esw,size,1-3 floors,sv_covered_lot,228,1,0.0044,0.0008,0.0244,217,0.0057,0.0,0.0184,131.706,,,
+site_visits qwyr-7esw,size,1-3 floors,sv_garage,228,11,0.0482,0.0271,0.0843,217,0.0329,0.0126,0.0603,131.706,,,
+site_visits qwyr-7esw,size,1-3 floors,sv_ev_plugin,228,1,0.0044,0.0008,0.0244,217,0.0057,0.0,0.0182,131.706,,,
+site_visits qwyr-7esw,size,1-3 floors,svc_has_208V,217,35,0.1613,0.1183,0.216,207,0.0815,0.0509,0.1188,125.5623,,,
+site_visits qwyr-7esw,size,4-7 floors,sv_onsite_parking,133,48,0.3609,0.2842,0.4454,123,0.2765,0.1943,0.3682,86.3802,,,
+site_visits qwyr-7esw,size,4-7 floors,sv_open_lot,133,37,0.2782,0.2091,0.3598,123,0.1744,0.1114,0.2505,86.3802,,,
+site_visits qwyr-7esw,size,4-7 floors,sv_covered_lot,133,7,0.0526,0.0257,0.1047,123,0.0404,0.0088,0.0819,86.3802,,,
+site_visits qwyr-7esw,size,4-7 floors,sv_garage,133,12,0.0902,0.0524,0.1511,123,0.1208,0.0557,0.1979,86.3802,,,
+site_visits qwyr-7esw,size,4-7 floors,sv_ev_plugin,133,4,0.0301,0.0118,0.0748,123,0.0263,0.0011,0.0654,86.3802,,,
+site_visits qwyr-7esw,size,4-7 floors,svc_has_208V,129,43,0.3333,0.2578,0.4185,120,0.2768,0.1917,0.3708,84.1869,,,
+site_visits qwyr-7esw,size,8+ floors,sv_onsite_parking,73,40,0.5479,0.4342,0.6569,69,0.4832,0.3492,0.6292,47.3675,,,
+site_visits qwyr-7esw,size,8+ floors,sv_open_lot,73,21,0.2877,0.1965,0.4001,69,0.1499,0.0717,0.257,47.3675,,,
+site_visits qwyr-7esw,size,8+ floors,sv_covered_lot,73,4,0.0548,0.0215,0.1326,69,0.012,0.002,0.028,47.3675,,,
+site_visits qwyr-7esw,size,8+ floors,sv_garage,73,17,0.2329,0.1508,0.3417,69,0.3235,0.1854,0.4549,47.3675,,,
+site_visits qwyr-7esw,size,8+ floors,sv_ev_plugin,73,2,0.0274,0.0075,0.0945,69,0.0507,0.0,0.1253,47.3675,,,
+site_visits qwyr-7esw,size,8+ floors,svc_has_208V,68,45,0.6618,0.5434,0.7629,64,0.5346,0.3896,0.6935,42.8518,,,
+site_visits qwyr-7esw,own,Affordable census block/NOAH,sv_onsite_parking,83,53,0.6386,0.5312,0.7337,81,0.4767,0.3662,0.5967,63.0908,,,
+site_visits qwyr-7esw,own,Affordable census block/NOAH,sv_open_lot,83,48,0.5783,0.4709,0.6788,81,0.4064,0.3017,0.5272,63.0908,,,
+site_visits qwyr-7esw,own,Affordable census block/NOAH,sv_covered_lot,83,2,0.0241,0.0066,0.0837,81,0.0186,0.0,0.051,63.0908,,,
+site_visits qwyr-7esw,own,Affordable census block/NOAH,sv_garage,83,6,0.0723,0.0335,0.1489,81,0.0796,0.0215,0.1554,63.0908,,,
+site_visits qwyr-7esw,own,Affordable census block/NOAH,sv_ev_plugin,83,1,0.012,0.0021,0.0651,81,0.008,0.0,0.0269,63.0908,,,
+site_visits qwyr-7esw,own,Affordable census block/NOAH,svc_has_208V,80,16,0.2,0.127,0.3005,78,0.1523,0.0872,0.2262,60.9517,,,
+site_visits qwyr-7esw,own,Affordable subsidized,sv_onsite_parking,135,96,0.7111,0.6297,0.7809,135,0.5516,0.4607,0.6562,100.1101,,,
+site_visits qwyr-7esw,own,Affordable subsidized,sv_open_lot,135,88,0.6519,0.5683,0.727,135,0.5078,0.4097,0.6077,100.1101,,,
+site_visits qwyr-7esw,own,Affordable subsidized,sv_covered_lot,135,6,0.0444,0.0205,0.0936,135,0.0219,0.0059,0.045,100.1101,,,
+site_visits qwyr-7esw,own,Affordable subsidized,sv_garage,135,5,0.037,0.0159,0.0838,135,0.0381,0.0073,0.0821,100.1101,,,
+site_visits qwyr-7esw,own,Affordable subsidized,sv_ev_plugin,135,1,0.0074,0.0013,0.0408,135,0.0056,0.0,0.0177,100.1101,,,
+site_visits qwyr-7esw,own,Affordable subsidized,svc_has_208V,129,57,0.4419,0.3591,0.528,129,0.3183,0.2449,0.4091,95.4177,,,
+site_visits qwyr-7esw,own,Co-op/condo,sv_onsite_parking,44,17,0.3864,0.2572,0.5338,43,0.3399,0.189,0.4974,35.3107,,,
+site_visits qwyr-7esw,own,Co-op/condo,sv_open_lot,44,8,0.1818,0.0951,0.3196,43,0.1601,0.0577,0.2876,35.3107,,,
+site_visits qwyr-7esw,own,Co-op/condo,sv_covered_lot,44,0,0.0,0.0,0.0803,43,0.0,0.0,0.0,35.3107,,,
+site_visits qwyr-7esw,own,Co-op/condo,sv_garage,44,10,0.2273,0.1284,0.3699,43,0.1799,0.0656,0.3144,35.3107,,,
+site_visits qwyr-7esw,own,Co-op/condo,sv_ev_plugin,44,0,0.0,0.0,0.0803,43,0.0,0.0,0.0,35.3107,,,
+site_visits qwyr-7esw,own,Co-op/condo,svc_has_208V,42,9,0.2143,0.1171,0.3594,41,0.1343,0.045,0.2527,34.1552,,,
+site_visits qwyr-7esw,own,Market-rate rental,sv_onsite_parking,151,85,0.5629,0.4832,0.6395,150,0.4419,0.3571,0.5347,114.4615,,,
+site_visits qwyr-7esw,own,Market-rate rental,sv_open_lot,151,69,0.457,0.3796,0.5365,150,0.362,0.2802,0.4519,114.4615,,,
+site_visits qwyr-7esw,own,Market-rate rental,sv_covered_lot,151,4,0.0265,0.0103,0.0661,150,0.0287,0.0044,0.0627,114.4615,,,
+site_visits qwyr-7esw,own,Market-rate rental,sv_garage,151,17,0.1126,0.0715,0.1729,150,0.0869,0.0413,0.1367,114.4615,,,
+site_visits qwyr-7esw,own,Market-rate rental,sv_ev_plugin,151,5,0.0331,0.0142,0.0752,150,0.0323,0.0046,0.0673,114.4615,,,
+site_visits qwyr-7esw,own,Market-rate rental,svc_has_208V,144,36,0.25,0.1864,0.3266,143,0.2289,0.1561,0.3138,108.95,,,
+site_visits qwyr-7esw,region,ConEd,sv_onsite_parking,180,49,0.2722,0.2125,0.3415,168,0.2121,0.144,0.2868,112.0906,,,
+site_visits qwyr-7esw,region,ConEd,sv_open_lot,180,25,0.1389,0.0959,0.197,168,0.1072,0.0525,0.171,112.0906,,,
+site_visits qwyr-7esw,region,ConEd,sv_covered_lot,180,2,0.0111,0.0031,0.0396,168,0.0108,0.0,0.0332,112.0906,,,
+site_visits qwyr-7esw,region,ConEd,sv_garage,180,24,0.1333,0.0913,0.1907,168,0.1146,0.0655,0.1712,112.0906,,,
+site_visits qwyr-7esw,region,ConEd,sv_ev_plugin,180,3,0.0167,0.0057,0.0478,168,0.0163,0.0,0.0407,112.0906,,,
+site_visits qwyr-7esw,region,ConEd,svc_has_208V,169,46,0.2722,0.2107,0.3438,158,0.1609,0.1038,0.229,106.2409,,,
+site_visits qwyr-7esw,region,PSEG-LI,sv_onsite_parking,57,45,0.7895,0.6671,0.8753,57,0.7318,0.5738,0.8698,36.467,,,
+site_visits qwyr-7esw,region,PSEG-LI,sv_open_lot,57,39,0.6842,0.5552,0.79,57,0.6336,0.4795,0.7827,36.467,,,
+site_visits qwyr-7esw,region,PSEG-LI,sv_covered_lot,57,5,0.0877,0.0381,0.1895,57,0.0818,0.0021,0.1928,36.467,,,
+site_visits qwyr-7esw,region,PSEG-LI,sv_garage,57,5,0.0877,0.0381,0.1895,57,0.1324,0.0275,0.2572,36.467,,,
+site_visits qwyr-7esw,region,PSEG-LI,sv_ev_plugin,57,0,0.0,0.0,0.0631,57,0.0,0.0,0.0,36.467,,,
+site_visits qwyr-7esw,region,PSEG-LI,svc_has_208V,57,25,0.4386,0.3177,0.5672,57,0.448,0.2811,0.6071,36.467,,,
+site_visits qwyr-7esw,region,CenHud+O&R,sv_onsite_parking,42,38,0.9048,0.7793,0.9623,42,0.863,0.7174,0.9705,32.1663,,,
+site_visits qwyr-7esw,region,CenHud+O&R,sv_open_lot,42,36,0.8571,0.7216,0.9328,42,0.8251,0.6788,0.9437,32.1663,,,
+site_visits qwyr-7esw,region,CenHud+O&R,sv_covered_lot,42,1,0.0238,0.0042,0.1232,42,0.0311,0.0,0.1026,32.1663,,,
+site_visits qwyr-7esw,region,CenHud+O&R,sv_garage,42,2,0.0476,0.0132,0.1579,42,0.0135,0.0,0.0355,32.1663,,,
+site_visits qwyr-7esw,region,CenHud+O&R,sv_ev_plugin,42,1,0.0238,0.0042,0.1232,42,0.0311,0.0,0.1034,32.1663,,,
+site_visits qwyr-7esw,region,CenHud+O&R,svc_has_208V,38,6,0.1579,0.0744,0.3042,38,0.0689,0.0124,0.1635,29.3972,,,
+site_visits qwyr-7esw,region,NationalGrid,sv_onsite_parking,81,63,0.7778,0.6758,0.8546,77,0.6891,0.5719,0.8069,57.6031,,,
+site_visits qwyr-7esw,region,NationalGrid,sv_open_lot,81,59,0.7284,0.6228,0.8133,77,0.6317,0.5155,0.7631,57.6031,,,
+site_visits qwyr-7esw,region,NationalGrid,sv_covered_lot,81,2,0.0247,0.0068,0.0856,77,0.0367,0.0,0.092,57.6031,,,
+site_visits qwyr-7esw,region,NationalGrid,sv_garage,81,4,0.0494,0.0194,0.1202,77,0.056,0.0039,0.1166,57.6031,,,
+site_visits qwyr-7esw,region,NationalGrid,sv_ev_plugin,81,0,0.0,0.0,0.0453,77,0.0,0.0,0.0,57.6031,,,
+site_visits qwyr-7esw,region,NationalGrid,svc_has_208V,77,21,0.2727,0.1858,0.3812,73,0.2307,0.1353,0.3491,54.4371,,,
+site_visits qwyr-7esw,region,NYSEG+RG&E,sv_onsite_parking,68,61,0.8971,0.8024,0.9492,65,0.942,0.8703,0.9965,51.2832,,,
+site_visits qwyr-7esw,region,NYSEG+RG&E,sv_open_lot,68,58,0.8529,0.75,0.9181,65,0.8972,0.8142,0.9724,51.2832,,,
+site_visits qwyr-7esw,region,NYSEG+RG&E,sv_covered_lot,68,2,0.0294,0.0081,0.101,65,0.008,0.0,0.0214,51.2832,,,
+site_visits qwyr-7esw,region,NYSEG+RG&E,sv_garage,68,2,0.0294,0.0081,0.101,65,0.0408,0.0,0.1028,51.2832,,,
+site_visits qwyr-7esw,region,NYSEG+RG&E,sv_ev_plugin,68,3,0.0441,0.0151,0.1219,65,0.0466,0.0,0.1115,51.2832,,,
+site_visits qwyr-7esw,region,NYSEG+RG&E,svc_has_208V,67,23,0.3433,0.2409,0.4627,65,0.2643,0.1581,0.3839,51.2832,,,
+site_visits qwyr-7esw,region,Upstate (NationalGrid+NYSEG+RG&E),sv_onsite_parking,149,124,0.8322,0.764,0.8837,142,0.8155,0.7406,0.8822,108.5244,,,
+site_visits qwyr-7esw,region,Upstate (NationalGrid+NYSEG+RG&E),sv_open_lot,149,117,0.7852,0.7126,0.8436,142,0.7644,0.6875,0.8445,108.5244,,,
+site_visits qwyr-7esw,region,Upstate (NationalGrid+NYSEG+RG&E),sv_covered_lot,149,4,0.0268,0.0105,0.067,142,0.0224,0.0019,0.0529,108.5244,,,
+site_visits qwyr-7esw,region,Upstate (NationalGrid+NYSEG+RG&E),sv_garage,149,6,0.0403,0.0186,0.0851,142,0.0484,0.012,0.0957,108.5244,,,
+site_visits qwyr-7esw,region,Upstate (NationalGrid+NYSEG+RG&E),sv_ev_plugin,149,3,0.0201,0.0069,0.0575,142,0.0233,0.0,0.0562,108.5244,,,
+site_visits qwyr-7esw,region,Upstate (NationalGrid+NYSEG+RG&E),svc_has_208V,144,44,0.3056,0.2362,0.385,138,0.2481,0.1722,0.3353,105.2923,,,
+site_visits qwyr-7esw,vintage,1940-1978,sv_onsite_parking,149,115,0.7718,0.6981,0.8319,143,0.784,0.6931,0.8707,91.1258,,,
+site_visits qwyr-7esw,vintage,1940-1978,sv_open_lot,149,93,0.6242,0.5442,0.6979,143,0.6162,0.519,0.7057,91.1258,,,
+site_visits qwyr-7esw,vintage,1940-1978,sv_covered_lot,149,8,0.0537,0.0275,0.1024,143,0.0655,0.0155,0.1284,91.1258,,,
+site_visits qwyr-7esw,vintage,1940-1978,sv_garage,149,21,0.1409,0.0941,0.2059,143,0.1754,0.097,0.2612,91.1258,,,
+site_visits qwyr-7esw,vintage,1940-1978,sv_ev_plugin,149,4,0.0268,0.0105,0.067,143,0.0465,0.0069,0.1039,91.1258,,,
+site_visits qwyr-7esw,vintage,1940-1978,svc_has_208V,142,50,0.3521,0.2784,0.4336,136,0.2619,0.1827,0.3536,85.8068,,,
+site_visits qwyr-7esw,vintage,1979-2006,sv_onsite_parking,58,48,0.8276,0.7109,0.9036,55,0.6243,0.4371,0.8466,23.5998,,,
+site_visits qwyr-7esw,vintage,1979-2006,sv_open_lot,58,43,0.7414,0.6162,0.8365,55,0.4677,0.3084,0.6887,23.5998,,,
+site_visits qwyr-7esw,vintage,1979-2006,sv_covered_lot,58,0,0.0,0.0,0.0621,55,0.0,0.0,0.0,23.5998,,,
+site_visits qwyr-7esw,vintage,1979-2006,sv_garage,58,6,0.1034,0.0483,0.2079,55,0.1566,0.0083,0.3395,23.5998,,,
+site_visits qwyr-7esw,vintage,1979-2006,sv_ev_plugin,58,0,0.0,0.0,0.0621,55,0.0,0.0,0.0,23.5998,,,
+site_visits qwyr-7esw,vintage,1979-2006,svc_has_208V,57,20,0.3509,0.24,0.4806,54,0.1745,0.08,0.3091,22.8721,,,
+site_visits qwyr-7esw,vintage,2007+,sv_onsite_parking,54,43,0.7963,0.671,0.8823,52,0.7189,0.5363,0.8956,28.3079,,,
+site_visits qwyr-7esw,vintage,2007+,sv_open_lot,54,35,0.6481,0.5148,0.7618,52,0.5651,0.3904,0.75,28.3079,,,
+site_visits qwyr-7esw,vintage,2007+,sv_covered_lot,54,4,0.0741,0.0292,0.1755,52,0.0375,0.004,0.102,28.3079,,,
+site_visits qwyr-7esw,vintage,2007+,sv_garage,54,8,0.1481,0.077,0.266,52,0.1608,0.0553,0.3132,28.3079,,,
+site_visits qwyr-7esw,vintage,2007+,sv_ev_plugin,54,2,0.037,0.0102,0.1254,52,0.0283,0.0,0.0871,28.3079,,,
+site_visits qwyr-7esw,vintage,2007+,svc_has_208V,52,29,0.5577,0.4234,0.6841,50,0.4394,0.2658,0.6212,27.623,,,
+site_visits qwyr-7esw,vintage,pre-1940,sv_onsite_parking,172,53,0.3081,0.244,0.3807,158,0.2064,0.1507,0.2714,110.5571,,,
+site_visits qwyr-7esw,vintage,pre-1940,sv_open_lot,172,49,0.2849,0.2227,0.3565,158,0.1831,0.1297,0.2405,110.5571,,,
+site_visits qwyr-7esw,vintage,pre-1940,sv_covered_lot,172,0,0.0,0.0,0.0218,158,0.0,0.0,0.0,110.5571,,,
+site_visits qwyr-7esw,vintage,pre-1940,sv_garage,172,5,0.0291,0.0125,0.0662,158,0.029,0.0038,0.0635,110.5571,,,
+site_visits qwyr-7esw,vintage,pre-1940,sv_ev_plugin,172,1,0.0058,0.001,0.0322,158,0.005,0.0,0.0165,110.5571,,,
+site_visits qwyr-7esw,vintage,pre-1940,svc_has_208V,162,24,0.1481,0.1016,0.211,150,0.131,0.0763,0.1962,105.9707,,,

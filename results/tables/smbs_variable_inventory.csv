@@ -1,0 +1,21 @@
+dataset_id,variables,content,universe,n_nonmissing
+gjv3-iq86,g15,How many EVs are owned or leased by people who live in your home?,all,156
+gjv3-iq86,g16,Where do people who live in your home most often charge EV(s)?,G15>0,8
+gjv3-iq86,g17,How do you pay to use your building's EV charger?,G16=At home,3
+gjv3-iq86,g3,Household income (bands),all,156
+gjv3-iq86,g5,Own or rent,all,156
+gjv3-iq86,g6,Receives rent assistance,all,156
+gjv3-iq86,building_size / ownership_type / iou / climate_zone,derived strata,all,140
+gfhm-wz4s,e14,Amenities (multi): Parking areas; Electric vehicle charging stations; carsharing ...,all,1366
+gfhm-wz4s,"e15, e15_1..3_text","Parking type (multi) + spaces: underground garage, above-ground garage, open lot, street only",E14 has Parking areas,717
+gfhm-wz4s,e16,% of parking spaces assigned to specific tenants,E14 has Parking areas,687
+gfhm-wz4s,"e17, e17_2..5_text",EV charging stations available to occupants: L1/L2/L3/unknown counts,E14 has EV charging,34
+gfhm-wz4s,e18,Do you charge tenants to use the EV chargers?,E14 has EV charging,34
+gfhm-wz4s,e19,Electric metering (direct-metered units / master / submetered),all,1324
+gfhm-wz4s,e3 / strata1 / strata3 / strata4 / e9 / e10,"units, floors, ownership, utility, year built",all,1021
+qwyr-7esw,"parking_type, parking_spaces, parking_management",Parking element per building,site visits,260
+qwyr-7esw,"ev_plugin, ev_charging_types, ev_charging_stations_l1..l3 (+make/model)",EV plug-ins at building,site visits,434
+qwyr-7esw,"dwlg_parking_spots, dwlg_parking_type",Parking spots tied to dwelling unit,sampled units,211
+qwyr-7esw,"dwlg_panel_volts, dwlg_panel_amps(_other)",Dwelling-unit panel rating,sampled units,563
+qwyr-7esw,"dwlg_service_* / elec_service_equip_* (type, volts, amps, phase)",Dwelling / building service equipment,site visits,431
+qwyr-7esw,"electricity_provider, building_stories_above_grade, building_ownership_type, year_constructed",strata,site visits,428

@@ -1,0 +1,109 @@
+[
+  {
+    "local_path": "data/raw/nyserda_smbs/Multifamily-Market-Assessment-Appendix.pdf",
+    "url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/building-stock-potential-studies/Multifamily-Market-Assessment-Appendix.pdf",
+    "params": {},
+    "retrieved_utc": "2026-09-14T08:44:06+00:00",
+    "bytes": 13186547,
+    "sha256": "1afcefae3a7118df0ffc58f5ea09bf38002b47ca319539ea009dbec4ccfd1fd0",
+    "note": "NYSERDA Multifamily Market Assessment (SMBS 2022) public report"
+  },
+  {
+    "local_path": "data/raw/nyserda_smbs/Multifamily-Market-Assessment-Report.pdf",
+    "url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/building-stock-potential-studies/Multifamily-Market-Assessment-Report.pdf",
+    "params": {},
+    "retrieved_utc": "2026-09-14T08:44:04+00:00",
+    "bytes": 4123174,
+    "sha256": "653dd6df7ef7a024ba132d49caa51e9b6254233dc36e93445cf7deeab23ca431",
+    "note": "NYSERDA Multifamily Market Assessment (SMBS 2022) public report"
+  },
+  {
+    "local_path": "data/raw/nyserda_smbs/NYSERDA_MFBuildingStudyGeneralSurvey2022_DataDictionary.pdf",
+    "url": "https://data.ny.gov/api/views/gfhm-wz4s/files/bf469962-ad65-4df0-997d-e2c8d678238a?download=true&filename=NYSERDA_MFBuildingStudyGeneralSurvey2022_DataDictionary.pdf",
+    "params": {},
+    "retrieved_utc": "2026-09-14T08:44:01+00:00",
+    "bytes": 213192,
+    "sha256": "7e028ebbd21e1d77baf4c037ddfed04e16c8b7998a33cd0c368d2ef19bcfd0b2",
+    "note": "attachment of gfhm-wz4s: Statewide Multifamily Building Study (SMBS): 2022 General Survey"
+  },
+  {
+    "local_path": "data/raw/nyserda_smbs/NYSERDA_MFBuildingStudyGeneralSurvey2022_Overview.pdf",
+    "url": "https://data.ny.gov/api/views/gfhm-wz4s/files/b06f2bfc-80f4-4c25-93aa-51ed4786375e?download=true&filename=NYSERDA_MFBuildingStudyGeneralSurvey2022_Overview.pdf",
+    "params": {},
+    "retrieved_utc": "2026-09-14T08:44:00+00:00",
+    "bytes": 141599,
+    "sha256": "bf1e528518afd961c6cc39a0ff7fdb2e908c2f7725bd23b567a2d382cf2c007f",
+    "note": "attachment of gfhm-wz4s: Statewide Multifamily Building Study (SMBS): 2022 General Survey"
+  },
+  {
+    "local_path": "data/raw/nyserda_smbs/NYSERDA_MFBuildingStudyOccupantSurvey2022_DataDictionary.pdf",
+    "url": "https://data.ny.gov/api/views/gjv3-iq86/files/5db31569-9ed3-4f21-819d-5086878f1cfd?download=true&filename=NYSERDA_MFBuildingStudyOccupantSurvey2022_DataDictionary.pdf",
+    "params": {},
+    "retrieved_utc": "2026-09-14T08:43:59+00:00",
+    "bytes": 212452,
+    "sha256": "d2e66925ee591d3baa8cad838a32e5312969916dec07f3e44481cac5690b010e",
+    "note": "attachment of gjv3-iq86: Statewide Multifamily Building Study (SMBS): 2022 Occupant Survey"
+  },
+  {
+    "local_path": "data/raw/nyserda_smbs/NYSERDA_MFBuildingStudyOccupantSurvey2022_Overview.pdf",
+    "url": "https://data.ny.gov/api/views/gjv3-iq86/files/174f2370-c63e-4ece-8223-fddec3fb1138?download=true&filename=NYSERDA_MFBuildingStudyOccupantSurvey2022_Overview.pdf",
+    "params": {},
+    "retrieved_utc": "2026-09-14T08:43:59+00:00",
+    "bytes": 141164,
+    "sha256": "17a1008e5873250216483e385ba19d043aac50efba827ad05fa45cda7ac0bfb6",
+    "note": "attachment of gjv3-iq86: Statewide Multifamily Building Study (SMBS): 2022 Occupant Survey"
+  },
+  {
+    "local_path": "data/raw/nyserda_smbs/NYSERDA_MFBuildingStudySiteVisits2022_DataDictionary.pdf",
+    "url": "https://data.ny.gov/api/views/qwyr-7esw/files/923e83ac-5b9e-42ca-8b8b-d1c46fc7d2a8?download=true&filename=NYSERDA_MFBuildingStudySiteVisits2022_DataDictionary.pdf",
+    "params": {},
+    "retrieved_utc": "2026-09-14T08:44:04+00:00",
+    "bytes": 89966,
+    "sha256": "ca55da517ef39f8b9a1d5770082126b6ce28f084c31c236038c29d8454bc8659",
+    "note": "attachment of qwyr-7esw: Statewide Multifamily Building Study (SMBS): 2022 Site Visits"
+  },
+  {
+    "local_path": "data/raw/nyserda_smbs/NYSERDA_MFBuildingStudySiteVisits2022_Overview.pdf",
+    "url": "https://data.ny.gov/api/views/qwyr-7esw/files/3e74d7eb-9bb0-49bc-b1a3-7d8a89c7fd44?download=true&filename=NYSERDA_MFBuildingStudySiteVisits2022_Overview.pdf",
+    "params": {},
+    "retrieved_utc": "2026-09-14T08:44:03+00:00",
+    "bytes": 142323,
+    "sha256": "feadc3b7f4fbad59c8a4a90f9f13078550f2f6edea439b00c62421774d9c88b4",
+    "note": "attachment of qwyr-7esw: Statewide Multifamily Building Study (SMBS): 2022 Site Visits"
+  },
+  {
+    "local_path": "data/raw/nyserda_smbs/smbs2022_general_survey.parquet",
+    "url": "https://data.ny.gov/resource/gfhm-wz4s.csv",
+    "dataset_id": "gfhm-wz4s",
+    "dataset_name": "Statewide Multifamily Building Study (SMBS): 2022 General Survey",
+    "source_rows_updated_utc": "2026-08-21T15:52:01+00:00",
+    "params": {},
+    "retrieved_utc": "2026-09-14T08:43:58+00:00",
+    "rows": 0,
+    "bytes": 230422,
+    "sha256_parquet": "9106131aed510090621d4a7e9ddb922261fe573109f41dd4b84d3ca12a8ea9e1",
+    "note": "SMBS 2022 full table (all rows/columns, strings)"
+  },
+  {
+    "local_path": "data/raw/nyserda_smbs/smbs2022_occupant_survey.parquet",
+    "url": "https://data.ny.gov/resource/gjv3-iq86.csv",
+    "dataset_id": "gjv3-iq86",
+    "dataset_name": "Statewide Multifamily Building Study (SMBS): 2022 Occupant Survey",
+    "source_rows_updated_utc": "2026-09-08T19:27:39+00:00",
+    "params": {},
+    "retrieved_utc": "2026-09-14T08:43:55+00:00",
+    "rows": 0,
+    "bytes": 95487,
+    "sha256_parquet": "5283c08c8b4184e47965db2f5ab2de9ba930097e2760e88e84a35cdeb153b299",
+    "note": "SMBS 2022 full table (all rows/columns, strings)"
+  },
+  {
+    "local_path": "data/raw/nyserda_smbs/smbs2022_site_visits.xlsx",
+    "url": "https://data.ny.gov/api/views/qwyr-7esw/files/8cbd01d5-f1d6-48bb-96b8-847ca468cebf?download=true",
+    "params": {},
+    "retrieved_utc": "2026-09-14T08:44:03+00:00",
+    "bytes": 8744168,
+    "sha256": "80c93057921c36f4459946422fc11632d1d683e0b0d71704fd79a4ad6026aeaf",
+    "note": "Statewide Multifamily Building Study (SMBS): 2022 Site Visits (blob: NYSERDA MF Building Study Site Visits 2022 Data.xlsx)"
+  }
+]

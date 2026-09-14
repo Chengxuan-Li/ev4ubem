@@ -1,0 +1,100 @@
+source,variable,universe,domain,category,n,count,share_unweighted,share_weighted,n_weighted
+general_survey gfhm-wz4s,e16,buildings with parking areas (E14),statewide,76 – 100%,687,240,0.3493,0.3987,510
+general_survey gfhm-wz4s,e16,buildings with parking areas (E14),statewide,None,687,232,0.3377,0.2472,510
+general_survey gfhm-wz4s,e16,buildings with parking areas (E14),statewide,51 – 75%,687,77,0.1121,0.1664,510
+general_survey gfhm-wz4s,e16,buildings with parking areas (E14),statewide,1 – 25%,687,65,0.0946,0.0939,510
+general_survey gfhm-wz4s,e16,buildings with parking areas (E14),statewide,26 – 50%,687,60,0.0873,0.0714,510
+general_survey gfhm-wz4s,e16,buildings with parking areas (E14),statewide,Don't know,687,13,0.0189,0.0224,510
+general_survey gfhm-wz4s,e16,buildings with parking areas,ConEd,76 – 100%,87,47,0.5402,0.5396,87
+general_survey gfhm-wz4s,e16,buildings with parking areas,ConEd,None,87,17,0.1954,0.1595,87
+general_survey gfhm-wz4s,e16,buildings with parking areas,ConEd,51 – 75%,87,8,0.092,0.1265,87
+general_survey gfhm-wz4s,e16,buildings with parking areas,ConEd,26 – 50%,87,6,0.069,0.0522,87
+general_survey gfhm-wz4s,e16,buildings with parking areas,ConEd,Don't know,87,5,0.0575,0.0482,87
+general_survey gfhm-wz4s,e16,buildings with parking areas,ConEd,1 – 25%,87,4,0.046,0.074,87
+general_survey gfhm-wz4s,e16,buildings with parking areas,NYSEG+RG&E,None,154,53,0.3442,0.3063,154
+general_survey gfhm-wz4s,e16,buildings with parking areas,NYSEG+RG&E,76 – 100%,154,47,0.3052,0.3504,154
+general_survey gfhm-wz4s,e16,buildings with parking areas,NYSEG+RG&E,26 – 50%,154,19,0.1234,0.0958,154
+general_survey gfhm-wz4s,e16,buildings with parking areas,NYSEG+RG&E,1 – 25%,154,18,0.1169,0.1342,154
+general_survey gfhm-wz4s,e16,buildings with parking areas,NYSEG+RG&E,51 – 75%,154,16,0.1039,0.104,154
+general_survey gfhm-wz4s,e16,buildings with parking areas,NYSEG+RG&E,Don't know,154,1,0.0065,0.0092,154
+general_survey gfhm-wz4s,e16,buildings with parking areas,Upstate (NationalGrid+NYSEG+RG&E),None,304,120,0.3947,0.3781,304
+general_survey gfhm-wz4s,e16,buildings with parking areas,Upstate (NationalGrid+NYSEG+RG&E),76 – 100%,304,84,0.2763,0.3141,304
+general_survey gfhm-wz4s,e16,buildings with parking areas,Upstate (NationalGrid+NYSEG+RG&E),26 – 50%,304,37,0.1217,0.1059,304
+general_survey gfhm-wz4s,e16,buildings with parking areas,Upstate (NationalGrid+NYSEG+RG&E),1 – 25%,304,34,0.1118,0.1096,304
+general_survey gfhm-wz4s,e16,buildings with parking areas,Upstate (NationalGrid+NYSEG+RG&E),51 – 75%,304,26,0.0855,0.0813,304
+general_survey gfhm-wz4s,e16,buildings with parking areas,Upstate (NationalGrid+NYSEG+RG&E),Don't know,304,3,0.0099,0.0109,304
+general_survey gfhm-wz4s,e18,buildings with EV charging (E14),statewide,"Yes, charge per kilowatt-hour",34,10,0.2941,0.3116,22
+general_survey gfhm-wz4s,e18,buildings with EV charging (E14),statewide,"No, its free",34,8,0.2353,0.176,22
+general_survey gfhm-wz4s,e18,buildings with EV charging (E14),statewide,"No, tenants pay for the charger use on their electric bill",34,6,0.1765,0.1891,22
+general_survey gfhm-wz4s,e18,buildings with EV charging (E14),statewide,"Yes, monthly charge",34,4,0.1176,0.187,22
+general_survey gfhm-wz4s,e18,buildings with EV charging (E14),statewide,"Yes, included in rent",34,3,0.0882,0.0908,22
+general_survey gfhm-wz4s,e18,buildings with EV charging (E14),statewide,"Yes, flat fee each time charged",34,2,0.0588,0.0,22
+general_survey gfhm-wz4s,e18,buildings with EV charging (E14),statewide,Don't know,34,1,0.0294,0.0456,22
+general_survey gfhm-wz4s,e19,all buildings (electric metering),statewide,Direct-metered living units,1324,824,0.6224,0.6669,988
+general_survey gfhm-wz4s,e19,all buildings (electric metering),statewide,Master meter with living unit submeters,1324,335,0.253,0.2435,988
+general_survey gfhm-wz4s,e19,all buildings (electric metering),statewide,Master meter only,1324,154,0.1163,0.0834,988
+general_survey gfhm-wz4s,e19,all buildings (electric metering),statewide,Other,1324,11,0.0083,0.0061,988
+general_survey gfhm-wz4s,e15,buildings with parking areas (raw E15 multi-select),statewide,Open parking lot (Enter number of parking spaces),717,367,0.5119,0.4962,540
+general_survey gfhm-wz4s,e15,buildings with parking areas (raw E15 multi-select),statewide,"Underground parking garage (Enter number of parking spaces),Above-ground parking garage (Enter number of parking spaces),Open parking lot (Enter number of parking spaces)",717,140,0.1953,0.1617,540
+general_survey gfhm-wz4s,e15,buildings with parking areas (raw E15 multi-select),statewide,Above-ground parking garage (Enter number of parking spaces),717,58,0.0809,0.0932,540
+general_survey gfhm-wz4s,e15,buildings with parking areas (raw E15 multi-select),statewide,"Above-ground parking garage (Enter number of parking spaces),Open parking lot (Enter number of parking spaces)",717,54,0.0753,0.1033,540
+general_survey gfhm-wz4s,e15,buildings with parking areas (raw E15 multi-select),statewide,Street parking only,717,30,0.0418,0.0474,540
+general_survey gfhm-wz4s,e15,buildings with parking areas (raw E15 multi-select),statewide,"Underground parking garage (Enter number of parking spaces),Open parking lot (Enter number of parking spaces)",717,27,0.0377,0.0386,540
+general_survey gfhm-wz4s,e15,buildings with parking areas (raw E15 multi-select),statewide,Underground parking garage (Enter number of parking spaces),717,25,0.0349,0.0357,540
+general_survey gfhm-wz4s,e15,buildings with parking areas (raw E15 multi-select),statewide,"Underground parking garage (Enter number of parking spaces),Above-ground parking garage (Enter number of parking spaces)",717,16,0.0223,0.0239,540
+occupant_survey gjv3-iq86,g15,all households (raw G15),statewide,None,156,147,0.9423,0.9706,139
+occupant_survey gjv3-iq86,g15,all households (raw G15),statewide,One,156,5,0.0321,0.0104,139
+occupant_survey gjv3-iq86,g15,all households (raw G15),statewide,Three or more,156,3,0.0192,0.0189,139
+occupant_survey gjv3-iq86,g15,all households (raw G15),statewide,(None),156,1,0.0064,0.0,139
+occupant_survey gjv3-iq86,g16,households with >=1 EV,statewide,Public charging stations,8,5,0.625,0.6384,6
+occupant_survey gjv3-iq86,g16,households with >=1 EV,statewide,At home,8,3,0.375,0.3616,6
+occupant_survey gjv3-iq86,g17,households with >=1 EV (skip: G16=home),statewide,Itâ€™s free,3,1,0.3333,0.2867,3
+occupant_survey gjv3-iq86,g17,households with >=1 EV (skip: G16=home),statewide,Don’t know,3,1,0.3333,0.2681,3
+occupant_survey gjv3-iq86,g17,households with >=1 EV (skip: G16=home),statewide,My building does not provide electric vehicle chargers,3,1,0.3333,0.4452,3
+site_visits qwyr-7esw,sv_parking_class,all site-visit buildings,statewide,covered/open lot,434,219,0.5046,0.3567,409
+site_visits qwyr-7esw,sv_parking_class,all site-visit buildings,statewide,none recorded,434,174,0.4009,0.55,409
+site_visits qwyr-7esw,sv_parking_class,all site-visit buildings,statewide,garage (any),434,40,0.0922,0.092,409
+site_visits qwyr-7esw,sv_parking_class,all site-visit buildings,statewide,other,434,1,0.0023,0.0012,409
+site_visits qwyr-7esw,sv_parking_class,site-visit buildings,ConEd,none recorded,180,131,0.7278,0.7879,168
+site_visits qwyr-7esw,sv_parking_class,site-visit buildings,ConEd,covered/open lot,180,24,0.1333,0.0955,168
+site_visits qwyr-7esw,sv_parking_class,site-visit buildings,ConEd,garage (any),180,24,0.1333,0.1146,168
+site_visits qwyr-7esw,sv_parking_class,site-visit buildings,ConEd,other,180,1,0.0056,0.002,168
+site_visits qwyr-7esw,sv_parking_class,site-visit buildings,PSEG-LI,covered/open lot,57,40,0.7018,0.5994,57
+site_visits qwyr-7esw,sv_parking_class,site-visit buildings,PSEG-LI,none recorded,57,12,0.2105,0.2682,57
+site_visits qwyr-7esw,sv_parking_class,site-visit buildings,PSEG-LI,garage (any),57,5,0.0877,0.1324,57
+site_visits qwyr-7esw,sv_parking_class,site-visit buildings,CenHud+O&R,covered/open lot,42,36,0.8571,0.8495,42
+site_visits qwyr-7esw,sv_parking_class,site-visit buildings,CenHud+O&R,none recorded,42,4,0.0952,0.137,42
+site_visits qwyr-7esw,sv_parking_class,site-visit buildings,CenHud+O&R,garage (any),42,2,0.0476,0.0135,42
+site_visits qwyr-7esw,sv_parking_class,site-visit buildings,NationalGrid,covered/open lot,81,59,0.7284,0.6331,77
+site_visits qwyr-7esw,sv_parking_class,site-visit buildings,NationalGrid,none recorded,81,18,0.2222,0.3109,77
+site_visits qwyr-7esw,sv_parking_class,site-visit buildings,NationalGrid,garage (any),81,4,0.0494,0.056,77
+site_visits qwyr-7esw,sv_parking_class,site-visit buildings,NYSEG+RG&E,covered/open lot,68,59,0.8676,0.9012,65
+site_visits qwyr-7esw,sv_parking_class,site-visit buildings,NYSEG+RG&E,none recorded,68,7,0.1029,0.058,65
+site_visits qwyr-7esw,sv_parking_class,site-visit buildings,NYSEG+RG&E,garage (any),68,2,0.0294,0.0408,65
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,ConEd,<=60 A,211,103,0.4882,0.5593,194
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,ConEd,61-100 A,211,64,0.3033,0.2654,194
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,ConEd,101-150 A,211,33,0.1564,0.1286,194
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,ConEd,>150 A,211,11,0.0521,0.0467,194
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,PSEG-LI,<=60 A,83,47,0.5663,0.633,83
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,PSEG-LI,61-100 A,83,29,0.3494,0.3031,83
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,PSEG-LI,101-150 A,83,7,0.0843,0.064,83
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,CenHud+O&R,61-100 A,50,19,0.38,0.4654,50
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,CenHud+O&R,<=60 A,50,14,0.28,0.288,50
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,CenHud+O&R,101-150 A,50,10,0.2,0.1589,50
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,CenHud+O&R,>150 A,50,7,0.14,0.0878,50
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,NationalGrid,61-100 A,123,82,0.6667,0.7364,115
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,NationalGrid,101-150 A,123,20,0.1626,0.0848,115
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,NationalGrid,<=60 A,123,12,0.0976,0.1095,115
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,NationalGrid,>150 A,123,9,0.0732,0.0693,115
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,NYSEG+RG&E,61-100 A,89,53,0.5955,0.5643,86
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,NYSEG+RG&E,101-150 A,89,19,0.2135,0.2753,86
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,NYSEG+RG&E,<=60 A,89,14,0.1573,0.1159,86
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,NYSEG+RG&E,>150 A,89,3,0.0337,0.0445,86
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,statewide,61-100 A,563,247,0.4387,0.3837,528
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,statewide,<=60 A,563,195,0.3464,0.4296,528
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,statewide,101-150 A,563,91,0.1616,0.1382,528
+site_visits qwyr-7esw,amps_bin,dwelling units with panel amps,statewide,>150 A,563,30,0.0533,0.0486,528
+site_visits qwyr-7esw,dwlg_parking_spots,dwelling units with spots recorded (blank = not recorded),statewide,1.0,211,158,0.7488,,0
+site_visits qwyr-7esw,dwlg_parking_spots,dwelling units with spots recorded (blank = not recorded),statewide,2.0,211,40,0.1896,,0
+site_visits qwyr-7esw,dwlg_parking_spots,dwelling units with spots recorded (blank = not recorded),statewide,0.0,211,12,0.0569,,0
+site_visits qwyr-7esw,dwlg_parking_spots,dwelling units with spots recorded (blank = not recorded),statewide,4.0,211,1,0.0047,,0

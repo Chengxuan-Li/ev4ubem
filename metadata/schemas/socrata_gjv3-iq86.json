@@ -1,0 +1,837 @@
+{
+  "id": "gjv3-iq86",
+  "name": "Statewide Multifamily Building Study (SMBS): 2022 Occupant Survey",
+  "description": "The 2022 NYSERDA Statewide Multifamily Building Study (SMBS) is the first multifamily building stock assessment to characterize the estimated 2.6 million multifamily dwelling units throughout New York State (NYS). The SMBS collected data about New York buildings through two primary means\u2014online and phone surveys and site visits.\n\nThis dataset includes the findings from the online and phone surveys conducted statewide with 135 building occupants between June 2022 and January 2023. \n\nThe New York State Energy Research and Development Authority (NYSERDA) offers objective information and analysis, innovative programs, technical expertise, and support to help New Yorkers increase energy efficiency, save money, use renewable energy, accelerate economic growth, and reduce reliance on fossil fuels. To learn more about NYSERDA\u2019s programs, visit nyserda.ny.gov or follow us on X, Facebook, YouTube, or Instagram.",
+  "attribution": "New York State Energy Research and Development Authority (NYSERDA)",
+  "rowsUpdatedAt_utc": "2026-09-08T19:27:39+00:00",
+  "columns": [
+    {
+      "fieldName": "duration_in_seconds",
+      "name": "Duration (in seconds)",
+      "dataTypeName": "number",
+      "description": "Question Asked: Duration (in seconds). Response Options: integer"
+    },
+    {
+      "fieldName": "recordeddate",
+      "name": "RecordedDate",
+      "dataTypeName": "calendar_date",
+      "description": "Question Asked: Recorded Date. Response Options: float"
+    },
+    {
+      "fieldName": "responseid",
+      "name": "ResponseId",
+      "dataTypeName": "text",
+      "description": "Question Asked: Response ID. Response Options: unique ID"
+    },
+    {
+      "fieldName": "userlanguage",
+      "name": "UserLanguage",
+      "dataTypeName": "text",
+      "description": "Question Asked: User Language. Response Options: EN, en-US"
+    },
+    {
+      "fieldName": "c1",
+      "name": "C1",
+      "dataTypeName": "text",
+      "description": "Question Asked: What type of heating system do you primarily use to heat your home? - Selected Choice. Response Options: Baseboard or wall electric heat, Radiators (hot water or steam), Baseboard radiant heat with central boiler, Furnace with ducts to individual rooms, Something else \u2013 what is it?, Don't know, Ductless heat pump, Through-the-wall air conditioner or heat pump, Portable electric heater, Heat pump with ducts to individual rooms"
+    },
+    {
+      "fieldName": "c1_12_text",
+      "name": "C1_12_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: What type of heating system do you primarily use to heat your home? - Something else \u2013 what is it? - Text. Response Options: HVAC units, pipe in bathroom, Central Air, Wall furnace, Heat through the floors, Forced Air Furnace"
+    },
+    {
+      "fieldName": "c2",
+      "name": "C2",
+      "dataTypeName": "text",
+      "description": "Question Asked: Do you use any other heating systems in your home? Select all that apply. - Selected Choice. Response Options: No other heating systems, Portable electric heater, Don't know, Fireplace, Baseboard or wall electric heat, Radiators (hot water or steam), Through-the-wall air conditioner or heat pump, Furnace with ducts to individual rooms, Baseboard radiant heat with central boiler"
+    },
+    {
+      "fieldName": "c2_13_text",
+      "name": "C2_13_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: Do you use any other heating systems in your home? Select all that apply. - Something else \u2013 what is it? - Text. Response Options: free text entry"
+    },
+    {
+      "fieldName": "c3_1",
+      "name": "C3_1",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use heating, how often do you use your: - No other heating systems. Response Options: free text entry"
+    },
+    {
+      "fieldName": "c3_2",
+      "name": "C3_2",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use heating, how often do you use your: - Baseboard or wall electric heat. Response Options: Never, Always, About half the time, Most of the time, Sometimes"
+    },
+    {
+      "fieldName": "c3_3",
+      "name": "C3_3",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use heating, how often do you use your: - Baseboard radiant heat with central boiler. Response Options: Never"
+    },
+    {
+      "fieldName": "c3_4",
+      "name": "C3_4",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use heating, how often do you use your: - Ductless heat pump. Response Options: free text entry"
+    },
+    {
+      "fieldName": "c3_5",
+      "name": "C3_5",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use heating, how often do you use your: - Furnace with ducts to individual rooms. Response Options: Most of the time"
+    },
+    {
+      "fieldName": "c3_6",
+      "name": "C3_6",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use heating, how often do you use your: - Heat pump with ducts to individual rooms. Response Options: free text entry"
+    },
+    {
+      "fieldName": "c3_7",
+      "name": "C3_7",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use heating, how often do you use your: - Fireplace. Response Options: Sometimes"
+    },
+    {
+      "fieldName": "c3_8",
+      "name": "C3_8",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use heating, how often do you use your: - Heating stove burning wood or coal. Response Options: free text entry"
+    },
+    {
+      "fieldName": "c3_9",
+      "name": "C3_9",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use heating, how often do you use your: - Through-the-wall air conditioner or heat pump. Response Options: Sometimes"
+    },
+    {
+      "fieldName": "c3_10",
+      "name": "C3_10",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use heating, how often do you use your: - Portable electric heater. Response Options: Sometimes, Most of the time, About half the time"
+    },
+    {
+      "fieldName": "c3_11",
+      "name": "C3_11",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use heating, how often do you use your: - Radiators (hot water or steam). Response Options: Always"
+    },
+    {
+      "fieldName": "c3_12",
+      "name": "C3_12",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use heating, how often do you use your: - Wood pellet stove. Response Options: free text entry"
+    },
+    {
+      "fieldName": "c3_13",
+      "name": "C3_13",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use heating, how often do you use your: - Something else \u2013 what is it?. Response Options: free text entry"
+    },
+    {
+      "fieldName": "c3_13_text",
+      "name": "C3_13_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use heating, how often do you use your: - Something else \u2013 what is it? - Text. Response Options: free text entry"
+    },
+    {
+      "fieldName": "c3_14",
+      "name": "C3_14",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use heating, how often do you use your: - Don't know. Response Options: free text entry"
+    },
+    {
+      "fieldName": "c4",
+      "name": "C4",
+      "dataTypeName": "text",
+      "description": "Question Asked: Do you have a fireplace or heating stove in your home?. Response Options: Neither, Heating stove, Both, Fireplace, (Neither)"
+    },
+    {
+      "fieldName": "c5",
+      "name": "C5",
+      "dataTypeName": "text",
+      "description": "Question Asked: About how often do you use the fireplace or heating stove in your home during the winter?. Response Options: Once a week, Nearly every day, Rarely, Never, Once a month"
+    },
+    {
+      "fieldName": "c6",
+      "name": "C6",
+      "dataTypeName": "text",
+      "description": "Question Asked: What is the primary type of cooling equipment you use in your home? - Selected Choice. Response Options: Window air conditioner, Through-the-wall air conditioner or heat pump, Central air conditioner system with ducts to individual rooms, Something else \u2013 what is it?, No air conditioning, Ductless heat pump, Don't know"
+    },
+    {
+      "fieldName": "c6_7_text",
+      "name": "C6_7_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: What is the primary type of cooling equipment you use in your home? - Something else \u2013 what is it? - Text. Response Options: HVAC unit, Air conditioner in wall, Fan, Each tenant supplies their own AC, Split unit ductless, Portable Air conditioner, ceiling fan and window fans, HVAC chiller system"
+    },
+    {
+      "fieldName": "c7",
+      "name": "C7",
+      "dataTypeName": "text",
+      "description": "Question Asked: Do you use any other cooling systems in your home? Select all that apply. - Selected Choice. Response Options: No other cooling systems, Something else \u2013 what is it?, Window air conditioner, Central air conditioner system with ducts to individual rooms, Through-the-wall air conditioner or heat pump, Window air conditioner, Don't know"
+    },
+    {
+      "fieldName": "c7_7_text",
+      "name": "C7_7_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: Do you use any other cooling systems in your home? Select all that apply. - Something else \u2013 what is it? - Text. Response Options: text"
+    },
+    {
+      "fieldName": "c8_1",
+      "name": "C8_1",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use cooling, how often do you use your: - No other cooling systems. Response Options: free text entry"
+    },
+    {
+      "fieldName": "c8_2",
+      "name": "C8_2",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use cooling, how often do you use your: - Central air conditioner system with ducts to individual rooms. Response Options: About half of the time, Always, Most of the time"
+    },
+    {
+      "fieldName": "c8_3",
+      "name": "C8_3",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use cooling, how often do you use your: - Ductless heat pump. Response Options: free text entry"
+    },
+    {
+      "fieldName": "c8_4",
+      "name": "C8_4",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use cooling, how often do you use your: - Heat pump with ducts to individual rooms. Response Options: free text entry"
+    },
+    {
+      "fieldName": "c8_5",
+      "name": "C8_5",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use cooling, how often do you use your: - Through-the-wall air conditioner or heat pump. Response Options: Most of the time, About half of the time"
+    },
+    {
+      "fieldName": "c8_6",
+      "name": "C8_6",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use cooling, how often do you use your: - Window air conditioner. Response Options: Most of the time, Occasionally or rarely, About half of the time, Always"
+    },
+    {
+      "fieldName": "c8_7",
+      "name": "C8_7",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use cooling, how often do you use your: - Something else \u2013 what is it?. Response Options: About half of the time, Occasionally or rarely, Always, Most of the time"
+    },
+    {
+      "fieldName": "c8_7_text",
+      "name": "C8_7_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use cooling, how often do you use your: - Something else \u2013 what is it? - Text. Response Options: free text entry"
+    },
+    {
+      "fieldName": "c8_8",
+      "name": "C8_8",
+      "dataTypeName": "text",
+      "description": "Question Asked: On days when you need to use cooling, how often do you use your: - Don't know. Response Options: free text entry"
+    },
+    {
+      "fieldName": "c9",
+      "name": "C9",
+      "dataTypeName": "text",
+      "description": "Question Asked: Do you ever leave windows open during the winter?. Response Options: No, Yes"
+    },
+    {
+      "fieldName": "c10",
+      "name": "C10",
+      "dataTypeName": "text",
+      "description": "Question Asked: Who owns the window air conditioner(s) in your home? Select all that apply.. Response Options: We own some or all the window AC units, The building owns some or all the window AC units"
+    },
+    {
+      "fieldName": "c11",
+      "name": "C11",
+      "dataTypeName": "text",
+      "description": "Question Asked: Are you able to use a thermostat to change your home\u2019s heating temperature?. Response Options: Yes, No"
+    },
+    {
+      "fieldName": "c12",
+      "name": "C12",
+      "dataTypeName": "text",
+      "description": "Question Asked: Are you able to use a thermostat to change your home\u2019s cooling temperature?. Response Options: No, Yes"
+    },
+    {
+      "fieldName": "c13_1_1",
+      "name": "C13_1_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: To what temperature do you usually set your thermostat? - Typical heating setpoint? - Temperature:. Response Options: integer"
+    },
+    {
+      "fieldName": "c13_2_1",
+      "name": "C13_2_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: To what temperature do you usually set your thermostat? - Heating setpoint when away from home or sleeping? - Temperature:. Response Options: integer"
+    },
+    {
+      "fieldName": "c13_3_1",
+      "name": "C13_3_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: To what temperature do you usually set your thermostat? - Typical cooling setpoint? - Temperature:. Response Options: integer"
+    },
+    {
+      "fieldName": "c13_4_1",
+      "name": "C13_4_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: To what temperature do you usually set your thermostat? - Cooling setpoint when away or sleeping? - Temperature:. Response Options: integer"
+    },
+    {
+      "fieldName": "c14",
+      "name": "C14",
+      "dataTypeName": "text",
+      "description": "Question Asked: How often do you use the ventilation fan above your stove in the kitchen?. Response Options: We sometimes use it when we cook, We use it every time we cook, We rarely use it when we cook, There is no ventilation fan in the kitchen, It stays on all the time, We never use it"
+    },
+    {
+      "fieldName": "c15",
+      "name": "C15",
+      "dataTypeName": "text",
+      "description": "Question Asked: How often do you use the ventilation fan(s) in your bathroom(s)?. Response Options: I rarely use them, They stay on all the time, I use them every time I shower or bathe, I never use them, There are no ventilation fan(s) in our bathroom(s), I sometimes use them when I shower or bathe"
+    },
+    {
+      "fieldName": "d1",
+      "name": "D1",
+      "dataTypeName": "text",
+      "description": "Question Asked: When light bulbs burn out in your home, who replaces them?. Response Options: Me or someone who lives with me, Building staff, Both / it varies"
+    },
+    {
+      "fieldName": "d2",
+      "name": "D2",
+      "dataTypeName": "text",
+      "description": "Question Asked: Approximately how many loads of dishes does your household wash in a typical week in the dishwasher?. Response Options: We do not have a dishwasher, 3 loads per week, None: we have a dishwasher but do not use it, 2 loads per week, 7 loads per week, 5 loads per week, 6 loads per week, 1 load per week, None: dishwasher does not work, 4 loads per week, 8 or more loads per week"
+    },
+    {
+      "fieldName": "d3",
+      "name": "D3",
+      "dataTypeName": "text",
+      "description": "Question Asked: What type of clothes washer and dryer is available in the building for your unit?. Response Options: Common laundry area only, In-unit laundry only, None, In-unit and common laundry areas"
+    },
+    {
+      "fieldName": "d4",
+      "name": "D4",
+      "dataTypeName": "number",
+      "description": "Question Asked: Approximately how many loads of laundry does your household wash in a typical week?. Response Options: float"
+    },
+    {
+      "fieldName": "d5",
+      "name": "D5",
+      "dataTypeName": "number",
+      "description": "Question Asked: Approximately how many loads of laundry does your household dry in a clothes dryer in a typical week?. Response Options: float"
+    },
+    {
+      "fieldName": "d6",
+      "name": "D6",
+      "dataTypeName": "text",
+      "description": "Question Asked: What water temperature setting do you usually use for the wash cycle of your clothes washer?. Response Options: Warm, Hot, Cold, Don't know"
+    },
+    {
+      "fieldName": "d7",
+      "name": "D7",
+      "dataTypeName": "text",
+      "description": "Question Asked: What water temperature setting do you usually use for the rinse cycle of your clothes washer?. Response Options: Cold, Warm, Don't know, Hot"
+    },
+    {
+      "fieldName": "d8_1",
+      "name": "D8_1",
+      "dataTypeName": "text",
+      "description": "Question Asked: Who owns the following appliances in your unit? - Primary refrigerator. Response Options: The building, Me or someone in my household, We rent this appliance, Cold"
+    },
+    {
+      "fieldName": "d8_2",
+      "name": "D8_2",
+      "dataTypeName": "text",
+      "description": "Question Asked: Who owns the following appliances in your unit? - Clothes washer. Response Options: The building, Me or someone in my household"
+    },
+    {
+      "fieldName": "d8_3",
+      "name": "D8_3",
+      "dataTypeName": "text",
+      "description": "Question Asked: Who owns the following appliances in your unit? - Clothes dryer. Response Options: The building, Me or someone in my household"
+    },
+    {
+      "fieldName": "e1",
+      "name": "E1",
+      "dataTypeName": "text",
+      "description": "Question Asked: Do you have a WiFi internet connection in your home?. Response Options: Yes, No"
+    },
+    {
+      "fieldName": "e2_1_1",
+      "name": "E2_1_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many of the following are in your home? (If none, please enter zero) - Televisions - Record Number:. Response Options: integer"
+    },
+    {
+      "fieldName": "e2_2_1",
+      "name": "E2_2_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many of the following are in your home? (If none, please enter zero) - Laptop computers - Record Number:. Response Options: integer"
+    },
+    {
+      "fieldName": "e2_3_1",
+      "name": "E2_3_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many of the following are in your home? (If none, please enter zero) - Desktop computers - Record Number:. Response Options: integer"
+    },
+    {
+      "fieldName": "e2_4_1",
+      "name": "E2_4_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many of the following are in your home? (If none, please enter zero) - Digital assistant or smart speaker (such as Alexa or Siri) that can control... - Digital assistant or smart speaker (such as Alexa or Siri) that can control your thermostat or other energy-consuming equipment - Record Number:. Response Options: integer"
+    },
+    {
+      "fieldName": "e2_5_1",
+      "name": "E2_5_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many of the following are in your home? (If none, please enter zero) - Gaming systems - Record Number:. Response Options: integer"
+    },
+    {
+      "fieldName": "e2_6_1",
+      "name": "E2_6_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: How many of the following are in your home? (If none, please enter zero) - Tablets or iPads - Record Number:. Response Options: integer"
+    },
+    {
+      "fieldName": "e3a",
+      "name": "E3a",
+      "dataTypeName": "number",
+      "description": "Question Asked: About how many hours each day is the television on in your home?. Response Options: float"
+    },
+    {
+      "fieldName": "e3b_1_1",
+      "name": "E3b_1_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: About how many hours each day is each television on in your home? - First television: - Number of hours a day:. Response Options: float"
+    },
+    {
+      "fieldName": "e3b_2_1",
+      "name": "E3b_2_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: About how many hours each day is each television on in your home? - Second television: - Number of hours a day:. Response Options: float"
+    },
+    {
+      "fieldName": "e3b_3_1",
+      "name": "E3b_3_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: About how many hours each day is each television on in your home? - Third laptop: - Number of hours a day:. Response Options: integer"
+    },
+    {
+      "fieldName": "e4a",
+      "name": "E4a",
+      "dataTypeName": "number",
+      "description": "Question Asked: About how many hours each day is each television on in your home? - Third laptop: - Number of hours a day:. Response Options: integer"
+    },
+    {
+      "fieldName": "e4b_1_1",
+      "name": "E4b_1_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: About how many hours each day is each laptop computer typically used in your home? - First laptop: - Number of hours a day:. Response Options: float"
+    },
+    {
+      "fieldName": "e4b_2_1",
+      "name": "E4b_2_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: About how many hours each day is each laptop computer typically used in your home? - Second laptop: - Number of hours a day:. Response Options: integer"
+    },
+    {
+      "fieldName": "e4b_3_1",
+      "name": "E4b_3_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: About how many hours each day is each laptop computer typically used in your home? - Third laptop: - Number of hours a day:. Response Options: integer"
+    },
+    {
+      "fieldName": "e5a",
+      "name": "E5a",
+      "dataTypeName": "number",
+      "description": "Question Asked: About how many hours each day is the desktop computer typically used in your home?. Response Options: float"
+    },
+    {
+      "fieldName": "e5b_1_1",
+      "name": "E5b_1_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: About how many hours each day is each desktop computer typically used in your home? - First desktop computer: - Number of hours a day:. Response Options: integer"
+    },
+    {
+      "fieldName": "e5b_2_1",
+      "name": "E5b_2_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: About how many hours each day is each desktop computer typically used in your home? - Second desktop computer: - Number of hours a day:. Response Options: integer"
+    },
+    {
+      "fieldName": "e5b_3_1",
+      "name": "E5b_3_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: About how many hours each day is each desktop computer typically used in your home? - Third desktop computer: - Number of hours a day:. Response Options: integer"
+    },
+    {
+      "fieldName": "e6",
+      "name": "E6",
+      "dataTypeName": "text",
+      "description": "Question Asked: Select all equipment in your home that can be controlled by your digital assistant or smart speaker.. Response Options: Lighting, No equipment in my home is controlled by digital assistant or smart speaker, Thermostat,Heating or cooling equipment,Security system, Lighting,Major appliances"
+    },
+    {
+      "fieldName": "e7",
+      "name": "E7",
+      "dataTypeName": "text",
+      "description": "Question Asked: Select all equipment in your home that can be controlled by WiFi.. Response Options: No equipment in my home is controlled by WiFi, Lighting, Cooling equipment,Lighting, Security system, Thermostat,Heating equipment,Cooling equipment,Security system, Thermostat, Security system,Stand-alone freezer,Stand-alone oven, Thermostat,Security system, Cooling equipment, Thermostat,Heating equipment,Security system"
+    },
+    {
+      "fieldName": "f1_1",
+      "name": "F1_1",
+      "dataTypeName": "text",
+      "description": "Question Asked: How would you rate your satisfaction with the following in your home? - Space heating system. Response Options: Somewhat satisfied, Very satisfied, Not at all satisfied, Not too satisfied"
+    },
+    {
+      "fieldName": "f1_2",
+      "name": "F1_2",
+      "dataTypeName": "text",
+      "description": "Question Asked: How would you rate your satisfaction with the following in your home? - Cooling system. Response Options: Somewhat satisfied, Very satisfied, Not too satisfied, Not at all satisfied"
+    },
+    {
+      "fieldName": "f1_3",
+      "name": "F1_3",
+      "dataTypeName": "text",
+      "description": "Question Asked: How would you rate your satisfaction with the following in your home? - Water heating system. Response Options: Very satisfied, Somewhat satisfied, Not too satisfied, Not at all satisfied"
+    },
+    {
+      "fieldName": "f1_4",
+      "name": "F1_4",
+      "dataTypeName": "text",
+      "description": "Question Asked: How would you rate your satisfaction with the following in your home? - Windows\u2019 ability to keep out drafts. Response Options: Somewhat satisfied, Very satisfied, Not too satisfied, Not at all satisfied"
+    },
+    {
+      "fieldName": "f1_5",
+      "name": "F1_5",
+      "dataTypeName": "text",
+      "description": "Question Asked: How would you rate your satisfaction with the following in your home? - Insulation levels. Response Options: Very satisfied, Somewhat satisfied, Not too satisfied, Not at all satisfied"
+    },
+    {
+      "fieldName": "f1_6",
+      "name": "F1_6",
+      "dataTypeName": "text",
+      "description": "Question Asked: How would you rate your satisfaction with the following in your home? - Humidity levels. Response Options: Very satisfied, Somewhat satisfied, Not too satisfied, Not at all satisfied"
+    },
+    {
+      "fieldName": "f1_7",
+      "name": "F1_7",
+      "dataTypeName": "text",
+      "description": "Question Asked: How would you rate your satisfaction with the following in your home? - Noise levels. Response Options: Somewhat satisfied, Not too satisfied, Very satisfied, Not at all satisfied"
+    },
+    {
+      "fieldName": "f1_8",
+      "name": "F1_8",
+      "dataTypeName": "text",
+      "description": "Question Asked: How would you rate your satisfaction with the following in your home? - Energy bills. Response Options: Very satisfied, Not too satisfied, Somewhat satisfied, Not at all satisfied"
+    },
+    {
+      "fieldName": "f1_9",
+      "name": "F1_9",
+      "dataTypeName": "text",
+      "description": "Question Asked: How would you rate your satisfaction with the following in your home? - Dust levels. Response Options: Very satisfied, Not too satisfied, Somewhat satisfied, Not at all satisfied"
+    },
+    {
+      "fieldName": "f1_10",
+      "name": "F1_10",
+      "dataTypeName": "text",
+      "description": "Question Asked: How would you rate your satisfaction with the following in your home? - Lack of mold or food smells. Response Options: Very satisfied, Somewhat satisfied, Not too satisfied, Not at all satisfied"
+    },
+    {
+      "fieldName": "f1_11",
+      "name": "F1_11",
+      "dataTypeName": "text",
+      "description": "Question Asked: How would you rate your satisfaction with the following in your home? - Lack of mold or food smells. Response Options: Very satisfied, Somewhat satisfied, Not too satisfied, Not at all satisfied"
+    },
+    {
+      "fieldName": "f2",
+      "name": "F2",
+      "dataTypeName": "text",
+      "description": "Question Asked: Have you experienced any comfort or maintenance issues with the following in your unit or building? Please select all that apply.. Response Options: None of the above, Space heating equipment, Cooling equipment, Drafty windows, Moisture intrusion (around exterior windows/doors, or from roof), Water heating equipment, Poor building insulation (does not keep in heat or cooled air)"
+    },
+    {
+      "fieldName": "f3",
+      "name": "F3",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the following heating issues have you experienced?. Response Options: Uneven heating from room to room, Noisy heating system, Unusable spaces in my home due to lack of heating, Home is often too cold in winter, Drafty spots with air leaks, None of the above"
+    },
+    {
+      "fieldName": "f4",
+      "name": "F4",
+      "dataTypeName": "text",
+      "description": "Question Asked: How were these issue(s) resolved (if at all)?. Response Options: Building maintenance staff fixed the issue, Fixed it myself, I called a contractor, Issue was not resolved"
+    },
+    {
+      "fieldName": "f5",
+      "name": "F5",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the following steps did you take to address this issue? Select all that apply. - Selected Choice. Response Options: I sealed drafts with spray foam and/or insulation, I used a space heater(s), I changed the temperature on the thermostat, I applied window film, I sealed drafts or covered windows with my own pillows, blankets, etc., I opened window(s)"
+    },
+    {
+      "fieldName": "f5_8_text",
+      "name": "F5_8_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the following steps did you take to address this issue? Select all that apply. - Something else (what did you do?): - Text. Response Options: free text entry"
+    },
+    {
+      "fieldName": "f6",
+      "name": "F6",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the following cooling issues have your experienced?. Response Options: My home is often too hot in summer, Cooling is uneven from room to room, Noisy cooling system, Unusable spaces in my home due to lack of cooling, None of the above"
+    },
+    {
+      "fieldName": "f7",
+      "name": "F7",
+      "dataTypeName": "text",
+      "description": "Question Asked: How were these issue(s) resolved (if at all)?. Response Options: Fixed it myself, Issue was not resolved, I called a contractor"
+    },
+    {
+      "fieldName": "f8",
+      "name": "F8",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the following steps did you take to address this issue? Select all that apply. - Selected Choice. Response Options: I used a window/portable air conditioner, I changed the temperature on the thermostat, I sealed drafts or covered windows with my own pillows, blankets, etc., Something else (What did you do?):"
+    },
+    {
+      "fieldName": "f8_6_text",
+      "name": "F8_6_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the following steps did you take to address this issue? Select all that apply. - Something else (What did you do?): - Text. Response Options: text"
+    },
+    {
+      "fieldName": "f9",
+      "name": "F9",
+      "dataTypeName": "text",
+      "description": "Question Asked: How often do you experience not having hot water available in your home?. Response Options: Once a year or less, More than once a week, Once every few months, Never"
+    },
+    {
+      "fieldName": "f10",
+      "name": "F10",
+      "dataTypeName": "text",
+      "description": "Question Asked: How were these issue(s) with your water heating resolved (if at all)?. Response Options: Building staff called a contractor for me, Issue was not resolved, Building maintenance staff fixed the issue, Fixed it myself"
+    },
+    {
+      "fieldName": "f11",
+      "name": "F11",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the following steps did you take to address this issue with your water heating? Select all that apply. - Selected Choice. Response Options: I heated water on the stove, Something else (What did you do?)"
+    },
+    {
+      "fieldName": "f11_4_text",
+      "name": "F11_4_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the following steps did you take to address this issue with your water heating? Select all that apply. - Something else (What did you do?): - Text. Response Options: text"
+    },
+    {
+      "fieldName": "f12",
+      "name": "F12",
+      "dataTypeName": "text",
+      "description": "Question Asked: Regardless of whether this is happening in your current home, which of the following do you consider having the greatest impact on satisfaction with your living space?. Response Options: Humidity control and fresh air, Low noise levels, Low energy bills, No chills, No cold or hot, Low dust levels, No mold or food smells, No overheating"
+    },
+    {
+      "fieldName": "g1",
+      "name": "G1",
+      "dataTypeName": "text",
+      "description": "Question Asked: Including yourself, how many people live in your home?. Response Options: Two, Three, One (just me), Four, Prefer not to answer, Five, More than eight"
+    },
+    {
+      "fieldName": "g2_1_1",
+      "name": "G2_1_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: Including yourself, how many people currently living in your home year-round are in the following age groups? Please exclude anyone who is just visiting, children who may be away at college or those deployed in the military. (If none, please enter zero) - Less than 5 Years - Number of people:. Response Options: integer"
+    },
+    {
+      "fieldName": "g2_2_1",
+      "name": "G2_2_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: Including yourself, how many people currently living in your home year-round are in the following age groups? Please exclude anyone who is just visiting, children who may be away at college or those deployed in the military. (If none, please enter zero) - Less than 5 Years - Number of people:. Response Options: integer"
+    },
+    {
+      "fieldName": "g2_3_1",
+      "name": "G2_3_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: Including yourself, how many people currently living in your home year-round are in the following age groups? Please exclude anyone who is just visiting, children who may be away at college or those deployed in the military. (If none, please enter zero) - 18 to 24 Years - Number of people:. Response Options: integer"
+    },
+    {
+      "fieldName": "g2_4_1",
+      "name": "G2_4_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: Including yourself, how many people currently living in your home year-round are in the following age groups? Please exclude anyone who is just visiting, children who may be away at college or those deployed in the military. (If none, please enter zero) - 25 to 34 Years - Number of people:. Response Options: integer"
+    },
+    {
+      "fieldName": "g2_5_1",
+      "name": "G2_5_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: Including yourself, how many people currently living in your home year-round are in the following age groups? Please exclude anyone who is just visiting, children who may be away at college or those deployed in the military. (If none, please enter zero) - 35 to 44 Years - Number of people:. Response Options: integer"
+    },
+    {
+      "fieldName": "g2_6_1",
+      "name": "G2_6_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: Including yourself, how many people currently living in your home year-round are in the following age groups? Please exclude anyone who is just visiting, children who may be away at college or those deployed in the military. (If none, please enter zero) - 35 to 44 Years - Number of people:. Response Options: integer"
+    },
+    {
+      "fieldName": "g2_7_1",
+      "name": "G2_7_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: Including yourself, how many people currently living in your home year-round are in the following age groups? Please exclude anyone who is just visiting, children who may be away at college or those deployed in the military. (If none, please enter zero) - 55 to 64 Years - Number of people:. Response Options: integer"
+    },
+    {
+      "fieldName": "g2_8_1",
+      "name": "G2_8_1",
+      "dataTypeName": "number",
+      "description": "Question Asked: Including yourself, how many people currently living in your home year-round are in the following age groups? Please exclude anyone who is just visiting, children who may be away at college or those deployed in the military. (If none, please enter zero) - 65 Years or Older - Number of people:. Response Options: integer"
+    },
+    {
+      "fieldName": "g3",
+      "name": "G3",
+      "dataTypeName": "text",
+      "description": "Question Asked: Which of the following best describes your household\u2019s total income?. Response Options: $25,000\u2013less than $30,000, $30,000\u2013less than $35,000, $35,000\u2013less than $50,000, Less than $25,000, $100,000\u2013less than $150,000, Prefer not to answer, $200,000 or more, $150,000\u2013less than $200,000, $50,000\u2013less than $75,000, $75,000\u2013less than $100,000, Between $25,000 and $30,000"
+    },
+    {
+      "fieldName": "g4",
+      "name": "G4",
+      "dataTypeName": "text",
+      "description": "Question Asked: What is the highest level of education anyone currently living in your household has completed?. Response Options: High school graduate or equivalent (e.g., GED), College degree (e.g. Bachelor\u2019s degree), Trade or technical school, Graduate degree (e.g. Masters or Doctorate degree), Prefer not to answer, Less than high school, Some high school, Some college, no degree, Some graduate school"
+    },
+    {
+      "fieldName": "g5",
+      "name": "G5",
+      "dataTypeName": "text",
+      "description": "Question Asked: Do you own or rent your home?. Response Options: Rent, Own/buying, Sublet, Occupied without payment of rent (e.g. living with someone without making payment)"
+    },
+    {
+      "fieldName": "g6",
+      "name": "G6",
+      "dataTypeName": "text",
+      "description": "Question Asked: Does your household receive rent assistance?. Response Options: Yes, No, Don't know"
+    },
+    {
+      "fieldName": "g7",
+      "name": "G7",
+      "dataTypeName": "text",
+      "description": "Question Asked: Does your household receive electric or heating utility bill assistance?. Response Options: Yes, No, Don't know"
+    },
+    {
+      "fieldName": "g8",
+      "name": "G8",
+      "dataTypeName": "number",
+      "description": "Question Asked: Over the past year, how many people in your household primarily worked or attended school from home?. Response Options: integer"
+    },
+    {
+      "fieldName": "g9",
+      "name": "G9",
+      "dataTypeName": "text",
+      "description": "Question Asked: Do most of these people plan to go back to school or the office after the COVID-19 pandemic ends?. Response Options: Yes, daily, No, rarely or never, Yes, some days of the week, Yes, a few times a month"
+    },
+    {
+      "fieldName": "g10",
+      "name": "G10",
+      "dataTypeName": "text",
+      "description": "Question Asked: Do most of these people plan to go back to school or the office after the COVID-19 pandemic ends?. Response Options: Yes, daily, No, rarely or never, Yes, some days of the week, Yes, a few times a month"
+    },
+    {
+      "fieldName": "g11",
+      "name": "G11",
+      "dataTypeName": "text",
+      "description": "Question Asked: In the past 5 years, has your household participated in any energy efficiency or energy saving programs offered by NYSERDA or your utility company to make your home or appliances more energy efficient?. Response Options: No, Don't know, Yes, (No)"
+    },
+    {
+      "fieldName": "g12",
+      "name": "G12",
+      "dataTypeName": "text",
+      "description": "Question Asked: In the past 5 years, has your household participated in any energy efficiency or energy saving programs offered by NYSERDA or your utility company to make your home or appliances more energy efficient?. Response Options: No, Don't know, Yes, (No)"
+    },
+    {
+      "fieldName": "g12_10_text",
+      "name": "G12_10_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: Why hasn't your household participated in any energy efficiency or energy saving programs offered by NYSERDA or your utility company? Select all that apply. - Another reason \u2013 what was it? - Text. Response Options: free text entry"
+    },
+    {
+      "fieldName": "g13",
+      "name": "G13",
+      "dataTypeName": "text",
+      "description": "Question Asked: What behaviors do you practice to save energy for space heating and cooling or water heating? - Selected Choice. Response Options: Ensure all windows are closed when heat is turned on, Ensure all windows are closed when air conditioning is turned on, I don\u2019t practice any energy efficient behaviors, Adjust thermostat for temperatures to be lower at night (during cool months), Limit hot water use, such as shorter showers"
+    },
+    {
+      "fieldName": "g13_7_text",
+      "name": "G13_7_TEXT",
+      "dataTypeName": "text",
+      "description": "Question Asked: What behaviors do you practice to save energy for space heating and cooling or water heating? - Something else \u2013 what is it? - Text. Response Options: text"
+    },
+    {
+      "fieldName": "g14_1",
+      "name": "G14_1",
+      "dataTypeName": "text",
+      "description": "Question Asked: Who is responsible for the following utility bills for your home? - Heating. Response Options: Me or someone else in my home, The building owner, Don't know"
+    },
+    {
+      "fieldName": "g14_2",
+      "name": "G14_2",
+      "dataTypeName": "text",
+      "description": "Question Asked: Who is responsible for the following utility bills for your home? - Cooling. Response Options: Me or someone else in my home, The building owner, Don't know"
+    },
+    {
+      "fieldName": "g14_3",
+      "name": "G14_3",
+      "dataTypeName": "text",
+      "description": "Question Asked: Who is responsible for the following utility bills for your home? - Water heating. Response Options: Me or someone else in my home, The building owner, Don't know"
+    },
+    {
+      "fieldName": "g15",
+      "name": "G15",
+      "dataTypeName": "text",
+      "description": "Question Asked: How many electric vehicles are owned or leased by people who live in your home?. Response Options: None, Three or more, One, (None)"
+    },
+    {
+      "fieldName": "g16",
+      "name": "G16",
+      "dataTypeName": "text",
+      "description": "Question Asked: Where do people who live in your home most often charge electric vehicle(s)?. Response Options: Public charging stations, At home"
+    },
+    {
+      "fieldName": "g17",
+      "name": "G17",
+      "dataTypeName": "text",
+      "description": "Question Asked: How do you pay to use your building\u2019s electric vehicle charger?. Response Options: It's free, Don\u2019t know, My building does not provide electric vehicle chargers"
+    },
+    {
+      "fieldName": "g18",
+      "name": "G18",
+      "dataTypeName": "text",
+      "description": "Question Asked: Remember that this survey is confidential. On a scale of 0 to 10, where 0 is not at all likely and 10 is extremely likely, how likely are you to renew your lease for another term?. Response Options: Not likely at all - 0, 7, Extremely likely - 10, 8, 9, 6, Don't know / Not applicable, 5, 1, 2, 4, 3, 7"
+    },
+    {
+      "fieldName": "g19",
+      "name": "G19",
+      "dataTypeName": "text",
+      "description": "Question Asked: If your building\u2019s management were to invest in improving the energy efficiency of your living space, which would reduce monthly energy bills and improve comfort, how likely would you be to renew your lease for another term?. Response Options: Not likely at all - 0, Extremely likely - 10, 8, Don't know / Not applicable, 7, 2, 1, 9, 6, 5, 4, 7, 5, 8"
+    },
+    {
+      "fieldName": "building_size",
+      "name": "building_size",
+      "dataTypeName": "text",
+      "description": "Question Asked: building_size. Response Options: 1-3 Stories, 4-7 Stories, 8+ Stories"
+    },
+    {
+      "fieldName": "ownership_type",
+      "name": "ownership_type",
+      "dataTypeName": "text",
+      "description": "Question Asked: ownership_type. Response Options: Affordable Subsidized, Market-Rate, Co_Ops and Condos, Affordable Unsubsidized"
+    },
+    {
+      "fieldName": "iou",
+      "name": "IOU",
+      "dataTypeName": "text",
+      "description": "Question Asked: ownership_type. Response Options: Affordable Subsidized, Market-Rate, Co_Ops and Condos, Affordable Unsubsidized"
+    },
+    {
+      "fieldName": "climate_zone",
+      "name": "climate_zone",
+      "dataTypeName": "text",
+      "description": "Question Asked: climate_zone. Response Options: Climate Zone 6, Climate Zone 5, Westchester County, NYC, Long Island"
+    }
+  ]
+}
