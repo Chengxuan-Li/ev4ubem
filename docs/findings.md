@@ -266,3 +266,16 @@ location energy shares, session-level distributions, charging power distribution
 5. Fleet EV charging locations (≈300 EVs, depot sites unknown).
 6. Cornell/student vehicles and the 14850/14853 campus split.
 7. Managed-charging/TOU participation (NYSEG programs) — would shift evening peaks; no public local data.
+
+## 9. Update 2026-09-14 — follow-on analyses after the model report
+
+- **In-commuting changes county charging very little, and the net effect is negative** [inferred, on LEHD LODES 2023
+  flows, A]. In-commuters hold 46.8 % of Tompkins primary jobs, but their origin counties have EV shares of 1.1–2.6 %,
+  giving ≈ 181 EVs and ≈ 33 MWh/yr (16–123) of charging in Tompkins in 2026. About 22 % of resident EV owners work
+  outside the county, so the net correction to the modelled workplace energy is −79 MWh/yr (−104 to −26); −146 MWh/yr
+  including public charging under a symmetry assumption. Not applied to load tables (smaller than DC fast and fleet
+  uncertainty). Source note: `docs/source_notes/lehd_lodes_incommuting.md`.
+- **Student and visitor vehicles:** no login-free source counts out-of-county student EVs; the existing passer-by term
+  (523 MWh/yr) is taken to cover visitors (a visitor-profile calculation gives 60–430 MWh/yr).
+- **Variance decomposition** of load uncertainty by source and scale is in progress (`src/analysis/uncertainty_decomposition.py`);
+  see `docs/HANDOFF.md`.

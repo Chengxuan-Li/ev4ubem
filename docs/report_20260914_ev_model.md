@@ -423,6 +423,18 @@ large non-residential parcels. Fleet: 1.8 GWh over non-residential parcels (depo
 
 ![Sites](../results/maps/report_sites_2026.png)
 
+**In-commuting (follow-on analysis, not applied to the load tables).** LEHD LODES 2023 flows [A, noise-infused] show
+that 46.8 % of Tompkins's 43,563 primary jobs are held by residents of other counties (mainly Cortland, Tioga, Cayuga,
+Chemung, Schuyler). Their EVs are absent from the Tompkins DMV stock, but those counties have passenger EV shares of only
+1.1–2.6 % (Tompkins 5.6 %). Screening origins within 100 km, converting jobs to cars with ACS commute modes and applying
+the resident workplace parameters and charging library gives ≈ 181 in-commuter EVs and ≈ 33 MWh/yr of charging in
+Tompkins in 2026 (bounding cases 16–123 MWh) — 4 % of resident workplace energy and 0.3 % of county charging. Conversely,
+≈ 22 % of resident EV owners' jobs (EV-weighted) lie outside the county, yet the model places their workplace charging at
+Tompkins sites (≈ 98 MWh). The net correction is negative: −79 MWh/yr for workplace only (−104 to −26), or −146 MWh/yr
+(−288 to −3) with a symmetric public-charging assumption, and stays around −1.5 % of load in 2035 [inferred]. Cornell's
+central campus block group receives 14 % of in-commuter workplace charging. Details:
+`docs/source_notes/lehd_lodes_incommuting.md`, `results/tables/incommuter_*.csv`.
+
 ## 6.2 Projections 2030–2050
 
 ![Scenario trajectories](../results/figures/report_scenario_trajectories.png)

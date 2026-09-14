@@ -33,6 +33,7 @@ Acquisition scripts live in `src/acquisition/`; provenance (URL/query, retrieval
 | NYSERDA Statewide Multifamily Building Study 2022 (occupant/general survey) | data.ny.gov `gjv3-iq86`, `gfhm-wz4s` | ACQ | B | Survey microdata, utility region, no weights/county | `nyserda_smbs.py`, `analysis/smbs_mud_parking_ev.py` | Upstate MF parking 84 % of units, EV charging 5.7 % of buildings; EV ownership sample too small. Note: `source_notes/nyserda_smbs_2022.md`. |
 | ACS 2020–2024 PUMS (NY households/persons) | www2.census.gov PUMS | ACQ | A (survey) | PUMA 02300 = Tompkins | `acs_pums.py`, `processing/synthetic_dwellings.py` | Joint household attributes for synthetic dwelling units. |
 | OneBuilding TMYx Ithaca (KITH) | climate.onebuilding.org | ACQ | A (typical year) | hourly | `weather_epw.py`, `processing/weather.py` | Energy-per-mile temperature effect only. |
+| LEHD LODES8 origin–destination, NY 2023 (JT00/JT01, main + aux) | lehd.ces.census.gov/data/lodes/LODES8/ny/od/ | ACQ | A (noise-infused) / D | Census block → BG / county, 2023 | `lehd_lodes.py`, `analysis/incommuter_charging.py` | Counts jobs, not workers (primary jobs = one per worker); no self-employed; imputed worksites need a distance screen. Tompkins: 43,563 primary jobs, 46.8 % held by in-commuters. Note: `source_notes/lehd_lodes_incommuting.md`. |
 
 ## 3. Charging infrastructure
 

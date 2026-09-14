@@ -1,0 +1,56 @@
+[
+  {
+    "local_path": "data/raw/lehd_lodes/2024_Gaz_counties_national.zip",
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_Gaz_counties_national.zip",
+    "params": {},
+    "retrieved_utc": "2026-09-14T09:55:12+00:00",
+    "bytes": 141679,
+    "sha256": "3c337402b5c6e8d5aa26b4278ccf4edc8989f2683765b3ffbf22296cdb2df3a0",
+    "note": "Census 2024 Gazetteer counties (internal point lat/lon) for the origin-distance screen"
+  },
+  {
+    "local_path": "data/raw/lehd_lodes/LODESTechDoc8.4.pdf",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/LODESTechDoc8.4.pdf",
+    "params": {},
+    "retrieved_utc": "2026-09-14T09:55:13+00:00",
+    "bytes": 602016,
+    "sha256": "1189b8aa4cefd6cdf53c3b85e27366054af0cd5418056b04ff70d210b87eddee",
+    "note": "LODES 8.4 technical documentation"
+  },
+  {
+    "local_path": "data/raw/lehd_lodes/ny_od_aux_JT00_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/od/ny_od_aux_JT00_2023.csv.gz",
+    "params": {},
+    "retrieved_utc": "2026-09-14T09:54:57+00:00",
+    "bytes": 5559172,
+    "sha256": "7c8c9af6a7526aa705dd46a12949d46f9edd405d8ad7f84b078cc2c89b047886",
+    "note": "LODES8 NY OD aux JT00 2023: workplace in NY, residence out of state"
+  },
+  {
+    "local_path": "data/raw/lehd_lodes/ny_od_aux_JT01_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/od/ny_od_aux_JT01_2023.csv.gz",
+    "params": {},
+    "retrieved_utc": "2026-09-14T09:55:12+00:00",
+    "bytes": 5107362,
+    "sha256": "e8493d17da035f7cd70b73fb4b86b4a0e38b9ce80f1df2ab03fae134cbe05fee",
+    "note": "LODES8 NY OD aux JT01 2023: workplace in NY, residence out of state"
+  },
+  {
+    "local_path": "data/raw/lehd_lodes/ny_od_main_JT00_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/od/ny_od_main_JT00_2023.csv.gz",
+    "params": {},
+    "retrieved_utc": "2026-09-14T09:54:55+00:00",
+    "bytes": 44984307,
+    "sha256": "4aa904ac64ee8bd040ffd5e0b4d4b06a9d4be8334773fa4590202640ce663d9e",
+    "note": "LODES8 NY OD main JT00 2023: workplace and residence in NY"
+  },
+  {
+    "local_path": "data/raw/lehd_lodes/ny_od_main_JT01_2023.csv.gz",
+    "url": "https://lehd.ces.census.gov/data/lodes/LODES8/ny/od/ny_od_main_JT01_2023.csv.gz",
+    "params": {},
+    "retrieved_utc": "2026-09-14T09:55:10+00:00",
+    "bytes": 41054012,
+    "sha256": "3adc9ecd65712f314ee30bd642c99a95027f4107efdf85a3f31d5a78c9a23e58",
+    "note": "LODES8 NY OD main JT01 2023: workplace and residence in NY"
+  }
+]
