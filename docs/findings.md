@@ -305,8 +305,16 @@ location energy shares, session-level distributions, charging power distribution
   ≈ 21.4 GWh / 10.5 MW and ≈ 98.2 GWh / 52.9 MW on a BEV-only reading. This is an interpolation of existing
   runs, **not** a scenario run at NYSEG adoption levels; coincidence changes with fleet size, so the peak
   scaling is approximate.
-- **"By circuit" is not currently feasible from this repository.** Output entities are dwelling unit, parcel,
-  block group and charging site (`docs/ubem_interface.md`); no feeder or circuit topology is held here and
-  none is public. Circuit-level results require NYSEG feeder geometry or a circuit-to-parcel crosswalk.
+- **"By circuit" is feasible, but not from inside this repository.** Output entities here are dwelling unit,
+  parcel, block group and charging site (`docs/ubem_interface.md`). NYSEG/Avangrid have supplied feeder line
+  geometry and a **premise-to-feeder mapping**, held under NDA **outside** this repository. Because the mapping
+  is keyed to premises rather than parcels, circuit assignment is a record linkage (premise -> address ->
+  parcel), not a proximity rule; feeder lines alone would have forced an approximation with error at circuit
+  boundaries. Two caveats: non-residential charging sites (DC fast, workplace, fleet depots) are not dwellings
+  and need assignment by site coordinates; and circuit membership is a snapshot that switching and
+  reconfiguration change, so the mapping vintage must be recorded with any result.
+- **NDA material must not enter this repository.** This is a public-data repository (`AGENTS.md`). Feeder
+  geometry, premise identifiers and any circuit-keyed output stay in a separate private workspace. Nothing in
+  `data/`, `results/` or `docs/` here may carry a circuit identifier.
 - Tables: `results/tables/avangrid_ev_adoption_metrics.csv`, `avangrid_ev_growth_ratios.csv`,
   `avangrid_ev_indicative_load.csv` (`src/analysis/avangrid_benchmarks.py`).
