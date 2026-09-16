@@ -283,3 +283,30 @@ location energy shares, session-level distributions, charging power distribution
   block-group level and 71–75 % of peak variance for 1–4-unit parcels. By 2035 adoption (stock) uncertainty explains
   82–87 % at county and 60–69 % at block-group level, while parcel peaks remain governed by placement and its
   interaction with behaviour. Consequence: building-level uncertainty cannot be reduced by better charging data alone.
+
+## 10. Update 2026-09-16 — comparison with the NYSEG planning forecast
+
+- **"EV adoption %" is ambiguous, and the ambiguity is larger than the disagreement** [inferred + E].
+  Avangrid's 2026-09-14 working document asks for runs at NYSEG forecast levels of **7.02 % (2030)** and
+  **39.41 % (2040)** EV adoption without stating a denominator. This repository carries four adoption metrics
+  whose 2030 values under the trend scenario span **10.07 %** (EV stock / light-duty fleet), **7.25 %**
+  (BEV stock only / light-duty fleet), **12.24 %** (dwelling units with ≥ 1 EV) and **25.31 %** (EV share of
+  new additions). Any comparison must state the basis.
+- **On an all-plug-in basis the NYSEG 2030 level is below every scenario**, including the trend p05 (7.86 %);
+  on a **BEV-only** basis both NYSEG points sit close to the trend median (7.25 % / 37.75 % against
+  7.02 % / 39.41 %). Tompkins is 44 % PHEV against a New York average of 35 %, so this distinction moves the
+  2030 level by ~39 %. Whether the NYSEG forecast counts plug-in hybrids is an open question for Avangrid.
+- **Growth ratios are denominator-free and support the same reading** [inferred + E]. The NYSEG 2030→2040
+  ratio is **5.61×**; trend gives 4.10× on all plug-ins but **5.21×** on BEVs only (policy 5.51×). A
+  relabelling of the denominator cannot change a ratio, so the ratio agreement is evidence that the two
+  forecasts differ mainly in what they count, not in the diffusion they assume.
+- **Indicative load at the NYSEG levels** [inferred, scaled]: scaling the trend/base run by EV count gives
+  ≈ 15.4 GWh/yr and 7.6 MW in 2030 and ≈ 89.8 GWh/yr and 48.4 MW in 2040 on an all-plug-in reading, or
+  ≈ 21.4 GWh / 10.5 MW and ≈ 98.2 GWh / 52.9 MW on a BEV-only reading. This is an interpolation of existing
+  runs, **not** a scenario run at NYSEG adoption levels; coincidence changes with fleet size, so the peak
+  scaling is approximate.
+- **"By circuit" is not currently feasible from this repository.** Output entities are dwelling unit, parcel,
+  block group and charging site (`docs/ubem_interface.md`); no feeder or circuit topology is held here and
+  none is public. Circuit-level results require NYSEG feeder geometry or a circuit-to-parcel crosswalk.
+- Tables: `results/tables/avangrid_ev_adoption_metrics.csv`, `avangrid_ev_growth_ratios.csv`,
+  `avangrid_ev_indicative_load.csv` (`src/analysis/avangrid_benchmarks.py`).

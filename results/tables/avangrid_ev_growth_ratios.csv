@@ -1,0 +1,18 @@
+scenario,metric,value_2030,value_2040,ratio_2030_2040,metric_label
+nyseg_forecast,as_stated,0.0702,0.3941,5.61396,"NYSEG planning forecast, denominator unstated"
+policy,fleet_share_bev,0.111772,0.615979,5.511017,BEV stock only / light-duty fleet
+slow,fleet_share_bev,0.061721,0.187002,3.029804,BEV stock only / light-duty fleet
+stall,fleet_share_bev,0.054485,0.243663,4.472099,BEV stock only / light-duty fleet
+trend,fleet_share_bev,0.072469,0.377466,5.20868,BEV stock only / light-duty fleet
+policy,fleet_share_pev,0.1458,0.6709,4.601509,EV stock (BEV + PHEV) / light-duty fleet
+slow,fleet_share_pev,0.0881,0.2082,2.363224,EV stock (BEV + PHEV) / light-duty fleet
+stall,fleet_share_pev,0.0798,0.2682,3.360902,EV stock (BEV + PHEV) / light-duty fleet
+trend,fleet_share_pev,0.1007,0.4127,4.098312,EV stock (BEV + PHEV) / light-duty fleet
+policy,hh_with_ev_share,0.1773,0.6718,3.789058,Dwelling units with at least one EV
+slow,hh_with_ev_share,0.1072,0.2529,2.359142,Dwelling units with at least one EV
+stall,hh_with_ev_share,0.097,0.3243,3.343299,Dwelling units with at least one EV
+trend,hh_with_ev_share,0.1224,0.477,3.897059,Dwelling units with at least one EV
+policy,new_share,0.5049,1.0,1.98059,EV share of new light-duty additions (flow)
+slow,new_share,0.1617,0.3416,2.112554,EV share of new light-duty additions (flow)
+stall,new_share,0.1088,0.6104,5.610294,EV share of new light-duty additions (flow)
+trend,new_share,0.2531,0.8131,3.212564,EV share of new light-duty additions (flow)

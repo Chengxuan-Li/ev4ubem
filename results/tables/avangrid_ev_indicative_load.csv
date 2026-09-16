@@ -1,0 +1,5 @@
+year,nyseg_share,basis,implied_ev_count,trend_ev_count,scale_factor,indicative_annual_gwh,indicative_peak_mw,reference_annual_gwh,reference_peak_mw,note
+2030,0.0702,all plug-in (BEV + PHEV),4181,5995,0.6974,15.4,7.6,22.1,10.9,linear scaling of the trend/base run by EV count; not a scenario run at NYSEG levels
+2040,0.3941,all plug-in (BEV + PHEV),23470,24578,0.9549,89.8,48.4,94.1,50.7,linear scaling of the trend/base run by EV count; not a scenario run at NYSEG levels
+2030,0.0702,BEV only,4181,4316,0.9687,21.4,10.5,22.1,10.9,linear scaling of the trend/base run by EV count; not a scenario run at NYSEG levels
+2040,0.3941,BEV only,23470,22480,1.0441,98.2,52.9,94.1,50.7,linear scaling of the trend/base run by EV count; not a scenario run at NYSEG levels

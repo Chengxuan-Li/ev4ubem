@@ -1,0 +1,99 @@
+scenario,year,metric,value,low,high,numerator,denominator,metric_label,source
+trend,2026,fleet_share_pev,0.0564,0.0555,0.0577,3359.5012,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+trend,2026,fleet_share_bev,0.032503,,,1935.6753,59554.0,BEV stock only / light-duty fleet,inferred
+trend,2026,new_share,0.1088,,,,,EV share of new light-duty additions (flow),inferred
+trend,2030,fleet_share_pev,0.1007,0.0786,0.1381,5994.7056,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+trend,2030,fleet_share_bev,0.072469,,,4315.8033,59554.0,BEV stock only / light-duty fleet,inferred
+trend,2030,new_share,0.2531,,,,,EV share of new light-duty additions (flow),inferred
+trend,2035,fleet_share_pev,0.2199,0.1378,0.3703,13097.2886,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+trend,2035,fleet_share_bev,0.188607,,,11232.3186,59554.0,BEV stock only / light-duty fleet,inferred
+trend,2035,new_share,0.5483,,,,,EV share of new light-duty additions (flow),inferred
+trend,2040,fleet_share_pev,0.4127,0.2377,0.7308,24577.5645,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+trend,2040,fleet_share_bev,0.377466,,,22479.6367,59554.0,BEV stock only / light-duty fleet,inferred
+trend,2040,new_share,0.8131,,,,,EV share of new light-duty additions (flow),inferred
+trend,2045,fleet_share_pev,0.6264,0.3577,0.99,37304.9518,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+trend,2045,fleet_share_bev,0.587428,,,34983.6732,59554.0,BEV stock only / light-duty fleet,inferred
+trend,2045,new_share,0.9397,,,,,EV share of new light-duty additions (flow),inferred
+trend,2050,fleet_share_pev,0.8039,0.4613,0.99,47874.4768,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+trend,2050,fleet_share_bev,0.759604,,,45237.4472,59554.0,BEV stock only / light-duty fleet,inferred
+trend,2050,new_share,0.9824,,,,,EV share of new light-duty additions (flow),inferred
+slow,2026,fleet_share_pev,0.0564,0.0555,0.0577,3359.8479,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+slow,2026,fleet_share_bev,0.032496,,,1935.2624,59554.0,BEV stock only / light-duty fleet,inferred
+slow,2026,new_share,0.1088,,,,,EV share of new light-duty additions (flow),inferred
+slow,2030,fleet_share_pev,0.0881,0.0724,0.1114,5248.5348,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+slow,2030,fleet_share_bev,0.061721,,,3675.7135,59554.0,BEV stock only / light-duty fleet,inferred
+slow,2030,new_share,0.1617,,,,,EV share of new light-duty additions (flow),inferred
+slow,2035,fleet_share_pev,0.1409,0.0967,0.2084,8388.3964,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+slow,2035,fleet_share_bev,0.115965,,,6906.1645,59554.0,BEV stock only / light-duty fleet,inferred
+slow,2035,new_share,0.2467,,,,,EV share of new light-duty additions (flow),inferred
+slow,2040,fleet_share_pev,0.2082,0.1264,0.3355,12397.4551,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+slow,2040,fleet_share_bev,0.187002,,,11136.6902,59554.0,BEV stock only / light-duty fleet,inferred
+slow,2040,new_share,0.3416,,,,,EV share of new light-duty additions (flow),inferred
+slow,2045,fleet_share_pev,0.2882,0.164,0.4827,17165.4955,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+slow,2045,fleet_share_bev,0.268262,,,15976.099,59554.0,BEV stock only / light-duty fleet,inferred
+slow,2045,new_share,0.4287,,,,,EV share of new light-duty additions (flow),inferred
+slow,2050,fleet_share_pev,0.3721,0.2092,0.621,22160.6109,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+slow,2050,fleet_share_bev,0.351697,,,20944.9414,59554.0,BEV stock only / light-duty fleet,inferred
+slow,2050,new_share,0.4954,,,,,EV share of new light-duty additions (flow),inferred
+stall,2026,fleet_share_pev,0.0564,0.0555,0.0577,3359.979,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+stall,2026,fleet_share_bev,0.032509,,,1936.0341,59554.0,BEV stock only / light-duty fleet,inferred
+stall,2026,new_share,0.1088,,,,,EV share of new light-duty additions (flow),inferred
+stall,2030,fleet_share_pev,0.0798,0.0677,0.0968,4752.0962,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+stall,2030,fleet_share_bev,0.054485,,,3244.8133,59554.0,BEV stock only / light-duty fleet,inferred
+stall,2030,new_share,0.1088,,,,,EV share of new light-duty additions (flow),inferred
+stall,2035,fleet_share_pev,0.1347,0.0931,0.198,8020.0101,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+stall,2035,fleet_share_bev,0.11121,,,6622.9939,59554.0,BEV stock only / light-duty fleet,inferred
+stall,2035,new_share,0.3043,,,,,EV share of new light-duty additions (flow),inferred
+stall,2040,fleet_share_pev,0.2682,0.1526,0.4405,15974.9194,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+stall,2040,fleet_share_bev,0.243663,,,14511.1255,59554.0,BEV stock only / light-duty fleet,inferred
+stall,2040,new_share,0.6104,,,,,EV share of new light-duty additions (flow),inferred
+stall,2045,fleet_share_pev,0.4729,0.2565,0.7868,28165.7786,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+stall,2045,fleet_share_bev,0.443623,,,26419.5084,59554.0,BEV stock only / light-duty fleet,inferred
+stall,2045,new_share,0.8488,,,,,EV share of new light-duty additions (flow),inferred
+stall,2050,fleet_share_pev,0.6831,0.3803,0.99,40680.7461,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+stall,2050,fleet_share_bev,0.646637,,,38509.8059,59554.0,BEV stock only / light-duty fleet,inferred
+stall,2050,new_share,0.9526,,,,,EV share of new light-duty additions (flow),inferred
+policy,2026,fleet_share_pev,0.0564,0.0554,0.0577,3361.6218,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+policy,2026,fleet_share_bev,0.032519,,,1936.618,59554.0,BEV stock only / light-duty fleet,inferred
+policy,2026,new_share,0.1088,,,,,EV share of new light-duty additions (flow),inferred
+policy,2030,fleet_share_pev,0.1458,0.1055,0.1971,8685.503,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+policy,2030,fleet_share_bev,0.111772,,,6656.4843,59554.0,BEV stock only / light-duty fleet,inferred
+policy,2030,new_share,0.5049,,,,,EV share of new light-duty additions (flow),inferred
+policy,2035,fleet_share_pev,0.3931,0.2436,0.5822,23409.3763,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+policy,2035,fleet_share_bev,0.34659,,,20640.7921,59554.0,BEV stock only / light-duty fleet,inferred
+policy,2035,new_share,1.0,,,,,EV share of new light-duty additions (flow),inferred
+policy,2040,fleet_share_pev,0.6709,0.3968,0.99,39954.7205,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+policy,2040,fleet_share_bev,0.615979,,,36683.9996,59554.0,BEV stock only / light-duty fleet,inferred
+policy,2040,new_share,1.0,,,,,EV share of new light-duty additions (flow),inferred
+policy,2045,fleet_share_pev,0.875,0.5036,0.99,52106.808,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+policy,2045,fleet_share_bev,0.819351,,,48795.6281,59554.0,BEV stock only / light-duty fleet,inferred
+policy,2045,new_share,1.0,,,,,EV share of new light-duty additions (flow),inferred
+policy,2050,fleet_share_pev,0.971,0.5588,0.99,57824.6486,59554.0,EV stock (BEV + PHEV) / light-duty fleet,inferred
+policy,2050,fleet_share_bev,0.917781,,,54657.5436,59554.0,BEV stock only / light-duty fleet,inferred
+policy,2050,new_share,1.0,,,,,EV share of new light-duty additions (flow),inferred
+trend,2026,hh_with_ev_share,0.0686,,,,43251.0,Dwelling units with at least one EV,inferred
+trend,2030,hh_with_ev_share,0.1224,,,,43251.0,Dwelling units with at least one EV,inferred
+trend,2035,hh_with_ev_share,0.2671,,,,43251.0,Dwelling units with at least one EV,inferred
+trend,2040,hh_with_ev_share,0.477,,,,43251.0,Dwelling units with at least one EV,inferred
+trend,2045,hh_with_ev_share,0.6443,,,,43251.0,Dwelling units with at least one EV,inferred
+trend,2050,hh_with_ev_share,0.7407,,,,43251.0,Dwelling units with at least one EV,inferred
+slow,2026,hh_with_ev_share,0.0686,,,,43251.0,Dwelling units with at least one EV,inferred
+slow,2030,hh_with_ev_share,0.1072,,,,43251.0,Dwelling units with at least one EV,inferred
+slow,2035,hh_with_ev_share,0.1713,,,,43251.0,Dwelling units with at least one EV,inferred
+slow,2040,hh_with_ev_share,0.2529,,,,43251.0,Dwelling units with at least one EV,inferred
+slow,2045,hh_with_ev_share,0.3474,,,,43251.0,Dwelling units with at least one EV,inferred
+slow,2050,hh_with_ev_share,0.4379,,,,43251.0,Dwelling units with at least one EV,inferred
+stall,2026,hh_with_ev_share,0.0686,,,,43251.0,Dwelling units with at least one EV,inferred
+stall,2030,hh_with_ev_share,0.097,,,,43251.0,Dwelling units with at least one EV,inferred
+stall,2035,hh_with_ev_share,0.1637,,,,43251.0,Dwelling units with at least one EV,inferred
+stall,2040,hh_with_ev_share,0.3243,,,,43251.0,Dwelling units with at least one EV,inferred
+stall,2045,hh_with_ev_share,0.5301,,,,43251.0,Dwelling units with at least one EV,inferred
+stall,2050,hh_with_ev_share,0.6791,,,,43251.0,Dwelling units with at least one EV,inferred
+policy,2026,hh_with_ev_share,0.0686,,,,43251.0,Dwelling units with at least one EV,inferred
+policy,2030,hh_with_ev_share,0.1773,,,,43251.0,Dwelling units with at least one EV,inferred
+policy,2035,hh_with_ev_share,0.4586,,,,43251.0,Dwelling units with at least one EV,inferred
+policy,2040,hh_with_ev_share,0.6718,,,,43251.0,Dwelling units with at least one EV,inferred
+policy,2045,hh_with_ev_share,0.7683,,,,43251.0,Dwelling units with at least one EV,inferred
+policy,2050,hh_with_ev_share,0.8,,,,43251.0,Dwelling units with at least one EV,inferred
+nyseg_forecast,2030,as_stated,0.0702,,,,,"NYSEG planning forecast, denominator unstated",E
+nyseg_forecast,2040,as_stated,0.3941,,,,,"NYSEG planning forecast, denominator unstated",E
